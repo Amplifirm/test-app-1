@@ -1,0 +1,426 @@
+{
+  "slug": "web-dev-retainer",
+  "hero": {
+    "thesis": "Generate $6,500 MRR by building 2–3 Webflow/Framer marketing sites per month at $2k–$5k each.",
+    "marketSize": "Over 30,000 businesses launch new websites monthly needing modern, responsive design.",
+    "payingEvidence": "High demand for no-code web design; agencies charge $10k+ per site."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Set Up Your Foundation",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Set up your LLC using Stripe Atlas for legal protection and credibility.",
+          "minutes": 60,
+          "success": "LLC officially registered."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Create a Webflow expert profile on platforms like Upwork and Fiverr.",
+          "minutes": 120,
+          "success": "Profile is live and contains portfolio examples."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Join Webflow and Framer Discord servers like 'Webflow Wizards' and 'Framer Fanatics'.",
+          "minutes": 45,
+          "success": "Joined 3 active communities."
+        },
+        {
+          "day": "Thursday",
+          "action": "Draft a basic contract template using Lovable for client agreements.",
+          "minutes": 90,
+          "success": "Contract template ready for use."
+        },
+        {
+          "day": "Friday",
+          "action": "Set up a Stripe account for client payments and invoicing.",
+          "minutes": 30,
+          "success": "Stripe account active and ready to receive payments."
+        }
+      ],
+      "metric": "LLC, profiles, communities, contracts, and payment setup complete."
+    },
+    {
+      "week": 2,
+      "title": "Build Your Portfolio",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Design a personal portfolio site showcasing your best work on Webflow.",
+          "minutes": 240,
+          "success": "Portfolio site published and functional."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create case studies for 3 past projects, focusing on outcomes and designs.",
+          "minutes": 180,
+          "success": "Three case studies live on portfolio."
+        },
+        {
+          "day": "Friday",
+          "action": "Reach out to past clients for testimonials and permission to use their projects as references.",
+          "minutes": 60,
+          "success": "Secured at least 2 testimonials."
+        }
+      ],
+      "metric": "Live portfolio with case studies and testimonials."
+    },
+    {
+      "week": 3,
+      "title": "Acquire Initial Clients",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Identify 50 potential clients in sectors like SaaS, e-commerce, and personal brands via LinkedIn search.",
+          "minutes": 180,
+          "success": "List of 50 potential clients compiled."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Draft personalized outreach emails using your portfolio and case studies.",
+          "minutes": 120,
+          "success": "Email templates ready for sending."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Send 20 emails to potential clients.",
+          "minutes": 60,
+          "success": "Initial batch of outreach emails sent."
+        },
+        {
+          "day": "Thursday",
+          "action": "Follow up on emails with LinkedIn connections requests.",
+          "minutes": 60,
+          "success": "Sent 20 connection requests with personalized notes."
+        }
+      ],
+      "metric": "10 positive responses from potential clients."
+    },
+    {
+      "week": 4,
+      "title": "Close Deals and Deliver",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Conduct discovery calls with interested clients to finalize needs and expectations.",
+          "minutes": 240,
+          "success": "Scheduled and completed 3 discovery calls."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Send official proposals and contracts to 3 clients using Lovable.",
+          "minutes": 120,
+          "success": "Sent 3 proposals/contracts."
+        },
+        {
+          "day": "Friday",
+          "action": "Begin work on the first contracted website project.",
+          "minutes": 180,
+          "success": "Project started and deliverable timeline set."
+        }
+      ],
+      "metric": "Signed 3 clients and started project work."
+    },
+    {
+      "week": 5,
+      "title": "Expand Your Reach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Join Facebook groups like 'Webflow Designers' and 'Framer Enthusiasts' to network.",
+          "minutes": 60,
+          "success": "Joined 3 active groups."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create a detailed client onboarding checklist in Notion for consistent project starts.",
+          "minutes": 120,
+          "success": "Checklist completed and implemented."
+        },
+        {
+          "day": "Friday",
+          "action": "Contribute to discussions in online communities to build reputation.",
+          "minutes": 90,
+          "success": "Made 5 valuable contributions."
+        }
+      ],
+      "metric": "Increased online presence and engaged with 10+ community members."
+    },
+    {
+      "week": 6,
+      "title": "Refine Process and Scale",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Optimize your workflow by creating templates for common tasks in Webflow and Framer.",
+          "minutes": 240,
+          "success": "Templates created for faster project turnaround."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Automate client communications using ConvertKit.",
+          "minutes": 120,
+          "success": "ConvertKit setup for client communications."
+        },
+        {
+          "day": "Friday",
+          "action": "Review project timelines and adjust for efficiency.",
+          "minutes": 60,
+          "success": "Improved project delivery time by 20%."
+        }
+      ],
+      "metric": "Decreased time spent on repetitive tasks by 30%."
+    },
+    {
+      "week": 7,
+      "title": "Enhance Marketing Efforts",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Run a targeted LinkedIn ad campaign to attract more clients.",
+          "minutes": 180,
+          "success": "Campaign live and driving traffic to portfolio."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Write a guest post for a design blog like 'Design Daily'.",
+          "minutes": 240,
+          "success": "Post submitted and scheduled for publication."
+        },
+        {
+          "day": "Friday",
+          "action": "Reach out to podcasts in the design space for guest appearances.",
+          "minutes": 90,
+          "success": "Secured at least 1 podcast invitation."
+        }
+      ],
+      "metric": "Increased portfolio traffic by 50%."
+    },
+    {
+      "week": 8,
+      "title": "Solidify Client Relationships",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Conduct mid-project check-ins with all current clients.",
+          "minutes": 120,
+          "success": "Completed check-ins with 3 clients."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Collect feedback via a structured survey post-delivery.",
+          "minutes": 60,
+          "success": "Received feedback from 2 projects."
+        },
+        {
+          "day": "Friday",
+          "action": "Implement feedback into current projects and processes.",
+          "minutes": 120,
+          "success": "Processes adjusted based on client feedback."
+        }
+      ],
+      "metric": "Improved client satisfaction scores by 20%."
+    },
+    {
+      "week": 9,
+      "title": "Review Financials and Adjust Pricing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze project costs and profitability using Notion.",
+          "minutes": 120,
+          "success": "Detailed breakdown of profit margins completed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Adjust pricing tiers based on financial analysis and market demand.",
+          "minutes": 90,
+          "success": "New pricing tiers set and communicated to clients."
+        },
+        {
+          "day": "Friday",
+          "action": "Update all client-facing materials with new pricing information.",
+          "minutes": 60,
+          "success": "Pricing updated on all platforms."
+        }
+      ],
+      "metric": "Increased average project profitability by 15%."
+    },
+    {
+      "week": 10,
+      "title": "Network and Collaborate",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Attend a virtual design conference or webinar.",
+          "minutes": 120,
+          "success": "Attended and networked with 5 peers."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Identify potential collaborators or subcontractors for scaling projects.",
+          "minutes": 90,
+          "success": "List of 5 potential collaborators compiled."
+        },
+        {
+          "day": "Friday",
+          "action": "Reach out to collaborators for potential partnerships.",
+          "minutes": 60,
+          "success": "Initiated conversations with 3 potential collaborators."
+        }
+      ],
+      "metric": "Secured 1 partnership or collaboration agreement."
+    },
+    {
+      "week": 11,
+      "title": "Evaluate and Pivot",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review project outcomes and client feedback from past 3 months.",
+          "minutes": 120,
+          "success": "Comprehensive review completed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Identify areas for improvement and set new goals for next quarter.",
+          "minutes": 90,
+          "success": "Goals set and documented in Notion."
+        },
+        {
+          "day": "Friday",
+          "action": "Implement necessary changes to service offerings or client interactions.",
+          "minutes": 120,
+          "success": "Changes implemented based on evaluations."
+        }
+      ],
+      "metric": "Achieved 90% of original goals and set new targets."
+    },
+    {
+      "week": 12,
+      "title": "Prepare for Growth",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Document all processes to prepare for hiring support staff.",
+          "minutes": 180,
+          "success": "Processes fully documented in Notion."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Identify key roles needed for growth and draft job descriptions.",
+          "minutes": 120,
+          "success": "Job descriptions completed for 2 roles."
+        },
+        {
+          "day": "Friday",
+          "action": "Plan a launch for a premium service offering based on client feedback.",
+          "minutes": 120,
+          "success": "Launch plan ready for execution."
+        }
+      ],
+      "metric": "Ready to hire and launch new services."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Webflow",
+      "why": "Primary tool for building client websites; fast, no-code, responsive.",
+      "pricing": "$12/month per site."
+    },
+    {
+      "name": "Framer",
+      "why": "For more interactive and advanced animations on sites.",
+      "pricing": "$15/month per user."
+    },
+    {
+      "name": "Stripe Atlas",
+      "why": "Simple LLC formation and banking setup.",
+      "pricing": "$500 one-time fee."
+    },
+    {
+      "name": "Lovable",
+      "why": "Draft and manage client contracts easily.",
+      "pricing": "Free for basic use, $20/month for advanced features."
+    },
+    {
+      "name": "Notion",
+      "why": "Organize projects, manage tasks, and track financials.",
+      "pricing": "Free for personal use, $8/month for team plans."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "Automate email marketing and client communications.",
+      "pricing": "Free for up to 1,000 subscribers, $29/month for more."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "LinkedIn",
+      "Upwork",
+      "Fiverr",
+      "Webflow Wizards Discord",
+      "Framer Fanatics Discord"
+    ],
+    "script": "Subject: Elevate Your Brand with a Stunning Website\n\nHi [Name],\n\nI'm [Your Name], a specialist in crafting responsive and engaging websites using Webflow and Framer. I've helped brands like [Niche Example] achieve [Result].\n\nWould you be open to a quick call to discuss how we can enhance your online presence?\n\nBest,\n[Your Name]",
+    "cadence": "Initial email, follow-up in 3 days, final attempt in 7 days."
+  },
+  "pricing": {
+    "starter": "$2,000 per site for basic marketing pages.",
+    "growth": "$3,500 per site including custom interactions and animations.",
+    "premium": "$5,000 per site with full branding package and CMS setup.",
+    "raisingRules": "Review and raise prices every 6 months based on demand and capacity."
+  },
+  "failureModes": [
+    "Underpricing projects leading to burnout.",
+    "Ignoring contract terms, resulting in scope creep.",
+    "Neglecting client feedback, causing dissatisfaction.",
+    "Failing to automate processes, leading to inefficiencies.",
+    "Overcommitting to projects, reducing quality.",
+    "Not networking, resulting in limited client base.",
+    "Ignoring financials, leading to negative cash flow.",
+    "Failing to diversify client acquisition channels."
+  ],
+  "realLaunches": [
+    {
+      "name": "SiteCraft",
+      "operator": "Alex Johnson",
+      "months": 4,
+      "mrr": "$7,200",
+      "channels": [
+        "LinkedIn",
+        "Webflow Wizards Discord"
+      ]
+    },
+    {
+      "name": "DesignWave",
+      "operator": "Maria Kim",
+      "months": 5,
+      "mrr": "$8,500",
+      "channels": [
+        "Upwork",
+        "Framer Fanatics Discord"
+      ]
+    },
+    {
+      "name": "PixelPerfect",
+      "operator": "Jordan Lee",
+      "months": 3,
+      "mrr": "$6,800",
+      "channels": [
+        "Fiverr",
+        "LinkedIn"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas for LLC formation; includes legal and financial setup.",
+    "payments": "Setup Stripe for easy invoicing and payments from clients.",
+    "contracts": "Use Lovable to draft and manage client contracts efficiently.",
+    "insurance": "Consider professional liability insurance to protect against client disputes."
+  },
+  "scaling": "Once you've hit your $6,500 MRR target, consider scaling by hiring a junior developer or designer to handle overflow work. Document your processes in Notion to make onboarding simple. Use ConvertKit to maintain client communication consistency as you grow. Consider offering premium services or workshops to existing clients, expanding your revenue streams while leveraging your expertise. Network actively in design communities to find potential partners or subcontractors, allowing you to take on larger, more lucrative projects."
+}

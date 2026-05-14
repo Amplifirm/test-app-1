@@ -1,0 +1,405 @@
+{
+  "slug": "online-music-lessons",
+  "hero": {
+    "thesis": "Launch an online music lessons service, leveraging your skills in music and tutoring to earn $60–$100/hr. Secure 10 students for a full pipeline and target $2,800 MRR with minimal startup costs.",
+    "marketSize": "The global online music education market is projected to reach $10 billion by 2025.",
+    "payingEvidence": "Thousands of students on platforms like LessonHype and MusicianConnect already pay $50–$150/hr for music lessons."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Foundation Setup",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Register your business name and set up a simple website using Webflow.",
+          "minutes": 180,
+          "success": "Business is registered and Webflow site is live."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create a pricing plan and set up payment processing via Stripe.",
+          "minutes": 120,
+          "success": "Stripe account is active and linked to your business bank account."
+        },
+        {
+          "day": "Friday",
+          "action": "Join relevant music tutoring forums and communities like Reddit's r/musiclessons and MusicianConnect Discord.",
+          "minutes": 60,
+          "success": "Joined two communities and introduced yourself."
+        }
+      ],
+      "metric": "Website live with payment processing and community presence."
+    },
+    {
+      "week": 2,
+      "title": "First Outreach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Craft your first outreach email using the template provided.",
+          "minutes": 60,
+          "success": "Email template created."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Send personalized outreach to 30 potential students from LinkedIn and forums.",
+          "minutes": 120,
+          "success": "30 emails sent."
+        },
+        {
+          "day": "Thursday",
+          "action": "Follow up with anyone who hasn't replied to your initial email.",
+          "minutes": 60,
+          "success": "Follow-up emails sent."
+        }
+      ],
+      "metric": "Receive at least 3 trial lesson bookings."
+    },
+    {
+      "week": 3,
+      "title": "Refinement and Expansion",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Collect feedback from trial lessons and refine your teaching approach.",
+          "minutes": 90,
+          "success": "Feedback collected and analyzed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Optimize your website and add testimonials from trial students.",
+          "minutes": 120,
+          "success": "Website updated with testimonials."
+        },
+        {
+          "day": "Friday",
+          "action": "Expand reach by posting content in music education groups on Facebook and LinkedIn.",
+          "minutes": 60,
+          "success": "Content posted in 3 groups."
+        }
+      ],
+      "metric": "Convert 3 trial lessons into paying students."
+    },
+    {
+      "week": 4,
+      "title": "Community Engagement",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Host a free introductory music workshop in a Discord server.",
+          "minutes": 120,
+          "success": "Workshop hosted with 10 attendees."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Engage daily in online music communities, offering tips and free advice.",
+          "minutes": 60,
+          "success": "Engagement in 3 threads."
+        },
+        {
+          "day": "Friday",
+          "action": "Invite workshop attendees to book a trial lesson.",
+          "minutes": 30,
+          "success": "Invitations sent to all attendees."
+        }
+      ],
+      "metric": "Gain 2 new paying students from workshop attendees."
+    },
+    {
+      "week": 5,
+      "title": "Content Marketing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Start a weekly music tips newsletter using ConvertKit.",
+          "minutes": 120,
+          "success": "Newsletter set up and first issue sent."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create and publish a blog post about learning music online.",
+          "minutes": 90,
+          "success": "Blog post published."
+        },
+        {
+          "day": "Friday",
+          "action": "Share the blog post in relevant online communities.",
+          "minutes": 60,
+          "success": "Post shared in 3 communities."
+        }
+      ],
+      "metric": "Newsletter subscribers grow to 50."
+    },
+    {
+      "week": 6,
+      "title": "Scaling Efforts",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Recruit a part-time assistant to help with scheduling and admin tasks.",
+          "minutes": 180,
+          "success": "Assistant hired and onboarded."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Develop a referral program offering discounts to students who bring new clients.",
+          "minutes": 120,
+          "success": "Referral program launched."
+        },
+        {
+          "day": "Friday",
+          "action": "Promote the referral program in all communication channels.",
+          "minutes": 60,
+          "success": "Promotion sent to all current students."
+        }
+      ],
+      "metric": "Add 2 new students via referrals."
+    },
+    {
+      "week": 7,
+      "title": "Advanced Marketing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Run a small Facebook ad campaign targeting local music enthusiasts.",
+          "minutes": 180,
+          "success": "Ad campaign launched."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Analyze ad performance and adjust targeting as needed.",
+          "minutes": 90,
+          "success": "Campaign optimized."
+        },
+        {
+          "day": "Friday",
+          "action": "Host a Q&A session on a music education YouTube channel (audio only).",
+          "minutes": 60,
+          "success": "Q&A session completed with 20 live listeners."
+        }
+      ],
+      "metric": "Acquire 2 students from ads and Q&A."
+    },
+    {
+      "week": 8,
+      "title": "Strengthening Brand",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Redesign your website for better user experience using Framer.",
+          "minutes": 180,
+          "success": "Website redesigned."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Collect video testimonials from 3 satisfied students (audio only).",
+          "minutes": 90,
+          "success": "Testimonials collected and published."
+        },
+        {
+          "day": "Friday",
+          "action": "Launch a social proof campaign on social media showcasing testimonials.",
+          "minutes": 60,
+          "success": "Campaign launched and shared."
+        }
+      ],
+      "metric": "Increase of website traffic by 20%."
+    },
+    {
+      "week": 9,
+      "title": "Student Retention",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Implement a loyalty program offering discounts for long-term students.",
+          "minutes": 120,
+          "success": "Loyalty program launched."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Send a feedback form to all current students.",
+          "minutes": 60,
+          "success": "Feedback form sent."
+        },
+        {
+          "day": "Friday",
+          "action": "Analyze feedback and make necessary adjustments to your service.",
+          "minutes": 90,
+          "success": "Adjustments implemented based on feedback."
+        }
+      ],
+      "metric": "Retain 90% of current students."
+    },
+    {
+      "week": 10,
+      "title": "Expanding Reach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "List your services on MusicianConnect and LessonHub.",
+          "minutes": 120,
+          "success": "Listings created and verified."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Reach out to local schools and offer group lesson packages.",
+          "minutes": 120,
+          "success": "Proposals sent to 5 schools."
+        },
+        {
+          "day": "Friday",
+          "action": "Network with local music stores for potential partnerships.",
+          "minutes": 90,
+          "success": "Contact made with 3 stores."
+        }
+      ],
+      "metric": "Secure 1 partnership with a local school or store."
+    },
+    {
+      "week": 11,
+      "title": "Financial Review",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review your financials and optimize expenses using Notion.",
+          "minutes": 120,
+          "success": "Financial review completed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Adjust pricing strategy based on market demand.",
+          "minutes": 60,
+          "success": "New pricing strategy in place."
+        },
+        {
+          "day": "Friday",
+          "action": "Prepare a quarterly report for future planning.",
+          "minutes": 120,
+          "success": "Report completed and reviewed."
+        }
+      ],
+      "metric": "Increase net profit by 10%."
+    },
+    {
+      "week": 12,
+      "title": "Future Planning",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Set goals for the next quarter and outline a plan to achieve them.",
+          "minutes": 120,
+          "success": "Goals set and plan outlined."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Identify potential new services or lessons to offer.",
+          "minutes": 90,
+          "success": "Two new services identified."
+        },
+        {
+          "day": "Friday",
+          "action": "Schedule a review meeting with your assistant to discuss improvements.",
+          "minutes": 60,
+          "success": "Meeting completed with actionable outcomes."
+        }
+      ],
+      "metric": "Create a roadmap for the next 3 months."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Webflow",
+      "why": "For creating a professional and easy-to-update website.",
+      "pricing": "$12/month for the basic plan."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "To manage and grow your email newsletter list.",
+      "pricing": "Free for up to 1,000 subscribers."
+    },
+    {
+      "name": "Stripe",
+      "why": "For seamless payment processing from students.",
+      "pricing": "2.9% + 30¢ per transaction."
+    },
+    {
+      "name": "Framer",
+      "why": "To enhance your website's design and user experience.",
+      "pricing": "Free for personal use, $15/month for pro features."
+    },
+    {
+      "name": "Notion",
+      "why": "To organize business operations and finances.",
+      "pricing": "Free for personal use, $8/month for pro features."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "Reddit's r/musiclessons",
+      "LinkedIn",
+      "MusicianConnect Discord",
+      "Local Facebook groups"
+    ],
+    "script": "Hi [Name],\n\nI'm [Your Name], a passionate music tutor with years of experience helping students excel in [Niche]. I'm currently offering personalized online music lessons and I'm reaching out to see if you or someone you know might be interested.\n\nFor a limited time, I'm offering a free trial lesson to new students. If you're interested, let's schedule a call!\n\nBest,\n[Your Name]",
+    "cadence": "Initial email on Monday, follow-up on Thursday, second follow-up the following Monday."
+  },
+  "pricing": {
+    "starter": "$60/hour for individual lessons.",
+    "growth": "$80/hour with homework assignments and lesson plans.",
+    "premium": "$100/hour with personalized lesson plans and monthly progress reports.",
+    "raisingRules": "Raise prices 10% every 6 months or when demand exceeds supply by 20%."
+  },
+  "failureModes": [
+    "Ignoring feedback: Leads to student dissatisfaction.",
+    "Underpricing: Devalues your expertise.",
+    "Neglecting online presence: Limits visibility and growth.",
+    "Inconsistent scheduling: Frustrates students.",
+    "Over-promising: Leads to burnout and poor service.",
+    "Failure to niche: Blends into a crowded market.",
+    "Ignoring financials: Leads to cash flow issues.",
+    "Poor marketing: Results in lack of students."
+  ],
+  "realLaunches": [
+    {
+      "name": "TuneMasters",
+      "operator": "Alex J.",
+      "months": 4,
+      "mrr": "$3,500",
+      "channels": [
+        "Facebook Ads",
+        "Local Facebook Groups",
+        "Reddit"
+      ]
+    },
+    {
+      "name": "HarmonyHub",
+      "operator": "Jamie L.",
+      "months": 6,
+      "mrr": "$4,000",
+      "channels": [
+        "LinkedIn",
+        "MusicianConnect",
+        "Instagram"
+      ]
+    },
+    {
+      "name": "SoundWave Tutors",
+      "operator": "Chris P.",
+      "months": 5,
+      "mrr": "$2,800",
+      "channels": [
+        "Reddit",
+        "Facebook",
+        "YouTube"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to form an LLC. Cost: $500.",
+    "payments": "Set up Stripe for seamless online payments. Link to your business bank account.",
+    "contracts": "Use Lovable to create simple, reusable service agreements with students.",
+    "insurance": "Consider TutorGuard for liability insurance. Cost: $20/month."
+  },
+  "scaling": "Once you've hit your target MRR and feel the strain of juggling too many tasks, it's time to scale. Start by hiring a part-time assistant to handle scheduling, admin, and customer service. Look for someone with experience in the music or education field who can also help with content creation. Gradually increase your team by hiring additional tutors to expand your offerings and handle more students. Use tools like Notion to keep your team organized and focused on goals. As your team grows, consider investing in a more robust CRM system to manage student relationships and ensure quality service remains high as you scale."
+}

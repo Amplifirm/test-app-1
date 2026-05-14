@@ -1,0 +1,400 @@
+{
+  "slug": "prompt-packs",
+  "hero": {
+    "thesis": "Create and sell AI prompt packs tailored for marketers in various verticals. Each pack helps marketers leverage AI tools more effectively, saving them time and boosting campaign results.",
+    "marketSize": "The AI prompt market is surging with a CAGR of 33.2%, projected to reach $8 billion by 2025. Marketers are increasingly relying on AI to optimize campaigns, creating a ripe opportunity for tailored prompt packs.",
+    "payingEvidence": "Successful sales of generic AI prompt packs on platforms like Etsy and Gumroad indicate market willingness to pay for more specialized, vertical-specific packs."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Research & Ideation",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Identify 3 verticals with high marketing spend: e.g., e-commerce, SaaS, real estate.",
+          "minutes": 60,
+          "success": "List of 3 targeted verticals."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Research each vertical's marketing pain points via Reddit forums and LinkedIn groups.",
+          "minutes": 120,
+          "success": "Detailed notes on each vertical's challenges."
+        },
+        {
+          "day": "Friday",
+          "action": "Draft 10-15 AI prompts for each vertical addressing specific pain points.",
+          "minutes": 180,
+          "success": "A collection of 30-45 tailored prompts."
+        }
+      ],
+      "metric": "Complete 3 market-validated prompt sets."
+    },
+    {
+      "week": 2,
+      "title": "Validate & Create",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Join and engage in 3 relevant Discord servers to validate your ideas with potential users.",
+          "minutes": 60,
+          "success": "At least 5 feedback responses from each server."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Use feedback to refine your prompts and finalize 3 distinct prompt packs.",
+          "minutes": 120,
+          "success": "3 polished and validated prompt packs."
+        },
+        {
+          "day": "Friday",
+          "action": "Design simple, attractive cover images for each pack using Canva.",
+          "minutes": 60,
+          "success": "3 professional-looking pack covers."
+        }
+      ],
+      "metric": "Validated and designed 3 prompt packs ready for sale."
+    },
+    {
+      "week": 3,
+      "title": "Set Up Sales Infrastructure",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Set up a Gumroad account to sell your prompt packs.",
+          "minutes": 60,
+          "success": "Gumroad account live with payment setup."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create a simple landing page using Webflow to showcase the benefits of your prompt packs.",
+          "minutes": 120,
+          "success": "Landing page live with clear CTAs."
+        },
+        {
+          "day": "Friday",
+          "action": "Integrate Gumroad checkout on your landing page.",
+          "minutes": 60,
+          "success": "Seamless checkout experience on the landing page."
+        }
+      ],
+      "metric": "Sales infrastructure fully operational."
+    },
+    {
+      "week": 4,
+      "title": "Launch & First Sales",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Announce your launch on LinkedIn, tagging relevant industry groups.",
+          "minutes": 60,
+          "success": "LinkedIn post reaches 500 views."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Send personalized outreach emails to 50 marketers using Apollo.",
+          "minutes": 120,
+          "success": "10 responses expressing interest."
+        },
+        {
+          "day": "Friday",
+          "action": "Offer a limited-time discount to early adopters via email and social media.",
+          "minutes": 60,
+          "success": "Generate at least 5 sales."
+        }
+      ],
+      "metric": "First 5 sales completed."
+    },
+    {
+      "week": 5,
+      "title": "Collect Feedback & Iterate",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Survey initial buyers for feedback and testimonials.",
+          "minutes": 60,
+          "success": "Collected 3-5 testimonials."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Analyze feedback to improve prompt packs.",
+          "minutes": 120,
+          "success": "Plan for revisions or new prompts based on feedback."
+        },
+        {
+          "day": "Friday",
+          "action": "Implement changes and update product listings.",
+          "minutes": 180,
+          "success": "Updated prompt packs live with enhancements."
+        }
+      ],
+      "metric": "Product improvements based on customer feedback."
+    },
+    {
+      "week": 6,
+      "title": "Expand Reach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Write a guest blog post for a marketing-focused site about AI writing prompts.",
+          "minutes": 120,
+          "success": "Guest post published with a link back to your site."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Engage with 10 new LinkedIn connections in your target verticals.",
+          "minutes": 60,
+          "success": "10 new connections, 2 conversations started."
+        },
+        {
+          "day": "Friday",
+          "action": "Run a small Facebook ad campaign targeting marketers in your chosen verticals.",
+          "minutes": 120,
+          "success": "1000 ad views, 10 clicks to your landing page."
+        }
+      ],
+      "metric": "Increase site visits and social engagement by 20%."
+    },
+    {
+      "week": 7,
+      "title": "Optimize & Scale Marketing Efforts",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze Gumroad sales data to identify top-performing packs.",
+          "minutes": 60,
+          "success": "Data-driven insights on bestsellers."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Adjust pricing strategy based on sales and feedback.",
+          "minutes": 60,
+          "success": "Optimized pricing tiers published."
+        },
+        {
+          "day": "Friday",
+          "action": "Launch a referral program via ConvertKit to encourage word-of-mouth sales.",
+          "minutes": 120,
+          "success": "Referral program live with first referrals."
+        }
+      ],
+      "metric": "Sales increase by 10% from referral program."
+    },
+    {
+      "week": 8,
+      "title": "Content Marketing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a series of 3 blog posts on the use of AI in marketing for your site.",
+          "minutes": 180,
+          "success": "3 finished blog drafts."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Publish the first blog post and share across social channels.",
+          "minutes": 60,
+          "success": "First blog post live with 100 views."
+        },
+        {
+          "day": "Friday",
+          "action": "Set up an email list using ConvertKit and start capturing leads.",
+          "minutes": 120,
+          "success": "Email signup form live with first 10 subscribers."
+        }
+      ],
+      "metric": "Email list grows to 50 subscribers."
+    },
+    {
+      "week": 9,
+      "title": "Explore Partnerships",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Identify 5 potential partners who target your audience, such as marketing podcasts or newsletters.",
+          "minutes": 60,
+          "success": "List of 5 potential partners."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Reach out to potential partners with collaboration proposals.",
+          "minutes": 120,
+          "success": "3 positive responses to partnership proposals."
+        },
+        {
+          "day": "Friday",
+          "action": "Negotiate terms and finalize one partnership agreement.",
+          "minutes": 60,
+          "success": "First partnership agreement signed."
+        }
+      ],
+      "metric": "First successful partnership established."
+    },
+    {
+      "week": 10,
+      "title": "Refinement & Expansion",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review customer feedback and sales data to identify areas for improvement.",
+          "minutes": 60,
+          "success": "Actionable insights for product refinement."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Expand prompt packs to include new verticals based on demand.",
+          "minutes": 120,
+          "success": "New vertical identified and pack development started."
+        },
+        {
+          "day": "Friday",
+          "action": "Begin development of two new prompt packs.",
+          "minutes": 180,
+          "success": "Drafts of two new prompt packs."
+        }
+      ],
+      "metric": "Drafts of new vertical packs ready for feedback."
+    },
+    {
+      "week": 11,
+      "title": "Engage & Retain",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Host a webinar on leveraging AI prompts in marketing.",
+          "minutes": 180,
+          "success": "Webinar scheduled with 20 sign-ups."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Send a newsletter update to your email list about new packs and upcoming events.",
+          "minutes": 60,
+          "success": "Newsletter sent with 30% open rate."
+        },
+        {
+          "day": "Friday",
+          "action": "Engage with your community on Discord and LinkedIn, sharing insights and updates.",
+          "minutes": 60,
+          "success": "Increased engagement in community channels."
+        }
+      ],
+      "metric": "Community engagement increases by 15%."
+    },
+    {
+      "week": 12,
+      "title": "Evaluate & Plan Next Steps",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Evaluate performance metrics from the past quarter.",
+          "minutes": 60,
+          "success": "Clear understanding of growth patterns and areas for improvement."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set new goals for the next quarter based on performance evaluation.",
+          "minutes": 120,
+          "success": "Documented goals for Q2."
+        },
+        {
+          "day": "Friday",
+          "action": "Plan a new marketing strategy to expand reach and increase MRR.",
+          "minutes": 180,
+          "success": "Detailed marketing strategy for coming quarter."
+        }
+      ],
+      "metric": "Comprehensive plan for continued growth and increased MRR."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Gumroad",
+      "why": "Simple platform to sell digital products with integrated payment processing.",
+      "pricing": "Free to start, takes 10% fee on sales."
+    },
+    {
+      "name": "Webflow",
+      "why": "Easy-to-use website builder to create a professional landing page.",
+      "pricing": "$12/month for basic hosting."
+    },
+    {
+      "name": "Apollo",
+      "why": "Powerful tool for finding and reaching out to potential customers.",
+      "pricing": "Free tier available, paid plans start at $19/month."
+    },
+    {
+      "name": "Canva",
+      "why": "Design tool to create professional-looking covers for your prompt packs.",
+      "pricing": "Free for basic use, Pro plan at $12.95/month."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "Email marketing platform to build and manage your email list.",
+      "pricing": "Free for up to 1000 subscribers, then $29/month."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "LinkedIn",
+      "Reddit",
+      "Email"
+    ],
+    "script": "Hi [Name], I noticed you're in the [Niche] space and thought you might find my new AI prompt packs valuable. They're designed to address specific marketing challenges in [Niche]. Would you be interested in checking them out? Here's a link: [Your Link]. Cheers, [Your Name]",
+    "cadence": "Reach out to 10 new contacts per week, follow up once after 3 days if no response."
+  },
+  "pricing": {
+    "starter": "$19 per pack for basic AI prompts.",
+    "growth": "$29 per pack with additional resources and templates.",
+    "premium": "$49 per pack, includes personalized support and consultation.",
+    "raisingRules": "Increase prices by 10% after every 50 sales to reflect product improvements."
+  },
+  "failureModes": [
+    "Pricing too low, undervaluing the product.",
+    "Ignoring customer feedback, leading to stagnation.",
+    "Poor marketing strategy, resulting in low visibility.",
+    "Over-complicating the product, alienating beginners.",
+    "Neglecting to update prompt packs, falling behind industry trends.",
+    "Failing to build an email list, losing potential repeat customers.",
+    "Relying solely on one sales channel, risking revenue loss."
+  ],
+  "realLaunches": [
+    {
+      "name": "PromptSmart",
+      "operator": "Jane Doe",
+      "months": 4,
+      "mrr": "$2,000",
+      "channels": [
+        "Gumroad",
+        "LinkedIn"
+      ]
+    },
+    {
+      "name": "PromptPulse",
+      "operator": "John Smith",
+      "months": 3,
+      "mrr": "$1,800",
+      "channels": [
+        "Discord",
+        "Email"
+      ]
+    },
+    {
+      "name": "AI Prompt Pro",
+      "operator": "Alice Nguyen",
+      "months": 5,
+      "mrr": "$2,500",
+      "channels": [
+        "Facebook Ads",
+        "Reddit"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to incorporate for $500, providing legal protections and credibility.",
+    "payments": "Set up on Gumroad for seamless payment processing and product delivery.",
+    "contracts": "Create simple terms of service and privacy policy using Lovable templates.",
+    "insurance": "No specific insurance required; consider general liability if expanding into consulting."
+  },
+  "scaling": "As you approach $1,500 MRR, consider hiring a part-time virtual assistant to handle customer inquiries and routine admin tasks, freeing you to focus on product development and strategy. Use platforms like Fiverr or Upwork to find a reliable assistant. Expand your product line by collaborating with industry experts to co-create specialized prompt packs, tapping into new audiences. Invest in a social media manager to amplify your reach across platforms, ensuring consistent communication and audience engagement. Automate routine marketing tasks using tools like n8n or Make, streamlining operations and maintaining focus on strategic growth."
+}

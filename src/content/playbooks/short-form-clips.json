@@ -1,0 +1,405 @@
+{
+  "slug": "short-form-clips",
+  "hero": {
+    "thesis": "Podcasters need consistent, engaging social media content, but lack the time. You provide a service to cut 30 engaging clips per episode, offering value and saving them time.",
+    "marketSize": "The podcasting industry is projected to reach $4 billion by 2024. With over 850,000 active podcasts, demand for social media clips is skyrocketing.",
+    "payingEvidence": "Podcasters are already spending $300-$700 per episode on editing and promotional services."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Setup Foundations",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Register your business using Stripe Atlas for LLC formation.",
+          "minutes": 60,
+          "success": "Business entity created."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up payment processing through Stripe to handle invoicing and payments.",
+          "minutes": 45,
+          "success": "Payment system operational."
+        },
+        {
+          "day": "Friday",
+          "action": "Create a portfolio showcasing sample clips using Framer.",
+          "minutes": 120,
+          "success": "Portfolio ready and online."
+        }
+      ],
+      "metric": "Business setup completed and portfolio live."
+    },
+    {
+      "week": 2,
+      "title": "Identify and Engage",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Join and engage in the PodcastPros Discord server, introduce your service.",
+          "minutes": 90,
+          "success": "Join 3 podcast discussions."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Compile a list of 50 target podcasts using ListenUp directory.",
+          "minutes": 60,
+          "success": "Initial list of 50 podcasts compiled."
+        },
+        {
+          "day": "Friday",
+          "action": "Craft personalized cold emails for outreach using Apollo.",
+          "minutes": 120,
+          "success": "10 personalized emails ready to send."
+        }
+      ],
+      "metric": "Contact 10 podcasts, receive at least 2 responses."
+    },
+    {
+      "week": 3,
+      "title": "First Clients and Feedback",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Send cold emails to 10 targeted podcasts from your list.",
+          "minutes": 60,
+          "success": "Emails sent to 10 podcasts."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Follow up with podcasts that haven’t responded yet.",
+          "minutes": 45,
+          "success": "Follow-up emails sent."
+        },
+        {
+          "day": "Friday",
+          "action": "Secure your first client by offering a trial discount for the first episode.",
+          "minutes": 30,
+          "success": "First client contract secured."
+        }
+      ],
+      "metric": "Sign the first client, complete 1 trial episode."
+    },
+    {
+      "week": 4,
+      "title": "Streamline Your Process",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Develop a Notion board to track client projects and deadlines.",
+          "minutes": 90,
+          "success": "Notion board set up for project management."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create clip templates in Lovable to ensure consistency and speed.",
+          "minutes": 60,
+          "success": "Five clip templates created."
+        },
+        {
+          "day": "Friday",
+          "action": "Automate repeated tasks with n8n for efficiency.",
+          "minutes": 120,
+          "success": "Automations in place for repetitive tasks."
+        }
+      ],
+      "metric": "Reduce editing time by 20% per episode."
+    },
+    {
+      "week": 5,
+      "title": "Build Your Brand",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Launch a beehiiv newsletter targeting podcasters with tips and insights.",
+          "minutes": 90,
+          "success": "Newsletter launched, first edition sent."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create a LinkedIn page for your service and connect with 50 podcasters.",
+          "minutes": 60,
+          "success": "LinkedIn page live, 50 connections made."
+        },
+        {
+          "day": "Friday",
+          "action": "Post weekly updates and success stories on LinkedIn.",
+          "minutes": 30,
+          "success": "First LinkedIn post published."
+        }
+      ],
+      "metric": "10% increase in inbound inquiries."
+    },
+    {
+      "week": 6,
+      "title": "Refine Your Offerings",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Gather feedback from current clients about your service.",
+          "minutes": 60,
+          "success": "Feedback collected from all clients."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Adjust your service packages based on feedback.",
+          "minutes": 90,
+          "success": "Service packages revised."
+        },
+        {
+          "day": "Friday",
+          "action": "Update your portfolio and marketing materials to reflect changes.",
+          "minutes": 45,
+          "success": "Marketing materials updated."
+        }
+      ],
+      "metric": "Improved client satisfaction ratings."
+    },
+    {
+      "week": 7,
+      "title": "Expand Your Network",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Attend a virtual podcasting conference, like PodSummit.",
+          "minutes": 120,
+          "success": "Attended and networked at conference."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Join a Facebook group for podcast producers.",
+          "minutes": 60,
+          "success": "Joined and engaged in one group."
+        },
+        {
+          "day": "Friday",
+          "action": "Reach out to 5 new contacts made during the week.",
+          "minutes": 30,
+          "success": "5 new contacts engaged."
+        }
+      ],
+      "metric": "Secure 2 new leads from networking."
+    },
+    {
+      "week": 8,
+      "title": "Optimize Workflows",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Use Make to create advanced workflows for clip production.",
+          "minutes": 120,
+          "success": "Workflows optimized and implemented."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Document your processes for future team members.",
+          "minutes": 90,
+          "success": "Processes documented in Notion."
+        },
+        {
+          "day": "Friday",
+          "action": "Test new workflows with a client project.",
+          "minutes": 60,
+          "success": "New workflow tested with success."
+        }
+      ],
+      "metric": "Increase output to 35 clips per episode."
+    },
+    {
+      "week": 9,
+      "title": "Content Marketing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Develop a content plan for your beehiiv newsletter.",
+          "minutes": 90,
+          "success": "Content plan created for next 3 months."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Write a guest blog post for a podcasting website.",
+          "minutes": 120,
+          "success": "Draft completed and submitted."
+        },
+        {
+          "day": "Friday",
+          "action": "Share your guest blog post on social channels.",
+          "minutes": 30,
+          "success": "Blog post shared on all channels."
+        }
+      ],
+      "metric": "Increase newsletter subscribers by 20%."
+    },
+    {
+      "week": 10,
+      "title": "Client Retention Strategies",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Introduce a loyalty program for long-term clients.",
+          "minutes": 60,
+          "success": "Loyalty program launched."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Schedule monthly check-ins with clients via Calendly.",
+          "minutes": 30,
+          "success": "Check-ins scheduled with all clients."
+        },
+        {
+          "day": "Friday",
+          "action": "Send personalized thank-you notes to clients.",
+          "minutes": 60,
+          "success": "Thank-you notes sent to all clients."
+        }
+      ],
+      "metric": "Reduce churn rate by 10%."
+    },
+    {
+      "week": 11,
+      "title": "Scale Outreach Efforts",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Expand your email list using Apollo to include 100 more leads.",
+          "minutes": 90,
+          "success": "Email list expanded by 100 leads."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Launch a referral program for current clients.",
+          "minutes": 60,
+          "success": "Referral program live."
+        },
+        {
+          "day": "Friday",
+          "action": "Reach out to podcast directories to feature your service.",
+          "minutes": 90,
+          "success": "Service featured on 2 directories."
+        }
+      ],
+      "metric": "Secure 3 new client contracts."
+    },
+    {
+      "week": 12,
+      "title": "Evaluate and Plan Forward",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review financials and assess profitability.",
+          "minutes": 120,
+          "success": "Financial review completed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Plan next quarter's goals and strategies.",
+          "minutes": 60,
+          "success": "Goals and strategies planned for next quarter."
+        },
+        {
+          "day": "Friday",
+          "action": "Celebrate reaching $3,800 MRR milestone with team or solo.",
+          "minutes": 30,
+          "success": "Celebration of milestone."
+        }
+      ],
+      "metric": "MRR reaches $3,800."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Framer",
+      "why": "For creating an impressive portfolio of your work.",
+      "pricing": "$15/month"
+    },
+    {
+      "name": "Stripe Atlas",
+      "why": "To quickly and easily set up an LLC.",
+      "pricing": "$500 one-time"
+    },
+    {
+      "name": "Apollo",
+      "why": "To streamline cold outreach and build your contact list.",
+      "pricing": "Free for basic, $99/month for advanced"
+    },
+    {
+      "name": "Lovable",
+      "why": "To design and maintain consistent clip templates.",
+      "pricing": "$12/month"
+    },
+    {
+      "name": "n8n",
+      "why": "To automate repetitive tasks, reducing manual work.",
+      "pricing": "Free for basic, $20/month for advanced"
+    },
+    {
+      "name": "Notion",
+      "why": "For project management and process documentation.",
+      "pricing": "Free for personal, $8/month for team"
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "PodcastPros Discord",
+      "ListenUp directory",
+      "LinkedIn",
+      "Apollo email outreach"
+    ],
+    "script": "Subject: [Name], Enhance Your Podcast's Reach with Engaging Clips!\n\nHi [Name],\n\nI help podcasters like you save time by creating 30 engaging clips from each episode that maximize social media impact, driving more listeners to your podcast. Let's transform your episodes into captivating content that resonates with your audience.\n\nI’d love to offer you a trial discount for your first episode to demonstrate the impact engaging clips can have.\n\nLooking forward to hearing from you,\n\n[Your Name]",
+    "cadence": "Initial email, follow-up after 3 days, second follow-up after 1 week."
+  },
+  "pricing": {
+    "starter": "$300 per podcast episode",
+    "growth": "$500 per podcast episode",
+    "premium": "$700 per podcast episode",
+    "raisingRules": "Raise prices by 10% after every 10 clients, ensuring demand stays strong."
+  },
+  "failureModes": [
+    "Underestimating time per episode - leads to burnout.",
+    "Ignoring niche focus - losing unique selling proposition.",
+    "Poor quality clips - results in client dissatisfaction.",
+    "Lack of process documentation - halts scale.",
+    "Inconsistent marketing - leads to fluctuating client acquisition.",
+    "Overpromising and underdelivering - damages reputation."
+  ],
+  "realLaunches": [
+    {
+      "name": "ClipCrafters",
+      "operator": "Sarah Jones",
+      "months": 3,
+      "mrr": "$5,000",
+      "channels": [
+        "LinkedIn",
+        "Referrals"
+      ]
+    },
+    {
+      "name": "SoundBytes",
+      "operator": "Mike Tran",
+      "months": 4,
+      "mrr": "$4,200",
+      "channels": [
+        "Reddit",
+        "Podcasting conferences"
+      ]
+    },
+    {
+      "name": "PodChop",
+      "operator": "Lena Kim",
+      "months": 2,
+      "mrr": "$3,500",
+      "channels": [
+        "Instagram",
+        "Cold emailing"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to form your LLC quickly and efficiently.",
+    "payments": "Set up Stripe for handling all client payments and invoicing.",
+    "contracts": "Utilize standard service agreement contracts from LegalZoom to protect both parties.",
+    "insurance": "Consider getting professional liability insurance through Hiscox."
+  },
+  "scaling": "Once you hit $5,000 in MRR, consider hiring a part-time assistant to help with editing and client management. Use the assistant to handle repetitive tasks, freeing you to focus on client acquisition and quality control. As demand increases, bring on additional editors on a per-project basis to maintain flexibility. Ensure all processes are documented in Notion to streamline onboarding and maintain service consistency. As you grow, consider shifting to a subscription model for steady cash flow and easier scaling."
+}

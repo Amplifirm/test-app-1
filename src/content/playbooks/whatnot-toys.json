@@ -1,0 +1,404 @@
+{
+  "slug": "whatnot-toys",
+  "hero": {
+    "thesis": "Become a top-performing live seller on Whatnot by hosting live auctions for toys and trading cards, generating $400–$1k per stream.",
+    "marketSize": "The live commerce market is projected to exceed $423 billion by 2028, driven by interactive buying experiences.",
+    "payingEvidence": "Whatnot's top sellers report monthly revenues over $10k from consistent streaming and engaging audiences."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Kickstart Your Brand",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a compelling seller profile on Whatnot focused on toys/cards.",
+          "minutes": 120,
+          "success": "Profile approved and live."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Research top toy/card trends on Whatnot and Reddit's /r/ActionFigures.",
+          "minutes": 90,
+          "success": "List of 5 trending items."
+        },
+        {
+          "day": "Friday",
+          "action": "Prepare your first live auction script and practice it.",
+          "minutes": 60,
+          "success": "Script ready and rehearsed."
+        }
+      ],
+      "metric": "Profile set up, first script ready."
+    },
+    {
+      "week": 2,
+      "title": "Building Initial Inventory and Network",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Join and engage with two Discord communities: ToyCollectorHub and CardTraderNet.",
+          "minutes": 90,
+          "success": "Active in both communities."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Source initial inventory from eBay and local thrift stores with a $300 budget.",
+          "minutes": 180,
+          "success": "20 items ready for sale."
+        },
+        {
+          "day": "Friday",
+          "action": "Schedule your first live stream on Whatnot for next week.",
+          "minutes": 30,
+          "success": "Stream scheduled."
+        }
+      ],
+      "metric": "20 items sourced, first stream scheduled."
+    },
+    {
+      "week": 3,
+      "title": "First Live Auction and Feedback Loop",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Host your first live auction on Whatnot; focus on engagement and sales techniques.",
+          "minutes": 240,
+          "success": "Stream completed, feedback noted."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Analyze stream performance using Whatnot analytics tools.",
+          "minutes": 60,
+          "success": "Performance report created."
+        },
+        {
+          "day": "Friday",
+          "action": "Engage with viewers who participated in the stream for feedback.",
+          "minutes": 90,
+          "success": "Feedback collected from 5 viewers."
+        }
+      ],
+      "metric": "Complete first stream, feedback from at least 5 participants."
+    },
+    {
+      "week": 4,
+      "title": "Optimize and Expand Inventory",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze feedback and adjust auction strategy.",
+          "minutes": 60,
+          "success": "Strategy updated."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Increase inventory by sourcing 10 more items based on feedback and trends.",
+          "minutes": 180,
+          "success": "10 new items sourced."
+        },
+        {
+          "day": "Friday",
+          "action": "Schedule next two live streams.",
+          "minutes": 30,
+          "success": "Two streams scheduled."
+        }
+      ],
+      "metric": "Inventory increased by 10 items, two upcoming streams scheduled."
+    },
+    {
+      "week": 5,
+      "title": "Streamline Operations",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a checklist for pre-stream setup and execution.",
+          "minutes": 60,
+          "success": "Checklist created."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Automate post-sale follow-up using ConvertKit.",
+          "minutes": 90,
+          "success": "Follow-up sequence automated."
+        },
+        {
+          "day": "Friday",
+          "action": "Perform a mock live stream to test new processes.",
+          "minutes": 120,
+          "success": "Mock stream completed successfully."
+        }
+      ],
+      "metric": "Pre-stream checklist and follow-up automation in place."
+    },
+    {
+      "week": 6,
+      "title": "Enhance Viewer Engagement",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Incorporate interactive elements like giveaways and polls in streams.",
+          "minutes": 90,
+          "success": "Interaction plan integrated."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Engage with your audience on Whatnot and Discord between streams.",
+          "minutes": 60,
+          "success": "Active engagement established."
+        },
+        {
+          "day": "Friday",
+          "action": "Analyze engagement data from recent streams.",
+          "minutes": 60,
+          "success": "Engagement insights noted."
+        }
+      ],
+      "metric": "Increased viewer interaction in streams."
+    },
+    {
+      "week": 7,
+      "title": "Strengthen Brand Presence",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Design a simple brand logo using Canva.",
+          "minutes": 60,
+          "success": "Logo designed and applied."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Update all social media profiles with consistent branding.",
+          "minutes": 90,
+          "success": "Brand consistency achieved online."
+        },
+        {
+          "day": "Friday",
+          "action": "Host a brand-focused stream highlighting your unique selling points.",
+          "minutes": 240,
+          "success": "Brand-focused stream completed."
+        }
+      ],
+      "metric": "Brand presence consistent across platforms."
+    },
+    {
+      "week": 8,
+      "title": "Monetize Beyond Sales",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Experiment with offering exclusive memberships or early access deals.",
+          "minutes": 120,
+          "success": "Membership plan created."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Setup a tiered pricing model for exclusive items.",
+          "minutes": 90,
+          "success": "Tiered pricing model live."
+        },
+        {
+          "day": "Friday",
+          "action": "Promote memberships during streams and on social media.",
+          "minutes": 60,
+          "success": "Memberships promoted."
+        }
+      ],
+      "metric": "Membership plan and tiered pricing model established."
+    },
+    {
+      "week": 9,
+      "title": "Data-Driven Growth",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze sales data to identify bestsellers and slow movers.",
+          "minutes": 120,
+          "success": "Sales analysis report completed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Adjust inventory sourcing based on data insights.",
+          "minutes": 90,
+          "success": "Sourcing strategy updated."
+        },
+        {
+          "day": "Friday",
+          "action": "Host a sales event focusing on bestsellers.",
+          "minutes": 240,
+          "success": "Sales event executed."
+        }
+      ],
+      "metric": "Optimized inventory based on sales data."
+    },
+    {
+      "week": 10,
+      "title": "Expanding Reach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Collaborate with another Whatnot seller for a joint stream.",
+          "minutes": 120,
+          "success": "Collaboration scheduled."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Launch a referral program to encourage viewer growth.",
+          "minutes": 90,
+          "success": "Referral program live."
+        },
+        {
+          "day": "Friday",
+          "action": "Analyze growth metrics from collaboration and referral efforts.",
+          "minutes": 60,
+          "success": "Growth metrics analyzed."
+        }
+      ],
+      "metric": "Increased reach through collaboration and referrals."
+    },
+    {
+      "week": 11,
+      "title": "Reinforcing Relationships",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Send thank you notes to repeat buyers using ConvertKit.",
+          "minutes": 60,
+          "success": "Thank you notes sent."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Host a Q&A session to deepen viewer relationships.",
+          "minutes": 120,
+          "success": "Q&A session completed."
+        },
+        {
+          "day": "Friday",
+          "action": "Collect testimonials from satisfied customers for social proof.",
+          "minutes": 90,
+          "success": "Testimonials collected."
+        }
+      ],
+      "metric": "Enhanced customer relationships and social proof."
+    },
+    {
+      "week": 12,
+      "title": "Establishing Authority",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Write a guest post for a niche blog about your Whatnot selling journey.",
+          "minutes": 180,
+          "success": "Guest post published."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Host an advanced strategies stream for aspiring sellers.",
+          "minutes": 240,
+          "success": "Advanced strategies stream completed."
+        },
+        {
+          "day": "Friday",
+          "action": "Compile a year-end report on your progress and insights.",
+          "minutes": 120,
+          "success": "Year-end report compiled."
+        }
+      ],
+      "metric": "Authority established in the niche through content and engagement."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Whatnot",
+      "why": "Primary platform for live selling.",
+      "pricing": "Commission-based."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "Automate post-sale follow-ups and customer engagement.",
+      "pricing": "Free for up to 300 subscribers, then $29/month."
+    },
+    {
+      "name": "Canva",
+      "why": "Design branding materials like logos and stream overlays.",
+      "pricing": "Free plan available, Pro at $12.95/month."
+    },
+    {
+      "name": "Discord",
+      "why": "Engage with collector communities for networking and insights.",
+      "pricing": "Free."
+    },
+    {
+      "name": "Reddit",
+      "why": "Research trends and engage with niche communities.",
+      "pricing": "Free."
+    },
+    {
+      "name": "eBay",
+      "why": "Source inventory of toys and cards for live auctions.",
+      "pricing": "Listing fees apply."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "Whatnot",
+      "Discord (ToyCollectorHub)",
+      "Reddit (/r/ActionFigures)"
+    ],
+    "script": "Hi [Name], I noticed you're a big fan of [Niche] collectibles! I'm hosting live auctions on Whatnot, featuring exclusive toys and cards. I think you'd find some great additions for your collection. Join us at [link] this [Day and Time]!",
+    "cadence": "Initial message, follow-up after 3 days, final reminder a day before the stream."
+  },
+  "pricing": {
+    "starter": "$5 per auction entry fee for budget items.",
+    "growth": "$20 for premium card/figure access, includes entry to all auctions.",
+    "premium": "$50 for exclusive membership with early access, special discounts.",
+    "raisingRules": "Raise prices as demand increases and when streams consistently sell out."
+  },
+  "failureModes": [
+    "Inventory Mismanagement: Failing to maintain a balanced stock.",
+    "Audience Neglect: Not engaging with viewers leads to drop-offs.",
+    "Poor Branding: Inconsistent branding confuses potential buyers.",
+    "Tech Issues: Streaming software problems disrupt auctions.",
+    "Pricing Errors: Overpricing discourages bids.",
+    "Lack of Promotion: Inadequate marketing results in low attendance."
+  ],
+  "realLaunches": [
+    {
+      "name": "ToyTrader",
+      "operator": "Alex Kim",
+      "months": 4,
+      "mrr": "$5,000",
+      "channels": [
+        "Whatnot",
+        "Instagram"
+      ]
+    },
+    {
+      "name": "CardCollectorLive",
+      "operator": "Jamie Lee",
+      "months": 6,
+      "mrr": "$3,800",
+      "channels": [
+        "Whatnot",
+        "Discord"
+      ]
+    },
+    {
+      "name": "LiveToySales",
+      "operator": "Nina Patel",
+      "months": 3,
+      "mrr": "$4,200",
+      "channels": [
+        "Whatnot",
+        "Reddit"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to set up your LLC for $500, ensuring legal protection.",
+    "payments": "Integrate Whatnot's payment system for seamless transactions.",
+    "contracts": "Use Lovable to draft simple sales agreements for high-value items.",
+    "insurance": "Consider a basic business liability insurance for $300/year to cover operations."
+  },
+  "scaling": "When scaling from a solo operation to a small team, start by hiring a part-time assistant to help with inventory management and customer engagement. Use tools like Notion to keep track of inventory and tasks. As sales grow, consider hiring a co-host for streams to offer a dynamic, dual-host experience, improving engagement. Expand your sourcing network by partnering with suppliers for exclusive deals, using Apollo for outreach and relationship management. Optimize your tech setup with n8n for workflow automation, ensuring seamless operations across larger volumes."
+}

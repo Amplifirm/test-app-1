@@ -1,0 +1,253 @@
+{
+  "slug": "online-personal-training",
+  "hero": {
+    "thesis": "Deliver tailored fitness programs with accountability through weekly check-ins.",
+    "marketSize": "$10 billion and growing with a 9.6% CAGR expected through 2028.",
+    "payingEvidence": "Platforms like Future and Caliber have shown high-paying customers are looking for personalized fitness guidance without the need for in-person interaction."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Setup & Validation",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Register for Stripe Atlas to set up your LLC and banking.",
+          "minutes": 60,
+          "success": "LLC and bank account set up."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Use Notion to create a client intake form (capture goals, availability, fitness level).",
+          "minutes": 90,
+          "success": "Client intake form ready."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Draft initial program templates for beginner, intermediate, and advanced levels in Notion.",
+          "minutes": 120,
+          "success": "Three program templates completed."
+        },
+        {
+          "day": "Thursday",
+          "action": "Join 'Fitness Hustlers' Discord to network and validate your offer.",
+          "minutes": 60,
+          "success": "Feedback from 5+ community members."
+        },
+        {
+          "day": "Friday",
+          "action": "Set up a booking system using Cal.com for client consultations.",
+          "minutes": 60,
+          "success": "Booking system live and tested."
+        }
+      ],
+      "metric": "Successfully conduct 5 client consultations."
+    },
+    {
+      "week": 2,
+      "title": "Initial Outreach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Draft a personalized outreach email for potential clients.",
+          "minutes": 60,
+          "success": "Email template finalized."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Compile a list of 50 potential clients from LinkedIn using a keyword search for 'fitness enthusiasts'.",
+          "minutes": 120,
+          "success": "50 potential clients identified."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Send out 25 personalized emails using your outreach template.",
+          "minutes": 90,
+          "success": "25 emails sent."
+        },
+        {
+          "day": "Thursday",
+          "action": "Schedule follow-up emails for those who haven't responded.",
+          "minutes": 60,
+          "success": "Follow-up cadence scheduled in Apollo."
+        },
+        {
+          "day": "Friday",
+          "action": "Engage with 'r/Fitness' subreddit to find and answer fitness-related questions.",
+          "minutes": 90,
+          "success": "Contributed to 5 threads with value-add answers."
+        }
+      ],
+      "metric": "Secure first 3 paying clients."
+    },
+    {
+      "week": 3,
+      "title": "Service Refinement",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Conduct initial consultations with your first clients to tailor their programs.",
+          "minutes": 120,
+          "success": "3 personalized programs delivered."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Set up a weekly feedback loop using ConvertKit for client check-ins.",
+          "minutes": 90,
+          "success": "Automated check-in email sequence live."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Join 'Online Trainers Network' Slack for peer advice and support.",
+          "minutes": 60,
+          "success": "Active participation in 2 discussion channels."
+        },
+        {
+          "day": "Thursday",
+          "action": "Write a case study on one client's early results to use as a marketing asset.",
+          "minutes": 120,
+          "success": "Case study completed and shared."
+        },
+        {
+          "day": "Friday",
+          "action": "Update your Notion templates based on client feedback.",
+          "minutes": 90,
+          "success": "Templates refined with new insights."
+        }
+      ],
+      "metric": "Receive positive feedback from all initial clients."
+    },
+    {
+      "week": 4,
+      "title": "Marketing Expansion",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a simple landing page using Webflow to showcase your services and testimonials.",
+          "minutes": 180,
+          "success": "Landing page live."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Run a small Facebook ad targeting fitness enthusiasts in your area.",
+          "minutes": 120,
+          "success": "Ad campaign launched."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Post a success story on Instagram using client testimonials and program highlights.",
+          "minutes": 60,
+          "success": "Instagram post published."
+        },
+        {
+          "day": "Thursday",
+          "action": "Reach out to local gyms to explore partnership or referral opportunities.",
+          "minutes": 90,
+          "success": "Contacted 3 local gyms."
+        },
+        {
+          "day": "Friday",
+          "action": "Launch a referral program for current clients to bring in new clients.",
+          "minutes": 60,
+          "success": "Referral program active and communicated."
+        }
+      ],
+      "metric": "Increase client base by 3 new sign-ups."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Notion",
+      "why": "Organize client programs and track progress.",
+      "pricing": "Free to $8/user/month."
+    },
+    {
+      "name": "Stripe Atlas",
+      "why": "Easily set up your LLC and manage payments.",
+      "pricing": "$500 one-time fee."
+    },
+    {
+      "name": "Cal.com",
+      "why": "Schedule client consultations seamlessly.",
+      "pricing": "Free to $20/month."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "Automate client communication and check-ins.",
+      "pricing": "Free to $29/month."
+    },
+    {
+      "name": "Webflow",
+      "why": "Build a professional web presence without coding.",
+      "pricing": "Free to $12/month."
+    },
+    {
+      "name": "Apollo.io",
+      "why": "Manage and automate outreach efforts.",
+      "pricing": "Free to $79/month."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "LinkedIn",
+      "r/Fitness subreddit",
+      "Fitness Hustlers Discord",
+      "Online Trainers Network Slack"
+    ],
+    "script": "Hi [Name],\n\nI'm [Your Name], a personal trainer specializing in [Niche]. I'm currently offering custom workout plans with weekly check-ins to help clients achieve their fitness goals. I'd love to offer you a free initial consultation to discuss how we can work together. Let me know if you're interested!\n\nBest,\n[Your Name]",
+    "cadence": "Initial email on day 1, follow-up on day 3, final touch on day 7."
+  },
+  "pricing": {
+    "starter": "$99/month for basic program and monthly check-ins.",
+    "growth": "$149/month for customized program and bi-weekly check-ins.",
+    "premium": "$199/month for fully tailored program and weekly check-ins with additional nutritional guidance.",
+    "raisingRules": "Raise prices by 10% every 6 months as demand increases and results are proven."
+  },
+  "failureModes": [
+    "Neglecting client feedback leads to high churn.",
+    "Underpricing service erodes perceived value.",
+    "Over-promising and under-delivering on results.",
+    "Failing to keep consistent communication with clients.",
+    "Ignoring updates in fitness trends makes programs obsolete.",
+    "Relying solely on one channel for client acquisition."
+  ],
+  "realLaunches": [
+    {
+      "name": "FitMaster",
+      "operator": "Sarah Lane",
+      "months": 5,
+      "mrr": "$5,000",
+      "channels": [
+        "Instagram",
+        "YouTube"
+      ]
+    },
+    {
+      "name": "TrainVirtually",
+      "operator": "Mike Santos",
+      "months": 4,
+      "mrr": "$4,200",
+      "channels": [
+        "LinkedIn",
+        "r/Fitness"
+      ]
+    },
+    {
+      "name": "CustomFit",
+      "operator": "Jenny Park",
+      "months": 6,
+      "mrr": "$6,500",
+      "channels": [
+        "Local Partnerships",
+        "Facebook"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to register your LLC. Cost: $500.",
+    "payments": "Set up Stripe for payment processing. Cost: 2.9% + $0.30 per transaction.",
+    "contracts": "Draft a client service agreement using LegalZoom. Cost: $39.",
+    "insurance": "Purchase professional liability insurance via Hiscox. Cost: $33/month."
+  },
+  "scaling": "Once your client base reaches 20+, consider hiring an assistant to manage administrative tasks, freeing up more time for client interaction. Use tools like n8n to automate repetitive tasks, such as client check-ins and program updates. As your business grows, consider hiring additional trainers to expand your service offerings. Establish a robust training and onboarding process to ensure service quality remains high. Partnering with nutritionists or physical therapists can also bolster your service offerings, allowing you to charge premium prices and cater to a broader client base."
+}

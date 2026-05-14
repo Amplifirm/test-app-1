@@ -1,0 +1,407 @@
+{
+  "slug": "mobile-detailing",
+  "hero": {
+    "thesis": "Mobile car detailing is a lucrative side hustle with low startup costs and high demand. You can earn $150-$300 per car, detailing 1-2 cars a day and reaching your MRR goal within weeks.",
+    "marketSize": "The US car detailing market is valued at over $10 billion, with growing demand for mobile services due to convenience.",
+    "payingEvidence": "Platforms like Yelp and Google Reviews show consistent demand for highly rated mobile detailers, with many businesses booked weeks in advance."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Setup & Initial Outreach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research local competition on Yelp and Google Reviews. Identify top 10 competitors.",
+          "minutes": 120,
+          "success": "List of 10 competitors with pricing and service details."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Purchase basic detailing equipment from AutoZone and supplies from Chemical Guys. Total budget: $500.",
+          "minutes": 180,
+          "success": "Complete detailing kit ready to use."
+        },
+        {
+          "day": "Friday",
+          "action": "Set up a professional email and business phone number via Google Workspace.",
+          "minutes": 60,
+          "success": "Business email and phone number operational."
+        },
+        {
+          "day": "Saturday",
+          "action": "Join local Facebook groups and Nextdoor to introduce your service with a launch offer.",
+          "minutes": 120,
+          "success": "10+ inquiries from local community members."
+        }
+      ],
+      "metric": "10 inquiries from local customers."
+    },
+    {
+      "week": 2,
+      "title": "First Customers & Feedback",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Reach out to family and friends with a special offer for first-time customers.",
+          "minutes": 60,
+          "success": "3 bookings from personal network."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Perform the first detailing jobs. Gather customer feedback and testimonials.",
+          "minutes": 240,
+          "success": "Positive testimonials from 3 customers."
+        },
+        {
+          "day": "Friday",
+          "action": "Create a simple one-page website with Webflow showcasing services, prices, and testimonials.",
+          "minutes": 180,
+          "success": "Website live with basic information."
+        }
+      ],
+      "metric": "$450 in revenue from 3 jobs."
+    },
+    {
+      "week": 3,
+      "title": "Refinement & Expansion",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze feedback and adjust service offerings and pricing accordingly.",
+          "minutes": 60,
+          "success": "Updated service list and pricing strategy."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Optimize website SEO using Google’s Keyword Planner for local search terms.",
+          "minutes": 120,
+          "success": "Improved website visibility on search engines."
+        },
+        {
+          "day": "Friday",
+          "action": "Design a flyer and distribute it in local community centers and car parks.",
+          "minutes": 180,
+          "success": "100 flyers distributed."
+        }
+      ],
+      "metric": "5 additional inquiries from flyers."
+    },
+    {
+      "week": 4,
+      "title": "Consistency & Scaling Systems",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a customer scheduling system using Calendly for easy bookings.",
+          "minutes": 90,
+          "success": "Automated booking system operational."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Join local Reddit communities like r/AutoDetailing and engage with potential customers.",
+          "minutes": 120,
+          "success": "5 new leads from Reddit."
+        },
+        {
+          "day": "Friday",
+          "action": "Launch a referral program offering $50 off for referrals.",
+          "minutes": 60,
+          "success": "Referral program live."
+        }
+      ],
+      "metric": "3 referrals generated."
+    },
+    {
+      "week": 5,
+      "title": "Brand Building & Partnerships",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Partner with local car dealerships for customer referrals.",
+          "minutes": 180,
+          "success": "Partnership agreement with 1 dealership."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Post weekly updates and special offers on Instagram and Facebook.",
+          "minutes": 120,
+          "success": "10 new followers on social media."
+        },
+        {
+          "day": "Friday",
+          "action": "Create a Google My Business listing and ask past customers to leave reviews.",
+          "minutes": 60,
+          "success": "5 new reviews on Google."
+        }
+      ],
+      "metric": "10% increase in social media following."
+    },
+    {
+      "week": 6,
+      "title": "Operational Efficiency",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Automate follow-up emails using ConvertKit for customer retention.",
+          "minutes": 90,
+          "success": "Automated email sequence live."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Assess and refine supply chain processes for cost savings.",
+          "minutes": 120,
+          "success": "10% reduction in supply costs."
+        },
+        {
+          "day": "Friday",
+          "action": "Host a free detailing workshop at a local community center to showcase expertise.",
+          "minutes": 240,
+          "success": "15 attendees at the workshop."
+        }
+      ],
+      "metric": "15% increase in repeat bookings."
+    },
+    {
+      "week": 7,
+      "title": "Advanced Marketing Tactics",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Run a trial Facebook Ad campaign targeting local car owners.",
+          "minutes": 120,
+          "success": "Ad campaign live with 1% CTR."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Network with local businesses for cross-promotions.",
+          "minutes": 180,
+          "success": "Cross-promotion deal with 1 local business."
+        },
+        {
+          "day": "Friday",
+          "action": "Write a guest blog post for a local automotive blog.",
+          "minutes": 120,
+          "success": "Guest post published online."
+        }
+      ],
+      "metric": "20 new inquiries from marketing efforts."
+    },
+    {
+      "week": 8,
+      "title": "Customer Loyalty & Testimonials",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Conduct a customer satisfaction survey via email.",
+          "minutes": 60,
+          "success": "Survey responses with positive feedback."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Implement a loyalty program offering discounts on future services.",
+          "minutes": 90,
+          "success": "Loyalty program launched."
+        },
+        {
+          "day": "Friday",
+          "action": "Create video testimonials with satisfied customers for social media.",
+          "minutes": 240,
+          "success": "3 video testimonials produced and shared."
+        }
+      ],
+      "metric": "5% increase in customer retention."
+    },
+    {
+      "week": 9,
+      "title": "Scaling Operations",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Hire a part-time assistant for weekends to increase service capacity.",
+          "minutes": 180,
+          "success": "Assistant hired and trained."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Expand service area to neighboring towns.",
+          "minutes": 120,
+          "success": "Service area expanded by 20 miles."
+        },
+        {
+          "day": "Friday",
+          "action": "Increase social media ad spend by 20% to test ROI.",
+          "minutes": 60,
+          "success": "Ad reach increased by 20%."
+        }
+      ],
+      "metric": "2 additional bookings per week from expanded area."
+    },
+    {
+      "week": 10,
+      "title": "Community Engagement & Feedback Loop",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Host a local car show event with free mini-detailing services.",
+          "minutes": 240,
+          "success": "50 attendees at the event."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Launch a monthly newsletter detailing car care tips and special promotions.",
+          "minutes": 120,
+          "success": "Newsletter sent to 100 subscribers."
+        },
+        {
+          "day": "Friday",
+          "action": "Solicit detailed feedback from repeat customers to improve services.",
+          "minutes": 60,
+          "success": "Actionable feedback received from 10 customers."
+        }
+      ],
+      "metric": "Increased community engagement and 10 new bookings."
+    },
+    {
+      "week": 11,
+      "title": "Advanced Strategies & Automation",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Implement n8n workflows to automate repetitive tasks.",
+          "minutes": 180,
+          "success": "Workflows operational to save 5 hours weekly."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Host a live Q&A on Instagram to engage directly with potential customers.",
+          "minutes": 120,
+          "success": "30 participants in the live session."
+        },
+        {
+          "day": "Friday",
+          "action": "Evaluate new detailing products for efficiency improvements.",
+          "minutes": 60,
+          "success": "Tested 3 new products with positive results."
+        }
+      ],
+      "metric": "10% increase in operational efficiency."
+    },
+    {
+      "week": 12,
+      "title": "Review & Future Planning",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review financials, assess profitability, and set goals for the next quarter.",
+          "minutes": 180,
+          "success": "Financial review completed with future goals set."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Plan a customer appreciation event to maintain strong relationships.",
+          "minutes": 120,
+          "success": "Event planned for next month."
+        },
+        {
+          "day": "Friday",
+          "action": "Research potential expansion into new services or markets.",
+          "minutes": 180,
+          "success": "Feasibility study completed for new services."
+        }
+      ],
+      "metric": "Clear roadmap for next quarter with growth targets."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Webflow",
+      "why": "To create a professional one-page website showcasing services and testimonials.",
+      "pricing": "Free plan for basic website; paid plans start at $12/month."
+    },
+    {
+      "name": "Calendly",
+      "why": "To automate customer scheduling and reduce back-and-forth communications.",
+      "pricing": "Free basic plan; paid plans start at $8/month."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "For automated follow-up emails and managing email marketing campaigns.",
+      "pricing": "Free for up to 1,000 subscribers; paid plans start at $29/month."
+    },
+    {
+      "name": "Google Workspace",
+      "why": "To set up a professional email and business phone number.",
+      "pricing": "Plans start at $6/user/month."
+    },
+    {
+      "name": "n8n",
+      "why": "To automate repetitive tasks and improve operational efficiency.",
+      "pricing": "Free self-hosted version; cloud plans start at $20/month."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "Local Facebook groups",
+      "Nextdoor",
+      "Personal network",
+      "Community centers"
+    ],
+    "script": "Hi [Name], I'm starting a premium mobile car detailing service in [Niche]. To celebrate our launch, I'm offering a special discount for first-time customers. I'd love to help keep your car looking its best. Can I book you in for a detailing session this week?",
+    "cadence": "3 follow-ups: initial message, 3 days later, 6 days later."
+  },
+  "pricing": {
+    "starter": "Basic Wash & Vacuum: $150",
+    "growth": "Full Interior & Exterior Detail: $200",
+    "premium": "Platinum Detail with Paint Protection: $300",
+    "raisingRules": "Increase prices by 10% after the first 50 customers or when fully booked for 2 weeks straight."
+  },
+  "failureModes": [
+    "Pricing too low for market: Don't undercut yourself.",
+    "Ignoring customer feedback: Leads to poor service experience.",
+    "Poor time management: Results in missed appointments.",
+    "Neglecting follow-up: Lose touch with potential repeat customers.",
+    "Over-purchasing supplies: Ties up capital unnecessarily.",
+    "Lack of online presence: Reduces discoverability.",
+    "Insufficient insurance: Risk exposure without coverage."
+  ],
+  "realLaunches": [
+    {
+      "name": "ShineOn Mobile Detailing",
+      "operator": "Jake L.",
+      "months": 3,
+      "mrr": "$5,000",
+      "channels": [
+        "Instagram",
+        "Local partnerships"
+      ]
+    },
+    {
+      "name": "DetailExpress",
+      "operator": "Mia C.",
+      "months": 4,
+      "mrr": "$4,200",
+      "channels": [
+        "Google Ads",
+        "Community events"
+      ]
+    },
+    {
+      "name": "CleanCar Mobile",
+      "operator": "Aiden R.",
+      "months": 2,
+      "mrr": "$4,500",
+      "channels": [
+        "Facebook Groups",
+        "Referrals"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to set up an LLC for liability protection and tax benefits.",
+    "payments": "Use Stripe for seamless online payment processing and invoicing.",
+    "contracts": "Create basic service agreements using Lovable to ensure clear terms with customers.",
+    "insurance": "Purchase a Business Owner's Policy (BOP) to cover liability and equipment."
+  },
+  "scaling": "As your business grows, consider expanding your team by hiring part-time assistants to increase your service capacity without overextending yourself. Invest in advanced training for your team to ensure consistent service quality. Use project management tools like Notion to keep track of scheduling, supplies, and customer feedback in one place. Explore franchise opportunities or partnerships with auto-related businesses to expand your reach. Remember, scaling is not just about adding more hands; it's about maintaining quality and optimizing operations to handle increased demand efficiently."
+}

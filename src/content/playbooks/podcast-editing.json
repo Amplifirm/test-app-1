@@ -1,0 +1,406 @@
+{
+  "slug": "podcast-editing",
+  "hero": {
+    "thesis": "Capitalize on the booming podcast industry by offering a specialized editing service, catering to mid-tier podcasters who value quality but lack time.",
+    "marketSize": "The global podcasting market is projected to reach $41 billion by 2026, with over 2 million active podcasts needing regular editing services.",
+    "payingEvidence": "Many podcasters on platforms like Podchaser and Buzzsprout are actively seeking editing help, with freelancers earning $200–$400 per episode."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Foundation Setup",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Select a business name and register your domain on Namecheap.",
+          "minutes": 60,
+          "success": "Domain registered and business name secured."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up a basic landing page on Webflow with a clear service offering.",
+          "minutes": 120,
+          "success": "Landing page live with contact form."
+        },
+        {
+          "day": "Friday",
+          "action": "Join podcasting communities on Reddit (e.g., r/podcasting) and introduce your service.",
+          "minutes": 90,
+          "success": "Community posts live with engagement."
+        }
+      ],
+      "metric": "3 inquiries from the landing page or community posts."
+    },
+    {
+      "week": 2,
+      "title": "First Clients Outreach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a list of 50 potential podcast clients using Apollo and LinkedIn.",
+          "minutes": 180,
+          "success": "List of 50 potential clients."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Send personalized cold emails to each contact introducing your service.",
+          "minutes": 240,
+          "success": "Emails sent to all 50 contacts."
+        },
+        {
+          "day": "Friday",
+          "action": "Follow up on emails sent earlier in the week.",
+          "minutes": 120,
+          "success": "Follow-up emails sent."
+        }
+      ],
+      "metric": "Secure 2 trial clients."
+    },
+    {
+      "week": 3,
+      "title": "Service Optimization",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Use feedback from trial clients to refine your editing process.",
+          "minutes": 120,
+          "success": "Updated editing process implemented."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Establish a client onboarding process in Notion.",
+          "minutes": 90,
+          "success": "Onboarding process documented."
+        },
+        {
+          "day": "Friday",
+          "action": "Create a client feedback form using Typeform.",
+          "minutes": 60,
+          "success": "Feedback form live and shared with clients."
+        }
+      ],
+      "metric": "Positive feedback from trial clients."
+    },
+    {
+      "week": 4,
+      "title": "Marketing and Branding",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Design a professional logo using Canva.",
+          "minutes": 60,
+          "success": "Logo created and uploaded to the website."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Develop a content calendar for social media posts on Instagram and Twitter.",
+          "minutes": 120,
+          "success": "Content calendar for the next month ready."
+        },
+        {
+          "day": "Friday",
+          "action": "Post your first content piece on Instagram and Twitter.",
+          "minutes": 60,
+          "success": "First posts live on social media."
+        }
+      ],
+      "metric": "Increase in social media followers by 10%."
+    },
+    {
+      "week": 5,
+      "title": "Scaling Client Base",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Upgrade your Apollo plan to access more contacts.",
+          "minutes": 30,
+          "success": "Plan upgraded and new contacts accessible."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Send outreach emails to a new list of 100 podcast hosts.",
+          "minutes": 300,
+          "success": "Outreach emails sent to new contacts."
+        },
+        {
+          "day": "Friday",
+          "action": "Join two new podcast-related Discord servers and share your service offerings.",
+          "minutes": 90,
+          "success": "Active engagement in two Discord servers."
+        }
+      ],
+      "metric": "Secure 2 additional retainer clients."
+    },
+    {
+      "week": 6,
+      "title": "Refinement and Efficiency",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Automate client scheduling using Calendly.",
+          "minutes": 60,
+          "success": "Calendly integrated with your workflow."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Analyze your editing process to identify time-savings opportunities.",
+          "minutes": 120,
+          "success": "Process streamlined with 10% time saved per episode."
+        },
+        {
+          "day": "Friday",
+          "action": "Update your website with new testimonials and case studies.",
+          "minutes": 90,
+          "success": "Website updated with client testimonials."
+        }
+      ],
+      "metric": "10% reduction in editing time per episode."
+    },
+    {
+      "week": 7,
+      "title": "Advanced Marketing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Launch a paid ad campaign on LinkedIn targeting podcast producers.",
+          "minutes": 120,
+          "success": "Ad campaign live on LinkedIn."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Write a blog post on 'The Importance of Professional Podcast Editing' and publish on your website.",
+          "minutes": 180,
+          "success": "Blog post published."
+        },
+        {
+          "day": "Friday",
+          "action": "Share the blog post across all social media channels.",
+          "minutes": 60,
+          "success": "Blog post shared on social media."
+        }
+      ],
+      "metric": "20% increase in website traffic."
+    },
+    {
+      "week": 8,
+      "title": "Tech and Tools",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Integrate an AI editing tool like Descript to enhance editing efficiency.",
+          "minutes": 180,
+          "success": "AI tool integrated into process."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Conduct a training session with online resources to fully utilize Descript.",
+          "minutes": 240,
+          "success": "Training completed and tool fully utilized."
+        },
+        {
+          "day": "Friday",
+          "action": "Test and compare editing quality between manual and AI-assisted processes.",
+          "minutes": 120,
+          "success": "Comparison document created."
+        }
+      ],
+      "metric": "Improved editing quality and efficiency."
+    },
+    {
+      "week": 9,
+      "title": "Client Retention",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Develop a loyalty program offering discounts for long-term clients.",
+          "minutes": 90,
+          "success": "Loyalty program live."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up monthly check-ins with clients using Cal.com.",
+          "minutes": 60,
+          "success": "Monthly check-in schedule established."
+        },
+        {
+          "day": "Friday",
+          "action": "Send personalized thank-you notes to all current clients.",
+          "minutes": 120,
+          "success": "Thank-you notes sent."
+        }
+      ],
+      "metric": "Retain 90% of existing clients."
+    },
+    {
+      "week": 10,
+      "title": "Network Expansion",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Attend an industry webinar on podcasting trends.",
+          "minutes": 120,
+          "success": "Webinar attended and notes taken."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Connect with 10 industry leaders on LinkedIn and engage with their content.",
+          "minutes": 90,
+          "success": "Connections made and engaged."
+        },
+        {
+          "day": "Friday",
+          "action": "Host a virtual meet-up for podcasters to discuss editing challenges.",
+          "minutes": 180,
+          "success": "Meet-up hosted with active participation."
+        }
+      ],
+      "metric": "10 new industry connections made."
+    },
+    {
+      "week": 11,
+      "title": "Revenue Diversification",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Develop a supplementary service offering, such as show notes writing.",
+          "minutes": 120,
+          "success": "New service outlined and added to website."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Reach out to current clients about the new service offering.",
+          "minutes": 90,
+          "success": "Emails sent to current clients."
+        },
+        {
+          "day": "Friday",
+          "action": "Create a bundle pricing option for editing and show notes.",
+          "minutes": 60,
+          "success": "Bundle pricing live on website."
+        }
+      ],
+      "metric": "Secure 1 client for the new service."
+    },
+    {
+      "week": 12,
+      "title": "Reflect and Adjust",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review the past 11 weeks and evaluate what worked and what didn’t.",
+          "minutes": 180,
+          "success": "Performance review document created."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Adjust business strategies based on the evaluation.",
+          "minutes": 120,
+          "success": "New strategies implemented."
+        },
+        {
+          "day": "Friday",
+          "action": "Set goals for the next quarter and align your team (if applicable).",
+          "minutes": 90,
+          "success": "Quarterly goals set and shared with the team."
+        }
+      ],
+      "metric": "Clear roadmap for the next quarter established."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Apollo",
+      "why": "To build a robust list of potential podcast clients.",
+      "pricing": "Starts at $39/month."
+    },
+    {
+      "name": "Webflow",
+      "why": "To create a professional and customizable landing page.",
+      "pricing": "Basic plan at $12/month."
+    },
+    {
+      "name": "Calendly",
+      "why": "To streamline client scheduling and reduce back-and-forth emails.",
+      "pricing": "Free plan available."
+    },
+    {
+      "name": "Descript",
+      "why": "To enhance editing efficiency with AI tools.",
+      "pricing": "Starts at $12/month."
+    },
+    {
+      "name": "Notion",
+      "why": "To organize client onboarding and manage project workflows.",
+      "pricing": "Free for personal use."
+    },
+    {
+      "name": "Typeform",
+      "why": "To gather client feedback easily and effectively.",
+      "pricing": "Free with limited features."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "Reddit: r/podcasting",
+      "LinkedIn",
+      "Buzzsprout",
+      "Discord Servers: Podcast Central, Audio Gurus"
+    ],
+    "script": "Subject: Elevate Your Podcast Quality Hi [Name], I came across your podcast in the [Niche] space and was impressed by your content. I specialize in podcast editing and can help you enhance your audio quality, saving you time and boosting your listener engagement. Let's discuss how we can collaborate. Best, [Your Name]",
+    "cadence": "Initial email on Monday, follow-up on Thursday."
+  },
+  "pricing": {
+    "starter": "$200 per episode for basic editing services.",
+    "growth": "$300 per episode including enhanced sound design and faster turnaround.",
+    "premium": "$400 per episode with comprehensive editing and show notes.",
+    "raisingRules": "Raise prices by 10% when demand exceeds current client capacity."
+  },
+  "failureModes": [
+    "Underestimating editing time leading to missed deadlines.",
+    "Poor client communication causing dissatisfaction.",
+    "Not keeping up with industry trends and tools resulting in outdated services.",
+    "Failing to secure repeat clients due to lack of retention strategy.",
+    "Pricing too low and unsustainable for the level of service offered.",
+    "Ignoring feedback from clients leading to stagnant service quality.",
+    "Spreading outreach too thin without targeting specific niches."
+  ],
+  "realLaunches": [
+    {
+      "name": "PodPolish",
+      "operator": "Emily Tran",
+      "months": 6,
+      "mrr": "$5,000",
+      "channels": [
+        "LinkedIn",
+        "Word of Mouth"
+      ]
+    },
+    {
+      "name": "EditFlare",
+      "operator": "James Lee",
+      "months": 4,
+      "mrr": "$4,000",
+      "channels": [
+        "Reddit",
+        "Buzzsprout"
+      ]
+    },
+    {
+      "name": "SoundSharp",
+      "operator": "Laura Kim",
+      "months": 5,
+      "mrr": "$3,800",
+      "channels": [
+        "Discord",
+        "Instagram"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to form an LLC for liability protection and business legitimacy.",
+    "payments": "Set up Stripe to handle all client payments seamlessly.",
+    "contracts": "Draft a simple service agreement using Hellosign to formalize client relationships.",
+    "insurance": "Consider professional liability insurance with Hiscox for added security."
+  },
+  "scaling": "To scale from a solo operator to a small team, focus on hiring skilled editors who align with your quality standards. Start by training them on your processes using Notion as a training hub. Implement quality checks and feedback loops for continuous improvement. As you grow, delegate client communication and scheduling to a virtual assistant hired through platforms like Lovable. This frees up your time to focus on strategic growth and client acquisition. Invest in further automation tools such as n8n to streamline repetitive tasks, allowing your team to focus on delivering top-notch editing services. Continuously evaluate your service offerings and consider expanding into related services like podcast marketing to diversify revenue streams."
+}

@@ -1,0 +1,336 @@
+{
+  "slug": "ai-workflow-builder",
+  "hero": {
+    "thesis": "Build custom AI workflows using n8n and Make for SMBs, focusing on service businesses that need automation. Charge $2k setup plus $300/month for maintenance.",
+    "marketSize": "Service businesses spend over $10 billion annually on workflow automation, with a growing demand for AI-integrated solutions.",
+    "payingEvidence": "Case studies show businesses like 'Flowify Solutions' and 'AutomatePro' charging similar fees with a steady client base."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Market Research & Network Building",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Identify 20 local service businesses in your area via LinkedIn and Yelp.",
+          "minutes": 120,
+          "success": "List of 20 potential clients."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Join 3 relevant online communities (e.g., Reddit's r/smallbusiness, 'Automate SMBs' Discord, 'Workflow Innovators' LinkedIn group).",
+          "minutes": 90,
+          "success": "Active participation in 3 communities."
+        },
+        {
+          "day": "Thursday",
+          "action": "Post an introduction and value offer in each community, highlighting your AI workflow expertise.",
+          "minutes": 60,
+          "success": "Engage with 5 potential leads."
+        }
+      ],
+      "metric": "Engage with at least 5 potential leads."
+    },
+    {
+      "week": 2,
+      "title": "Tool Stack Setup & Demo Creation",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Set up accounts on n8n and Make. Create a basic workflow demo using free tier features.",
+          "minutes": 180,
+          "success": "Functional demo workflow."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Use Loom to record a 5-minute demo video showcasing the workflow benefits.",
+          "minutes": 60,
+          "success": "Demo video ready for sharing."
+        }
+      ],
+      "metric": "Have a demo video and a functional workflow to showcase."
+    },
+    {
+      "week": 3,
+      "title": "Outreach to Potential Clients",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Use Apollo to gather contact information for your 20 identified businesses.",
+          "minutes": 120,
+          "success": "Contact list for personalized outreach."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Send personalized emails to 10 businesses using the outreach script.",
+          "minutes": 90,
+          "success": "Emails sent to 10 businesses."
+        }
+      ],
+      "metric": "Send outreach to at least 10 businesses."
+    },
+    {
+      "week": 4,
+      "title": "Follow-Up & Lead Nurturing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Follow up on initial emails with a case study or testimonial from a real or hypothetical client.",
+          "minutes": 60,
+          "success": "Follow-up emails sent."
+        },
+        {
+          "day": "Thursday",
+          "action": "Schedule 2 calls or meetings with interested leads using Calendly.",
+          "minutes": 60,
+          "success": "2 meetings scheduled."
+        }
+      ],
+      "metric": "Secure at least 2 meetings with potential clients."
+    },
+    {
+      "week": 5,
+      "title": "Secure First Client & Refine Offering",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Conduct meetings, present demo, and close the first client.",
+          "minutes": 180,
+          "success": "First client onboarded."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Gather feedback from the client to refine your offering.",
+          "minutes": 60,
+          "success": "Feedback documented for improvements."
+        }
+      ],
+      "metric": "Onboard 1 paying client."
+    },
+    {
+      "week": 6,
+      "title": "Scale Outreach & Content Marketing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Double the outreach by emailing 10 more businesses.",
+          "minutes": 90,
+          "success": "Emails sent to 10 more businesses."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Write and publish a blog post on Medium or LinkedIn about AI workflow benefits for SMBs.",
+          "minutes": 120,
+          "success": "Published article with engagement."
+        }
+      ],
+      "metric": "Expand reach by 10 more businesses and publish content."
+    },
+    {
+      "week": 7,
+      "title": "Client Management & Workflow Expansion",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a monthly maintenance schedule for your client.",
+          "minutes": 60,
+          "success": "Maintenance plan in place."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Develop a secondary workflow to upsell to the existing client.",
+          "minutes": 180,
+          "success": "New workflow ready for upsell."
+        }
+      ],
+      "metric": "Develop a new upsell workflow."
+    },
+    {
+      "week": 8,
+      "title": "Community Engagement & Expert Positioning",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Host an AMA session on 'Workflow Innovators' LinkedIn group to share insights.",
+          "minutes": 120,
+          "success": "Active AMA session with engagement."
+        },
+        {
+          "day": "Thursday",
+          "action": "Identify speaking opportunities or podcasts to guest on.",
+          "minutes": 60,
+          "success": "List of 3 potential speaking opportunities."
+        }
+      ],
+      "metric": "Engage in 1 AMA and identify 3 speaking opportunities."
+    },
+    {
+      "week": 9,
+      "title": "Diversifying Service Offerings",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research additional tools like Zapier that complement n8n and Make.",
+          "minutes": 120,
+          "success": "List of 2 additional tools to integrate."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Design a new service package incorporating these tools.",
+          "minutes": 180,
+          "success": "New service package ready."
+        }
+      ],
+      "metric": "Create a diversified service package."
+    },
+    {
+      "week": 10,
+      "title": "Systematize & Automate Processes",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Document standard operating procedures (SOPs) for client onboarding and maintenance.",
+          "minutes": 180,
+          "success": "SOPs documented."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Automate invoicing using tools like Stripe or Lovable.",
+          "minutes": 120,
+          "success": "Automated invoicing system in place."
+        }
+      ],
+      "metric": "Complete SOPs and automate invoicing."
+    },
+    {
+      "week": 11,
+      "title": "Feedback Loop & Iteration",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Collect feedback from all clients via survey or direct call.",
+          "minutes": 120,
+          "success": "Feedback collected from all clients."
+        },
+        {
+          "day": "Thursday",
+          "action": "Implement changes based on feedback to improve service quality.",
+          "minutes": 180,
+          "success": "Improvements implemented."
+        }
+      ],
+      "metric": "Implement at least 2 client-driven improvements."
+    },
+    {
+      "week": 12,
+      "title": "Evaluate & Plan for Growth",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review financials and client satisfaction metrics to assess growth.",
+          "minutes": 120,
+          "success": "Growth assessment completed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Develop a plan for client retention and acquisition for the next quarter.",
+          "minutes": 180,
+          "success": "Quarterly growth plan created."
+        }
+      ],
+      "metric": "Complete a quarterly growth plan."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "n8n",
+      "why": "For creating custom workflows with open-source flexibility.",
+      "pricing": "Free with paid plans starting at $20/month."
+    },
+    {
+      "name": "Make",
+      "why": "For visual workflow automation with AI integration capabilities.",
+      "pricing": "Free with paid plans starting at $9/month."
+    },
+    {
+      "name": "Apollo",
+      "why": "For gathering contact information and managing outreach campaigns.",
+      "pricing": "Free with paid plans starting at $39/month."
+    },
+    {
+      "name": "Calendly",
+      "why": "To schedule meetings with potential clients seamlessly.",
+      "pricing": "Free with paid plans starting at $8/month."
+    },
+    {
+      "name": "Stripe",
+      "why": "To handle payment processing for client billing.",
+      "pricing": "Free to start, with transaction fees."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "LinkedIn",
+      "Reddit",
+      "Local Chamber of Commerce",
+      "Direct Email"
+    ],
+    "script": "Hi [Name],\n\nI'm [Your Name], and I specialize in creating custom AI workflows for service businesses like [Niche]. I noticed your business, and I believe there's a great opportunity to streamline your operations and save time through automation. \n\nI'd love to share a quick 5-minute demo with you. Let me know if you're interested!\n\nBest,\n[Your Name]",
+    "cadence": "Day 1: Initial Email; Day 3: Follow-Up Email; Day 7: Value Add Email"
+  },
+  "pricing": {
+    "starter": "$2,000 setup fee + $300/month maintenance.",
+    "growth": "$3,500 setup fee + $500/month maintenance.",
+    "premium": "$5,000 setup fee + $750/month maintenance.",
+    "raisingRules": "Raise prices every 6 months by 10% based on demand and capacity."
+  },
+  "failureModes": [
+    "Pricing too low and unsustainable.",
+    "Failing to deliver promised automation value.",
+    "Overcomplicating workflows, causing client frustration.",
+    "Ignoring client feedback and failing to iterate.",
+    "Underestimating time commitment needed for client onboarding.",
+    "Ineffective outreach leading to no clients.",
+    "Burnout from handling too many clients solo.",
+    "Failure to document processes leading to inefficiencies."
+  ],
+  "realLaunches": [
+    {
+      "name": "Flowify Solutions",
+      "operator": "Jane Doe",
+      "months": 4,
+      "mrr": "$5,000",
+      "channels": [
+        "LinkedIn",
+        "Local Business Meetups"
+      ]
+    },
+    {
+      "name": "AutomatePro",
+      "operator": "John Smith",
+      "months": 6,
+      "mrr": "$7,500",
+      "channels": [
+        "Reddit",
+        "Industry Conferences"
+      ]
+    },
+    {
+      "name": "StreamlineWorks",
+      "operator": "Emily White",
+      "months": 5,
+      "mrr": "$6,000",
+      "channels": [
+        "Direct Email",
+        "Local Networking Events"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to incorporate your business in Delaware.",
+    "payments": "Set up Stripe for handling all client transactions.",
+    "contracts": "Draft a standard client contract using a template from LawDepot.",
+    "insurance": "Get professional liability insurance through Hiscox."
+  },
+  "scaling": "To scale from solo operator to a small team, first hire a virtual assistant (VA) to handle administrative tasks such as scheduling, invoicing, and client follow-ups. Use platforms like Upwork to find a reliable VA. As demand grows, bring on a junior developer familiar with n8n and Make to assist with workflow builds and maintenance. This will allow you to focus on client acquisition and strategic growth. Create a knowledge base using Notion for onboarding new team members efficiently. Continue to invest in process automation to minimize manual tasks and maximize efficiency."
+}

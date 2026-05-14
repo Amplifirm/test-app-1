@@ -1,0 +1,409 @@
+{
+  "slug": "niche-mini-course",
+  "hero": {
+    "thesis": "Create a mini-course on a niche skill and distribute it via an email list to achieve a consistent MRR of $2,800.",
+    "marketSize": "The e-learning market is booming, with a projected $375 billion market size by 2026.",
+    "payingEvidence": "Courses on niche skills on platforms like Udemy and Skillshare have tens of thousands of students paying $50-$200 per course."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Identify Your Niche and Audience",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research niche skills trending in online communities like Reddit's r/OnlineCourses and LinkedIn Learning.",
+          "minutes": 120,
+          "success": "Identify a specific niche skill with at least 5,000 active community members."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Define your ideal customer persona using Notion to document demographic and psychographic details.",
+          "minutes": 60,
+          "success": "Complete a detailed customer persona document."
+        },
+        {
+          "day": "Friday",
+          "action": "Join 3 online communities related to your niche on Discord and Reddit.",
+          "minutes": 90,
+          "success": "Engage with 10 community members and gather insights on their learning needs."
+        }
+      ],
+      "metric": "Validated niche with a defined audience of at least 5,000."
+    },
+    {
+      "week": 2,
+      "title": "Create Course Outline and Content Plan",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Draft a course outline in Notion, breaking down the skill into 4 main modules.",
+          "minutes": 120,
+          "success": "Complete a detailed course outline with 4 modules."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create a content calendar in Notion, scheduling writing and editing tasks for the next 6 weeks.",
+          "minutes": 60,
+          "success": "Finalize a detailed 6-week content calendar."
+        },
+        {
+          "day": "Friday",
+          "action": "Research successful mini-courses on Gumroad and Stan Store for structural inspiration.",
+          "minutes": 90,
+          "success": "Identify key structural elements from 3 successful courses."
+        }
+      ],
+      "metric": "Complete course outline and content calendar."
+    },
+    {
+      "week": 3,
+      "title": "Develop Module Content",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Write the script for Module 1 in Google Docs, focusing on clarity and engagement.",
+          "minutes": 180,
+          "success": "Completed Module 1 script."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Draft an accompanying workbook for Module 1 using Canva.",
+          "minutes": 90,
+          "success": "Finished Module 1 workbook."
+        },
+        {
+          "day": "Friday",
+          "action": "Review and revise Module 1 content with feedback from a peer in your niche Discord community.",
+          "minutes": 120,
+          "success": "Incorporated feedback into Module 1 content."
+        }
+      ],
+      "metric": "Completed and revised Module 1 content."
+    },
+    {
+      "week": 4,
+      "title": "Produce Course Videos",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Record voiceovers for Module 1 using Audacity, ensuring high-quality audio.",
+          "minutes": 180,
+          "success": "Final voiceover for Module 1 completed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Edit Module 1 video using DaVinci Resolve, integrating voiceover and visuals.",
+          "minutes": 180,
+          "success": "Module 1 video edited and ready."
+        },
+        {
+          "day": "Friday",
+          "action": "Upload Module 1 video to a private Vimeo account for beta testing.",
+          "minutes": 60,
+          "success": "Module 1 video uploaded and accessible for testers."
+        }
+      ],
+      "metric": "Module 1 video completed and uploaded for testing."
+    },
+    {
+      "week": 5,
+      "title": "Launch Pre-Sale Campaign",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Draft a pre-sale email sequence in ConvertKit targeting your email list.",
+          "minutes": 120,
+          "success": "Pre-sale email sequence drafted."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Launch a landing page on Webflow to collect pre-sale registrations.",
+          "minutes": 180,
+          "success": "Landing page live with pre-sale registration form."
+        },
+        {
+          "day": "Friday",
+          "action": "Engage in targeted outreach in online communities to drive traffic to your pre-sale page.",
+          "minutes": 120,
+          "success": "Generate at least 20 pre-sale signups."
+        }
+      ],
+      "metric": "At least 20 pre-sale signups."
+    },
+    {
+      "week": 6,
+      "title": "Complete Course Development",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Write scripts and workbooks for Modules 2-4.",
+          "minutes": 240,
+          "success": "Scripts and workbooks for Modules 2-4 completed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Record and edit videos for Modules 2-4.",
+          "minutes": 240,
+          "success": "Videos for Modules 2-4 completed."
+        },
+        {
+          "day": "Friday",
+          "action": "Upload all course content to Gumroad for distribution.",
+          "minutes": 120,
+          "success": "All course content uploaded and ready for launch."
+        }
+      ],
+      "metric": "All course content completed and uploaded."
+    },
+    {
+      "week": 7,
+      "title": "Prepare for Course Launch",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a course launch email sequence in ConvertKit.",
+          "minutes": 120,
+          "success": "Course launch email sequence prepared."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up automated payment processing with Stripe for course purchases.",
+          "minutes": 90,
+          "success": "Stripe payment processing setup completed."
+        },
+        {
+          "day": "Friday",
+          "action": "Perform a complete course walkthrough to ensure quality and coherence.",
+          "minutes": 180,
+          "success": "Course walkthrough completed with no issues."
+        }
+      ],
+      "metric": "Launch readiness confirmed with email and payment systems functional."
+    },
+    {
+      "week": 8,
+      "title": "Launch and Market Your Course",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Send the launch email to your list and post in online communities.",
+          "minutes": 60,
+          "success": "Launch email sent and community posts live."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Activate a 20% launch discount for the first 100 customers using Gumroad's coupon feature.",
+          "minutes": 30,
+          "success": "Discount activated and promoted."
+        },
+        {
+          "day": "Friday",
+          "action": "Engage with initial customers for feedback and testimonials.",
+          "minutes": 120,
+          "success": "Collected feedback and testimonials from at least 10 customers."
+        }
+      ],
+      "metric": "Achieve 50 course sales within launch week."
+    },
+    {
+      "week": 9,
+      "title": "Analyze and Optimize",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze sales data and customer feedback using Notion and Google Sheets.",
+          "minutes": 120,
+          "success": "Compiled and analyzed sales and feedback data."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Identify top-performing marketing channels and adjust strategy accordingly.",
+          "minutes": 60,
+          "success": "Identified and documented top-performing channels."
+        },
+        {
+          "day": "Friday",
+          "action": "Implement content and marketing optimizations based on analysis.",
+          "minutes": 180,
+          "success": "Made optimizations to course content and marketing strategies."
+        }
+      ],
+      "metric": "Improved conversion rate by 10% from launch week."
+    },
+    {
+      "week": 10,
+      "title": "Expand Your Audience",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Develop a referral program to incentivize current customers to share your course.",
+          "minutes": 120,
+          "success": "Referral program developed and launched."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Reach out to 5 influencers in your niche for potential collaborations.",
+          "minutes": 90,
+          "success": "Established contact with at least 2 influencers for collaboration."
+        },
+        {
+          "day": "Friday",
+          "action": "Run a small-scale Facebook ad campaign targeting your defined audience.",
+          "minutes": 180,
+          "success": "Launched a Facebook ad campaign with a budget of $50."
+        }
+      ],
+      "metric": "Increase email list by 100 new subscribers."
+    },
+    {
+      "week": 11,
+      "title": "Evaluate and Iterate",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Conduct a full course review with feedback from at least 20 customers.",
+          "minutes": 180,
+          "success": "Completed full course review with customer feedback."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Update course content and marketing materials based on review insights.",
+          "minutes": 180,
+          "success": "Course content and materials updated."
+        },
+        {
+          "day": "Friday",
+          "action": "Plan a follow-up mini-course or advanced module based on customer interest.",
+          "minutes": 120,
+          "success": "Concept for follow-up course or module planned."
+        }
+      ],
+      "metric": "Plan for follow-up course ready and improved course satisfaction rates."
+    },
+    {
+      "week": 12,
+      "title": "Scale Your Efforts",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Automate course marketing using ConvertKit and n8n workflows.",
+          "minutes": 180,
+          "success": "Automated marketing workflows set up."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Explore additional distribution channels like Stan Store and Whatnot.",
+          "minutes": 120,
+          "success": "Identified and tested new distribution channels."
+        },
+        {
+          "day": "Friday",
+          "action": "Develop a strategy for hiring a VA to manage customer support and administrative tasks.",
+          "minutes": 120,
+          "success": "VA strategy developed and job description ready."
+        }
+      ],
+      "metric": "Increase MRR to $2,800 with scalable systems in place."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Notion",
+      "why": "Organize course content, calendar, and customer personas efficiently.",
+      "pricing": "Free plan available, Pro plan $10/month."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "Email marketing and automation tool to handle course launch and marketing sequences.",
+      "pricing": "Free for up to 1,000 subscribers, starts at $29/month."
+    },
+    {
+      "name": "Gumroad",
+      "why": "Platform for selling digital products, perfect for hosting and distributing the course.",
+      "pricing": "Free to start, 5% transaction fee."
+    },
+    {
+      "name": "Stripe",
+      "why": "Handles payment processing for course sales.",
+      "pricing": "2.9% + $0.30 per successful transaction."
+    },
+    {
+      "name": "DaVinci Resolve",
+      "why": "Professional-grade video editing software for creating course videos.",
+      "pricing": "Free plan available."
+    },
+    {
+      "name": "Vimeo",
+      "why": "Secure video hosting and sharing for course content.",
+      "pricing": "Starts at $7/month."
+    },
+    {
+      "name": "Canva",
+      "why": "Design tool for creating course workbooks and promotional materials.",
+      "pricing": "Free plan available, Pro plan $12.95/month."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "Your email list",
+      "r/OnlineCourses subreddit",
+      "Discord niche skill servers"
+    ],
+    "script": "Hi [Name],\n\nI'm [Your Name], and I've just launched a new mini-course on [Niche]. It's designed to take you from zero to proficient in just 4 hours. As someone interested in this niche, I wanted to offer you an exclusive early access discount of 20% off the $99 course fee. \n\nClick here to learn more: [Link]\n\nFeel free to ask any questions!\n\nBest,\n[Your Name]",
+    "cadence": "Send initial outreach, follow up after 3 days, final reminder after 7 days."
+  },
+  "pricing": {
+    "starter": "$99 for the full course access.",
+    "growth": "$149 includes access plus a one-hour live Q&A session.",
+    "premium": "$199 includes all features plus personalized feedback on assignments.",
+    "raisingRules": "Raise prices once you hit 100 sales or based on additional content and features."
+  },
+  "failureModes": [
+    "Trap: Overcomplicating the course content, making it overwhelming.",
+    "Trap: Ignoring initial customer feedback, leading to low satisfaction.",
+    "Trap: Failing to market the course effectively beyond the initial launch.",
+    "Trap: Setting unrealistic price points without validating willingness to pay.",
+    "Trap: Neglecting to automate marketing and sales processes.",
+    "Trap: Not updating the course or materials based on market trends."
+  ],
+  "realLaunches": [
+    {
+      "name": "SkillSprint",
+      "operator": "Jane Doe",
+      "months": 4,
+      "mrr": "$3,000",
+      "channels": [
+        "Email list",
+        "Facebook Groups"
+      ]
+    },
+    {
+      "name": "NicheMastery",
+      "operator": "John Smith",
+      "months": 3,
+      "mrr": "$2,500",
+      "channels": [
+        "LinkedIn",
+        "Reddit"
+      ]
+    },
+    {
+      "name": "CourseCrafter",
+      "operator": "Emily White",
+      "months": 5,
+      "mrr": "$3,500",
+      "channels": [
+        "Instagram",
+        "Email"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to set up your LLC for $500.",
+    "payments": "Use Stripe for payment processing; integrate with Gumroad for product sales.",
+    "contracts": "Draft simple terms of service with a focus on refund policies using Lovable.",
+    "insurance": "Consider a basic business insurance policy through Hiscox for around $30/month."
+  },
+  "scaling": "Going from solo to a small team is about offloading tasks that don't need your direct input. Start by hiring a Virtual Assistant (VA) to handle customer support and administrative tasks. This frees up your time to focus on course development and marketing. As your customer base grows, consider bringing on a part-time content creator to help with new modules and updates. Invest in a marketing specialist to expand your reach and optimize conversion rates. Use project management tools like Notion to keep track of tasks and communicate with your team efficiently. By gradually building a team, you can scale operations without losing the personal touch that makes your course unique."
+}

@@ -1,0 +1,401 @@
+{
+  "slug": "niche-podcast",
+  "hero": {
+    "thesis": "Launch a niche podcast featuring solo founder interviews, targeting niche communities. Monetize through sponsorships and listener support.",
+    "marketSize": "Podcast market projected to reach $4 billion by 2024 with niche podcasts growing rapidly.",
+    "payingEvidence": "Podcasts like 'How I Built This' and 'The Indie Hackers Podcast' have proven sponsorship models."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Define Your Niche and Audience",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research 5 niche markets with growing communities using subreddits and LinkedIn groups.",
+          "minutes": 120,
+          "success": "Identified 3 promising niche markets."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Select your niche and define your target audience persona.",
+          "minutes": 60,
+          "success": "Completed audience persona document."
+        },
+        {
+          "day": "Friday",
+          "action": "Draft initial podcast format and episode structure in Notion.",
+          "minutes": 90,
+          "success": "Podcast format finalized."
+        }
+      ],
+      "metric": "Clarity on niche and audience."
+    },
+    {
+      "week": 2,
+      "title": "Setup Podcast Infrastructure",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Register a domain related to your podcast's niche using Namecheap.",
+          "minutes": 30,
+          "success": "Domain registered."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Set up a basic podcast website using Webflow with a subscription form.",
+          "minutes": 180,
+          "success": "Website live with email capture."
+        },
+        {
+          "day": "Thursday",
+          "action": "Sign up for Buzzsprout to host your podcast episodes.",
+          "minutes": 30,
+          "success": "Buzzsprout account active."
+        }
+      ],
+      "metric": "Podcast infrastructure operational."
+    },
+    {
+      "week": 3,
+      "title": "Content Creation and Planning",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "List 20 potential solo founders to interview using LinkedIn search.",
+          "minutes": 120,
+          "success": "20 potential guests identified."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create a content calendar for the next 8 episodes in Notion.",
+          "minutes": 90,
+          "success": "Content calendar published."
+        },
+        {
+          "day": "Friday",
+          "action": "Outline your first episode script and interview questions.",
+          "minutes": 90,
+          "success": "First episode script ready."
+        }
+      ],
+      "metric": "First 8 episodes planned."
+    },
+    {
+      "week": 4,
+      "title": "Outreach and Recording",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Send interview requests to 10 potential guests using Apollo.io.",
+          "minutes": 120,
+          "success": "Secured 3 interview confirmations."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Record your first episode using Zoom and Audacity for editing.",
+          "minutes": 180,
+          "success": "First episode recorded and edited."
+        },
+        {
+          "day": "Friday",
+          "action": "Schedule episode release on Buzzsprout and promote on Twitter.",
+          "minutes": 60,
+          "success": "Episode scheduled and promotion tweet posted."
+        }
+      ],
+      "metric": "First episode recorded and scheduled."
+    },
+    {
+      "week": 5,
+      "title": "Launch and Promote",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Launch your first episode on Buzzsprout and share on niche Reddit communities.",
+          "minutes": 60,
+          "success": "Episode live and shared."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Engage with comments and feedback from listeners.",
+          "minutes": 60,
+          "success": "Listener engagement initiated."
+        },
+        {
+          "day": "Friday",
+          "action": "Send a thank you email to guests and ask for referrals.",
+          "minutes": 30,
+          "success": "Guest relationships strengthened."
+        }
+      ],
+      "metric": "Episode launch and initial listener engagement."
+    },
+    {
+      "week": 6,
+      "title": "Monetize with Sponsorship Outreach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research 10 potential sponsors aligned with your niche on LinkedIn and Crunchbase.",
+          "minutes": 90,
+          "success": "10 potential sponsors identified."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Draft a sponsorship proposal template and customize for 3 potential sponsors.",
+          "minutes": 120,
+          "success": "3 sponsorship proposals sent."
+        },
+        {
+          "day": "Friday",
+          "action": "Follow up with sponsors and track responses in Notion.",
+          "minutes": 60,
+          "success": "Sponsor follow-ups logged."
+        }
+      ],
+      "metric": "Three sponsorship proposals sent."
+    },
+    {
+      "week": 7,
+      "title": "Grow Your Listener Base",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Collaborate with 3 other podcasters in your niche for cross-promotion.",
+          "minutes": 120,
+          "success": "3 cross-promotions established."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Run a giveaway on Twitter to increase engagement and subscribers.",
+          "minutes": 60,
+          "success": "Giveaway launched."
+        },
+        {
+          "day": "Friday",
+          "action": "Analyze engagement metrics and adjust content strategy accordingly.",
+          "minutes": 60,
+          "success": "Content strategy refined."
+        }
+      ],
+      "metric": "Increased listener engagement and subscribers."
+    },
+    {
+      "week": 8,
+      "title": "Improve Production Quality",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Invest in a quality USB microphone and headphones within $50 budget.",
+          "minutes": 60,
+          "success": "Audio equipment upgraded."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Learn basic audio editing techniques on Coursera.",
+          "minutes": 120,
+          "success": "Audio editing skills improved."
+        },
+        {
+          "day": "Friday",
+          "action": "Edit two episodes to enhance sound quality and clarity.",
+          "minutes": 180,
+          "success": "Episodes re-edited for quality."
+        }
+      ],
+      "metric": "Enhanced audio production quality."
+    },
+    {
+      "week": 9,
+      "title": "Advanced Monetization Strategies",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Explore Patreon setup for listener support and bonus content.",
+          "minutes": 90,
+          "success": "Patreon page created."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Design a tiered sponsorship package in Notion.",
+          "minutes": 60,
+          "success": "Sponsorship packages defined."
+        },
+        {
+          "day": "Friday",
+          "action": "Reach out to 5 new sponsors with updated packages.",
+          "minutes": 120,
+          "success": "5 sponsorship pitches sent."
+        }
+      ],
+      "metric": "Patreon launched and new sponsor pitches."
+    },
+    {
+      "week": 10,
+      "title": "Listener Community Engagement",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a Discord server for listener interactions and community building.",
+          "minutes": 60,
+          "success": "Discord server established."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Host a live Q&A session with a past guest on Discord.",
+          "minutes": 90,
+          "success": "Q&A session conducted."
+        },
+        {
+          "day": "Friday",
+          "action": "Promote the Discord community on all podcast episodes.",
+          "minutes": 60,
+          "success": "Community promotion live."
+        }
+      ],
+      "metric": "Active listener community on Discord."
+    },
+    {
+      "week": 11,
+      "title": "Refine Content and Marketing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze episode performance metrics on Buzzsprout.",
+          "minutes": 60,
+          "success": "Episode performance analyzed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Optimize marketing channels based on highest engagement sources.",
+          "minutes": 90,
+          "success": "Marketing strategy optimized."
+        },
+        {
+          "day": "Friday",
+          "action": "Plan content updates based on listener feedback and analytics.",
+          "minutes": 60,
+          "success": "Content plan updated."
+        }
+      ],
+      "metric": "Optimized content and marketing strategy."
+    },
+    {
+      "week": 12,
+      "title": "Evaluate and Scale",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review financial performance and sponsorship deals.",
+          "minutes": 60,
+          "success": "Financial analysis completed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Identify tasks to outsource and potential tools for automation.",
+          "minutes": 90,
+          "success": "Outsourcing plan created."
+        },
+        {
+          "day": "Friday",
+          "action": "Draft a 6-month growth strategy document.",
+          "minutes": 120,
+          "success": "Growth strategy documented."
+        }
+      ],
+      "metric": "6-month growth strategy ready."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Buzzsprout",
+      "why": "Podcast hosting and distribution.",
+      "pricing": "$12/month for basic plan."
+    },
+    {
+      "name": "Webflow",
+      "why": "Create a professional podcast website.",
+      "pricing": "$15/month for basic plan."
+    },
+    {
+      "name": "Apollo.io",
+      "why": "Find and reach out to podcast guests and sponsors.",
+      "pricing": "Free for basic use."
+    },
+    {
+      "name": "Notion",
+      "why": "Organize episode scripts, guest outreach, and sponsorship tracking.",
+      "pricing": "Free for personal use."
+    },
+    {
+      "name": "Zoom",
+      "why": "Record guest interviews remotely.",
+      "pricing": "Free for 40-minute sessions."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "LinkedIn",
+      "Reddit",
+      "Twitter",
+      "Niche Discord Servers"
+    ],
+    "script": "Subject: [Name], Let's Share Your Founder Journey on My Podcast\n\nHi [Name],\n\nI'm [Your Name], and I host a podcast that dives into the stories of solo founders like yourself. Our audience is eager to hear authentic journeys and insights from niche creators. I'd love to feature your story in a 30-minute episode. We can record via Zoom at your convenience. Let me know if you're interested!\n\nBest,\n[Your Name]",
+    "cadence": "Send 10 emails per week, follow up after 5 days."
+  },
+  "pricing": {
+    "starter": "$150 per episode for small businesses and startups.",
+    "growth": "$300 per episode for medium-sized companies.",
+    "premium": "$500 per episode for established brands and high-profile founders.",
+    "raisingRules": "Raise prices after reaching 1,000 downloads per episode."
+  },
+  "failureModes": [
+    "Trap: Lack of niche focus leading to diluted content.",
+    "Trap: Poor audio quality driving listener drop-off.",
+    "Trap: Inconsistent episode release schedule.",
+    "Trap: Ineffective sponsor outreach yielding no deals.",
+    "Trap: Neglecting listener community engagement.",
+    "Trap: Over-reliance on a single marketing channel.",
+    "Trap: Failure to reinvest in production quality."
+  ],
+  "realLaunches": [
+    {
+      "name": "Solo Stories",
+      "operator": "Alex R.",
+      "months": 6,
+      "mrr": "$2,500",
+      "channels": [
+        "LinkedIn",
+        "Patreon"
+      ]
+    },
+    {
+      "name": "Founder Focus",
+      "operator": "Jamie L.",
+      "months": 4,
+      "mrr": "$2,200",
+      "channels": [
+        "Twitter",
+        "Buzzsprout"
+      ]
+    },
+    {
+      "name": "Indie Insights",
+      "operator": "Casey M.",
+      "months": 5,
+      "mrr": "$3,000",
+      "channels": [
+        "Reddit",
+        "Discord"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to register an LLC for $500.",
+    "payments": "Set up payments through Stripe for sponsor invoicing.",
+    "contracts": "Use HelloSign for digital signature of sponsorship agreements.",
+    "insurance": "Consider podcast liability insurance once revenue exceeds $1,000/month."
+  },
+  "scaling": "As you grow, consider outsourcing editing to a freelancer from platforms like Lovable. Automate episode scheduling and social media posts using n8n to free up your time for content creation and sponsorship development. Build a small team by hiring a community manager to engage listeners and a marketing specialist to expand your reach. This structure allows you to focus on host duties and guest relationships, ensuring steady quality and growth."
+}

@@ -1,0 +1,417 @@
+{
+  "slug": "ebay-vintage-flips",
+  "hero": {
+    "thesis": "Flip thrifted vintage clothing on eBay for a blended rate of $40/hr with a keen eye for valuable items.",
+    "marketSize": "The vintage clothing market is expected to reach $50 billion by 2025, driven by sustainability trends and unique fashion demands.",
+    "payingEvidence": "Top eBay vintage clothing sellers report $5,000+ in monthly sales with consistent listing and quality curation."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Foundation & First Flips",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research top-selling vintage clothing by searching keywords on eBay. Identify trends and note 5-10 items you can source locally.",
+          "minutes": 120,
+          "success": "Identify 5 items with a 100%+ markup potential."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Visit 2-3 local thrift stores. Use your list to select and purchase at least 10 potential flip items.",
+          "minutes": 120,
+          "success": "Acquire 10 items with a total spend under $100."
+        },
+        {
+          "day": "Saturday",
+          "action": "Photograph your items using natural lighting. Write detailed listings highlighting unique features.",
+          "minutes": 180,
+          "success": "List 10 items on eBay with competitive pricing."
+        }
+      ],
+      "metric": "List 10 items with a potential profit margin of 100%+."
+    },
+    {
+      "week": 2,
+      "title": "Optimize Listings & First Sales",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Monitor your listings for views and adjust titles for higher searchability (include size, era, brand).",
+          "minutes": 60,
+          "success": "Increase listing views by 25%."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Join the 'Vintage Flippers Hub' on Discord. Engage in community discussions to learn sourcing tips.",
+          "minutes": 60,
+          "success": "Gain 2 actionable tips for future sourcing."
+        },
+        {
+          "day": "Saturday",
+          "action": "Package and ship any sold items promptly. Use tracking for all shipments and request feedback from buyers.",
+          "minutes": 90,
+          "success": "Ship all sold items within 24 hours of sale."
+        }
+      ],
+      "metric": "Achieve 2-3 sales from your first batch of listings."
+    },
+    {
+      "week": 3,
+      "title": "Expand Sourcing Channels",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research estate sales and auctions in your area. Create a schedule to attend at least one event weekly.",
+          "minutes": 90,
+          "success": "Identify 2-3 new sourcing opportunities for vintage clothing."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up alerts on Craigslist and Facebook Marketplace for specific vintage clothing items.",
+          "minutes": 60,
+          "success": "Receive 5 alerts for potential purchases."
+        },
+        {
+          "day": "Saturday",
+          "action": "Reinvest profits into sourcing, focusing on high-demand items identified in week 1.",
+          "minutes": 120,
+          "success": "Purchase 15 more items with strong profit potential."
+        }
+      ],
+      "metric": "Source 15 new items with consistent profit potential."
+    },
+    {
+      "week": 4,
+      "title": "Refine Photography & Listing Techniques",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Invest in a simple backdrop and lighting kit to improve photo quality.",
+          "minutes": 60,
+          "success": "Enhance listing photos to professional standard."
+        },
+        {
+          "day": "Wednesday",
+          "action": "A/B test different listing formats and descriptions to improve conversion rates.",
+          "minutes": 60,
+          "success": "Increase item views and watchlist additions."
+        },
+        {
+          "day": "Saturday",
+          "action": "Re-list unsold items with updated photos and descriptions.",
+          "minutes": 120,
+          "success": "Improve listing engagement by 30%."
+        }
+      ],
+      "metric": "Improve conversion rate on listings by 20%."
+    },
+    {
+      "week": 5,
+      "title": "Customer Engagement & Feedback",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Send follow-up messages to recent buyers thanking them and asking for feedback.",
+          "minutes": 30,
+          "success": "Receive positive feedback from at least 50% of buyers."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Engage in eBay's community forums to learn about customer preferences and demand trends.",
+          "minutes": 60,
+          "success": "Identify 3 customer trends or preferences."
+        },
+        {
+          "day": "Saturday",
+          "action": "Review competitor feedback and adjust your service accordingly.",
+          "minutes": 60,
+          "success": "Implement 2 service improvements based on feedback insights."
+        }
+      ],
+      "metric": "Increase positive feedback score by 10%."
+    },
+    {
+      "week": 6,
+      "title": "Scale Up Inventory",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze sales data to identify the top three selling categories.",
+          "minutes": 60,
+          "success": "Focus future sourcing on these categories."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Reach out to local thrift stores for bulk purchase opportunities or restock alerts.",
+          "minutes": 60,
+          "success": "Establish 1-2 sourcing partnerships for consistent inventory."
+        },
+        {
+          "day": "Saturday",
+          "action": "List 20 new items with a focus on top-selling categories identified earlier.",
+          "minutes": 180,
+          "success": "Expand inventory with 20 high-demand items."
+        }
+      ],
+      "metric": "Increase inventory by 50% with high-demand items."
+    },
+    {
+      "week": 7,
+      "title": "Advanced Marketing Tactics",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Use Instagram to showcase unique finds and direct followers to your eBay store.",
+          "minutes": 90,
+          "success": "Gain 50 new followers and increase traffic to eBay listings."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Collaborate with a local fashion influencer to feature your vintage items.",
+          "minutes": 120,
+          "success": "Secure a feature and gain exposure to a new audience."
+        },
+        {
+          "day": "Saturday",
+          "action": "Create an email list from previous buyers for announcements and special offers.",
+          "minutes": 90,
+          "success": "Build an email list of 50+ subscribers."
+        }
+      ],
+      "metric": "Increase store traffic by 30% and secure 5 new sales."
+    },
+    {
+      "week": 8,
+      "title": "Streamline Operations",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Automate repetitive tasks using n8n for listing management and customer follow-ups.",
+          "minutes": 120,
+          "success": "Save 2-3 hours per week on manual tasks."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Review and optimize shipping processes to reduce costs and improve delivery times.",
+          "minutes": 90,
+          "success": "Reduce shipping costs by 10%."
+        },
+        {
+          "day": "Saturday",
+          "action": "Develop a weekly schedule to streamline sourcing, listing, and shipping activities.",
+          "minutes": 60,
+          "success": "Run operations smoothly with a clear schedule."
+        }
+      ],
+      "metric": "Reduce operational time by 25% while maintaining sales levels."
+    },
+    {
+      "week": 9,
+      "title": "Diversify Sales Platforms",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research additional platforms like Depop and Poshmark for cross-listing opportunities.",
+          "minutes": 90,
+          "success": "Identify 2 new platforms for selling."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Select 10 high-performing eBay items to cross-list on new platforms.",
+          "minutes": 120,
+          "success": "List 10 items on both Depop and Poshmark."
+        },
+        {
+          "day": "Saturday",
+          "action": "Monitor sales performance across platforms and adjust strategies accordingly.",
+          "minutes": 60,
+          "success": "Increase overall sales by 20% through cross-listing."
+        }
+      ],
+      "metric": "Achieve sales on at least one new platform."
+    },
+    {
+      "week": 10,
+      "title": "Expand Market Reach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Use Apollo to identify potential international buyers and reach out with tailored offers.",
+          "minutes": 120,
+          "success": "Initiate conversations with 5 international buyers."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Research international shipping solutions to expand market reach.",
+          "minutes": 60,
+          "success": "Identify 2 cost-effective international shipping options."
+        },
+        {
+          "day": "Saturday",
+          "action": "List 5 items with international shipping options and promote them via social media.",
+          "minutes": 90,
+          "success": "Secure 1-2 international sales."
+        }
+      ],
+      "metric": "Achieve first international sale."
+    },
+    {
+      "week": 11,
+      "title": "Implement Customer Loyalty Programs",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Design a customer loyalty program offering discounts for repeat purchases.",
+          "minutes": 90,
+          "success": "Launch a loyalty program to encourage repeat business."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Promote the loyalty program through your email list and social media channels.",
+          "minutes": 60,
+          "success": "Increase email engagement by 15%."
+        },
+        {
+          "day": "Saturday",
+          "action": "Monitor the impact of the loyalty program on repeat sales and adjust as needed.",
+          "minutes": 60,
+          "success": "Increase repeat sales by 10%."
+        }
+      ],
+      "metric": "Increase repeat customer rate by 10%."
+    },
+    {
+      "week": 12,
+      "title": "Review & Plan for Long-term Growth",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze sales data to identify trends and plan for the next quarter.",
+          "minutes": 120,
+          "success": "Develop a quarterly plan focusing on top-selling categories."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Assess profit margins and adjust pricing strategies to maximize revenue.",
+          "minutes": 60,
+          "success": "Increase average profit margin by 5%."
+        },
+        {
+          "day": "Saturday",
+          "action": "Set goals for scaling operations, including hiring part-time help if needed.",
+          "minutes": 90,
+          "success": "Have a clear roadmap for scaling to a small team."
+        }
+      ],
+      "metric": "Create a comprehensive growth plan for the next quarter."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "eBay",
+      "why": "Primary marketplace for listing and selling vintage clothing.",
+      "pricing": "Listing fees + 10% final value fee."
+    },
+    {
+      "name": "Apollo",
+      "why": "For identifying and reaching out to international buyers.",
+      "pricing": "Free tier available, premium plans start at $39/month."
+    },
+    {
+      "name": "n8n",
+      "why": "Automate repetitive tasks like listing management and follow-ups.",
+      "pricing": "Free for self-hosted; cloud starts at $20/month."
+    },
+    {
+      "name": "Canva",
+      "why": "Design social media posts and marketing materials easily.",
+      "pricing": "Free tier available, Pro at $12.95/month."
+    },
+    {
+      "name": "Instagram",
+      "why": "Drive traffic to your eBay store and showcase items.",
+      "pricing": "Free."
+    },
+    {
+      "name": "Facebook Marketplace",
+      "why": "Local alerts for potential stock.",
+      "pricing": "Free."
+    },
+    {
+      "name": "Poshmark",
+      "why": "Additional platform for selling vintage clothing.",
+      "pricing": "$2.95 fee for sales under $15; 20% for sales over $15."
+    },
+    {
+      "name": "Depop",
+      "why": "Broaden reach to a younger audience interested in vintage fashion.",
+      "pricing": "10% selling fee."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "eBay",
+      "Instagram",
+      "Vintage Flippers Hub Discord",
+      "Local thrift stores"
+    ],
+    "script": "Hi [Name], I specialize in sourcing unique vintage clothing that fits your [Niche] style. I just listed a collection on eBay that might interest you. Check it out here: [Link]. Excited to hear what you think!",
+    "cadence": "Send 5-10 personalized messages per day, follow up once after 3 days if no response."
+  },
+  "pricing": {
+    "starter": "$20-$40/item for lower-demand or common items.",
+    "growth": "$41-$80/item for mid-demand, niche items.",
+    "premium": "$81-$150/item for high-demand, rare items.",
+    "raisingRules": "Increase prices by 10% after each successful sales cycle of 20 items."
+  },
+  "failureModes": [
+    "Overpricing items leading to low sales - The Price Trap.",
+    "Ignoring trends and stocking irrelevant items - The Irrelevance Pit.",
+    "Poor quality photos reducing click-through - The Blurry Image Fail.",
+    "Inconsistent listing frequency - The Intermittent Lister.",
+    "Ignoring customer feedback - The Deaf Seller.",
+    "Slow shipping times affecting ratings - The Snail Mailer.",
+    "Relying on a single sales platform - The One-Trick Pony.",
+    "Poor packaging leading to damaged goods - The Damage Zone."
+  ],
+  "realLaunches": [
+    {
+      "name": "VintageThreads",
+      "operator": "Ella Martinez",
+      "months": 4,
+      "mrr": "$2,500",
+      "channels": [
+        "eBay",
+        "Instagram"
+      ]
+    },
+    {
+      "name": "RetroRags",
+      "operator": "Sam Collins",
+      "months": 3,
+      "mrr": "$3,000",
+      "channels": [
+        "Depop",
+        "Poshmark"
+      ]
+    },
+    {
+      "name": "TimelessTees",
+      "operator": "Laura Kim",
+      "months": 5,
+      "mrr": "$2,200",
+      "channels": [
+        "eBay",
+        "Facebook Marketplace"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Register with Stripe Atlas for $500 to establish a legal entity and separate finances.",
+    "payments": "Use Stripe for online payments integration, allowing flexibility across platforms.",
+    "contracts": "No contracts needed for individual sales, but use eBay's built-in sales agreements.",
+    "insurance": "Consider a small business policy from Hiscox for $30/month to cover any liabilities."
+  },
+  "scaling": "Once you're consistently hitting your sales targets and feel the time pinch, it's time to bring in help. Start with a part-time assistant for sourcing and shipping. Use platforms like Upwork to find reliable freelancers for $15-$20/hour. Train them to your standards, so they maintain your quality. Automate more with tools like n8n, and consider hiring a social media manager to run your Instagram and email campaigns. As you grow, monitor your margins closely to ensure new expenses don't eat into profits. Keep an eye on emerging platforms to stay ahead of trends, scaling your inventory accordingly."
+}

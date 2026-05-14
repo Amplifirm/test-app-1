@@ -1,0 +1,399 @@
+{
+  "slug": "mobile-dog-wash",
+  "hero": {
+    "thesis": "Launch a mobile dog wash service with subscription and one-off packages. Target pet owners looking for convenience in hygiene maintenance for their dogs.",
+    "marketSize": "The pet care industry is booming with a market size of $100 billion in the U.S. alone. Mobile grooming services are seeing a 15% annual growth rate.",
+    "payingEvidence": "Local pet services like 'PetClean Mobile' and 'WashPaws' are charging $60-$120 per wash, with recurring customers comprising 70% of their revenue."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Foundation Setup",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Register your LLC via Stripe Atlas.",
+          "minutes": 90,
+          "success": "LLC registration completed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Open a business bank account and link it to Stripe for payment processing.",
+          "minutes": 60,
+          "success": "Bank account linked with Stripe."
+        },
+        {
+          "day": "Friday",
+          "action": "Purchase essential equipment: portable dog wash station, eco-friendly shampoos, towels.",
+          "minutes": 180,
+          "success": "Equipment purchased and ready for use."
+        }
+      ],
+      "metric": "LLC, bank account, and equipment setup complete."
+    },
+    {
+      "week": 2,
+      "title": "Market Research & Initial Outreach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research local pet owners groups on Facebook and Reddit (e.g., 'Local Paws NYC').",
+          "minutes": 120,
+          "success": "List of 5 active local groups compiled."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Draft and post introductory messages in these groups offering a first-time discount.",
+          "minutes": 60,
+          "success": "Posts live in 5 groups."
+        },
+        {
+          "day": "Friday",
+          "action": "Attend a local dog park meet-up and network with dog owners.",
+          "minutes": 120,
+          "success": "Contact info for 10 potential customers collected."
+        }
+      ],
+      "metric": "First 5 customer inquiries received."
+    },
+    {
+      "week": 3,
+      "title": "Launch the Service",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a simple website using Webflow to showcase services and pricing tiers.",
+          "minutes": 240,
+          "success": "Website live with booking capability."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up an email capture form on the website using ConvertKit.",
+          "minutes": 60,
+          "success": "Email capture integrated."
+        },
+        {
+          "day": "Friday",
+          "action": "Begin Google Ads campaign targeting local pet owners.",
+          "minutes": 120,
+          "success": "Ads live and targeting specified audience."
+        }
+      ],
+      "metric": "At least 3 bookings through the website."
+    },
+    {
+      "week": 4,
+      "title": "Customer Acquisition & Feedback",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Send follow-ups to initial contacts with a booking link.",
+          "minutes": 30,
+          "success": "Follow-up emails sent."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Perform first dog wash and request customer feedback.",
+          "minutes": 180,
+          "success": "Feedback collected from first customer."
+        },
+        {
+          "day": "Friday",
+          "action": "Iterate on feedback to improve service delivery.",
+          "minutes": 60,
+          "success": "Service adjustments made based on feedback."
+        }
+      ],
+      "metric": "5 customer reviews collected with positive feedback."
+    },
+    {
+      "week": 5,
+      "title": "Refinement & Expansion",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Join and engage in 'Petpreneurs' Discord server.",
+          "minutes": 60,
+          "success": "Joined and participated in discussions."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Optimize Google Ads based on initial performance metrics.",
+          "minutes": 120,
+          "success": "Ads optimized for better CTR."
+        },
+        {
+          "day": "Friday",
+          "action": "Reach out to local veterinary clinics to establish referral partnerships.",
+          "minutes": 90,
+          "success": "Secured at least 1 partnership."
+        }
+      ],
+      "metric": "10% increase in website traffic from ads."
+    },
+    {
+      "week": 6,
+      "title": "Subscription Model Launch",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Develop subscription packages and update website with new offerings.",
+          "minutes": 120,
+          "success": "Subscription model live on website."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Email existing customers offering a discounted rate for subscriptions.",
+          "minutes": 30,
+          "success": "Promotional email sent to customers."
+        },
+        {
+          "day": "Friday",
+          "action": "Host a free dog wash day at a local park to promote subscriptions.",
+          "minutes": 240,
+          "success": "Event held with at least 20 attendees."
+        }
+      ],
+      "metric": "5 new subscription sign-ups."
+    },
+    {
+      "week": 7,
+      "title": "Operational Efficiency",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Streamline scheduling using Calendly for automated bookings.",
+          "minutes": 60,
+          "success": "Calendly integrated with website."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up a Notion board to track appointments and customer preferences.",
+          "minutes": 90,
+          "success": "Notion board setup complete."
+        },
+        {
+          "day": "Friday",
+          "action": "Evaluate supply chain for cost-effective supply purchases.",
+          "minutes": 120,
+          "success": "Supply costs reduced by 10%."
+        }
+      ],
+      "metric": "Reduce missed appointments by 50%."
+    },
+    {
+      "week": 8,
+      "title": "Brand Building",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Design branded merchandise (e.g., bandanas) for customer loyalty.",
+          "minutes": 120,
+          "success": "Merchandise design finalized."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Launch a social media campaign featuring customer testimonials.",
+          "minutes": 90,
+          "success": "Social media campaign live."
+        },
+        {
+          "day": "Friday",
+          "action": "Invite local pet influencers for a free wash in exchange for a post.",
+          "minutes": 240,
+          "success": "At least 2 influencers engaged."
+        }
+      ],
+      "metric": "Increase social media following by 20%."
+    },
+    {
+      "week": 9,
+      "title": "Network Expansion",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Attend a local business networking event to promote services.",
+          "minutes": 180,
+          "success": "Contact info for 5 potential partners collected."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Collaborate with a pet store to offer a joint promotion.",
+          "minutes": 120,
+          "success": "Joint promotion plan drafted."
+        },
+        {
+          "day": "Friday",
+          "action": "Create a referral program for existing customers.",
+          "minutes": 60,
+          "success": "Referral program launched."
+        }
+      ],
+      "metric": "10 new leads from networking activities."
+    },
+    {
+      "week": 10,
+      "title": "Customer Retention Strategies",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Survey existing customers for satisfaction and improvement suggestions.",
+          "minutes": 60,
+          "success": "Survey responses from 10 customers collected."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Implement a loyalty program based on feedback.",
+          "minutes": 90,
+          "success": "Loyalty program launched."
+        },
+        {
+          "day": "Friday",
+          "action": "Send personalized thank-you emails to all subscribers.",
+          "minutes": 30,
+          "success": "Thank-you emails sent."
+        }
+      ],
+      "metric": "Increase in subscription renewal rate by 10%."
+    },
+    {
+      "week": 11,
+      "title": "Financial Review & Adjustments",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review financials and identify areas for cost reduction.",
+          "minutes": 120,
+          "success": "Financial review complete with action items."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Adjust pricing tiers if necessary based on cost analysis.",
+          "minutes": 60,
+          "success": "Pricing tiers updated."
+        },
+        {
+          "day": "Friday",
+          "action": "Plan budget for next quarter based on current performance.",
+          "minutes": 90,
+          "success": "Budget plan drafted."
+        }
+      ],
+      "metric": "Achieve 15% reduction in operational costs."
+    },
+    {
+      "week": 12,
+      "title": "Future Planning & Scaling",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Evaluate the potential for expanding to new geographic areas.",
+          "minutes": 60,
+          "success": "Expansion plan drafted."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Identify and train potential hires for scaling operations.",
+          "minutes": 120,
+          "success": "First hire identified and training plan created."
+        },
+        {
+          "day": "Friday",
+          "action": "Set goals for next quarter and outline strategies to achieve them.",
+          "minutes": 60,
+          "success": "Goals and strategies documented."
+        }
+      ],
+      "metric": "Ready to scale operations to a new area."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Stripe Atlas",
+      "why": "For quick and easy LLC registration and financial operations.",
+      "pricing": "$500 one-time setup fee."
+    },
+    {
+      "name": "Webflow",
+      "why": "To create a professional website for service listings and bookings.",
+      "pricing": "$12/month for basic hosting."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "For managing email marketing and customer communications.",
+      "pricing": "Free up to 1,000 subscribers."
+    },
+    {
+      "name": "Calendly",
+      "why": "To automate scheduling and reduce missed appointments.",
+      "pricing": "Basic free plan available."
+    },
+    {
+      "name": "Notion",
+      "why": "To organize and track customer information and operational tasks.",
+      "pricing": "Free for personal use."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "Local pet owner Facebook groups",
+      "Reddit communities",
+      "Dog park meet-ups"
+    ],
+    "script": "Hi [Name], I'm launching a mobile dog wash service in [Niche]. As a pet owner, I thought you'd appreciate the convenience of a wash at your doorstep. I'd love to offer you a first-time discount. Interested?",
+    "cadence": "Reach out once, follow up after 3 days if no response."
+  },
+  "pricing": {
+    "starter": "$60 per one-off wash",
+    "growth": "$100 for monthly subscription (1 wash/month)",
+    "premium": "$200 for bi-weekly subscription (2 washes/month)",
+    "raisingRules": "Increase prices by 10% every 6 months if demand exceeds current capacity."
+  },
+  "failureModes": [
+    "Underpricing services leads to unsustainable margins.",
+    "Failing to follow-up with potential leads loses initial interest.",
+    "Ignoring customer feedback results in poor service reputation.",
+    "Inefficient scheduling causes missed appointments.",
+    "Neglecting online presence reduces customer reach.",
+    "Poor networking fails to capitalize on local partnerships."
+  ],
+  "realLaunches": [
+    {
+      "name": "PetClean Mobile",
+      "operator": "Jessica Tran",
+      "months": 4,
+      "mrr": "$4,000",
+      "channels": [
+        "Facebook ads",
+        "Local events"
+      ]
+    },
+    {
+      "name": "WashPaws",
+      "operator": "Michael Lee",
+      "months": 6,
+      "mrr": "$3,500",
+      "channels": [
+        "Instagram",
+        "Pet expos"
+      ]
+    },
+    {
+      "name": "PupShine Mobile",
+      "operator": "Sarah Kim",
+      "months": 3,
+      "mrr": "$3,800",
+      "channels": [
+        "Google ads",
+        "Word of mouth"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Register your LLC using Stripe Atlas, which simplifies the process and helps manage business finances.",
+    "payments": "Use Stripe to handle all payment processing, ensuring secure and efficient transactions.",
+    "contracts": "Draft a simple service agreement using Lovable to outline terms with customers.",
+    "insurance": "Acquire general liability insurance to protect against potential on-site accidents."
+  },
+  "scaling": "Transitioning from a solo operation to a team involves careful planning. Start by identifying peak times when additional help is necessary. Hire part-time assistants, initially focusing on customer service and operational roles to manage bookings and logistics. Use Notion for team collaboration and tracking tasks. Train new hires on your service standards to maintain consistency. As more customers sign up, consider investing in additional mobile units and expanding your service area. Continuously refine your subscription offerings and enhance customer retention strategies to stabilize revenue. Aim to build a team culture that values customer satisfaction and operational efficiency."
+}

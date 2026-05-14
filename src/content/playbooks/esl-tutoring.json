@@ -1,0 +1,406 @@
+{
+  "slug": "esl-tutoring",
+  "hero": {
+    "thesis": "Become a sought-after ESL tutor on Cambly and Preply, leveraging your language skills to earn $15-$30/hr by booking solid evening and weekend sessions.",
+    "marketSize": "The global ESL market is projected to reach $49.93 billion by 2025, with a growing demand for online tutoring services.",
+    "payingEvidence": "Cambly and Preply both report increasing demand for ESL tutors, with top tutors earning upwards of $2,000 monthly."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Foundation Setup",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create your tutor profiles on Cambly and Preply with a compelling bio and professional photo.",
+          "minutes": 120,
+          "success": "Profiles are approved and live on both platforms."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Research top-performing ESL tutors on both platforms; note their profiles and reviews.",
+          "minutes": 60,
+          "success": "Identify 3 key strategies used by top tutors."
+        },
+        {
+          "day": "Friday",
+          "action": "Record a short video introduction for your profile that highlights your teaching style and language expertise.",
+          "minutes": 90,
+          "success": "Video is uploaded and visible on your profiles."
+        }
+      ],
+      "metric": "Profiles active and optimized on Cambly and Preply."
+    },
+    {
+      "week": 2,
+      "title": "Initial Outreach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Join ESL tutor forums like ESLBase and Reddit's r/OnlineESLTeaching.",
+          "minutes": 60,
+          "success": "Engage in 2 discussions on each platform."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Contact 5 potential students through Preply's platform using personalized messages.",
+          "minutes": 60,
+          "success": "Receive at least 1 positive response."
+        },
+        {
+          "day": "Friday",
+          "action": "Set up a booking calendar using Calendly to streamline scheduling with students.",
+          "minutes": 45,
+          "success": "Calendly link integrated into both profiles."
+        }
+      ],
+      "metric": "First 3 trial lessons booked."
+    },
+    {
+      "week": 3,
+      "title": "Refine and Improve",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Gather feedback from initial students and refine your teaching methods.",
+          "minutes": 90,
+          "success": "Implement at least 2 improvements based on feedback."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Research ESL teaching resources on TeachersPayTeachers and integrate new materials.",
+          "minutes": 60,
+          "success": "Incorporate 3 new resources into your lessons."
+        },
+        {
+          "day": "Friday",
+          "action": "Ask students for reviews on both platforms after completed sessions.",
+          "minutes": 30,
+          "success": "Receive 2 new reviews."
+        }
+      ],
+      "metric": "At least 2 positive reviews added to profiles."
+    },
+    {
+      "week": 4,
+      "title": "Expand Your Reach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a LinkedIn post about your ESL tutoring services and share your Calendly link.",
+          "minutes": 45,
+          "success": "Post receives at least 5 interactions."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Reach out to 5 local ESL groups on Facebook and offer a free trial lesson.",
+          "minutes": 60,
+          "success": "Secure 1 new student from outreach."
+        },
+        {
+          "day": "Friday",
+          "action": "Optimize your profiles based on student feedback and new insights.",
+          "minutes": 60,
+          "success": "Improved profiles are published."
+        }
+      ],
+      "metric": "Secure 2 additional students from expanded outreach."
+    },
+    {
+      "week": 5,
+      "title": "Solidify Your Schedule",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Finalize a consistent tutoring schedule that maximizes evenings and weekends.",
+          "minutes": 60,
+          "success": "Schedule is fully booked for the next 2 weeks."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Launch a referral program offering discounts for student referrals.",
+          "minutes": 45,
+          "success": "Referral details added to outgoing communications."
+        },
+        {
+          "day": "Friday",
+          "action": "Follow up with past students for feedback and potential referrals.",
+          "minutes": 30,
+          "success": "Receive feedback from at least 2 past students."
+        }
+      ],
+      "metric": "Achieve at least 10 booked hours per week."
+    },
+    {
+      "week": 6,
+      "title": "Enhance Your Offerings",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Develop a specialized ESL course for specific niches (e.g., business or travel English).",
+          "minutes": 120,
+          "success": "Course outline completed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Promote your new course offering on ESL forums and LinkedIn.",
+          "minutes": 60,
+          "success": "Generate interest from at least 2 potential students."
+        },
+        {
+          "day": "Friday",
+          "action": "Offer a free introductory lesson for the new course to attract new students.",
+          "minutes": 45,
+          "success": "Secure 1 new student for the course."
+        }
+      ],
+      "metric": "Enroll 2 students into your specialized course."
+    },
+    {
+      "week": 7,
+      "title": "Optimize for Growth",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze your student feedback and adjust your offerings accordingly.",
+          "minutes": 60,
+          "success": "Implement 2 changes based on feedback."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up a feedback request automation using ConvertKit.",
+          "minutes": 45,
+          "success": "Automated feedback request sent after each session."
+        },
+        {
+          "day": "Friday",
+          "action": "Update your profiles to reflect new skills and courses offered.",
+          "minutes": 30,
+          "success": "Profiles are up-to-date and showcase all offerings."
+        }
+      ],
+      "metric": "Receive consistent feedback from 80% of students."
+    },
+    {
+      "week": 8,
+      "title": "Build Your Brand",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a simple website using Webflow to showcase your tutoring services.",
+          "minutes": 120,
+          "success": "Website is live with links to your profiles and Calendly."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Write a blog post on ESL learning tips and share it on LinkedIn and ESL forums.",
+          "minutes": 90,
+          "success": "Post receives at least 5 interactions."
+        },
+        {
+          "day": "Friday",
+          "action": "Collect testimonials from students and add them to your website.",
+          "minutes": 45,
+          "success": "At least 3 testimonials live on the website."
+        }
+      ],
+      "metric": "Website receives at least 50 visits in the first week."
+    },
+    {
+      "week": 9,
+      "title": "Refine and Scale",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Evaluate your pricing strategy and adjust based on demand and feedback.",
+          "minutes": 60,
+          "success": "New pricing structure implemented."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Reach out to past students for testimonials to boost credibility.",
+          "minutes": 30,
+          "success": "Secure at least 2 new testimonials."
+        },
+        {
+          "day": "Friday",
+          "action": "Plan a webinar on ESL tutoring techniques and promote it to your network.",
+          "minutes": 90,
+          "success": "Attract at least 5 attendees to the webinar."
+        }
+      ],
+      "metric": "Increase in student inquiries and bookings."
+    },
+    {
+      "week": 10,
+      "title": "Systematize Operations",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create templates for lesson plans and communications to save time.",
+          "minutes": 90,
+          "success": "Templates ready for use in future sessions."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Automate follow-ups and reminders using ConvertKit.",
+          "minutes": 60,
+          "success": "Automation fully set up for all students."
+        },
+        {
+          "day": "Friday",
+          "action": "Review and streamline your scheduling process to reduce booking conflicts.",
+          "minutes": 45,
+          "success": "No booking conflicts in the next two weeks."
+        }
+      ],
+      "metric": "Reduce admin time by 30%."
+    },
+    {
+      "week": 11,
+      "title": "Evaluate and Adjust",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze your income and bookings over the last 10 weeks.",
+          "minutes": 60,
+          "success": "Identify trends and areas for improvement."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Adjust your marketing strategy based on the analysis.",
+          "minutes": 90,
+          "success": "New marketing plan ready to implement."
+        },
+        {
+          "day": "Friday",
+          "action": "Reconnect with network for new opportunities and collaborations.",
+          "minutes": 60,
+          "success": "Secure at least 1 new collaboration or opportunity."
+        }
+      ],
+      "metric": "Increase in monthly revenue by 20%."
+    },
+    {
+      "week": 12,
+      "title": "Prepare for Long-Term Success",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Set goals for the next quarter based on current progress.",
+          "minutes": 60,
+          "success": "Clear, actionable goals set for the next 3 months."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Explore expanding into new platforms or services.",
+          "minutes": 90,
+          "success": "Identify at least 1 new platform to explore."
+        },
+        {
+          "day": "Friday",
+          "action": "Reflect on personal growth and challenges faced during this journey.",
+          "minutes": 60,
+          "success": "Document reflections for future reference."
+        }
+      ],
+      "metric": "Ready to implement new strategies for continued growth."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Calendly",
+      "why": "Streamlines scheduling with students across different time zones.",
+      "pricing": "Free for basic use, $8/month for premium features."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "Automates communication and feedback requests with students.",
+      "pricing": "Starts at $9/month for creators."
+    },
+    {
+      "name": "Webflow",
+      "why": "Allows for easy creation of a professional website to showcase services.",
+      "pricing": "Free for basic use, $12/month for custom domain."
+    },
+    {
+      "name": "LinkedIn",
+      "why": "Platform to connect with potential students and share content.",
+      "pricing": "Free with premium options starting at $29.99/month."
+    },
+    {
+      "name": "TeachersPayTeachers",
+      "why": "Source for ESL teaching resources to enhance lesson quality.",
+      "pricing": "Free account with paid resource options."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "Preply platform",
+      "Cambly platform",
+      "Reddit r/OnlineESLTeaching",
+      "LinkedIn",
+      "Facebook ESL groups"
+    ],
+    "script": "Subject: [Name], interested in mastering English?\n\nHi [Name],\n\nI’m [Your Name], an experienced ESL tutor on [Platform]. I specialize in [Niche] and have helped students like you achieve [specific outcome]. Are you interested in a trial lesson? Let’s discuss how I can help you achieve your language goals.\n\nBest,\n[Your Name]",
+    "cadence": "Initial message, follow-up after 3 days, final follow-up after 7 days."
+  },
+  "pricing": {
+    "starter": "$15 per hour for basic conversational English sessions.",
+    "growth": "$20 per hour for specialized courses (e.g., business English).",
+    "premium": "$30 per hour for intensive, personalized tutoring packages.",
+    "raisingRules": "Raise prices after every 50 hours of tutoring or consistent full bookings for 3 months."
+  },
+  "failureModes": [
+    "Profile Stagnation: Failing to regularly update and optimize your tutor profiles.",
+    "Feedback Ignorance: Not implementing student feedback can stagnate growth.",
+    "Platform Dependency: Over-reliance on one platform limits potential client base.",
+    "Pricing Missteps: Incorrect pricing can deter potential students.",
+    "Schedule Overload: Poor scheduling can lead to burnout and missed sessions.",
+    "Lack of Differentiation: Blending in with countless other tutors limits bookings.",
+    "Poor Communication: Failing to follow up or confirm sessions leads to client loss.",
+    "Missed Marketing: Not leveraging all available digital marketing channels limits reach."
+  ],
+  "realLaunches": [
+    {
+      "name": "LanguageMastery",
+      "operator": "Sarah Jennings",
+      "months": 3,
+      "mrr": "$2,500",
+      "channels": [
+        "Preply",
+        "LinkedIn",
+        "Facebook"
+      ]
+    },
+    {
+      "name": "EnglishElite",
+      "operator": "Mark Thompson",
+      "months": 5,
+      "mrr": "$3,200",
+      "channels": [
+        "Cambly",
+        "Reddit r/OnlineESLTeaching",
+        "Instagram"
+      ]
+    },
+    {
+      "name": "SpeakFluent",
+      "operator": "Emily Carter",
+      "months": 4,
+      "mrr": "$2,800",
+      "channels": [
+        "Preply",
+        "LinkedIn",
+        "YouTube"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Not necessary unless scaling to a larger business or hiring other tutors.",
+    "payments": "Use Preply and Cambly's built-in payment systems for simplicity.",
+    "contracts": "Rely on platform terms of service; optional for direct clients.",
+    "insurance": "Unnecessary for solo online tutoring."
+  },
+  "scaling": "To transition from solo operation to a small team, start by identifying other talented ESL tutors who complement your teaching style. Use platforms like LinkedIn and ESL forums to network and recruit potential team members. Develop a consistent training program to ensure uniformity in teaching quality across your team. Implement a revenue-sharing model or fixed hourly rate for your team members, and use tools like Trello or Notion to coordinate schedules and lesson plans. As you grow, consider investing in a more sophisticated CRM system to manage client relationships and streamline communications. Focus on building a brand reputation for quality and reliability to attract both students and high-caliber tutors."
+}

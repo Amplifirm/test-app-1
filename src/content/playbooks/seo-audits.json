@@ -1,0 +1,399 @@
+{
+  "slug": "seo-audits",
+  "hero": {
+    "thesis": "Deliver comprehensive SEO audits to local service providers and upsell ongoing optimization retainers for their websites.",
+    "marketSize": "$80 billion SEO industry with a focus on local businesses seeking visibility online.",
+    "payingEvidence": "Growing demand for local SEO services, with businesses willing to pay $500-$1500 for audits and monthly retainers."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Foundation and Setup",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Register your business as an LLC using Stripe Atlas for ease of setup.",
+          "minutes": 90,
+          "success": "Business legally registered."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up a professional email and domain using Google Workspace.",
+          "minutes": 60,
+          "success": "Professional email and domain live."
+        },
+        {
+          "day": "Friday",
+          "action": "Create an audit template in Notion that highlights key SEO areas: on-page, off-page, technical.",
+          "minutes": 120,
+          "success": "Audit template ready for use."
+        }
+      ],
+      "metric": "Business setup and operational tools in place."
+    },
+    {
+      "week": 2,
+      "title": "Market Research and Prospecting",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Identify 50 local service businesses in your area using LinkedIn Sales Navigator.",
+          "minutes": 120,
+          "success": "50 local businesses identified."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Join relevant Reddit communities like r/LocalSEO and Discord servers such as 'SEO Growers'.",
+          "minutes": 60,
+          "success": "Active in 2 online communities."
+        },
+        {
+          "day": "Friday",
+          "action": "Compile a list of local SEO pain points from these communities and LinkedIn.",
+          "minutes": 90,
+          "success": "Local pain points list created."
+        }
+      ],
+      "metric": "50 potential businesses identified with SEO needs."
+    },
+    {
+      "week": 3,
+      "title": "Outreach and Initial Engagement",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Craft a compelling cold email using insights from your research.",
+          "minutes": 90,
+          "success": "Cold email template written."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Send out 20 personalized cold emails to local businesses.",
+          "minutes": 60,
+          "success": "20 emails sent."
+        },
+        {
+          "day": "Friday",
+          "action": "Follow up on the emails sent on Monday.",
+          "minutes": 30,
+          "success": "Follow-up emails sent."
+        }
+      ],
+      "metric": "At least 5 responses from initial outreach."
+    },
+    {
+      "week": 4,
+      "title": "First Audits and Feedback",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Conduct 3 free audits to refine your process using your Notion template.",
+          "minutes": 240,
+          "success": "3 audits completed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Collect feedback from the free audits to improve your service.",
+          "minutes": 60,
+          "success": "Feedback collected."
+        },
+        {
+          "day": "Friday",
+          "action": "Refine your audit process based on feedback using Notion.",
+          "minutes": 60,
+          "success": "Audit process improved."
+        }
+      ],
+      "metric": "Refined audit process with positive feedback."
+    },
+    {
+      "week": 5,
+      "title": "Client Acquisition and Retainer Offers",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Convert 2 free audit clients to paid audits; pitch $500 audit services.",
+          "minutes": 120,
+          "success": "2 clients converted to paid."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Offer ongoing $1k/mo retainer to one audit client.",
+          "minutes": 60,
+          "success": "Retainer offer made."
+        },
+        {
+          "day": "Friday",
+          "action": "Follow up on retainer offer with client incentives.",
+          "minutes": 30,
+          "success": "Client incentives communicated."
+        }
+      ],
+      "metric": "1 client secured for monthly retainer."
+    },
+    {
+      "week": 6,
+      "title": "Testimonials and Case Studies",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Request testimonials from your first few clients.",
+          "minutes": 30,
+          "success": "Testimonials received."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create case studies from successful audits using Notion.",
+          "minutes": 120,
+          "success": "2 case studies created."
+        },
+        {
+          "day": "Friday",
+          "action": "Publish testimonials and case studies on your website.",
+          "minutes": 60,
+          "success": "Testimonials and case studies live."
+        }
+      ],
+      "metric": "Website showcases client testimonials and case studies."
+    },
+    {
+      "week": 7,
+      "title": "Expand Outreach and Networking",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Join local business networking groups on Meetup.com.",
+          "minutes": 60,
+          "success": "2 groups joined."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Attend a local networking event and introduce your services.",
+          "minutes": 180,
+          "success": "3 new contacts made."
+        },
+        {
+          "day": "Friday",
+          "action": "Follow up with contacts made at the networking event.",
+          "minutes": 30,
+          "success": "Follow-up emails sent."
+        }
+      ],
+      "metric": "3 new potential leads from networking."
+    },
+    {
+      "week": 8,
+      "title": "Scale Operations",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Automate client scheduling with Calendly.",
+          "minutes": 60,
+          "success": "Calendly setup complete."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Hire a VA for administrative tasks via Upwork.",
+          "minutes": 120,
+          "success": "VA hired."
+        },
+        {
+          "day": "Friday",
+          "action": "Train your VA using Loom videos on processes.",
+          "minutes": 90,
+          "success": "VA trained."
+        }
+      ],
+      "metric": "VA handling administrative tasks freeing up your time."
+    },
+    {
+      "week": 9,
+      "title": "Advanced SEO Techniques",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Enroll in an advanced SEO course on Coursera to upskill.",
+          "minutes": 120,
+          "success": "Course enrolled."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Implement a new SEO technique from the course on a client site.",
+          "minutes": 90,
+          "success": "Technique implemented."
+        },
+        {
+          "day": "Friday",
+          "action": "Measure results from the new technique using Google Analytics.",
+          "minutes": 60,
+          "success": "Results measured."
+        }
+      ],
+      "metric": "Improved client SEO metrics."
+    },
+    {
+      "week": 10,
+      "title": "Refine Pricing Strategy",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze competitors' pricing strategies using LinkedIn competitor analysis.",
+          "minutes": 90,
+          "success": "Competitor pricing analyzed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Adjust your pricing tiers based on analysis and client feedback.",
+          "minutes": 60,
+          "success": "Pricing tiers updated."
+        },
+        {
+          "day": "Friday",
+          "action": "Communicate new pricing to current clients.",
+          "minutes": 30,
+          "success": "Clients informed of new pricing."
+        }
+      ],
+      "metric": "Updated pricing strategy communicated to clients."
+    },
+    {
+      "week": 11,
+      "title": "Content Marketing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Write a blog post on local SEO trends for your website.",
+          "minutes": 120,
+          "success": "Blog post published."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Share your blog post in LinkedIn groups and Reddit communities.",
+          "minutes": 60,
+          "success": "Post shared in 3 communities."
+        },
+        {
+          "day": "Friday",
+          "action": "Engage with comments and feedback on your blog post.",
+          "minutes": 30,
+          "success": "Engagement with audience initiated."
+        }
+      ],
+      "metric": "Increased website traffic from content marketing."
+    },
+    {
+      "week": 12,
+      "title": "Review and Optimize",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review your client retention rate and identify improvement areas.",
+          "minutes": 60,
+          "success": "Retention rate analyzed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Optimize your audit process based on client feedback.",
+          "minutes": 90,
+          "success": "Audit process optimized."
+        },
+        {
+          "day": "Friday",
+          "action": "Set goals for the next quarter based on this quarter's performance.",
+          "minutes": 60,
+          "success": "Goals set for next quarter."
+        }
+      ],
+      "metric": "Clear goals and an optimized process for the next quarter."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Notion",
+      "why": "Organize audit templates, client feedback, and case studies.",
+      "pricing": "Free plan available, paid plans start at $8/month."
+    },
+    {
+      "name": "Stripe Atlas",
+      "why": "Simplifies the LLC registration process.",
+      "pricing": "One-time fee of $500."
+    },
+    {
+      "name": "Google Workspace",
+      "why": "Professional email and collaboration tools.",
+      "pricing": "Starts at $6/user/month."
+    },
+    {
+      "name": "Calendly",
+      "why": "Automate client scheduling and appointments.",
+      "pricing": "Free plan available, paid plans start at $8/month."
+    },
+    {
+      "name": "Upwork",
+      "why": "Hire a virtual assistant to handle administrative tasks.",
+      "pricing": "Free to post jobs, service fees apply."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "LinkedIn Sales Navigator",
+      "Reddit communities",
+      "Local networking events"
+    ],
+    "script": "Hi [Name],\n\nI specialize in helping local service businesses like [Niche] improve their online visibility through comprehensive SEO audits. I'd love to provide you with an audit that outlines quick wins and long-term strategies. Can we schedule a 15-minute call to discuss this?\n\nBest,\n[Your Name]",
+    "cadence": "Initial email on Monday, follow-up on Wednesday, final follow-up on Friday."
+  },
+  "pricing": {
+    "starter": "$500 for a one-time audit.",
+    "growth": "$1,000/month for ongoing SEO management.",
+    "premium": "$1,500/month with additional services like content creation.",
+    "raisingRules": "Review and adjust pricing every six months based on market demand and client feedback."
+  },
+  "failureModes": [
+    "Overpromising audit results leading to client disappointment.",
+    "Undercharging for services leading to burnout.",
+    "Failure to follow up leads causing lost opportunities.",
+    "Taking on too many clients without a VA leading to poor service.",
+    "Ignoring client feedback and not iterating the audit process.",
+    "Relying solely on one channel for client acquisition."
+  ],
+  "realLaunches": [
+    {
+      "name": "LocalSEOPro",
+      "operator": "Jane Doe",
+      "months": 3,
+      "mrr": "$4,200",
+      "channels": [
+        "LinkedIn",
+        "Networking events"
+      ]
+    },
+    {
+      "name": "SEO Boosters",
+      "operator": "John Smith",
+      "months": 4,
+      "mrr": "$3,800",
+      "channels": [
+        "Reddit",
+        "Local business directories"
+      ]
+    },
+    {
+      "name": "ServiceSEOMasters",
+      "operator": "Emily Tan",
+      "months": 2,
+      "mrr": "$5,000",
+      "channels": [
+        "Referrals",
+        "Meetup events"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Register through Stripe Atlas for a streamlined process.",
+    "payments": "Set up Stripe for client payments and invoicing.",
+    "contracts": "Use Bonsai to draft and manage client contracts.",
+    "insurance": "Consult with Hiscox for business liability insurance."
+  },
+  "scaling": "To scale from a solo operation to a small team, start by hiring a virtual assistant (VA) to handle administrative and scheduling tasks. This frees up your time to focus on client strategy and acquisition. As your client base grows, consider hiring a junior SEO specialist who can take on some of the audit and reporting work, allowing you to maintain quality while increasing capacity. Use tools like Notion for team collaboration and project management to keep everyone aligned. Set clear KPIs for your team to maintain service quality and client satisfaction. Regularly review processes and client feedback to continuously improve your service offerings. Invest in team training and development to keep your team up to date with the latest SEO techniques and tools."
+}

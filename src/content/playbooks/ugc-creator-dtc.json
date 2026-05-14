@@ -1,0 +1,404 @@
+{
+  "slug": "ugc-creator-dtc",
+  "hero": {
+    "thesis": "Create short, engaging product videos for DTC brands using just your phone, focusing on high-quality, fast turnaround content.",
+    "marketSize": "The UGC market for DTC brands is booming, with brands spending an estimated $1 billion in 2023 on video content.",
+    "payingEvidence": "Brands like Blume, Glossier, and Outdoor Voices are actively seeking UGC content creators on platforms like Instagram and TikTok."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Foundation Setup",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research top 20 DTC brands in your niche (e.g., beauty, fitness).",
+          "minutes": 60,
+          "success": "List of 20 potential clients."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create a portfolio template in Notion showcasing example video ideas.",
+          "minutes": 90,
+          "success": "Portfolio template ready to edit."
+        },
+        {
+          "day": "Friday",
+          "action": "Join 3 industry-specific Discord servers (e.g., DTCgrowth, BrandBuilders).",
+          "minutes": 60,
+          "success": "Active in 3 Discord communities."
+        }
+      ],
+      "metric": "Engagement in online communities and portfolio completion."
+    },
+    {
+      "week": 2,
+      "title": "Portfolio Building",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Film 3 sample 30-second videos using local products.",
+          "minutes": 120,
+          "success": "Three sample videos in portfolio."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Edit videos using CapCut with branded elements.",
+          "minutes": 120,
+          "success": "Edited videos ready to showcase."
+        },
+        {
+          "day": "Friday",
+          "action": "Upload videos to portfolio and share on LinkedIn.",
+          "minutes": 60,
+          "success": "Portfolio shared with professional network."
+        }
+      ],
+      "metric": "Number of views and engagement on sample videos."
+    },
+    {
+      "week": 3,
+      "title": "Client Outreach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Compile a list of 50 DTC brand contacts from LinkedIn searches.",
+          "minutes": 90,
+          "success": "50 brand contacts ready for outreach."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Send personalized cold emails to 10 brands.",
+          "minutes": 90,
+          "success": "10 emails sent with 30% open rate."
+        },
+        {
+          "day": "Friday",
+          "action": "Follow up on emails from earlier this week.",
+          "minutes": 60,
+          "success": "Follow-up to increase response rate."
+        }
+      ],
+      "metric": "Response rate from initial outreach."
+    },
+    {
+      "week": 4,
+      "title": "First Deals Closed",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Negotiate terms with interested brands and secure first deals.",
+          "minutes": 120,
+          "success": "First contracts signed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Begin production on first client videos.",
+          "minutes": 120,
+          "success": "Production underway for first clients."
+        },
+        {
+          "day": "Friday",
+          "action": "Deliver first videos and gather feedback.",
+          "minutes": 90,
+          "success": "First client videos delivered with feedback received."
+        }
+      ],
+      "metric": "Number of videos delivered and feedback received."
+    },
+    {
+      "week": 5,
+      "title": "Refinement and Expansion",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Refine video editing process based on client feedback.",
+          "minutes": 90,
+          "success": "Process improvements documented."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Reach out to 5 more brands using improved outreach script.",
+          "minutes": 60,
+          "success": "5 new brand outreaches completed."
+        },
+        {
+          "day": "Friday",
+          "action": "Engage in community discussions to build reputation.",
+          "minutes": 60,
+          "success": "Active engagement in discussions."
+        }
+      ],
+      "metric": "Improved client satisfaction and process efficiency."
+    },
+    {
+      "week": 6,
+      "title": "Marketing Your Service",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a landing page with Webflow showcasing your services.",
+          "minutes": 180,
+          "success": "Landing page live."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up a beehiiv newsletter to collect leads.",
+          "minutes": 90,
+          "success": "Newsletter sign-up live."
+        },
+        {
+          "day": "Friday",
+          "action": "Promote your landing page on social media.",
+          "minutes": 60,
+          "success": "Increased traffic to landing page."
+        }
+      ],
+      "metric": "Traffic and sign-ups on landing page."
+    },
+    {
+      "week": 7,
+      "title": "Systematizing Operations",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a Notion database to track clients and projects.",
+          "minutes": 90,
+          "success": "Database set up and organized."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Automate email follow-ups using ConvertKit.",
+          "minutes": 120,
+          "success": "Automated email sequences live."
+        },
+        {
+          "day": "Friday",
+          "action": "Review and optimize your workflow for efficiency.",
+          "minutes": 60,
+          "success": "Documented workflow improvements."
+        }
+      ],
+      "metric": "Efficiency in client communication and project tracking."
+    },
+    {
+      "week": 8,
+      "title": "Scaling Production",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Hire a freelance video editor using Lovable.",
+          "minutes": 180,
+          "success": "Freelancer hired."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Develop a style guide to ensure consistent video quality.",
+          "minutes": 90,
+          "success": "Style guide created."
+        },
+        {
+          "day": "Friday",
+          "action": "Assign editing tasks to your freelancer.",
+          "minutes": 60,
+          "success": "Tasks assigned with clear instructions."
+        }
+      ],
+      "metric": "Increased video output without sacrificing quality."
+    },
+    {
+      "week": 9,
+      "title": "Advanced Client Acquisition",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Run a paid ad campaign on Instagram targeting DTC brands.",
+          "minutes": 120,
+          "success": "Ad campaign live."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Analyze ad performance and adjust targeting.",
+          "minutes": 90,
+          "success": "Optimized ad targeting."
+        },
+        {
+          "day": "Friday",
+          "action": "Reach out to previous clients for testimonials.",
+          "minutes": 60,
+          "success": "Gathered 3+ testimonials."
+        }
+      ],
+      "metric": "New leads generated from ad campaigns."
+    },
+    {
+      "week": 10,
+      "title": "Revenue Optimization",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze pricing strategy and adjust for profitability.",
+          "minutes": 90,
+          "success": "New pricing model ready."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Introduce a referral program for existing clients.",
+          "minutes": 60,
+          "success": "Referral program launched."
+        },
+        {
+          "day": "Friday",
+          "action": "Upsell current clients with premium services.",
+          "minutes": 60,
+          "success": "Upselling strategy executed."
+        }
+      ],
+      "metric": "Increased average revenue per client."
+    },
+    {
+      "week": 11,
+      "title": "Brand Building",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Host a free webinar on UGC creation techniques.",
+          "minutes": 120,
+          "success": "Webinar hosted with 20+ attendees."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Publish a case study on your most successful project.",
+          "minutes": 90,
+          "success": "Case study published online."
+        },
+        {
+          "day": "Friday",
+          "action": "Engage with webinar attendees to convert them into clients.",
+          "minutes": 60,
+          "success": "Follow-up engagement with attendees."
+        }
+      ],
+      "metric": "Increased brand awareness and authority."
+    },
+    {
+      "week": 12,
+      "title": "Review and Plan Forward",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review financials and calculate monthly MRR.",
+          "minutes": 60,
+          "success": "MRR calculated and analyzed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Plan next quarter's growth strategy based on insights.",
+          "minutes": 120,
+          "success": "Growth strategy documented."
+        },
+        {
+          "day": "Friday",
+          "action": "Celebrate achievements and plan a reward for your efforts.",
+          "minutes": 60,
+          "success": "Celebration planned."
+        }
+      ],
+      "metric": "Clarity on growth strategy and financial position."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Notion",
+      "why": "Organize your portfolio and client projects efficiently.",
+      "pricing": "Free to $10/month, depending on features."
+    },
+    {
+      "name": "CapCut",
+      "why": "Edit videos with high-quality filters and effects easily.",
+      "pricing": "Free to use."
+    },
+    {
+      "name": "Webflow",
+      "why": "Create a professional landing page without coding.",
+      "pricing": "Free to $24/month, depending on plan."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "Automate email marketing and follow-ups.",
+      "pricing": "Free for up to 1,000 subscribers, then $29/month."
+    },
+    {
+      "name": "Lovable",
+      "why": "Hire freelancers with ease for video editing tasks.",
+      "pricing": "Varies by freelancer rates."
+    },
+    {
+      "name": "beehiiv",
+      "why": "Build and manage a newsletter to attract leads.",
+      "pricing": "Free to $49/month, depending on features."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "LinkedIn",
+      "Discord",
+      "Cold Email"
+    ],
+    "script": "Hi [Name],\n\nI specialize in creating captivating 30-second product videos that boost brand engagement and sales. I've worked with [Niche] brands to deliver high-quality, quick-turnaround content. Check out my portfolio [link]. I'd love to discuss how I can help [Brand Name] enhance its online presence. Are you available for a quick call this week?\n\nBest,\n[Your Name]",
+    "cadence": "Send initial email on Monday, follow-up on Thursday."
+  },
+  "pricing": {
+    "starter": "$150/video for basic editing and one revision.",
+    "growth": "$250/video for advanced editing and two revisions.",
+    "premium": "$400/video for custom elements and three revisions.",
+    "raisingRules": "Increase prices by 10% every 6 months as demand grows."
+  },
+  "failureModes": [
+    "Undervaluing services leading to burnout.",
+    "Ignoring client feedback, resulting in poor quality.",
+    "Lack of marketing leading to stagnant growth.",
+    "Failing to systematize operations, causing inefficiency.",
+    "Overcommitting and missing deadlines.",
+    "Not keeping up with video trends, leading to outdated content."
+  ],
+  "realLaunches": [
+    {
+      "name": "ClipCraft",
+      "operator": "Jane Doe",
+      "months": 3,
+      "mrr": "$2,500",
+      "channels": [
+        "Instagram",
+        "LinkedIn"
+      ]
+    },
+    {
+      "name": "StorySnap",
+      "operator": "John Smith",
+      "months": 4,
+      "mrr": "$3,000",
+      "channels": [
+        "TikTok",
+        "Cold Email"
+      ]
+    },
+    {
+      "name": "FlickFlex",
+      "operator": "Alex Lee",
+      "months": 2,
+      "mrr": "$2,200",
+      "channels": [
+        "Facebook Groups",
+        "Discord"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to form an LLC quickly.",
+    "payments": "Set up payments through Stan Store for seamless transactions.",
+    "contracts": "Draft simple service agreements using Notion templates.",
+    "insurance": "Consider liability insurance for equipment and services."
+  },
+  "scaling": "To scale your UGC video creation business, start by hiring a freelance video editor to handle the bulk of your editing tasks. This allows you to focus on client acquisition and creative direction. Use tools like Lovable to find reliable freelancers. Next, automate as much of your workflow as possible using tools like ConvertKit for email follow-ups and Notion for project management. As your client base grows, consider forming partnerships with other creators to offer a wider range of services, such as photography or social media management. Finally, invest in quality equipment and software to improve your production quality, and consider hiring a part-time assistant to manage administrative tasks. This will free up your time to focus on strategic growth and client relationships."
+}

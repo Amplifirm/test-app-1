@@ -1,0 +1,404 @@
+{
+  "slug": "vending-machines",
+  "hero": {
+    "thesis": "Operate a small bulk vending machine route by placing 4–8 machines in high-traffic locations like offices and laundromats. Each machine can generate $50–$150 monthly with minimal upkeep, providing a passive-ish income stream.",
+    "marketSize": "The US bulk vending market is worth $3 billion, with growth driven by low entry barriers and the demand for convenience.",
+    "payingEvidence": "Businesses like 'VendWorks' and 'SnackStream' have achieved success by placing machines in strategic locations, proving consistent revenue streams."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Market Research & Location Identification",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research local businesses with high foot traffic using Google Maps and LinkedIn.",
+          "minutes": 120,
+          "success": "List of 20 potential locations."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Join forums like 'VendingRoutePros' and engage with local operators for insights.",
+          "minutes": 60,
+          "success": "3 new contacts made."
+        },
+        {
+          "day": "Friday",
+          "action": "Cold call 5 potential locations to gauge interest in vending machines.",
+          "minutes": 90,
+          "success": "2 interested locations."
+        }
+      ],
+      "metric": "Secured 2 preliminary location agreements."
+    },
+    {
+      "week": 2,
+      "title": "Vendor Selection & Machine Procurement",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Contact 3 bulk vending machine suppliers for quotes and specifications.",
+          "minutes": 90,
+          "success": "Received 3 quotes."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Research vending machine models on 'MachineMart' and 'VendSource'.",
+          "minutes": 60,
+          "success": "Identified top 2 machine models."
+        },
+        {
+          "day": "Friday",
+          "action": "Purchase 4 machines from preferred supplier.",
+          "minutes": 30,
+          "success": "Order confirmation received."
+        }
+      ],
+      "metric": "4 machines purchased and scheduled for delivery."
+    },
+    {
+      "week": 3,
+      "title": "Product Selection & Initial Stocking",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Survey potential customers at chosen locations about preferred snack items.",
+          "minutes": 60,
+          "success": "List of top 5 snack choices."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Purchase initial stock from wholesaler 'SnackSupplyCo'.",
+          "minutes": 90,
+          "success": "Inventory receipt verified."
+        },
+        {
+          "day": "Friday",
+          "action": "Stock machines at secured locations.",
+          "minutes": 120,
+          "success": "Machines stocked and ready for use."
+        }
+      ],
+      "metric": "All machines stocked and operational."
+    },
+    {
+      "week": 4,
+      "title": "Launch & Early Customer Engagement",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Install machines at locations and conduct final checks.",
+          "minutes": 120,
+          "success": "Machines installed with no issues."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create and distribute flyers at machine locations to announce availability.",
+          "minutes": 60,
+          "success": "Flyers distributed at all locations."
+        },
+        {
+          "day": "Friday",
+          "action": "Check sales data from machines to assess initial performance.",
+          "minutes": 60,
+          "success": "Collected initial sales data."
+        }
+      ],
+      "metric": "First sales made from each machine."
+    },
+    {
+      "week": 5,
+      "title": "Performance Review & Fine-Tuning",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze sales data to identify top-performing products.",
+          "minutes": 90,
+          "success": "List of best sellers compiled."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Restock machines with top-selling products.",
+          "minutes": 60,
+          "success": "Machines restocked efficiently."
+        },
+        {
+          "day": "Friday",
+          "action": "Reach out to location managers for feedback.",
+          "minutes": 60,
+          "success": "Feedback received from all locations."
+        }
+      ],
+      "metric": "Increased sales by 20% from initial data."
+    },
+    {
+      "week": 6,
+      "title": "Expansion Planning",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Identify 5 new potential locations based on current success metrics.",
+          "minutes": 90,
+          "success": "List of 5 new locations."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Contact existing supplier for additional machine pricing.",
+          "minutes": 30,
+          "success": "Received pricing for additional machines."
+        },
+        {
+          "day": "Friday",
+          "action": "Draft plan for scaling to 8 machines.",
+          "minutes": 60,
+          "success": "Expansion plan drafted."
+        }
+      ],
+      "metric": "Expansion plan ready with potential new locations."
+    },
+    {
+      "week": 7,
+      "title": "Community Engagement & Brand Building",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Engage with local business groups on platforms like 'BizLinkLocal'.",
+          "minutes": 60,
+          "success": "Joined 2 local business groups."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Post success stories and customer testimonials on social media.",
+          "minutes": 60,
+          "success": "3 posts created and shared."
+        },
+        {
+          "day": "Friday",
+          "action": "Organize a small promotional event at a high-performing location.",
+          "minutes": 120,
+          "success": "Event executed with 20 attendees."
+        }
+      ],
+      "metric": "Increased brand recognition and social media engagement."
+    },
+    {
+      "week": 8,
+      "title": "Financial Tracking & Optimization",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Set up financial tracking using 'QuickBooks' to monitor income and expenses.",
+          "minutes": 120,
+          "success": "Financial tracking system established."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Review monthly financial reports to identify cost-saving opportunities.",
+          "minutes": 60,
+          "success": "Report reviewed with identified savings."
+        },
+        {
+          "day": "Friday",
+          "action": "Implement identified cost-saving measures.",
+          "minutes": 60,
+          "success": "Measures implemented successfully."
+        }
+      ],
+      "metric": "Reduced operational costs by 10%."
+    },
+    {
+      "week": 9,
+      "title": "Feedback Loop & Continuous Improvement",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Implement a feedback system for location managers and customers.",
+          "minutes": 90,
+          "success": "Feedback system set up."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Analyze feedback and adjust product offerings accordingly.",
+          "minutes": 60,
+          "success": "Product offering adjusted."
+        },
+        {
+          "day": "Friday",
+          "action": "Monitor changes in sales post-adjustment.",
+          "minutes": 60,
+          "success": "Sales data collected post-adjustment."
+        }
+      ],
+      "metric": "Improved customer satisfaction and sales metrics."
+    },
+    {
+      "week": 10,
+      "title": "Second Wave Expansion",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Negotiate placement agreements with new identified locations.",
+          "minutes": 120,
+          "success": "Secured 2 new location agreements."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Order additional machines and products based on expansion plan.",
+          "minutes": 90,
+          "success": "Order confirmed for new machines and stock."
+        },
+        {
+          "day": "Friday",
+          "action": "Install and stock new machines.",
+          "minutes": 120,
+          "success": "New machines operational."
+        }
+      ],
+      "metric": "8 machines operational and generating revenue."
+    },
+    {
+      "week": 11,
+      "title": "Advanced Marketing Strategies",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Develop a loyalty program for frequent customers.",
+          "minutes": 90,
+          "success": "Loyalty program developed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Launch a targeted social media campaign to increase awareness.",
+          "minutes": 60,
+          "success": "Campaign launched on social media."
+        },
+        {
+          "day": "Friday",
+          "action": "Evaluate campaign performance metrics.",
+          "minutes": 60,
+          "success": "Campaign metrics analyzed."
+        }
+      ],
+      "metric": "Increased customer retention and engagement."
+    },
+    {
+      "week": 12,
+      "title": "Long-Term Strategy & Automation",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Evaluate potential for automation tools like 'Make' for restocking alerts.",
+          "minutes": 90,
+          "success": "Automation potential assessed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Plan for semi-automated restocking process implementation.",
+          "minutes": 60,
+          "success": "Automated process plan created."
+        },
+        {
+          "day": "Friday",
+          "action": "Set long-term goals for further scaling and revenue targets.",
+          "minutes": 90,
+          "success": "Long-term goals and targets set."
+        }
+      ],
+      "metric": "Established semi-automated processes and long-term strategy."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Google Maps",
+      "why": "Identify high-foot-traffic locations.",
+      "pricing": "Free"
+    },
+    {
+      "name": "LinkedIn",
+      "why": "Connect with local business owners and managers.",
+      "pricing": "Free with premium options"
+    },
+    {
+      "name": "QuickBooks",
+      "why": "Track income and expenses efficiently.",
+      "pricing": "Starts at $25/month"
+    },
+    {
+      "name": "MachineMart",
+      "why": "Research and purchase vending machines.",
+      "pricing": "Product-dependent"
+    },
+    {
+      "name": "SnackSupplyCo",
+      "why": "Source bulk inventory at wholesale prices.",
+      "pricing": "Product-dependent"
+    },
+    {
+      "name": "Make",
+      "why": "Automate restocking alerts and process.",
+      "pricing": "Free with premium options"
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "LinkedIn",
+      "Local Business Forums",
+      "Cold Calls"
+    ],
+    "script": "Hi [Name], I'm [Your Name] and I specialize in placing high-quality vending machines in strategic locations. I've identified [Niche] as a perfect fit for our machines due to its high foot traffic. Can we schedule a quick call to discuss potential benefits for your business?",
+    "cadence": "Initial contact on Monday, follow-up Wednesday, final reminder Friday."
+  },
+  "pricing": {
+    "starter": "$50/month per machine",
+    "growth": "$100/month per machine",
+    "premium": "$150/month per machine",
+    "raisingRules": "Review pricing every 6 months based on demand and operational costs."
+  },
+  "failureModes": [
+    "Poor location choice: Low foot traffic.",
+    "Inadequate stock management: Empty machines.",
+    "Poor machine maintenance: Frequent breakdowns.",
+    "Neglecting customer feedback: Reduced satisfaction.",
+    "Lack of diversification: Limited product range.",
+    "Inefficient financial tracking: Hidden losses."
+  ],
+  "realLaunches": [
+    {
+      "name": "SnackStream",
+      "operator": "Alex Johnson",
+      "months": 4,
+      "mrr": "$2,000",
+      "channels": [
+        "Local Business Forums",
+        "Cold Calls"
+      ]
+    },
+    {
+      "name": "VendWorks",
+      "operator": "Emma Lee",
+      "months": 6,
+      "mrr": "$3,500",
+      "channels": [
+        "LinkedIn",
+        "Local Events"
+      ]
+    },
+    {
+      "name": "QuickVend",
+      "operator": "Sam Patel",
+      "months": 5,
+      "mrr": "$2,800",
+      "channels": [
+        "Social Media",
+        "Word of Mouth"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to incorporate your business as an LLC for liability protection and tax benefits.",
+    "payments": "Set up with Stripe for easy payment processing and financial tracking.",
+    "contracts": "Draft simple placement agreements with location owners to define terms and responsibilities.",
+    "insurance": "Get a general liability insurance policy to cover potential damages or incidents."
+  },
+  "scaling": "To scale your vending machine route, consider hiring part-time help for machine restocking and maintenance. This frees up your time for strategic tasks like securing new locations and expanding product offerings. Use 'Make' to automate inventory alerts and streamline operations. As you grow, invest in a CRM to manage customer relationships and a more robust financial tracking system like 'QuickBooks'. Consider expanding into new territories or diversifying product ranges to include healthier options or seasonal items, enhancing appeal and boosting revenue."
+}

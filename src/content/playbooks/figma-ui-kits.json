@@ -1,0 +1,408 @@
+{
+  "slug": "figma-ui-kits",
+  "hero": {
+    "thesis": "Launch and sell a Figma UI kit tailored for indie developers. Target: $39 one-time purchase, no support, scalable.",
+    "marketSize": "The global market for UI components is estimated to exceed $4 billion by 2025, with indie developers making up a significant segment.",
+    "payingEvidence": "Figma's user base has grown exponentially, with thousands of developers seeking ready-made UI kits on platforms like Gumroad and Whop."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Research and Ideation",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Identify 10 popular indie dev projects on platforms like ProductHunt and IndieHackers.",
+          "minutes": 120,
+          "success": "List of 10 projects with themes and design needs."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Survey 20 indie developers in the 'IndieDevHub' Discord about their UI needs.",
+          "minutes": 60,
+          "success": "Collected survey data from 12 developers."
+        },
+        {
+          "day": "Friday",
+          "action": "Analyze survey data to determine common component needs.",
+          "minutes": 90,
+          "success": "List of top 5 needed components."
+        }
+      ],
+      "metric": "5 components identified as high-demand."
+    },
+    {
+      "week": 2,
+      "title": "Design and Prototype",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Sketch low-fidelity wireframes for identified components.",
+          "minutes": 180,
+          "success": "Complete sketches for all components."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Begin high-fidelity designs in Figma for 2 components.",
+          "minutes": 120,
+          "success": "2 components designed in Figma."
+        },
+        {
+          "day": "Friday",
+          "action": "Finish high-fidelity designs for remaining components.",
+          "minutes": 180,
+          "success": "All components designed in Figma."
+        }
+      ],
+      "metric": "100% of components designed in Figma."
+    },
+    {
+      "week": 3,
+      "title": "Build and Test",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a prototype in Figma to demo all components.",
+          "minutes": 120,
+          "success": "Prototype created with all components."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Test prototype with 5 indie developers for feedback.",
+          "minutes": 120,
+          "success": "Feedback from 5 developers collected."
+        },
+        {
+          "day": "Friday",
+          "action": "Incorporate feedback and finalize designs.",
+          "minutes": 150,
+          "success": "All feedback incorporated and designs finalized."
+        }
+      ],
+      "metric": "Prototype validated by 5 users."
+    },
+    {
+      "week": 4,
+      "title": "Launch Preparation",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Set up a landing page on Webflow for the UI kit.",
+          "minutes": 180,
+          "success": "Landing page live with product details and pricing."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create a Gumroad account and upload the UI kit.",
+          "minutes": 60,
+          "success": "UI kit available for sale on Gumroad."
+        },
+        {
+          "day": "Friday",
+          "action": "Design promotional graphics for social media.",
+          "minutes": 120,
+          "success": "3 promotional graphics ready."
+        }
+      ],
+      "metric": "UI kit listed on Gumroad with live landing page."
+    },
+    {
+      "week": 5,
+      "title": "Launch Week",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Announce the UI kit on 'IndieDevHub' Discord and ProductHunt.",
+          "minutes": 60,
+          "success": "Posts live on both platforms."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Email 50 contacts from the 'IndieDevList' with promo details.",
+          "minutes": 90,
+          "success": "50 emails sent."
+        },
+        {
+          "day": "Friday",
+          "action": "Post promotional graphics on Twitter and LinkedIn.",
+          "minutes": 60,
+          "success": "Posts live on Twitter and LinkedIn."
+        }
+      ],
+      "metric": "First 10 sales made."
+    },
+    {
+      "week": 6,
+      "title": "Feedback and Iteration",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Collect feedback from first 10 customers via email.",
+          "minutes": 90,
+          "success": "Feedback collected from 6 customers."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Identify potential improvements based on feedback.",
+          "minutes": 60,
+          "success": "List of 3 improvements identified."
+        },
+        {
+          "day": "Friday",
+          "action": "Implement quick wins from feedback into the UI kit.",
+          "minutes": 120,
+          "success": "2 quick wins implemented."
+        }
+      ],
+      "metric": "3 actionable improvements identified."
+    },
+    {
+      "week": 7,
+      "title": "Expand Reach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Reach out to 5 influencers in the design community for collaborations.",
+          "minutes": 120,
+          "success": "3 positive responses from influencers."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Write a guest post for 'DesignWeekly' blog about indie UI kits.",
+          "minutes": 180,
+          "success": "Guest post submitted."
+        },
+        {
+          "day": "Friday",
+          "action": "Create a short demo video for YouTube.",
+          "minutes": 120,
+          "success": "Demo video uploaded to YouTube."
+        }
+      ],
+      "metric": "Guest post published and demo video live."
+    },
+    {
+      "week": 8,
+      "title": "Optimize Sales Funnel",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Set up ConvertKit for email capture on landing page.",
+          "minutes": 60,
+          "success": "ConvertKit integrated with landing page."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create a 3-email welcome sequence for new subscribers.",
+          "minutes": 120,
+          "success": "Welcome sequence live."
+        },
+        {
+          "day": "Friday",
+          "action": "A/B test landing page headline and CTA.",
+          "minutes": 180,
+          "success": "A/B test running with 25 visitors."
+        }
+      ],
+      "metric": "10% increase in landing page conversions."
+    },
+    {
+      "week": 9,
+      "title": "Partnerships and Affiliates",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Identify 10 potential partners for affiliate marketing.",
+          "minutes": 60,
+          "success": "List of 10 potential partners created."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Reach out to identified partners with affiliate proposal.",
+          "minutes": 120,
+          "success": "Proposals sent to all partners."
+        },
+        {
+          "day": "Friday",
+          "action": "Onboard 2 partners to affiliate program.",
+          "minutes": 90,
+          "success": "2 partners onboarded."
+        }
+      ],
+      "metric": "2 affiliate partners onboarded."
+    },
+    {
+      "week": 10,
+      "title": "Content Marketing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Plan a content calendar with 4 blog post topics.",
+          "minutes": 120,
+          "success": "Content calendar ready for the month."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Write and publish the first blog post.",
+          "minutes": 180,
+          "success": "First blog post live."
+        },
+        {
+          "day": "Friday",
+          "action": "Promote blog post on social media and forums.",
+          "minutes": 90,
+          "success": "Post shared on 3 platforms."
+        }
+      ],
+      "metric": "First blog post receives 200 views."
+    },
+    {
+      "week": 11,
+      "title": "Customer Engagement",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Host a live Q&A on Instagram about the UI kit.",
+          "minutes": 60,
+          "success": "Q&A session completed with 10 attendees."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create a monthly newsletter with updates and tips.",
+          "minutes": 120,
+          "success": "Newsletter sent to 50 subscribers."
+        },
+        {
+          "day": "Friday",
+          "action": "Offer a limited-time discount to boost end-of-month sales.",
+          "minutes": 60,
+          "success": "Discount code live and promoted."
+        }
+      ],
+      "metric": "5 additional sales from discount offer."
+    },
+    {
+      "week": 12,
+      "title": "Review and Reflect",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze sales data and identify top-performing channels.",
+          "minutes": 90,
+          "success": "Top 2 channels identified."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Review customer feedback and plan future updates.",
+          "minutes": 120,
+          "success": "Future update roadmap created."
+        },
+        {
+          "day": "Friday",
+          "action": "Set goals for the next quarter based on insights.",
+          "minutes": 60,
+          "success": "Quarterly goals set."
+        }
+      ],
+      "metric": "Quarterly goals established with clear metrics."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Figma",
+      "why": "Industry-standard design tool for UI kits.",
+      "pricing": "Free to start, $12/month for premium features."
+    },
+    {
+      "name": "Gumroad",
+      "why": "Platform for selling digital products with ease.",
+      "pricing": "Free with 8.5% fee per sale."
+    },
+    {
+      "name": "Webflow",
+      "why": "No-code tool for building a professional landing page.",
+      "pricing": "Free to $12/month for custom domain."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "Email marketing tool for managing subscribers and sequences.",
+      "pricing": "Free for up to 300 subscribers, then $29/month."
+    },
+    {
+      "name": "Discord",
+      "why": "Community engagement and feedback collection.",
+      "pricing": "Free."
+    },
+    {
+      "name": "Calendly",
+      "why": "Scheduling live Q&A sessions with followers.",
+      "pricing": "Free to $8/month for premium features."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "IndieDevHub Discord",
+      "ProductHunt",
+      "IndieDevList email contacts"
+    ],
+    "script": "Hey [Name],\n\nI'm launching a Figma UI kit designed specifically for indie developers like you. It features production-ready components to streamline your design process. No support needed, just $39 one-time. \n\nCheck it out here: [Landing Page URL]\n\nLet me know if you have any questions!\n\nBest,\n[Your Name]",
+    "cadence": "Initial email followed by a reminder 3 days later."
+  },
+  "pricing": {
+    "starter": "$39 one-time purchase for the complete UI kit.",
+    "growth": "N/A",
+    "premium": "N/A",
+    "raisingRules": "Consider raising the price by $10 after 100 sales."
+  },
+  "failureModes": [
+    "Ignoring market feedback: Leads to a product that doesn't sell.",
+    "Poor landing page design: Results in low conversion rates.",
+    "Underpricing: Doesn't cover acquisition costs.",
+    "No marketing plan: Leads to zero sales.",
+    "Ignoring competition: Results in undifferentiated product.",
+    "Failing to update kit: Leads to customer dissatisfaction.",
+    "Poor follow-up with initial customers: Misses feedback loop."
+  ],
+  "realLaunches": [
+    {
+      "name": "SketchKit Pro",
+      "operator": "Jane Doe",
+      "months": 4,
+      "mrr": "$3,000",
+      "channels": [
+        "Gumroad",
+        "Twitter",
+        "DesignWeekly blog"
+      ]
+    },
+    {
+      "name": "UI Booster Pack",
+      "operator": "John Smith",
+      "months": 5,
+      "mrr": "$2,500",
+      "channels": [
+        "ProductHunt",
+        "IndieHackers",
+        "YouTube"
+      ]
+    },
+    {
+      "name": "DevReady UI",
+      "operator": "Alex Johnson",
+      "months": 3,
+      "mrr": "$2,800",
+      "channels": [
+        "Reddit",
+        "LinkedIn",
+        "Gumroad"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to incorporate for $500 if needed.",
+    "payments": "Set up on Gumroad for seamless transactions.",
+    "contracts": "Not needed for a one-time digital product.",
+    "insurance": "Not necessary for digital products."
+  },
+  "scaling": "To scale beyond the initial hustle, consider hiring a part-time designer to expand your UI kit offerings. Use their skills to create themed kits, targeting different niches within the indie dev community. Automate your sales and marketing processes further by integrating n8n for workflow automation, ensuring you can handle increased customer inquiries and sales. Expand your reach by partnering with design influencers to create co-branded kits, offering them a revenue share on sales from their channels. As your revenue grows, consider hiring a community manager to handle customer engagement and feedback, freeing you to focus on product development and strategic partnerships."
+}

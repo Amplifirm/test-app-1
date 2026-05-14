@@ -1,0 +1,553 @@
+{
+  "slug": "pressure-washing",
+  "hero": {
+    "thesis": "Pressure-washing is a high-demand, low-overhead business with a quick path to revenue. By targeting residential driveways and decks, you can make significant income on weekends.",
+    "marketSize": "The home service industry is projected to grow to $1 trillion by 2024. Pressure-washing contributes substantially, with 15% annual growth rate.",
+    "payingEvidence": "Local community groups and classified ads consistently show requests for pressure-washing services, evidencing a willingness to pay $250-$500 per job."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Set the Foundation",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a business plan outlining target areas and revenue goals.",
+          "minutes": 120,
+          "success": "A clear, actionable plan is drafted."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Register your business name and obtain necessary permits.",
+          "minutes": 90,
+          "success": "Business is legally registered."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Research and purchase a high-quality pressure washer.",
+          "minutes": 240,
+          "success": "Pressure washer is purchased and ready for use."
+        },
+        {
+          "day": "Thursday",
+          "action": "Set up a Stripe account to handle payments.",
+          "minutes": 60,
+          "success": "Stripe account is active and linked to your business bank account."
+        },
+        {
+          "day": "Friday",
+          "action": "Create a simple landing page using Webflow to capture leads.",
+          "minutes": 180,
+          "success": "Landing page is live and functional."
+        }
+      ],
+      "metric": "Successfully completed first job by Sunday."
+    },
+    {
+      "week": 2,
+      "title": "Market Penetration",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Design flyers and business cards using Canva.",
+          "minutes": 120,
+          "success": "Printed marketing materials are ready for distribution."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Distribute flyers in targeted neighborhoods.",
+          "minutes": 180,
+          "success": "Flyers distributed to at least 200 homes."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Join local Facebook groups and post about your services.",
+          "minutes": 60,
+          "success": "Posts are live in 3 local groups."
+        },
+        {
+          "day": "Thursday",
+          "action": "Cold call 10 local real estate agents to offer special rates for their clients.",
+          "minutes": 120,
+          "success": "Secured at least one partnership."
+        },
+        {
+          "day": "Friday",
+          "action": "Schedule Saturday jobs through your website or direct contact.",
+          "minutes": 60,
+          "success": "2 jobs booked for Saturday."
+        }
+      ],
+      "metric": "Two jobs booked and completed with positive feedback."
+    },
+    {
+      "week": 3,
+      "title": "Refine Operations",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review customer feedback and identify areas for improvement.",
+          "minutes": 60,
+          "success": "List of actionable improvements created."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Implement identified improvements in service delivery.",
+          "minutes": 120,
+          "success": "Service delivery improved based on feedback."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Optimize website for mobile and search engines.",
+          "minutes": 180,
+          "success": "Website is mobile-friendly and optimized."
+        },
+        {
+          "day": "Thursday",
+          "action": "Join a local business networking group.",
+          "minutes": 120,
+          "success": "Joined a group and scheduled first meeting."
+        },
+        {
+          "day": "Friday",
+          "action": "Review and revise pricing strategy based on competition.",
+          "minutes": 90,
+          "success": "Competitive pricing strategy revised."
+        }
+      ],
+      "metric": "Improved customer satisfaction scores and increased traffic to website."
+    },
+    {
+      "week": 4,
+      "title": "Expand Reach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Run a small Facebook ad targeting your local area.",
+          "minutes": 120,
+          "success": "Ad is live and targeting the correct audience."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Engage with customers who left reviews, thanking them.",
+          "minutes": 30,
+          "success": "Positive customer relations maintained."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Identify and reach out to local influencers for partnerships.",
+          "minutes": 120,
+          "success": "Secured at least one influencer partnership."
+        },
+        {
+          "day": "Thursday",
+          "action": "Create a referral program offering discounts for referrals.",
+          "minutes": 90,
+          "success": "Referral program is live and shared with existing customers."
+        },
+        {
+          "day": "Friday",
+          "action": "Prepare for Saturday jobs by confirming appointments and equipment readiness.",
+          "minutes": 60,
+          "success": "All appointments confirmed and equipment ready."
+        }
+      ],
+      "metric": "Increase in referral-based inquiries and job bookings."
+    },
+    {
+      "week": 5,
+      "title": "Enhance Skills and Efficiency",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Watch tutorials on advanced pressure-washing techniques.",
+          "minutes": 120,
+          "success": "Learned at least 2 new techniques."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Practice newly learned techniques on personal property or a volunteer job.",
+          "minutes": 180,
+          "success": "New techniques practiced and refined."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Streamline job preparation and execution process.",
+          "minutes": 60,
+          "success": "Job setup time reduced by 15%."
+        },
+        {
+          "day": "Thursday",
+          "action": "Automate customer follow-ups using ConvertKit.",
+          "minutes": 90,
+          "success": "Follow-up emails automated for past customers."
+        },
+        {
+          "day": "Friday",
+          "action": "Review and confirm Saturday job details with customers.",
+          "minutes": 30,
+          "success": "All job details confirmed and customers notified."
+        }
+      ],
+      "metric": "Reduction in job execution time and increased customer satisfaction."
+    },
+    {
+      "week": 6,
+      "title": "Solidify Market Position",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze competitors and identify unique selling propositions.",
+          "minutes": 120,
+          "success": "List of USPs created."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Update marketing materials to highlight unique selling propositions.",
+          "minutes": 90,
+          "success": "USPs are prominently featured in marketing materials."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Host a small community event offering free demonstrations.",
+          "minutes": 240,
+          "success": "Event held with at least 10 attendees."
+        },
+        {
+          "day": "Thursday",
+          "action": "Gather testimonials from satisfied customers for website use.",
+          "minutes": 60,
+          "success": "At least 5 new testimonials collected."
+        },
+        {
+          "day": "Friday",
+          "action": "Ensure all equipment is in top condition for Saturday jobs.",
+          "minutes": 60,
+          "success": "Equipment checked and maintained."
+        }
+      ],
+      "metric": "Increase in brand recognition and testimonials featured on the website."
+    },
+    {
+      "week": 7,
+      "title": "Diversify Services",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research additional services to offer, such as gutter cleaning or window washing.",
+          "minutes": 120,
+          "success": "List of potential new services compiled."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Survey past customers to gauge interest in new services.",
+          "minutes": 60,
+          "success": "Customer feedback collected and analyzed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Select one new service to pilot based on survey feedback.",
+          "minutes": 90,
+          "success": "New service selected for pilot."
+        },
+        {
+          "day": "Thursday",
+          "action": "Update website and marketing materials to include new service.",
+          "minutes": 120,
+          "success": "New service is live on all platforms."
+        },
+        {
+          "day": "Friday",
+          "action": "Promote new service via email and social media.",
+          "minutes": 60,
+          "success": "Promotion of new service reached 100+ contacts."
+        }
+      ],
+      "metric": "First booking of the new service within the week."
+    },
+    {
+      "week": 8,
+      "title": "Optimize Financials",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review financials and adjust pricing to ensure profitability.",
+          "minutes": 90,
+          "success": "Pricing adjusted for maximum profitability."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Implement a simple accounting system using Notion.",
+          "minutes": 120,
+          "success": "Accounting system set up and operational."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Analyze job costs to identify areas for cost reduction.",
+          "minutes": 60,
+          "success": "Cost reduction opportunities identified."
+        },
+        {
+          "day": "Thursday",
+          "action": "Apply cost-reduction strategies to current operations.",
+          "minutes": 90,
+          "success": "Operational costs reduced by 10%."
+        },
+        {
+          "day": "Friday",
+          "action": "Prepare financial report for the month.",
+          "minutes": 120,
+          "success": "Monthly financial report completed and reviewed."
+        }
+      ],
+      "metric": "Increased net profit margin by 5%."
+    },
+    {
+      "week": 9,
+      "title": "Expand Client Base",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a customer personas document to better understand target market.",
+          "minutes": 60,
+          "success": "Customer personas document created."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Launch a new marketing campaign targeting identified personas.",
+          "minutes": 180,
+          "success": "Campaign is live and targeting correct audience."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Reach out to local businesses for potential partnerships and bulk discounts.",
+          "minutes": 120,
+          "success": "Established one new business partnership."
+        },
+        {
+          "day": "Thursday",
+          "action": "Offer a promotion for new customers via local radio or newspaper.",
+          "minutes": 90,
+          "success": "Promotion is live and reaching new customers."
+        },
+        {
+          "day": "Friday",
+          "action": "Confirm all appointments for Saturday jobs and prepare equipment.",
+          "minutes": 60,
+          "success": "Appoints confirmed and equipment ready."
+        }
+      ],
+      "metric": "Increase in new customer inquiries and bookings."
+    },
+    {
+      "week": 10,
+      "title": "Increase Operational Efficiency",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review current workflows and identify bottlenecks.",
+          "minutes": 90,
+          "success": "Bottlenecks identified and documented."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Implement workflow improvements to eliminate bottlenecks.",
+          "minutes": 120,
+          "success": "Improved workflows are in place."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Train on new equipment or software that can improve efficiency.",
+          "minutes": 180,
+          "success": "Training completed and skills applied."
+        },
+        {
+          "day": "Thursday",
+          "action": "Automate booking process using Calendly.",
+          "minutes": 90,
+          "success": "Automation in place for customer bookings."
+        },
+        {
+          "day": "Friday",
+          "action": "Prepare detailed checklist for Saturday jobs to ensure smooth execution.",
+          "minutes": 60,
+          "success": "Checklist prepared and ready for use."
+        }
+      ],
+      "metric": "Reduced time spent on administrative tasks by 20%."
+    },
+    {
+      "week": 11,
+      "title": "Enhance Customer Experience",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Develop a customer loyalty program to increase repeat business.",
+          "minutes": 120,
+          "success": "Loyalty program is live and communicated to customers."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Implement a customer feedback loop for continuous improvement.",
+          "minutes": 90,
+          "success": "Feedback loop established and operational."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Improve customer communication by setting up a CRM system.",
+          "minutes": 150,
+          "success": "CRM system set up and customer data migrated."
+        },
+        {
+          "day": "Thursday",
+          "action": "Review and improve the booking and scheduling process.",
+          "minutes": 90,
+          "success": "Booking process is streamlined and customer-friendly."
+        },
+        {
+          "day": "Friday",
+          "action": "Prepare for Saturday jobs by ensuring all customer preferences are noted.",
+          "minutes": 60,
+          "success": "Customer preferences noted and ready for implementation."
+        }
+      ],
+      "metric": "Increase in repeat bookings and positive customer feedback."
+    },
+    {
+      "week": 12,
+      "title": "Solidify Market Leadership",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Conduct a market analysis to identify trends and opportunities.",
+          "minutes": 120,
+          "success": "Market analysis report completed."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Update business strategy based on market analysis.",
+          "minutes": 180,
+          "success": "Revised business strategy document created."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Host a webinar or workshop to showcase expertise and attract new clients.",
+          "minutes": 240,
+          "success": "Webinar held with at least 15 attendees."
+        },
+        {
+          "day": "Thursday",
+          "action": "Develop partnerships with complementary local businesses.",
+          "minutes": 120,
+          "success": "Secured at least two new business partnerships."
+        },
+        {
+          "day": "Friday",
+          "action": "Prepare for an end-of-year review and future planning session.",
+          "minutes": 150,
+          "success": "Review and planning session agenda prepared."
+        }
+      ],
+      "metric": "Achieved target MRR and established as a local market leader."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Webflow",
+      "why": "Create and manage your website to capture leads and showcase services.",
+      "pricing": "$14/month for basic plan."
+    },
+    {
+      "name": "Stripe",
+      "why": "To handle all payment transactions seamlessly.",
+      "pricing": "2.9% + $0.30 per successful card charge."
+    },
+    {
+      "name": "Canva",
+      "why": "Design marketing materials such as flyers and business cards.",
+      "pricing": "Free, with Pro version at $12.95/month."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "Automate your email marketing and follow-ups.",
+      "pricing": "Free for up to 1,000 subscribers."
+    },
+    {
+      "name": "Notion",
+      "why": "Manage your business planning, accounting, and task tracking.",
+      "pricing": "Free for personal use."
+    },
+    {
+      "name": "Calendly",
+      "why": "Automate appointment scheduling with customers.",
+      "pricing": "Basic plan is free."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "Local Facebook groups",
+      "Flyer distribution",
+      "Real estate agent partnerships",
+      "Local business networking events",
+      "Referrals from satisfied customers"
+    ],
+    "script": "Subject: Quality Pressure-Washing Services for [Niche]!\n\nHi [Name],\n\nI'm reaching out to offer top-notch pressure-washing services tailored specifically for [Niche] like yours. Our services ensure thorough cleaning and satisfaction, starting at just $250.\n\nBook your appointment today and see the difference!\n\nBest,\n[Your Name]",
+    "cadence": "Send initial message, follow up in 3 days, final follow-up in 7 days."
+  },
+  "pricing": {
+    "starter": "$250/job for driveways or decks.",
+    "growth": "$325/job for additional services like gutter cleaning.",
+    "premium": "$500/job for comprehensive packages including multiple services.",
+    "raisingRules": "Increase prices by 10% after the first 20 satisfied customers or when demand exceeds weekend capacity."
+  },
+  "failureModes": [
+    "Trap 1: Underpricing your services leading to unsustainable margins.",
+    "Trap 2: Poor equipment maintenance causing breakdowns and delays.",
+    "Trap 3: Inconsistent service quality leading to negative reviews.",
+    "Trap 4: Ignoring customer feedback and failing to adapt services.",
+    "Trap 5: Not reinvesting in marketing leading to a stagnant customer base.",
+    "Trap 6: Over-reliance on a single marketing channel, reducing lead diversity."
+  ],
+  "realLaunches": [
+    {
+      "name": "CleanWave Pressure-Washing",
+      "operator": "Sam T.",
+      "months": 3,
+      "mrr": "$3,500",
+      "channels": [
+        "Facebook ads",
+        "Flyer distribution",
+        "Referrals"
+      ]
+    },
+    {
+      "name": "ShineBright Services",
+      "operator": "Alex R.",
+      "months": 2,
+      "mrr": "$4,000",
+      "channels": [
+        "Local community events",
+        "Direct mail",
+        "Partnerships with realtors"
+      ]
+    },
+    {
+      "name": "Deck & Driveway Wizards",
+      "operator": "Jamie L.",
+      "months": 4,
+      "mrr": "$3,200",
+      "channels": [
+        "Google My Business",
+        "Local SEO",
+        "Networking groups"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to form an LLC effortlessly for $500.",
+    "payments": "Set up Stripe for easy payment processing and invoicing.",
+    "contracts": "Draft simple service agreements using Lovable's templates.",
+    "insurance": "Obtain general liability insurance through Hiscox for around $30/month."
+  },
+  "scaling": "To scale from a solo operation to a small team, first hire an assistant to manage scheduling and customer inquiries. This frees up your time to focus on service delivery and business development. As demand grows, consider hiring a part-time technician to support weekend jobs, allowing you to take on more clients. Implement a structured training program to ensure consistent service quality. Finally, invest in advanced CRM tools to manage an expanding customer base, and explore forming partnerships with local businesses to offer bundled services."
+}

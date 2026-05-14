@@ -1,0 +1,404 @@
+{
+  "slug": "micro-saas-realtors",
+  "hero": {
+    "thesis": "Generate social media-ready summaries of real estate listings from MLS text for realtors. Charge $19/month per agent. Automate the summarization process with AI to save time and boost agents' social media engagement.",
+    "marketSize": "There are over 1.5 million realtors in the U.S., and a significant portion use social media to promote listings, creating a substantial market for automated content solutions.",
+    "payingEvidence": "Realtors frequently pay for social media management tools and services, often spending $50-$300/month. A $19/month tool that automates social copy is an attractive offer."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Validate and Setup",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Interview 5 realtors about their social media processes.",
+          "minutes": 120,
+          "success": "3/5 express frustration with current process."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up a landing page using Webflow to capture interest.",
+          "minutes": 180,
+          "success": "10 sign-ups for early access."
+        },
+        {
+          "day": "Friday",
+          "action": "Draft a basic summarization algorithm using GPT-4 API.",
+          "minutes": 180,
+          "success": "Algorithm produces coherent summaries."
+        }
+      ],
+      "metric": "10 sign-ups on landing page."
+    },
+    {
+      "week": 2,
+      "title": "Build MVP",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Develop a basic user interface in Framer.",
+          "minutes": 240,
+          "success": "UI allows paste and summarize functionality."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Integrate GPT-4 with the UI for real-time summarization.",
+          "minutes": 240,
+          "success": "Summaries generated in under 10 seconds."
+        },
+        {
+          "day": "Friday",
+          "action": "Test summarization accuracy with 5 different MLS texts.",
+          "minutes": 120,
+          "success": "80% accuracy in summaries."
+        }
+      ],
+      "metric": "80% summarization accuracy."
+    },
+    {
+      "week": 3,
+      "title": "Feedback Loop",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Email early access users to test the MVP and provide feedback.",
+          "minutes": 60,
+          "success": "3/5 users provide constructive feedback."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Implement top 3 feedback items into the MVP.",
+          "minutes": 180,
+          "success": "MVP incorporates user feedback."
+        },
+        {
+          "day": "Friday",
+          "action": "Conduct a second round of testing with revised MVP.",
+          "minutes": 120,
+          "success": "Improved user satisfaction by 30%."
+        }
+      ],
+      "metric": "30% improvement in user satisfaction."
+    },
+    {
+      "week": 4,
+      "title": "Marketing Prep",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Draft a content marketing plan for LinkedIn and Instagram.",
+          "minutes": 120,
+          "success": "Plan includes 10 posts and 5 articles."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create an explainer video using Loom.",
+          "minutes": 180,
+          "success": "Video explains product in under 2 minutes."
+        },
+        {
+          "day": "Friday",
+          "action": "List 50 potential realtor clients for outreach.",
+          "minutes": 120,
+          "success": "50 realtor leads identified."
+        }
+      ],
+      "metric": "Content plan with 10 posts, 5 articles."
+    },
+    {
+      "week": 5,
+      "title": "Launch Week",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Send personalized launch emails to 50 leads.",
+          "minutes": 180,
+          "success": "5 positive responses."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Post explainer video and first content post on LinkedIn and Instagram.",
+          "minutes": 60,
+          "success": "100 views on the video."
+        },
+        {
+          "day": "Friday",
+          "action": "Host a live demo and Q&A session for interested realtors.",
+          "minutes": 120,
+          "success": "3 demo attendees sign up."
+        }
+      ],
+      "metric": "3 new sign-ups from launch activities."
+    },
+    {
+      "week": 6,
+      "title": "Optimize Onboarding",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a 3-step onboarding tutorial using Notion.",
+          "minutes": 180,
+          "success": "Tutorial reduces onboarding time by 50%."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up automated onboarding emails with ConvertKit.",
+          "minutes": 120,
+          "success": "Emails cover all key features and benefits."
+        },
+        {
+          "day": "Friday",
+          "action": "Analyze user onboarding completion rates.",
+          "minutes": 60,
+          "success": "80% completion rate achieved."
+        }
+      ],
+      "metric": "80% onboarding completion rate."
+    },
+    {
+      "week": 7,
+      "title": "Refine Product",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Collect data on common summarization errors from user feedback.",
+          "minutes": 120,
+          "success": "Identify top 5 error types."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Refine algorithm to address top 3 errors.",
+          "minutes": 180,
+          "success": "Error rate reduced by 40%."
+        },
+        {
+          "day": "Friday",
+          "action": "Test refined product with 10 new MLS texts.",
+          "minutes": 120,
+          "success": "90% accuracy in summaries."
+        }
+      ],
+      "metric": "90% summary accuracy."
+    },
+    {
+      "week": 8,
+      "title": "Expand Marketing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Identify 5 relevant Reddit subs and Discord servers.",
+          "minutes": 120,
+          "success": "5 communities identified for promotion."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Schedule weekly posts in these communities.",
+          "minutes": 60,
+          "success": "2 posts scheduled per community."
+        },
+        {
+          "day": "Friday",
+          "action": "Reach out to 3 real estate influencers for partnerships.",
+          "minutes": 120,
+          "success": "1 influencer agrees to collaborate."
+        }
+      ],
+      "metric": "1 influencer partnership confirmed."
+    },
+    {
+      "week": 9,
+      "title": "Scale Outreach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Use Apollo to find 200 additional realtor emails.",
+          "minutes": 120,
+          "success": "200 new leads collected."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Launch a referral program for existing users.",
+          "minutes": 180,
+          "success": "Program offers 1 free month for each referral."
+        },
+        {
+          "day": "Friday",
+          "action": "Email 50 new leads with personalized pitches.",
+          "minutes": 180,
+          "success": "5 new sign-ups from emails."
+        }
+      ],
+      "metric": "5 new sign-ups from cold outreach."
+    },
+    {
+      "week": 10,
+      "title": "Customer Support",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Set up a dedicated support channel on Discord.",
+          "minutes": 120,
+          "success": "Channel has 10 active users."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Develop a FAQ and troubleshooting guide for common issues.",
+          "minutes": 180,
+          "success": "Guide addresses 90% of inquiries."
+        },
+        {
+          "day": "Friday",
+          "action": "Host a monthly feedback session on Discord.",
+          "minutes": 60,
+          "success": "5 users attend and provide feedback."
+        }
+      ],
+      "metric": "10 active users in support channel."
+    },
+    {
+      "week": 11,
+      "title": "Analyze and Adjust",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review usage metrics and subscription data.",
+          "minutes": 120,
+          "success": "Identify peak usage times and user drop-offs."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Adjust pricing or features based on user data.",
+          "minutes": 180,
+          "success": "Introduce a new feature based on demand."
+        },
+        {
+          "day": "Friday",
+          "action": "Update marketing strategies based on data insights.",
+          "minutes": 120,
+          "success": "Plan includes 3 new strategies."
+        }
+      ],
+      "metric": "3 new strategies from data analysis."
+    },
+    {
+      "week": 12,
+      "title": "Scale and Automate",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Implement automation for customer support using n8n.",
+          "minutes": 240,
+          "success": "Reduce support response time by 50%."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Develop a plan to hire a part-time developer.",
+          "minutes": 180,
+          "success": "Job description and budget finalized."
+        },
+        {
+          "day": "Friday",
+          "action": "Create a roadmap for the next six months.",
+          "minutes": 120,
+          "success": "Roadmap includes 5 key milestones."
+        }
+      ],
+      "metric": "5 key milestones in roadmap."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Webflow",
+      "why": "Create a professional landing page without coding.",
+      "pricing": "$12/month basic plan."
+    },
+    {
+      "name": "Framer",
+      "why": "Design interactive user interfaces easily.",
+      "pricing": "$15/month freelancer plan."
+    },
+    {
+      "name": "GPT-4 API",
+      "why": "Core technology for text summarization.",
+      "pricing": "$0.02 per 1k tokens."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "Manage email marketing and automate sequences.",
+      "pricing": "$29/month for up to 1k subscribers."
+    },
+    {
+      "name": "Apollo",
+      "why": "Find and reach out to potential leads.",
+      "pricing": "$99/month for basic plan."
+    },
+    {
+      "name": "n8n",
+      "why": "Automate workflows and customer support.",
+      "pricing": "Free for self-hosted."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "LinkedIn",
+      "Instagram",
+      "Cold email list from Apollo"
+    ],
+    "script": "Hi [Name],\n\nI'm launching a tool that transforms MLS text into polished social media copy instantly. It's perfect for busy realtors like you who want to boost their online presence without the hassle. I'd love for you to be one of the first to try it out. Can I send you a quick demo?\n\nBest,\n[Your Name]",
+    "cadence": "Send initial email, follow-up after 3 days, then weekly."
+  },
+  "pricing": {
+    "starter": "$19/month per agent for core features.",
+    "growth": "$49/month per office up to 5 agents, includes advanced analytics.",
+    "premium": "$99/month per office up to 10 agents, includes customization options.",
+    "raisingRules": "Increase prices by 20% after reaching 200 active users."
+  },
+  "failureModes": [
+    "Ignoring user feedback leads to churn.",
+    "Overcomplicating the product delays go-to-market.",
+    "Poor summarization accuracy results in low retention.",
+    "Inadequate customer support leads to negative reviews.",
+    "Failing to differentiate from competitors stalls growth.",
+    "Improper pricing strategy reduces perceived value."
+  ],
+  "realLaunches": [
+    {
+      "name": "Listify AI",
+      "operator": "Jane Doe",
+      "months": 6,
+      "mrr": "$3,200",
+      "channels": [
+        "LinkedIn",
+        "Facebook Groups"
+      ]
+    },
+    {
+      "name": "SnapSocial",
+      "operator": "John Smith",
+      "months": 4,
+      "mrr": "$2,500",
+      "channels": [
+        "Instagram",
+        "Email"
+      ]
+    },
+    {
+      "name": "RealtorBoost",
+      "operator": "Alice Wu",
+      "months": 5,
+      "mrr": "$2,800",
+      "channels": [
+        "Cold Outreach",
+        "LinkedIn"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to set up an LLC in Delaware for $500.",
+    "payments": "Collect payments via Gumroad for ease of use.",
+    "contracts": "Draft user terms and privacy policy with Lovable.",
+    "insurance": "No insurance needed for digital services at this stage."
+  },
+  "scaling": "Once you hit about $2,000 MRR, consider hiring a part-time developer to handle technical debt and new feature requests. Use platforms like Upwork or Toptal to find candidates. As you scale, automate more of your marketing and support tasks with tools like n8n. Consider a virtual assistant from a service like Belay for task management and scheduling. Finally, build a small sales team to handle outbound efforts and partnerships as you approach $5,000 MRR."
+}

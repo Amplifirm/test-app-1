@@ -1,0 +1,409 @@
+{
+  "slug": "amazon-fba-niche",
+  "hero": {
+    "thesis": "Leverage Amazon's massive distribution network to sell private-label products with a focus on high-demand, low-competition niches.",
+    "marketSize": "$469 billion in 2021, projected to grow by 10% annually.",
+    "payingEvidence": "Thousands of sellers on Amazon generate $10,000+ in monthly sales according to Jungle Scout."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Validate and Select Your Product Niche",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Use Jungle Scout to identify 10 potential product niches with low competition and high demand.",
+          "minutes": 120,
+          "success": "List of 10 potential niches."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Evaluate profitability with AMZScout's FBA calculator for each product.",
+          "minutes": 60,
+          "success": "Top 3 most profitable niches."
+        },
+        {
+          "day": "Friday",
+          "action": "Join the 'Private Label Profit' Reddit sub to research competitor strategies.",
+          "minutes": 60,
+          "success": "Insights and potential competitive advantages."
+        }
+      ],
+      "metric": "3 validated product niches with potential 18% net margins."
+    },
+    {
+      "week": 2,
+      "title": "Source Your Product",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Contact 5 manufacturers on Alibaba for quotes and samples.",
+          "minutes": 120,
+          "success": "Receive 5 quotes and timelines."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Evaluate sample quality and review manufacturer terms with Lovable.",
+          "minutes": 90,
+          "success": "Select a manufacturer."
+        },
+        {
+          "day": "Friday",
+          "action": "Negotiate pricing and order terms for an initial batch of 100-200 units.",
+          "minutes": 60,
+          "success": "Locked in a purchase order."
+        }
+      ],
+      "metric": "Manufacturer selected and initial batch ordered."
+    },
+    {
+      "week": 3,
+      "title": "Set Up Your Amazon Seller Account",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Register for an Amazon Seller Central account.",
+          "minutes": 60,
+          "success": "Amazon Seller account created."
+        },
+        {
+          "day": "Wednesday",
+          "action": "List your product with optimized titles and descriptions using Helium 10.",
+          "minutes": 90,
+          "success": "Product listing optimized for SEO."
+        },
+        {
+          "day": "Friday",
+          "action": "Set competitive pricing using Keepa for market trends.",
+          "minutes": 60,
+          "success": "Initial product pricing set."
+        }
+      ],
+      "metric": "Product listing live on Amazon."
+    },
+    {
+      "week": 4,
+      "title": "Launch and Optimize Your Listing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Run a small PPC campaign using Amazon Ads to boost visibility.",
+          "minutes": 120,
+          "success": "PPC campaign launched."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Analyze ad performance and adjust keywords using Sellics.",
+          "minutes": 60,
+          "success": "Optimized PPC keywords."
+        },
+        {
+          "day": "Friday",
+          "action": "Monitor reviews and customer feedback on Amazon.",
+          "minutes": 60,
+          "success": "Improved product listing based on feedback."
+        }
+      ],
+      "metric": "Achieve 10 product views/day."
+    },
+    {
+      "week": 5,
+      "title": "Engage Early Customers",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Send follow-up emails to first 10 customers using ConvertKit.",
+          "minutes": 60,
+          "success": "Customer engagement emails sent."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Offer a small discount for reviews or referrals via Stan Store.",
+          "minutes": 60,
+          "success": "Secured at least 2 reviews."
+        },
+        {
+          "day": "Friday",
+          "action": "Host a giveaway on Instagram targeting niche communities.",
+          "minutes": 90,
+          "success": "Increased product visibility."
+        }
+      ],
+      "metric": "Secure 5 customer reviews."
+    },
+    {
+      "week": 6,
+      "title": "Optimize for Scale",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review inventory turnover rates with Notion for restocking timelines.",
+          "minutes": 60,
+          "success": "Inventory timeline established."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Run a pricing A/B test using Amazon's pricing tools.",
+          "minutes": 90,
+          "success": "Identified optimal pricing strategy."
+        },
+        {
+          "day": "Friday",
+          "action": "Join 'FBA Mastery' Discord server for advanced strategies.",
+          "minutes": 60,
+          "success": "Networked with 3 experienced sellers."
+        }
+      ],
+      "metric": "Maintain at least 15% net margin."
+    },
+    {
+      "week": 7,
+      "title": "Enhance Marketing Efforts",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create an Amazon Storefront to showcase your brand.",
+          "minutes": 120,
+          "success": "Amazon Storefront live."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Launch a social media ad campaign on Facebook targeting your niche audience.",
+          "minutes": 120,
+          "success": "Facebook ad campaign launched."
+        },
+        {
+          "day": "Friday",
+          "action": "Collaborate with micro-influencers on YouTube for product reviews.",
+          "minutes": 90,
+          "success": "Secured 2 influencer partnerships."
+        }
+      ],
+      "metric": "Increase product views by 30%."
+    },
+    {
+      "week": 8,
+      "title": "Refine Operations",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Automate inventory tracking with n8n.",
+          "minutes": 120,
+          "success": "Inventory automated."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Streamline order fulfillment processes using Amazon's FBA tools.",
+          "minutes": 60,
+          "success": "Fulfillment process optimized."
+        },
+        {
+          "day": "Friday",
+          "action": "Audit all expenses and negotiate with suppliers for better rates.",
+          "minutes": 90,
+          "success": "Reduced costs by 5%."
+        }
+      ],
+      "metric": "Reduce overhead by 5%."
+    },
+    {
+      "week": 9,
+      "title": "Boost Customer Retention",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Implement a loyalty program using ConvertKit to increase repeat purchases.",
+          "minutes": 120,
+          "success": "Loyalty program launched."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Analyze customer feedback for product improvement insights.",
+          "minutes": 60,
+          "success": "Identified 3 actionable improvements."
+        },
+        {
+          "day": "Friday",
+          "action": "Run a limited-time offer to drive urgency and sales.",
+          "minutes": 60,
+          "success": "Increased sales by 10%."
+        }
+      ],
+      "metric": "Achieve 20% repeat purchase rate."
+    },
+    {
+      "week": 10,
+      "title": "Evaluate Financial Performance",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review monthly sales and profit margins using Notion dashboard.",
+          "minutes": 60,
+          "success": "Comprehensive financial analysis completed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Adjust pricing and marketing strategy based on sales data.",
+          "minutes": 90,
+          "success": "Strategy optimized for profit."
+        },
+        {
+          "day": "Friday",
+          "action": "Prepare a financial forecast for the next quarter.",
+          "minutes": 60,
+          "success": "Financial forecast completed."
+        }
+      ],
+      "metric": "Maintain average 18% net margin."
+    },
+    {
+      "week": 11,
+      "title": "Expand Product Line",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research and select an additional product to complement your current offering.",
+          "minutes": 120,
+          "success": "New product selected."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Contact suppliers and negotiate terms for the new product.",
+          "minutes": 90,
+          "success": "Supplier terms agreed."
+        },
+        {
+          "day": "Friday",
+          "action": "List new product on Amazon and optimize with Helium 10.",
+          "minutes": 90,
+          "success": "New product listing optimized."
+        }
+      ],
+      "metric": "New product listed with initial sales."
+    },
+    {
+      "week": 12,
+      "title": "Solidify Brand Presence",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Develop a brand story and update your Amazon Storefront.",
+          "minutes": 90,
+          "success": "Brand story published."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Engage with community forums like 'Amazon FBA Hub' to share insights and build authority.",
+          "minutes": 60,
+          "success": "Increased authority and visibility."
+        },
+        {
+          "day": "Friday",
+          "action": "Evaluate overall business performance and set new KPIs for growth.",
+          "minutes": 60,
+          "success": "New KPIs established."
+        }
+      ],
+      "metric": "30% increase in brand recognition and customer engagement."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Jungle Scout",
+      "why": "For product research and market analysis to find high-demand, low-competition products.",
+      "pricing": "Starts at $49/month."
+    },
+    {
+      "name": "AMZScout",
+      "why": "To calculate FBA fees and profit margins for potential products.",
+      "pricing": "Starts at $29/month."
+    },
+    {
+      "name": "Helium 10",
+      "why": "For optimizing Amazon product listings and keyword research.",
+      "pricing": "Starts at $37/month."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "To automate customer engagement emails and manage subscriber lists.",
+      "pricing": "Starts at $29/month."
+    },
+    {
+      "name": "Stan Store",
+      "why": "To offer discounts and manage customer promotions seamlessly.",
+      "pricing": "Free tier available, paid plans start at $29/month."
+    },
+    {
+      "name": "n8n",
+      "why": "To automate inventory tracking and streamline operations.",
+      "pricing": "Free for self-hosted, cloud starts at $20/month."
+    },
+    {
+      "name": "Notion",
+      "why": "For managing tasks, tracking inventory, and analyzing financial performance.",
+      "pricing": "Free tier available, paid plans start at $8/month."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "Reddit subs like 'Amazon FBA Warriors'",
+      "LinkedIn groups focused on e-commerce",
+      "Instagram niche communities"
+    ],
+    "script": "Subject: [Niche] Product You Need to Know\n\nHi [Name],\n\nI noticed your interest in [Niche] products and thought you’d love our new launch. We’re offering an exclusive discount to our first customers. Check it out here: [Link].\n\nThanks,\n[Your Name]",
+    "cadence": "Send initial message, follow up after 3 days, final reminder after 7 days."
+  },
+  "pricing": {
+    "starter": "$12-$20 per unit",
+    "growth": "$20-$30 per unit with added features or bundle",
+    "premium": "$30+ per unit for high-end versions or exclusive bundles",
+    "raisingRules": "Raise prices by 10% after securing 50+ reviews and consistent sales."
+  },
+  "failureModes": [
+    "Overestimating demand leading to unsold inventory.",
+    "Poor supplier terms increasing costs.",
+    "Inadequate product differentiation causing low sales.",
+    "Ineffective PPC campaigns wasting budget.",
+    "Ignoring customer feedback leading to poor reviews.",
+    "Delays in restocking causing stockouts."
+  ],
+  "realLaunches": [
+    {
+      "name": "EcoGoods",
+      "operator": "Sarah J.",
+      "months": 4,
+      "mrr": "$3,200",
+      "channels": [
+        "Instagram",
+        "Amazon PPC"
+      ]
+    },
+    {
+      "name": "TechToys",
+      "operator": "Mike R.",
+      "months": 6,
+      "mrr": "$5,000",
+      "channels": [
+        "YouTube",
+        "Facebook Ads"
+      ]
+    },
+    {
+      "name": "HealthyHabits",
+      "operator": "Emma S.",
+      "months": 5,
+      "mrr": "$4,000",
+      "channels": [
+        "Reddit",
+        "SEO"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas for LLC setup and banking, cost $500.",
+    "payments": "Set up Amazon Payments for seamless transactions.",
+    "contracts": "Use Lovable to draft manufacturer contracts, ensuring quality and terms are clear.",
+    "insurance": "Get product liability insurance through Hiscox; starts at $30/month."
+  },
+  "scaling": "Once you've mastered the basics and achieved consistent MRR, consider scaling by outsourcing repetitive tasks. Hire a virtual assistant via platforms like Upwork to manage customer service and inventory tracking, freeing up your time to focus on strategy and growth. As sales grow, invest in expanding your product line. Use customer feedback to inform new product development, ensuring alignment with market demand. Consider forming partnerships with other brands to leverage their customer base and expand your reach. Finally, reinvest profits into marketing and R&D to maintain growth momentum and stay competitive in the marketplace."
+}

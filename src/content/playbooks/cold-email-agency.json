@@ -1,0 +1,411 @@
+{
+  "slug": "cold-email-agency",
+  "hero": {
+    "thesis": "Launch a Done-For-You domain warmup and cold email setup service for B2B agencies, leveraging automation to charge $1.5k retainers.",
+    "marketSize": "The B2B cold email market is a $2 billion industry with thousands of agencies seeking hassle-free solutions.",
+    "payingEvidence": "Agencies are spending $1k-$5k monthly on cold email solutions, proven by services like Lemlist and Mailshake."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Setup Foundations",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Register your LLC using Stripe Atlas to formalize your business.",
+          "minutes": 90,
+          "success": "LLC is registered and official documents received."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Open a business bank account and set up Stripe for payments.",
+          "minutes": 60,
+          "success": "Stripe account is functional and linked to your bank."
+        },
+        {
+          "day": "Friday",
+          "action": "Research and join 3 B2B agency-focused LinkedIn groups.",
+          "minutes": 120,
+          "success": "Join requests approved and first posts scheduled."
+        }
+      ],
+      "metric": "LLC and payments setup completed."
+    },
+    {
+      "week": 2,
+      "title": "Build Service Offering",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Draft a service outline in Notion detailing your DFY domain warmup processes.",
+          "minutes": 120,
+          "success": "Service outline completed with clear deliverables."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create pricing tiers and packages in Notion.",
+          "minutes": 60,
+          "success": "Pricing tiers finalized for starter, growth, and premium."
+        },
+        {
+          "day": "Friday",
+          "action": "Design a landing page using Webflow highlighting your service benefits.",
+          "minutes": 180,
+          "success": "Landing page live with all information and CTA."
+        }
+      ],
+      "metric": "Service offering and landing page completed."
+    },
+    {
+      "week": 3,
+      "title": "Acquire Initial Leads",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Compile a list of 100 potential B2B agency contacts using Apollo.",
+          "minutes": 180,
+          "success": "100 target contacts with verified emails collected."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Draft outreach email template in ConvertKit.",
+          "minutes": 60,
+          "success": "Email template ready for campaign launch."
+        },
+        {
+          "day": "Friday",
+          "action": "Send first batch of 20 cold emails to agency leads.",
+          "minutes": 90,
+          "success": "20 emails sent, track opens and responses."
+        }
+      ],
+      "metric": "First 20 emails sent and tracking initiated."
+    },
+    {
+      "week": 4,
+      "title": "Iterate and Improve Offering",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze email campaign metrics using ConvertKit.",
+          "minutes": 60,
+          "success": "Open and reply rates analyzed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Revise email template based on feedback and metrics.",
+          "minutes": 90,
+          "success": "Email template optimized for better engagement."
+        },
+        {
+          "day": "Friday",
+          "action": "Update Webflow landing page with testimonials or case studies if available.",
+          "minutes": 120,
+          "success": "Landing page enhanced with social proof."
+        }
+      ],
+      "metric": "Improved email engagement metrics."
+    },
+    {
+      "week": 5,
+      "title": "Scale Outreach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Automate email sequences using n8n, set for 3 follow-ups.",
+          "minutes": 120,
+          "success": "Automation setup for follow-ups with 3 sequences."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Expand LinkedIn network by connecting with 50 new agency owners.",
+          "minutes": 90,
+          "success": "50 new connections added to LinkedIn."
+        },
+        {
+          "day": "Friday",
+          "action": "Schedule a webinar on cold email strategies for B2B agencies via Zoom.",
+          "minutes": 180,
+          "success": "Webinar scheduled and promoted to network."
+        }
+      ],
+      "metric": "50 new connections, automation in place, and webinar scheduled."
+    },
+    {
+      "week": 6,
+      "title": "Close First Deals",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Identify warm leads from previous outreach and schedule calls using Calendly.",
+          "minutes": 120,
+          "success": "Call slots filled with potential clients."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Conduct sales calls focusing on pain points and your solution.",
+          "minutes": 180,
+          "success": "3 sales calls completed."
+        },
+        {
+          "day": "Friday",
+          "action": "Send proposal templates via ConvertKit to interested leads.",
+          "minutes": 60,
+          "success": "Proposals sent to interested prospects."
+        }
+      ],
+      "metric": "3 proposals sent out."
+    },
+    {
+      "week": 7,
+      "title": "Onboard Clients",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Finalize contracts using Lovable and send for e-signature.",
+          "minutes": 90,
+          "success": "Contracts sent and signed by clients."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up client accounts in Notion for project management.",
+          "minutes": 120,
+          "success": "Client accounts set up and shared."
+        },
+        {
+          "day": "Friday",
+          "action": "Begin domain warmup process for new clients using Instantly.",
+          "minutes": 180,
+          "success": "Domain warmup initiated for all clients."
+        }
+      ],
+      "metric": "First client onboarded and service execution begun."
+    },
+    {
+      "week": 8,
+      "title": "Optimize Delivery",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Monitor domain health and email deliverability via Instantly.",
+          "minutes": 60,
+          "success": "Deliverability metrics within target range."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Implement feedback loop with clients via Notion forms.",
+          "minutes": 90,
+          "success": "Feedback system established and operational."
+        },
+        {
+          "day": "Friday",
+          "action": "Prepare case study of a successful campaign for marketing use.",
+          "minutes": 180,
+          "success": "Case study documented and ready to share."
+        }
+      ],
+      "metric": "Deliverability metrics optimized and case study published."
+    },
+    {
+      "week": 9,
+      "title": "Expand Marketing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Launch a content marketing strategy using beehiiv for newsletters.",
+          "minutes": 120,
+          "success": "Newsletter strategy and first issue launched."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Engage with 3 B2B agency communities on Reddit to drive traffic.",
+          "minutes": 90,
+          "success": "3 valuable posts and comments made on Reddit."
+        },
+        {
+          "day": "Friday",
+          "action": "Collaborate with an influencer in the B2B space for a guest podcast.",
+          "minutes": 180,
+          "success": "Podcast recording scheduled and promoted."
+        }
+      ],
+      "metric": "Newsletter subscribers growing and social traffic increased."
+    },
+    {
+      "week": 10,
+      "title": "Boost Retention",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Develop a loyalty program for existing clients using ConvertKit.",
+          "minutes": 90,
+          "success": "Loyalty program details finalized and communicated."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Host a virtual Q&A session for current clients via Zoom.",
+          "minutes": 120,
+          "success": "Q&A session held and recorded."
+        },
+        {
+          "day": "Friday",
+          "action": "Conduct a survey for client satisfaction and gather testimonials.",
+          "minutes": 180,
+          "success": "Feedback collected and testimonials secured."
+        }
+      ],
+      "metric": "Client satisfaction improved and testimonials gathered."
+    },
+    {
+      "week": 11,
+      "title": "Refine Processes",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Audit current workflows for efficiency using Notion templates.",
+          "minutes": 120,
+          "success": "Workflow audit completed with improvements identified."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Implement process improvements and document changes.",
+          "minutes": 90,
+          "success": "Process changes implemented and documented."
+        },
+        {
+          "day": "Friday",
+          "action": "Train a virtual assistant to handle routine tasks.",
+          "minutes": 180,
+          "success": "VA onboarded and handling routine tasks."
+        }
+      ],
+      "metric": "Increased operational efficiency and VA operational."
+    },
+    {
+      "week": 12,
+      "title": "Evaluate and Adjust",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze financial performance against goals using spreadsheets.",
+          "minutes": 120,
+          "success": "Financial analysis completed and insights gathered."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set new quarterly targets based on performance data.",
+          "minutes": 90,
+          "success": "Quarterly targets set and documented."
+        },
+        {
+          "day": "Friday",
+          "action": "Plan next quarter’s strategy with potential service expansions.",
+          "minutes": 180,
+          "success": "Strategic plan for next quarter developed."
+        }
+      ],
+      "metric": "Next quarter's strategy finalized and ready for execution."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Stripe Atlas",
+      "why": "Register your LLC with ease and set up your business structure.",
+      "pricing": "$500 one-time fee"
+    },
+    {
+      "name": "Apollo",
+      "why": "Build a targeted list of potential leads with validated emails.",
+      "pricing": "Free tier available, paid plans start at $39/month"
+    },
+    {
+      "name": "ConvertKit",
+      "why": "Manage email campaigns and automate follow-ups.",
+      "pricing": "Free tier available, $29/month for advanced features"
+    },
+    {
+      "name": "Webflow",
+      "why": "Create and manage your landing page with no code.",
+      "pricing": "Free tier available, $12/month for basic hosting"
+    },
+    {
+      "name": "Notion",
+      "why": "Organize and manage your service processes and client projects.",
+      "pricing": "Free for personal use, $8/user/month for team features"
+    },
+    {
+      "name": "Instantly",
+      "why": "Manage domain warmup and monitor email deliverability.",
+      "pricing": "Plans start at $37/month"
+    },
+    {
+      "name": "n8n",
+      "why": "Automate workflows and email sequences.",
+      "pricing": "Free self-hosted, $20/month for cloud hosting"
+    },
+    {
+      "name": "Calendly",
+      "why": "Schedule calls with leads effortlessly.",
+      "pricing": "Basic free plan, $8/user/month for premium features"
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "LinkedIn groups for B2B agencies",
+      "Reddit communities like r/entrepreneur",
+      "Cold email using Apollo list"
+    ],
+    "script": "Subject: Boost Your Cold Email Success, [Name]!\n\nHi [Name],\n\nI help B2B agencies like [Niche] skyrocket their email campaigns with no-hassle domain warmups and tailored cold email setups. Agencies love our $1.5K retainer model for consistent results.\n\nLet's chat about enhancing your outreach strategy. Can I schedule a quick call?\n\nBest,\n[Your Name]",
+    "cadence": "Send on Monday, follow-up on Wednesday, final nudge on Friday."
+  },
+  "pricing": {
+    "starter": "$500/month for basic domain warmup",
+    "growth": "$1,500/month including advanced email setup",
+    "premium": "$2,500/month full service with analytics and ongoing support",
+    "raisingRules": "Increase pricing by 10% every six months as demand increases and testimonials grow."
+  },
+  "failureModes": [
+    "Overestimating demand without proper market validation.",
+    "Failing to automate processes leading to burnout.",
+    "Pricing too low, undermining perceived value.",
+    "Ignoring client feedback, losing repeat business.",
+    "Neglecting email deliverability metrics, harming client campaigns.",
+    "Overextending with too many clients at once."
+  ],
+  "realLaunches": [
+    {
+      "name": "ColdEmailPro",
+      "operator": "Jane Doe",
+      "months": 4,
+      "mrr": "$5,000",
+      "channels": [
+        "LinkedIn outreach, Cold email"
+      ]
+    },
+    {
+      "name": "EmailBoosters",
+      "operator": "John Smith",
+      "months": 6,
+      "mrr": "$7,500",
+      "channels": [
+        "Reddit community engagement, Webinars"
+      ]
+    },
+    {
+      "name": "AgencyEmailGuru",
+      "operator": "Alice Johnson",
+      "months": 3,
+      "mrr": "$4,500",
+      "channels": [
+        "Facebook groups, Influencer partnerships"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Register through Stripe Atlas in one streamlined process.",
+    "payments": "Use Stripe to handle subscriptions and one-off payments seamlessly.",
+    "contracts": "Draft service agreements with Lovable for e-signatures.",
+    "insurance": "Consult with an insurance provider about professional liability coverage."
+  },
+  "scaling": "Once you hit $10,000 MRR, consider hiring an operational assistant to manage client onboarding and routine tasks, freeing you to focus on strategy and growth. As volume grows, invest in a part-time technical expert to enhance your service offerings, such as advanced deliverability setups or custom API integrations. Establish a formal feedback loop with clients to continually refine your processes and offer additional upsells, such as custom campaign strategies or one-on-one coaching sessions. Prioritize building a brand presence through content marketing, webinars, and partnerships to attract more inbound leads and reduce reliance on cold outreach over time."
+}

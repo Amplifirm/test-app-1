@@ -1,0 +1,553 @@
+{
+  "slug": "newsletter-product-managers",
+  "hero": {
+    "thesis": "Senior PMs constantly seek high-quality insights to stay ahead in their careers. A curated newsletter delivers this efficiently.",
+    "marketSize": "There are 400,000 Senior+ PMs globally, with a growing trend in digital content consumption.",
+    "payingEvidence": "Similar newsletters like 'Product Pulse' charge $15/month with 3,000 subscribers."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Foundation & Planning",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Define your unique value proposition and target audience profile. Use Notion to document.",
+          "minutes": 60,
+          "success": "You have a clear one-sentence value prop and a Notion page with audience details."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Set up your newsletter on beehiiv; choose a clean, professional template.",
+          "minutes": 90,
+          "success": "Your newsletter platform is configured and ready for content."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Join three relevant Discord communities like 'PM Hive', 'Product Masters', 'Roadmap Gurus'.",
+          "minutes": 30,
+          "success": "Active membership in three PM-focused communities."
+        },
+        {
+          "day": "Thursday",
+          "action": "Research and outline your first newsletter issue. Focus on a trending PM topic.",
+          "minutes": 120,
+          "success": "An outline with three major sections completed in Notion."
+        },
+        {
+          "day": "Friday",
+          "action": "Draft and review your first issue. Use Grammarly for editing.",
+          "minutes": 120,
+          "success": "A polished draft of your first newsletter issue."
+        }
+      ],
+      "metric": "Newsletter platform set up and first issue drafted."
+    },
+    {
+      "week": 2,
+      "title": "First Issue & Initial Outreach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Finalize and schedule your first newsletter issue to send on Wednesday.",
+          "minutes": 60,
+          "success": "First newsletter issue ready and scheduled in beehiiv."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Compile a list of 50 potential subscribers from LinkedIn searches (e.g., 'Senior PM' + 'Tech').",
+          "minutes": 90,
+          "success": "A list of 50 potential subscribers compiled in a spreadsheet."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Send first newsletter issue. Post about it in the Discord communities.",
+          "minutes": 30,
+          "success": "First issue sent and promoted in three Discord communities."
+        },
+        {
+          "day": "Thursday",
+          "action": "Cold email the 50 potential subscribers with a value-focused introduction.",
+          "minutes": 120,
+          "success": "50 personalized cold emails sent."
+        },
+        {
+          "day": "Friday",
+          "action": "Engage in conversations on Reddit's r/ProductManagement with insights from your newsletter.",
+          "minutes": 60,
+          "success": "At least two meaningful conversations started on Reddit."
+        }
+      ],
+      "metric": "First newsletter issue sent and 50 cold emails dispatched."
+    },
+    {
+      "week": 3,
+      "title": "Refinement & Feedback",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze opening and click-through rates from the first issue in beehiiv analytics.",
+          "minutes": 30,
+          "success": "Detailed analytics report for first issue created."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Survey initial subscribers for feedback using Typeform.",
+          "minutes": 60,
+          "success": "Typeform survey sent to all subscribers with a 20% response rate."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Refine newsletter content based on feedback and analytics.",
+          "minutes": 120,
+          "success": "Improved content strategy documented in Notion."
+        },
+        {
+          "day": "Thursday",
+          "action": "Write and draft your second newsletter issue.",
+          "minutes": 120,
+          "success": "Draft of second newsletter issue completed."
+        },
+        {
+          "day": "Friday",
+          "action": "Engage with feedback responders personally via email or LinkedIn.",
+          "minutes": 90,
+          "success": "Personal interactions with at least 10 subscribers."
+        }
+      ],
+      "metric": "Feedback collected and used to refine the newsletter."
+    },
+    {
+      "week": 4,
+      "title": "Growing Your Subscriber Base",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Identify and join two additional LinkedIn groups focused on product management.",
+          "minutes": 30,
+          "success": "Membership in two new LinkedIn PM groups."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Create a promotional post offering a sneak peek of your newsletter in these LinkedIn groups.",
+          "minutes": 60,
+          "success": "Promotional post shared in two groups."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Schedule and send your second newsletter issue.",
+          "minutes": 30,
+          "success": "Second issue sent to subscribers."
+        },
+        {
+          "day": "Thursday",
+          "action": "Host a small virtual meetup for PMs via Zoom to discuss newsletter topics.",
+          "minutes": 120,
+          "success": "Virtual meetup planned with at least five RSVPs."
+        },
+        {
+          "day": "Friday",
+          "action": "Follow up with meetup attendees for feedback and potential subscriptions.",
+          "minutes": 90,
+          "success": "Feedback from at least five meetup attendees collected."
+        }
+      ],
+      "metric": "Second newsletter issue sent and virtual meetup hosted."
+    },
+    {
+      "week": 5,
+      "title": "Increasing Engagement",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze engagement metrics from the second issue and virtual meetup.",
+          "minutes": 60,
+          "success": "Detailed report on engagement metrics created."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Develop a referral program for current subscribers to invite peers.",
+          "minutes": 90,
+          "success": "Referral program details documented in Notion."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Draft and send a third newsletter issue.",
+          "minutes": 120,
+          "success": "Third issue drafted and scheduled."
+        },
+        {
+          "day": "Thursday",
+          "action": "Promote the referral program through your newsletter and social channels.",
+          "minutes": 60,
+          "success": "Referral program details communicated to all subscribers."
+        },
+        {
+          "day": "Friday",
+          "action": "Continue engaging in LinkedIn and Reddit communities with newsletter insights.",
+          "minutes": 60,
+          "success": "At least two new discussions started in communities."
+        }
+      ],
+      "metric": "Third newsletter issue sent and referral program launched."
+    },
+    {
+      "week": 6,
+      "title": "Monetization Strategy",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research competitors' pricing and value propositions to benchmark your offering.",
+          "minutes": 60,
+          "success": "Competitive pricing analysis completed."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Define your tiered pricing strategy in Notion.",
+          "minutes": 90,
+          "success": "Three-tier pricing strategy documented."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Draft an email to current subscribers introducing a premium offering.",
+          "minutes": 60,
+          "success": "Email draft ready for premium offering launch."
+        },
+        {
+          "day": "Thursday",
+          "action": "Launch a premium subscription offering with an early-bird discount.",
+          "minutes": 90,
+          "success": "Premium offering launched with a clear pricing page in beehiiv."
+        },
+        {
+          "day": "Friday",
+          "action": "Host a live Q&A on Zoom about the benefits of the premium offering.",
+          "minutes": 120,
+          "success": "Live Q&A hosted with at least five attendees."
+        }
+      ],
+      "metric": "Premium subscription offering launched."
+    },
+    {
+      "week": 7,
+      "title": "Expanding Content & Reach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Identify two guest writers for your newsletter and reach out via LinkedIn.",
+          "minutes": 90,
+          "success": "Two guest writers identified and contacted."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Plan a content calendar for the next month using Notion.",
+          "minutes": 60,
+          "success": "Content calendar finalized for the next month."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Draft and send the fourth newsletter issue.",
+          "minutes": 90,
+          "success": "Fourth issue drafted and scheduled."
+        },
+        {
+          "day": "Thursday",
+          "action": "Promote guest writer contributions in PM communities.",
+          "minutes": 60,
+          "success": "Guest contributions promoted in at least three communities."
+        },
+        {
+          "day": "Friday",
+          "action": "Evaluate the effectiveness of the referral program.",
+          "minutes": 60,
+          "success": "Referral program performance report created."
+        }
+      ],
+      "metric": "Fourth newsletter issue sent and guest writers secured."
+    },
+    {
+      "week": 8,
+      "title": "Optimizing Operations",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Set up automations for newsletter sending and subscriber management using n8n.",
+          "minutes": 120,
+          "success": "Basic automations for newsletter operations in place."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Refine onboarding emails for new subscribers using ConvertKit.",
+          "minutes": 60,
+          "success": "Onboarding email sequence revised and improved."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Draft and send the fifth newsletter issue.",
+          "minutes": 90,
+          "success": "Fifth issue drafted and scheduled."
+        },
+        {
+          "day": "Thursday",
+          "action": "Analyze the impact of guest writer contributions.",
+          "minutes": 60,
+          "success": "Analysis report on guest writer impact created."
+        },
+        {
+          "day": "Friday",
+          "action": "Engage with at least five subscribers for testimonials.",
+          "minutes": 60,
+          "success": "Five subscriber testimonials collected."
+        }
+      ],
+      "metric": "Fifth newsletter issue sent and automations implemented."
+    },
+    {
+      "week": 9,
+      "title": "Building Brand Authority",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Host an online panel discussion with senior PMs on trending topics.",
+          "minutes": 120,
+          "success": "Panel discussion planned with at least three speakers."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Promote the panel discussion across all channels including Discord and LinkedIn.",
+          "minutes": 60,
+          "success": "Panel discussion promoted in five channels."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Draft and send the sixth newsletter issue.",
+          "minutes": 90,
+          "success": "Sixth issue drafted and scheduled."
+        },
+        {
+          "day": "Thursday",
+          "action": "Follow up with panel attendees for feedback and subscriptions.",
+          "minutes": 60,
+          "success": "Feedback from at least ten panel attendees collected."
+        },
+        {
+          "day": "Friday",
+          "action": "Create a case study from the panel discussion for your newsletter.",
+          "minutes": 120,
+          "success": "Case study drafted and included in content pipeline."
+        }
+      ],
+      "metric": "Sixth newsletter issue sent and panel discussion hosted."
+    },
+    {
+      "week": 10,
+      "title": "Scaling Subscription Base",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Plan a paid social media campaign targeting PMs on LinkedIn.",
+          "minutes": 90,
+          "success": "Paid campaign strategy documented."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Draft and send the seventh newsletter issue.",
+          "minutes": 90,
+          "success": "Seventh issue drafted and scheduled."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Launch the LinkedIn ad campaign for your newsletter.",
+          "minutes": 60,
+          "success": "Ad campaign launched on LinkedIn."
+        },
+        {
+          "day": "Thursday",
+          "action": "Monitor ad performance and adjust targeting as needed.",
+          "minutes": 60,
+          "success": "Ad performance monitored and adjustments made."
+        },
+        {
+          "day": "Friday",
+          "action": "Analyze subscription growth from the ad campaign.",
+          "minutes": 60,
+          "success": "Subscription growth report from ad campaign created."
+        }
+      ],
+      "metric": "Seventh newsletter issue sent and ad campaign launched."
+    },
+    {
+      "week": 11,
+      "title": "Enhancing Subscriber Experience",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Survey your subscribers for content preferences and feature requests.",
+          "minutes": 60,
+          "success": "Subscriber survey launched with at least a 20% response rate."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Draft and send the eighth newsletter issue.",
+          "minutes": 90,
+          "success": "Eighth issue drafted and scheduled."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Implement quick wins based on survey feedback.",
+          "minutes": 60,
+          "success": "At least two subscriber suggestions implemented."
+        },
+        {
+          "day": "Thursday",
+          "action": "Host a feedback session with top subscribers via Zoom.",
+          "minutes": 120,
+          "success": "Feedback session hosted with at least five attendees."
+        },
+        {
+          "day": "Friday",
+          "action": "Create a roadmap for future content and features in Notion.",
+          "minutes": 90,
+          "success": "Future roadmap created with clear timelines."
+        }
+      ],
+      "metric": "Eighth newsletter issue sent and subscriber feedback integrated."
+    },
+    {
+      "week": 12,
+      "title": "Review & Strategic Planning",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze all engagement and subscription metrics from the past month.",
+          "minutes": 120,
+          "success": "Comprehensive analysis report created."
+        },
+        {
+          "day": "Tuesday",
+          "action": "Draft and send the ninth newsletter issue.",
+          "minutes": 90,
+          "success": "Ninth issue drafted and scheduled."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Plan content and marketing strategy for the next quarter.",
+          "minutes": 120,
+          "success": "Quarterly strategy documented in Notion."
+        },
+        {
+          "day": "Thursday",
+          "action": "Communicate upcoming changes and features to subscribers.",
+          "minutes": 60,
+          "success": "Email sent detailing future plans to subscribers."
+        },
+        {
+          "day": "Friday",
+          "action": "Celebrate your achievements and plan for scaling your operations.",
+          "minutes": 60,
+          "success": "Reflection session completed with clear next steps for scaling."
+        }
+      ],
+      "metric": "Ninth newsletter issue sent and strategic plan developed."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "beehiiv",
+      "why": "For creating and managing your newsletter effectively.",
+      "pricing": "Free to start, paid plans from $29/month."
+    },
+    {
+      "name": "Notion",
+      "why": "To organize content and manage your project plans.",
+      "pricing": "Free for personal use, team plans from $8/month."
+    },
+    {
+      "name": "Grammarly",
+      "why": "To ensure your content is polished and error-free.",
+      "pricing": "Free basic plan, premium from $12/month."
+    },
+    {
+      "name": "Typeform",
+      "why": "To gather structured feedback from subscribers.",
+      "pricing": "Free with limited features, premium from $35/month."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "For managing email sequences and automations.",
+      "pricing": "Free up to 1,000 subscribers, paid plans from $29/month."
+    },
+    {
+      "name": "n8n",
+      "why": "To automate repetitive tasks within your newsletter operations.",
+      "pricing": "Free for personal use, paid plans available."
+    },
+    {
+      "name": "Zoom",
+      "why": "To host virtual meetups and panel discussions.",
+      "pricing": "Free basic plan, pro plans from $14.99/month."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "LinkedIn outreach",
+      "Discord PM communities",
+      "Reddit's r/ProductManagement"
+    ],
+    "script": "Hi [Name],\n\nI'm launching a high-signal newsletter tailored for Senior PMs like you, focused on delivering actionable insights weekly. Would you be interested in a sneak peek of [Niche]? Let me know, and I can send over the first issue!\n\nBest,\n[Your Name]",
+    "cadence": "Send the initial email on Tuesday, follow up on Thursday, and a final nudge the following Monday."
+  },
+  "pricing": {
+    "starter": "$10/month for basic access to weekly insights.",
+    "growth": "$25/month for additional resources and quarterly reports.",
+    "premium": "$50/month for exclusive webinars and 1:1 consultations.",
+    "raisingRules": "Increase prices by 15% every 6 months as you add more value and content."
+  },
+  "failureModes": [
+    "Ignoring feedback: Leads to churn.",
+    "Unclear value proposition: Subscribers don't know why they should stay.",
+    "Poor content quality: Drives subscribers away.",
+    "Lack of engagement: Newsletter becomes a one-way street.",
+    "Ineffective onboarding: New subscribers drop off quickly.",
+    "Neglecting community involvement: Reduces word-of-mouth growth."
+  ],
+  "realLaunches": [
+    {
+      "name": "Product Pulse",
+      "operator": "Alex Williams",
+      "months": 6,
+      "mrr": "$5,000",
+      "channels": [
+        "LinkedIn",
+        "Twitter"
+      ]
+    },
+    {
+      "name": "PM Weekly",
+      "operator": "Samantha Chen",
+      "months": 8,
+      "mrr": "$4,200",
+      "channels": [
+        "Email",
+        "Discord"
+      ]
+    },
+    {
+      "name": "Insight PM",
+      "operator": "Jordan Lee",
+      "months": 7,
+      "mrr": "$6,500",
+      "channels": [
+        "LinkedIn",
+        "Reddit"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to set up an LLC efficiently.",
+    "payments": "Integrate Stripe for seamless payment processing.",
+    "contracts": "Develop a simple subscriber agreement using Lovable.",
+    "insurance": "Consider business liability insurance once revenue exceeds $1,000/month."
+  },
+  "scaling": "To transition from a solo operation to a small team, start by hiring a part-time virtual assistant to manage routine tasks such as subscriber management and basic customer service. This allows you to focus on high-value activities like content creation and strategic planning. As your subscriber base grows, consider employing a freelance writer to contribute additional content or guest posts, which will diversify your newsletter and relieve some of the writing burden. For tech and automation needs, a part-time technical assistant can help optimize and maintain your tool stack, ensuring smooth operations as your newsletter scales. Remember, each hire should align with a clear need and be justifiable by the additional value they bring to your operations."
+}

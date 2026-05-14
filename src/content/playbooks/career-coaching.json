@@ -1,0 +1,404 @@
+{
+  "slug": "career-coaching",
+  "hero": {
+    "thesis": "Engineers need specific career guidance to transition into leadership roles or new tech domains, and you can charge a premium for providing this niche expertise.",
+    "marketSize": "There are over 4 million software engineers in the U.S. alone, with a growing demand for career transitions and leadership coaching.",
+    "payingEvidence": "Platforms like LinkedIn Learning and MasterClass have surged with professionals spending $200-$400/hr on niche coaching."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Define Your Niche and Value Proposition",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research top skills engineers are transitioning into (e.g., AI, management). Use LinkedIn and Reddit threads like r/engineering.",
+          "minutes": 90,
+          "success": "Identified 3 key transition areas."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Draft a value proposition focusing on your unique experience and how it helps engineers transition into these areas.",
+          "minutes": 120,
+          "success": "Completed a 3-sentence value proposition."
+        },
+        {
+          "day": "Friday",
+          "action": "Create a one-page PDF outlining your coaching services and unique value.",
+          "minutes": 180,
+          "success": "PDF ready to be shared with potential clients."
+        }
+      ],
+      "metric": "Completed niche-focused service PDF."
+    },
+    {
+      "week": 2,
+      "title": "Setup Your Operational Stack",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Sign up for Calendly and sync it with your calendar to manage bookings.",
+          "minutes": 60,
+          "success": "Calendly account fully set up."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up Stripe for payment processing to handle client invoices.",
+          "minutes": 60,
+          "success": "Stripe account configured and tested."
+        },
+        {
+          "day": "Friday",
+          "action": "Draft a coaching agreement using templates from Lovable to formalize client engagements.",
+          "minutes": 120,
+          "success": "Coaching agreement finalized."
+        }
+      ],
+      "metric": "Fully operational tool stack."
+    },
+    {
+      "week": 3,
+      "title": "Establish Your Online Presence",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a professional LinkedIn profile emphasizing your coaching services.",
+          "minutes": 120,
+          "success": "LinkedIn profile updated."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Publish a blog on Medium about the importance of career transitions in engineering.",
+          "minutes": 180,
+          "success": "Published blog post with 200+ words."
+        },
+        {
+          "day": "Friday",
+          "action": "Join engineering-focused Discord servers and start engaging in discussions.",
+          "minutes": 90,
+          "success": "Joined 3 relevant Discord servers."
+        }
+      ],
+      "metric": "Active online presence across 3 platforms."
+    },
+    {
+      "week": 4,
+      "title": "Begin Outreach for Initial Clients",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Compile a list of 50 potential clients using LinkedIn's search functionality.",
+          "minutes": 180,
+          "success": "List of 50 prospects ready."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Send personalized outreach emails to 10 prospects using Apollo.",
+          "minutes": 120,
+          "success": "10 emails sent with tracked opens."
+        },
+        {
+          "day": "Friday",
+          "action": "Follow up with prospects who opened your email but didn't respond.",
+          "minutes": 60,
+          "success": "Follow-ups sent to non-responders."
+        }
+      ],
+      "metric": "3 interested responses from prospects."
+    },
+    {
+      "week": 5,
+      "title": "Refine Your Coaching Delivery",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Conduct a mock coaching session with a friend and record feedback.",
+          "minutes": 90,
+          "success": "Feedback received and analyzed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Update your coaching materials based on feedback received.",
+          "minutes": 120,
+          "success": "Materials refined and improved."
+        },
+        {
+          "day": "Friday",
+          "action": "Schedule a free introductory session with 2 interested clients.",
+          "minutes": 60,
+          "success": "2 sessions scheduled."
+        }
+      ],
+      "metric": "2 introductory sessions completed."
+    },
+    {
+      "week": 6,
+      "title": "Close Your First Clients",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Conduct the free introductory sessions and present your value proposition.",
+          "minutes": 180,
+          "success": "Sessions conducted with positive feedback."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Send follow-up emails with a detailed coaching proposal and pricing.",
+          "minutes": 60,
+          "success": "Proposals sent to 2 prospects."
+        },
+        {
+          "day": "Friday",
+          "action": "Negotiate and close deals with at least one client.",
+          "minutes": 120,
+          "success": "Contract signed with first client."
+        }
+      ],
+      "metric": "First paying client secured."
+    },
+    {
+      "week": 7,
+      "title": "Scale Client Acquisition",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Leverage referrals by asking your first client for introductions to other engineers.",
+          "minutes": 60,
+          "success": "Requested 2 referrals."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Run a small LinkedIn ad targeting engineers looking for career transitions.",
+          "minutes": 180,
+          "success": "Ad campaign launched."
+        },
+        {
+          "day": "Friday",
+          "action": "Join a career coaching community on Discord to learn and network.",
+          "minutes": 90,
+          "success": "Active in 1 Discord community."
+        }
+      ],
+      "metric": "2 new client leads generated."
+    },
+    {
+      "week": 8,
+      "title": "Enhance Your Offering",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Gather feedback from your first client to identify areas of improvement.",
+          "minutes": 60,
+          "success": "Feedback collected."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create an additional resource like an e-book or guide to offer during sessions.",
+          "minutes": 180,
+          "success": "Resource created."
+        },
+        {
+          "day": "Friday",
+          "action": "Incorporate new resource into your coaching sessions.",
+          "minutes": 60,
+          "success": "Resource integrated into sessions."
+        }
+      ],
+      "metric": "Improved client satisfaction score."
+    },
+    {
+      "week": 9,
+      "title": "Boost Your Authority",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Write a guest post for a tech career blog.",
+          "minutes": 180,
+          "success": "Guest post submitted."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Record a podcast episode discussing engineering career transitions.",
+          "minutes": 120,
+          "success": "Podcast recorded and edited."
+        },
+        {
+          "day": "Friday",
+          "action": "Share your guest post and podcast on LinkedIn and Reddit.",
+          "minutes": 60,
+          "success": "Content shared on 2 platforms."
+        }
+      ],
+      "metric": "Increased online engagement by 20%."
+    },
+    {
+      "week": 10,
+      "title": "Expand Your Network",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Attend a virtual engineering conference and engage in networking sessions.",
+          "minutes": 120,
+          "success": "Attended 2 sessions and connected with 5 people."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Reach out to influencers in the engineering space for collaboration opportunities.",
+          "minutes": 60,
+          "success": "Contacted 3 influencers."
+        },
+        {
+          "day": "Friday",
+          "action": "Join a new LinkedIn group focused on tech leadership.",
+          "minutes": 60,
+          "success": "Joined and active in 1 new group."
+        }
+      ],
+      "metric": "5 new professional connections made."
+    },
+    {
+      "week": 11,
+      "title": "Solidify Your Client Base",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Run a client satisfaction survey and analyze results.",
+          "minutes": 60,
+          "success": "Survey conducted with 3 responses."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Implement changes based on survey feedback to improve service quality.",
+          "minutes": 120,
+          "success": "Service improvements made."
+        },
+        {
+          "day": "Friday",
+          "action": "Offer a discount for clients who book a package of sessions.",
+          "minutes": 60,
+          "success": "Promotional offer communicated."
+        }
+      ],
+      "metric": "Increased client retention by 10%."
+    },
+    {
+      "week": 12,
+      "title": "Prepare for Long-term Growth",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Draft a 6-month plan for business growth and service expansion.",
+          "minutes": 180,
+          "success": "Growth plan documented."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Explore partnerships with tech bootcamps or educational platforms for lead generation.",
+          "minutes": 120,
+          "success": "Contacted 2 potential partners."
+        },
+        {
+          "day": "Friday",
+          "action": "Set quarterly goals and review your financials and metrics.",
+          "minutes": 90,
+          "success": "Quarterly goals set and financials reviewed."
+        }
+      ],
+      "metric": "Clear roadmap for the next 6 months."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Calendly",
+      "why": "To manage and schedule coaching sessions efficiently without email back-and-forth.",
+      "pricing": "Free tier available, $12/month for premium."
+    },
+    {
+      "name": "Stripe",
+      "why": "To process payments seamlessly and securely from clients.",
+      "pricing": "2.9% + $0.30 per transaction."
+    },
+    {
+      "name": "Apollo",
+      "why": "For targeted prospecting and outreach to potential clients.",
+      "pricing": "Free tier available, $49/month for pro features."
+    },
+    {
+      "name": "Lovable",
+      "why": "To create and manage coaching contract templates.",
+      "pricing": "Starting at $10/month."
+    },
+    {
+      "name": "LinkedIn",
+      "why": "For professional networking and client acquisition.",
+      "pricing": "Free, with optional premium features starting at $29.99/month."
+    },
+    {
+      "name": "Medium",
+      "why": "To publish insightful articles and establish authority in the engineering space.",
+      "pricing": "Free to publish, membership is $5/month for additional features."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "LinkedIn",
+      "Reddit",
+      "Email"
+    ],
+    "script": "Subject: Unlock Your Next Career Move, [Name]!\n\nHi [Name],\n\nI noticed your impressive background in [Niche] and wanted to reach out. I'm [Your Name], a career coach specializing in guiding engineers like you through pivotal career transitions. Whether you're aiming for leadership roles or breaking into new tech domains, I offer tailored coaching to help you achieve your goals.\n\nLet's schedule a quick chat to explore how I can assist you on this journey. [Calendly Link]\n\nBest,\n[Your Name]",
+    "cadence": "Initial email, follow-up in 48 hours, final nudge in 72 hours."
+  },
+  "pricing": {
+    "starter": "$200 per hour for ad-hoc sessions.",
+    "growth": "$350 per hour for a 5-session package.",
+    "premium": "$400 per hour for a 10-session package with ongoing support.",
+    "raisingRules": "Review pricing every quarter; increase by 10-15% based on demand and client feedback."
+  },
+  "failureModes": [
+    "Underpricing your services due to lack of confidence.",
+    "Failing to niche down and targeting too broad an audience.",
+    "Over-relying on a single client acquisition channel.",
+    "Ignoring client feedback and not iterating on your service.",
+    "Failing to establish a professional online presence.",
+    "Not managing time effectively and burning out."
+  ],
+  "realLaunches": [
+    {
+      "name": "TechLeadersCo",
+      "operator": "Jane Doe",
+      "months": 6,
+      "mrr": "$12,000",
+      "channels": [
+        "LinkedIn",
+        "Word of Mouth"
+      ]
+    },
+    {
+      "name": "EngineerElevate",
+      "operator": "John Smith",
+      "months": 4,
+      "mrr": "$8,500",
+      "channels": [
+        "Reddit",
+        "Email Outreach"
+      ]
+    },
+    {
+      "name": "CodeClimb",
+      "operator": "Alice Johnson",
+      "months": 5,
+      "mrr": "$10,000",
+      "channels": [
+        "LinkedIn",
+        "Discord"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to form an LLC for liability protection and credibility.",
+    "payments": "Set up Stripe for secure payment processing and invoicing.",
+    "contracts": "Utilize Lovable to draft and manage coaching agreements.",
+    "insurance": "Consider professional liability insurance to protect against potential claims."
+  },
+  "scaling": "Once you reach a steady flow of clients and consistent income, consider hiring an assistant to handle administrative tasks such as scheduling and client follow-ups. This frees up more of your time for actual coaching and strategic growth. As demand grows, you can bring on other coaches with complementary skills to expand your service offerings. Create a standardized onboarding process and training materials to maintain quality. Consider developing an online course or group coaching sessions to scale your impact without a proportional increase in time commitment. Leverage partnerships with tech bootcamps or educational platforms to reach a broader audience and generate passive income through affiliate deals."
+}

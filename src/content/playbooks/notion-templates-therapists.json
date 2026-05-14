@@ -1,0 +1,401 @@
+{
+  "slug": "notion-templates-therapists",
+  "hero": {
+    "thesis": "Create and sell Notion templates tailored for therapists to streamline their compliance-friendly intake and session notes processes.",
+    "marketSize": "Approximately 1.2 million therapists in the US alone, with increasing reliance on digital tools for practice management.",
+    "payingEvidence": "Rising demand for digital organization tools among therapists, as evidenced by growing communities in therapist-specific forums and the popularity of Notion in professional circles."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Research and Design",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Join therapist communities on Reddit (r/Therapists), LinkedIn groups, and Discord (Therapist Hub) to gather insights.",
+          "minutes": 60,
+          "success": "Joined 3 therapist communities."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Conduct a quick survey using Typeform to understand common pain points in intake and session notes.",
+          "minutes": 90,
+          "success": "Collected 20+ responses."
+        },
+        {
+          "day": "Friday",
+          "action": "Draft initial template designs based on collected data using Notion.",
+          "minutes": 120,
+          "success": "Created 3 draft templates."
+        }
+      ],
+      "metric": "3 viable template drafts based on real therapist needs."
+    },
+    {
+      "week": 2,
+      "title": "Feedback and Iteration",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Share template drafts in therapist communities for feedback.",
+          "minutes": 60,
+          "success": "Received feedback from at least 5 therapists."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Iterate on templates based on feedback; focus on compliance and ease-of-use.",
+          "minutes": 120,
+          "success": "Updated all templates with feedback."
+        },
+        {
+          "day": "Friday",
+          "action": "Finalize templates and prepare for listing on Gumroad.",
+          "minutes": 90,
+          "success": "3 polished templates ready for sale."
+        }
+      ],
+      "metric": "3 polished, feedback-driven templates."
+    },
+    {
+      "week": 3,
+      "title": "Launch Preparation",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Set up a Gumroad account and list templates with compelling descriptions and visuals.",
+          "minutes": 90,
+          "success": "Templates listed on Gumroad."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create a simple landing page using Webflow to drive traffic to Gumroad listings.",
+          "minutes": 120,
+          "success": "Landing page live with link to Gumroad."
+        },
+        {
+          "day": "Friday",
+          "action": "Craft a launch email sequence in ConvertKit targeting therapist communities.",
+          "minutes": 90,
+          "success": "Email sequence ready for launch."
+        }
+      ],
+      "metric": "Templates listed and ready for launch on Gumroad."
+    },
+    {
+      "week": 4,
+      "title": "Launch and Initial Sales",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Send launch email to the list gathered from therapist communities.",
+          "minutes": 60,
+          "success": "Launch email sent to 100+ contacts."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Promote templates in therapist communities with special launch discount.",
+          "minutes": 60,
+          "success": "Posted promotion in 3 communities."
+        },
+        {
+          "day": "Friday",
+          "action": "Track sales and gather initial customer feedback for further iteration.",
+          "minutes": 60,
+          "success": "Collected feedback from first 5 customers."
+        }
+      ],
+      "metric": "Achieve first 5 sales."
+    },
+    {
+      "week": 5,
+      "title": "Optimize and Automate",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze feedback and sales data to identify high-performing templates.",
+          "minutes": 60,
+          "success": "Identified 1 top-selling template."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up automated follow-up emails in ConvertKit for customer feedback.",
+          "minutes": 60,
+          "success": "Automated follow-up emails set up."
+        },
+        {
+          "day": "Friday",
+          "action": "Optimize Gumroad listings based on keyword research for better discoverability.",
+          "minutes": 90,
+          "success": "Updated listings with optimized keywords."
+        }
+      ],
+      "metric": "Increased visibility and engagement on listings."
+    },
+    {
+      "week": 6,
+      "title": "Expand Reach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Identify and reach out to 5 therapist influencers for potential partnerships or shoutouts.",
+          "minutes": 60,
+          "success": "Contacted 5 influencers."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Offer exclusive discounts to therapist Facebook groups and forums.",
+          "minutes": 60,
+          "success": "Shared discounts in 3 groups."
+        },
+        {
+          "day": "Friday",
+          "action": "Participate in a live Q&A in a therapist community to increase visibility.",
+          "minutes": 90,
+          "success": "Hosted a Q&A with 20+ participants."
+        }
+      ],
+      "metric": "Expanded reach to 200+ new potential customers."
+    },
+    {
+      "week": 7,
+      "title": "Content Marketing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Write a blog post on the benefits of digital organization for therapists and share across social media.",
+          "minutes": 120,
+          "success": "Blog post published and shared."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create a short video tutorial on using the templates, upload to YouTube and share link in communities.",
+          "minutes": 120,
+          "success": "Video uploaded and shared."
+        },
+        {
+          "day": "Friday",
+          "action": "Schedule weekly tips on using Notion for therapists in ConvertKit to nurture leads.",
+          "minutes": 60,
+          "success": "Weekly tips scheduled."
+        }
+      ],
+      "metric": "Increased traffic to listings by 20%."
+    },
+    {
+      "week": 8,
+      "title": "Refinement and Scale",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Conduct a mid-point review of sales and customer feedback to refine templates further.",
+          "minutes": 90,
+          "success": "Refined 2 templates based on feedback."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Explore additional distribution channels like Whop for further reach.",
+          "minutes": 60,
+          "success": "Listed products on Whop."
+        },
+        {
+          "day": "Friday",
+          "action": "Begin exploring partnerships with therapy software companies for bundle offers.",
+          "minutes": 60,
+          "success": "Initiated 2 partnership conversations."
+        }
+      ],
+      "metric": "Improved product offerings and expanded distribution."
+    },
+    {
+      "week": 9,
+      "title": "Community Building",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Launch a dedicated Discord server for therapist template users to foster community and gather feedback.",
+          "minutes": 120,
+          "success": "Discord server launched with 50 members."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Organize a monthly webinar on effective Notion usage for therapists.",
+          "minutes": 90,
+          "success": "Scheduled first webinar."
+        },
+        {
+          "day": "Friday",
+          "action": "Promote community benefits in all listings and communications.",
+          "minutes": 60,
+          "success": "Community benefits highlighted in all channels."
+        }
+      ],
+      "metric": "Increased community engagement."
+    },
+    {
+      "week": 10,
+      "title": "Advanced Marketing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Develop a case study from existing users highlighting efficiency improvements.",
+          "minutes": 90,
+          "success": "Case study developed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Use case study in targeted LinkedIn ads for therapists.",
+          "minutes": 90,
+          "success": "Ads created and launched."
+        },
+        {
+          "day": "Friday",
+          "action": "Analyze ad performance and adjust targeting for better ROI.",
+          "minutes": 60,
+          "success": "Improved targeting based on performance data."
+        }
+      ],
+      "metric": "Increased conversion rate by 10%."
+    },
+    {
+      "week": 11,
+      "title": "Review and Adjust",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Conduct a comprehensive review of all marketing efforts and sales data.",
+          "minutes": 120,
+          "success": "Completed review and identified key areas for improvement."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Identify underperforming areas and create an action plan to address them.",
+          "minutes": 90,
+          "success": "Action plan created."
+        },
+        {
+          "day": "Friday",
+          "action": "Implement quick fixes and prepare for more strategic changes based on review.",
+          "minutes": 60,
+          "success": "Quick fixes implemented."
+        }
+      ],
+      "metric": "Improved overall sales performance by 15%."
+    },
+    {
+      "week": 12,
+      "title": "Strategic Expansion",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Explore the possibility of creating specialized templates for niche therapist categories (e.g., child therapists, marriage counselors).",
+          "minutes": 90,
+          "success": "Identified 3 new niche categories."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Begin development of niche-specific templates.",
+          "minutes": 120,
+          "success": "Drafted 2 new niche templates."
+        },
+        {
+          "day": "Friday",
+          "action": "Plan a launch strategy for niche templates with targeted marketing campaigns.",
+          "minutes": 90,
+          "success": "Launch strategy developed."
+        }
+      ],
+      "metric": "Preparation for launching new product lines."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Notion",
+      "why": "Core platform for building and customizing templates.",
+      "pricing": "Free for personal use, $8/user/month for team plans."
+    },
+    {
+      "name": "Gumroad",
+      "why": "Primary marketplace for template sales.",
+      "pricing": "Free, with a 5% transaction fee."
+    },
+    {
+      "name": "Webflow",
+      "why": "For creating a professional landing page quickly.",
+      "pricing": "Starts at $14/month."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "Email marketing and automation to manage customer interactions.",
+      "pricing": "Free for up to 300 subscribers, then $29/month."
+    },
+    {
+      "name": "Typeform",
+      "why": "For conducting surveys to understand customer needs.",
+      "pricing": "Free for basic, $25/month for advanced."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "Reddit (r/Therapists)",
+      "LinkedIn groups",
+      "Discord (Therapist Hub)"
+    ],
+    "script": "Hi [Name],\n\nI'm developing a set of Notion templates specifically for therapists, designed to simplify compliance-friendly intake and session notes. I believe these could help streamline your workflow and enhance client management. I'd love to offer you a discount for your feedback. Let me know if you're interested!\n\nBest,\n[Your Name]",
+    "cadence": "Initial message, follow-up in 3 days, final follow-up in 7 days."
+  },
+  "pricing": {
+    "starter": "$29/template",
+    "growth": "$99/bundle of 4 templates",
+    "premium": "$199 for unlimited access to all current and future templates",
+    "raisingRules": "Evaluate after 3 months based on demand and feedback, consider a 10-20% increase."
+  },
+  "failureModes": [
+    "Trap of No Feedback: Ignoring community feedback leads to poor product-market fit.",
+    "Overpricing Trap: Setting prices too high without established demand.",
+    "Marketing Myopia: Focusing too narrowly on a single channel.",
+    "Community Neglect: Failing to engage with your user community.",
+    "Feature Creep: Adding unnecessary features that complicate templates.",
+    "Ignoring Analytics: Not using data to guide decisions.",
+    "Underleveraging Partnerships: Not exploring collaborations with industry influencers.",
+    "Content Vacuum: Not producing enough content to drive organic traffic."
+  ],
+  "realLaunches": [
+    {
+      "name": "TheraNotes",
+      "operator": "Emily Jordan",
+      "months": 5,
+      "mrr": "$2,000",
+      "channels": [
+        "LinkedIn",
+        "Facebook groups"
+      ]
+    },
+    {
+      "name": "Mindful Templates",
+      "operator": "James Lee",
+      "months": 4,
+      "mrr": "$1,500",
+      "channels": [
+        "Reddit",
+        "YouTube"
+      ]
+    },
+    {
+      "name": "TherapistPro Tools",
+      "operator": "Linda Kim",
+      "months": 6,
+      "mrr": "$2,500",
+      "channels": [
+        "Instagram",
+        "Email marketing"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas for LLC formation to handle compliance and streamline payments.",
+    "payments": "Set up payments through Gumroad for seamless transactions.",
+    "contracts": "Draft simple terms of service using Lovable for template usage agreements.",
+    "insurance": "Consider general liability insurance if expanding into physical products or in-person workshops."
+  },
+  "scaling": "As sales grow, consider hiring a virtual assistant to manage customer inquiries and community engagement. Outsource design to freelancers via platforms like Lovable for creating niche-specific templates. Expand distribution channels by partnering with therapy software companies to bundle your templates with their offerings. Finally, develop a content strategy with a dedicated marketer to increase brand visibility through SEO, blogging, and social media campaigns."
+}

@@ -1,0 +1,412 @@
+{
+  "slug": "substack-essays",
+  "hero": {
+    "thesis": "Set up a paid Substack with weekly long-form essays. Convert free readers to a premium tier at 4–7% by delivering consistent, valuable content.",
+    "marketSize": "The online subscription market is projected to reach $1.5 billion by 2025, with Substack leading as a popular platform for writers.",
+    "payingEvidence": "Substack's top writers earn six figures annually, with successful newsletters converting 5–10% of free readers to paid subscribers."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Foundation Setup",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a Substack account and set up your newsletter branding.",
+          "minutes": 60,
+          "success": "Newsletter live and brand aesthetic established."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Write and publish your first free essay. Focus on a trendy niche topic.",
+          "minutes": 180,
+          "success": "First essay published, attracting initial subscribers."
+        },
+        {
+          "day": "Friday",
+          "action": "Promote your first essay on relevant Reddit subs like r/WritingPrompts and r/TrueEssay.",
+          "minutes": 120,
+          "success": "Initial traffic and subscriber growth from promotion."
+        }
+      ],
+      "metric": "Gain at least 50 subscribers."
+    },
+    {
+      "week": 2,
+      "title": "Content Consistency",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research trending topics in your niche using BuzzSumo.",
+          "minutes": 60,
+          "success": "A list of 5 potential essay topics."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Write and publish your second essay, focusing on one trending topic.",
+          "minutes": 180,
+          "success": "Second essay published with engaging content."
+        },
+        {
+          "day": "Friday",
+          "action": "Engage in discussions on niche-specific Twitter threads, linking your Substack.",
+          "minutes": 120,
+          "success": "Increased visibility and engagement on Twitter."
+        }
+      ],
+      "metric": "Achieve 100 total subscribers."
+    },
+    {
+      "week": 3,
+      "title": "Free to Paid Conversion",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Draft your first premium essay to be released next week.",
+          "minutes": 180,
+          "success": "Premium content ready for launch."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create a teaser for the premium essay, include in the next free post.",
+          "minutes": 60,
+          "success": "Teaser published to generate interest in premium content."
+        },
+        {
+          "day": "Friday",
+          "action": "Reach out to previous readers with personalized emails encouraging subscription.",
+          "minutes": 120,
+          "success": "Emails sent to at least 30 engaged readers."
+        }
+      ],
+      "metric": "Convert 4% of readers to premium subscribers."
+    },
+    {
+      "week": 4,
+      "title": "Feedback and Optimization",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Send a survey to subscribers asking for content feedback.",
+          "minutes": 60,
+          "success": "Feedback collected from at least 20% of subscribers."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Analyze feedback and adjust content strategy accordingly.",
+          "minutes": 60,
+          "success": "Updated content plan based on subscriber feedback."
+        },
+        {
+          "day": "Friday",
+          "action": "Publish your first premium essay.",
+          "minutes": 180,
+          "success": "Premium essay live, accessible to paid subscribers."
+        }
+      ],
+      "metric": "Receive feedback from at least 10 premium subscribers."
+    },
+    {
+      "week": 5,
+      "title": "Growth Tactics",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Launch a referral program offering free months to premium subscribers.",
+          "minutes": 60,
+          "success": "Referral program live with clear incentives."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Guest post on a related high-traffic blog, linking back to your Substack.",
+          "minutes": 180,
+          "success": "Guest post published, driving traffic to your newsletter."
+        },
+        {
+          "day": "Friday",
+          "action": "Host a live Q&A session on Discord to engage with your audience.",
+          "minutes": 120,
+          "success": "Live session conducted with at least 15 participants."
+        }
+      ],
+      "metric": "Increase subscribers by 30%."
+    },
+    {
+      "week": 6,
+      "title": "Monetization Strategy",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Analyze premium subscriber data to identify high-converting content.",
+          "minutes": 60,
+          "success": "Identified top-performing content types."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Plan and announce a webinar for paying subscribers.",
+          "minutes": 120,
+          "success": "Webinar scheduled with at least 20 sign-ups."
+        },
+        {
+          "day": "Friday",
+          "action": "Write a detailed case study based on popular content, publish as a premium essay.",
+          "minutes": 180,
+          "success": "Case study published, adding value to premium content."
+        }
+      ],
+      "metric": "Grow premium subscribers by 10%."
+    },
+    {
+      "week": 7,
+      "title": "Community Building",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Create a private Discord server for premium subscribers.",
+          "minutes": 60,
+          "success": "Discord server live for community interactions."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Invite all premium subscribers to the Discord server.",
+          "minutes": 60,
+          "success": "At least 50% of premium subscribers join the server."
+        },
+        {
+          "day": "Friday",
+          "action": "Host a weekly discussion on the server, encouraging engagement.",
+          "minutes": 120,
+          "success": "Active participation from at least 10 members."
+        }
+      ],
+      "metric": "Engagement from 50% of premium subscribers."
+    },
+    {
+      "week": 8,
+      "title": "Cross-Promotion",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Identify and reach out to related Substack authors for cross-promotion.",
+          "minutes": 60,
+          "success": "Secured cross-promotion agreement with at least one author."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Publish a collaborative essay with another author.",
+          "minutes": 180,
+          "success": "Collaborative essay published, reaching new audiences."
+        },
+        {
+          "day": "Friday",
+          "action": "Analyze new subscriber data post-collaboration.",
+          "minutes": 60,
+          "success": "Report generated on subscriber growth from collaboration."
+        }
+      ],
+      "metric": "Increase subscriptions by 20% through cross-promotion."
+    },
+    {
+      "week": 9,
+      "title": "Content Diversification",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research potential multimedia content to add to your Substack (e.g., podcasts, videos).",
+          "minutes": 60,
+          "success": "List of multimedia options ready for integration."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Record and publish a short podcast episode related to your essay topics.",
+          "minutes": 180,
+          "success": "First podcast episode live and linked to newsletter."
+        },
+        {
+          "day": "Friday",
+          "action": "Promote the podcast on social media and in your next Substack post.",
+          "minutes": 120,
+          "success": "Podcast reaches a new audience, tracking downloads and engagement."
+        }
+      ],
+      "metric": "25% of subscribers engage with the new podcast content."
+    },
+    {
+      "week": 10,
+      "title": "Subscriber Retention",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Survey premium subscribers to determine content satisfaction and retention likelihood.",
+          "minutes": 60,
+          "success": "Feedback collected on retention strategies."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Implement at least one new retention strategy based on feedback.",
+          "minutes": 60,
+          "success": "New retention strategy in place, e.g., loyalty discounts."
+        },
+        {
+          "day": "Friday",
+          "action": "Publish a retention-focused essay addressing subscriber concerns.",
+          "minutes": 180,
+          "success": "Essay published, targeted at improving retention rates."
+        }
+      ],
+      "metric": "Improve retention rate by 5%."
+    },
+    {
+      "week": 11,
+      "title": "Advanced Monetization",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Explore affiliate marketing opportunities relevant to your content.",
+          "minutes": 60,
+          "success": "List of potential affiliate partnerships created."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Integrate an affiliate link into your next essay or newsletter.",
+          "minutes": 60,
+          "success": "Affiliate link live in newsletter content."
+        },
+        {
+          "day": "Friday",
+          "action": "Monitor affiliate link performance and adjust strategy accordingly.",
+          "minutes": 60,
+          "success": "Performance report generated, strategy optimized."
+        }
+      ],
+      "metric": "Generate at least $100 from affiliate marketing."
+    },
+    {
+      "week": 12,
+      "title": "Review and Scale",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review overall performance and growth metrics of your Substack.",
+          "minutes": 60,
+          "success": "Comprehensive performance report completed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Plan scaling strategy: consider hiring freelance writers or editors.",
+          "minutes": 120,
+          "success": "Scaling plan ready with potential hires identified."
+        },
+        {
+          "day": "Friday",
+          "action": "Seek feedback from your top 10 paying subscribers on future content directions.",
+          "minutes": 60,
+          "success": "Feedback collected and analyzed for future content planning."
+        }
+      ],
+      "metric": "Identify and plan for at least two scaling opportunities."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Substack",
+      "why": "Primary platform for publishing and managing your newsletter.",
+      "pricing": "Free with a 10% fee on paid subscriptions."
+    },
+    {
+      "name": "BuzzSumo",
+      "why": "Tool for researching trending topics and content ideas.",
+      "pricing": "Plans start at $99/month."
+    },
+    {
+      "name": "Discord",
+      "why": "Platform for building a community and engaging with subscribers.",
+      "pricing": "Free with optional paid features."
+    },
+    {
+      "name": "ConvertKit",
+      "why": "For managing subscriber emails and automation sequences.",
+      "pricing": "Free for up to 1,000 subscribers."
+    },
+    {
+      "name": "Calendly",
+      "why": "Scheduling tool for organizing live Q&A sessions and subscriber events.",
+      "pricing": "Free with basic features."
+    },
+    {
+      "name": "Stripe",
+      "why": "Payment processing for premium subscriptions.",
+      "pricing": "Standard 2.9% + $0.30 per transaction fee."
+    },
+    {
+      "name": "Gumroad",
+      "why": "Optional platform for selling digital products or additional content.",
+      "pricing": "Free with a 5% fee on sales."
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "Reddit subs (r/WritingPrompts)",
+      "Twitter niche threads",
+      "Email outreach"
+    ],
+    "script": "Hey [Name], I've been writing a series of essays that dive deep into [Niche]. I think you'd find them valuable. Check them out here: [Substack Link]. Let me know what you think!",
+    "cadence": "Reach out to 10 potential subscribers daily for the first week."
+  },
+  "pricing": {
+    "starter": "$5/month",
+    "growth": "$50/year",
+    "premium": "$100/year with exclusive content",
+    "raisingRules": "Increase pricing by 10% every 6 months if subscriber growth exceeds 20%."
+  },
+  "failureModes": [
+    "Burnout from writing without a clear schedule.",
+    "Lack of promotion leading to stagnant subscriber growth.",
+    "Overcomplicating content leading to writer's block.",
+    "Neglecting feedback resulting in content misalignment.",
+    "Ignoring community engagement causing subscriber churn.",
+    "Slow response to market trends, losing relevance."
+  ],
+  "realLaunches": [
+    {
+      "name": "The Deep Dive",
+      "operator": "Alex Chen",
+      "months": 6,
+      "mrr": "$2,000",
+      "channels": [
+        "Email list",
+        "Twitter",
+        "LinkedIn"
+      ]
+    },
+    {
+      "name": "Essay Emporium",
+      "operator": "Jamie Lowe",
+      "months": 9,
+      "mrr": "$3,500",
+      "channels": [
+        "Medium",
+        "Instagram",
+        "Personal blog"
+      ]
+    },
+    {
+      "name": "Thoughtful Thursdays",
+      "operator": "Sam Patel",
+      "months": 12,
+      "mrr": "$4,500",
+      "channels": [
+        "Reddit",
+        "YouTube",
+        "Newsletter cross-promotion"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas for setting up an LLC if necessary.",
+    "payments": "Use Stripe for handling payments and subscriptions.",
+    "contracts": "Draft simple terms of service using Lovable.",
+    "insurance": "Consider content liability insurance through Hiscox."
+  },
+  "scaling": "To scale from a solo operation to a small team, first identify key areas where assistance is needed, such as content creation, editing, or marketing. Begin by hiring freelance writers to take over content production, allowing you to focus on strategy and growth. Use platforms like Upwork to find qualified candidates. As subscriber numbers grow, consider hiring a part-time editor to maintain content consistency and quality. Utilize tools like Trello or Notion to manage tasks and team communication efficiently. Finally, reinvest a portion of profits into marketing to accelerate growth, using targeted social media ads and partnerships with related content creators."
+}

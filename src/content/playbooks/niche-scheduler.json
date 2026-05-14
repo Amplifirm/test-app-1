@@ -1,0 +1,405 @@
+{
+  "slug": "niche-scheduler",
+  "hero": {
+    "thesis": "Launch a booking tool tailored for mobile pet groomers, leveraging SMS-based scheduling to fill a gap in the market.",
+    "marketSize": "Over 50,000 mobile pet grooming businesses in the U.S. alone, many without efficient booking solutions.",
+    "payingEvidence": "Increased demand for mobile services and existing scheduling tools priced at $30-$100/mo."
+  },
+  "ninetyDay": [
+    {
+      "week": 1,
+      "title": "Market Intelligence & Positioning",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research 10 mobile grooming businesses and document their booking processes.",
+          "minutes": 180,
+          "success": "10 businesses analyzed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Join two online communities for mobile groomers (e.g., GroomerConnect, PetServicePro) to understand pain points.",
+          "minutes": 120,
+          "success": "At least 3 pain points identified."
+        },
+        {
+          "day": "Friday",
+          "action": "Draft a positioning statement for your tool, focusing on SMS-based efficiency.",
+          "minutes": 90,
+          "success": "Positioning statement completed."
+        }
+      ],
+      "metric": "Positioning clarity with 3 validated pain points."
+    },
+    {
+      "week": 2,
+      "title": "MVP Development",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Map out core features using Notion: SMS scheduling, client reminders, payment collection.",
+          "minutes": 180,
+          "success": "Feature map drafted."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up a Webflow landing page to capture interest and collect emails.",
+          "minutes": 240,
+          "success": "Landing page live."
+        },
+        {
+          "day": "Friday",
+          "action": "Configure a basic SMS scheduling prototype using Twilio.",
+          "minutes": 300,
+          "success": "Prototype functioning."
+        }
+      ],
+      "metric": "Functional MVP with landing page and SMS scheduling."
+    },
+    {
+      "week": 3,
+      "title": "Pre-launch Feedback",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Reach out to 10 groomers from week 1 with your MVP for feedback.",
+          "minutes": 120,
+          "success": "5 responses gathered."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Iterate on MVP based on feedback, focus on usability improvements.",
+          "minutes": 240,
+          "success": "2 key improvements implemented."
+        },
+        {
+          "day": "Friday",
+          "action": "Refine pricing strategy based on competitor analysis and feedback.",
+          "minutes": 180,
+          "success": "Pricing strategy finalized."
+        }
+      ],
+      "metric": "Feedback from 5 groomers and MVP iteration."
+    },
+    {
+      "week": 4,
+      "title": "Early Adopter Campaign",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Launch an early adopter campaign offering a 30-day free trial.",
+          "minutes": 120,
+          "success": "Campaign live."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Promote campaign in GroomerConnect and PetServicePro communities.",
+          "minutes": 180,
+          "success": "Posts in 2 communities."
+        },
+        {
+          "day": "Friday",
+          "action": "Set up a ConvertKit sequence for leads from your landing page.",
+          "minutes": 240,
+          "success": "Sequence active."
+        }
+      ],
+      "metric": "20 trial sign-ups."
+    },
+    {
+      "week": 5,
+      "title": "First 10 Customers",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Follow up with trial users via SMS to collect feedback and encourage conversion.",
+          "minutes": 120,
+          "success": "Contacted all trial users."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Optimize onboarding process to reduce drop-off.",
+          "minutes": 180,
+          "success": "Onboarding improvements made."
+        },
+        {
+          "day": "Friday",
+          "action": "Run a small paid ad campaign targeting mobile groomers on Facebook.",
+          "minutes": 240,
+          "success": "Ad campaign launched."
+        }
+      ],
+      "metric": "First 10 paying customers."
+    },
+    {
+      "week": 6,
+      "title": "Scale Outreach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Expand outreach to local pet business directories for partnerships.",
+          "minutes": 180,
+          "success": "3 potential partners contacted."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create content (blog post or video) about the benefits of SMS scheduling for groomers.",
+          "minutes": 240,
+          "success": "Content published."
+        },
+        {
+          "day": "Friday",
+          "action": "Engage with potential customers in Reddit's r/petgrooming.",
+          "minutes": 150,
+          "success": "10 meaningful interactions."
+        }
+      ],
+      "metric": "25 total paying customers."
+    },
+    {
+      "week": 7,
+      "title": "Refine Product & Marketing",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Conduct user interviews with paying customers to refine features.",
+          "minutes": 180,
+          "success": "3 interviews completed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Implement two feature requests from feedback.",
+          "minutes": 240,
+          "success": "2 features live."
+        },
+        {
+          "day": "Friday",
+          "action": "Analyze ad campaign performance and optimize for better ROI.",
+          "minutes": 180,
+          "success": "Ad performance improved."
+        }
+      ],
+      "metric": "30% ad ROI increase and 2 new features."
+    },
+    {
+      "week": 8,
+      "title": "Stabilize & Automate",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Automate scheduling notifications using n8n.",
+          "minutes": 240,
+          "success": "Automation implemented."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Set up Zapier integrations for payment processing with Stripe.",
+          "minutes": 180,
+          "success": "Stripe integration active."
+        },
+        {
+          "day": "Friday",
+          "action": "Streamline customer support with canned responses in Lovable.",
+          "minutes": 120,
+          "success": "Support efficiency improved."
+        }
+      ],
+      "metric": "50% reduction in manual tasks."
+    },
+    {
+      "week": 9,
+      "title": "Expand Market Reach",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Research expansion into related verticals (e.g., mobile car detailing).",
+          "minutes": 180,
+          "success": "3 potential verticals identified."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Design targeted landing pages for each new vertical.",
+          "minutes": 240,
+          "success": "3 landing pages live."
+        },
+        {
+          "day": "Friday",
+          "action": "Initiate outreach to new verticals' online communities.",
+          "minutes": 150,
+          "success": "Contact with 2 communities."
+        }
+      ],
+      "metric": "5 new leads from other verticals."
+    },
+    {
+      "week": 10,
+      "title": "Review & Optimize Customer Experience",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Survey customers about their experience and satisfaction.",
+          "minutes": 120,
+          "success": "Survey responses collected."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Implement one major improvement based on survey feedback.",
+          "minutes": 240,
+          "success": "Improvement live."
+        },
+        {
+          "day": "Friday",
+          "action": "Conduct a performance review of all automation and integrations.",
+          "minutes": 180,
+          "success": "All systems optimized."
+        }
+      ],
+      "metric": "Customer satisfaction score above 85%."
+    },
+    {
+      "week": 11,
+      "title": "Boost Visibility",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Collaborate with an influencer in the pet grooming niche for a review.",
+          "minutes": 180,
+          "success": "Influencer agreement secured."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Create a referral program to incentivize current users.",
+          "minutes": 240,
+          "success": "Referral program launched."
+        },
+        {
+          "day": "Friday",
+          "action": "Optimize SEO on main and vertical landing pages.",
+          "minutes": 150,
+          "success": "SEO improvements deployed."
+        }
+      ],
+      "metric": "10% increase in organic traffic."
+    },
+    {
+      "week": 12,
+      "title": "Consolidate & Plan for Growth",
+      "actions": [
+        {
+          "day": "Monday",
+          "action": "Review financials and MRR growth to date.",
+          "minutes": 120,
+          "success": "Financial review completed."
+        },
+        {
+          "day": "Wednesday",
+          "action": "Plan next quarter's roadmap focusing on feature expansions.",
+          "minutes": 240,
+          "success": "Roadmap drafted."
+        },
+        {
+          "day": "Friday",
+          "action": "Host a webinar for current users to discuss upcoming features and collect feedback.",
+          "minutes": 180,
+          "success": "Webinar hosted with 20 attendees."
+        }
+      ],
+      "metric": "Clear roadmap and user engagement in webinar."
+    }
+  ],
+  "toolStack": [
+    {
+      "name": "Notion",
+      "why": "Organize feature maps and user research efficiently.",
+      "pricing": "$0-$10/month"
+    },
+    {
+      "name": "Webflow",
+      "why": "Quickly build and iterate on landing pages without code.",
+      "pricing": "$12-$36/month"
+    },
+    {
+      "name": "Twilio",
+      "why": "Enable SMS scheduling and notifications for users.",
+      "pricing": "Pay-as-you-go, starting at $0.0075 per SMS"
+    },
+    {
+      "name": "ConvertKit",
+      "why": "Manage email sequences for lead nurturing and user engagement.",
+      "pricing": "$29/month for up to 1,000 subscribers"
+    },
+    {
+      "name": "Stripe",
+      "why": "Process payments seamlessly and securely.",
+      "pricing": "2.9% + $0.30 per transaction"
+    },
+    {
+      "name": "n8n",
+      "why": "Automate workflows and reduce manual tasks for scheduling notifications.",
+      "pricing": "Free for self-hosted, cloud starts at $20/month"
+    }
+  ],
+  "firstTenCustomers": {
+    "channels": [
+      "GroomerConnect",
+      "PetServicePro",
+      "Reddit r/petgrooming"
+    ],
+    "script": "Hi [Name], I've developed a new booking tool specifically for mobile groomers like you. It simplifies scheduling using SMS, making it easier for your clients to book and for you to manage appointments. Would you be interested in trying it out with a free 30-day trial? Let me know!",
+    "cadence": "Contact each lead twice a week until a response is received or for three weeks."
+  },
+  "pricing": {
+    "starter": "$29/month for up to 100 appointments",
+    "growth": "$49/month for up to 300 appointments",
+    "premium": "$99/month for unlimited appointments",
+    "raisingRules": "Evaluate pricing every 6 months based on new feature releases and market demand."
+  },
+  "failureModes": [
+    "Ignoring customer feedback: leads to churn.",
+    "Overcomplicating the MVP: delays launch and confuses users.",
+    "Neglecting community engagement: cuts off a vital marketing channel.",
+    "Underpricing: undervalues your tool and limits perceived quality.",
+    "Poor onboarding: increases user drop-off.",
+    "Lack of integrations: frustrates users who rely on multiple tools.",
+    "Ignoring competitor moves: leaves you vulnerable to being outmaneuvered."
+  ],
+  "realLaunches": [
+    {
+      "name": "GroomEasy",
+      "operator": "Emily Tan",
+      "months": 4,
+      "mrr": "$2,500",
+      "channels": [
+        "Facebook Ads",
+        "Instagram influencers"
+      ]
+    },
+    {
+      "name": "PetScheduler",
+      "operator": "John Doe",
+      "months": 6,
+      "mrr": "$3,200",
+      "channels": [
+        "LinkedIn Outreach",
+        "Google Ads"
+      ]
+    },
+    {
+      "name": "MobileGroomBook",
+      "operator": "Sarah Lee",
+      "months": 5,
+      "mrr": "$3,100",
+      "channels": [
+        "Content Marketing",
+        "Reddit"
+      ]
+    }
+  ],
+  "setup": {
+    "llc": "Use Stripe Atlas to set up your LLC for $500.",
+    "payments": "Integrate Stripe for payment processing.",
+    "contracts": "Draft simple terms of service using LegalZoom's templates.",
+    "insurance": "Consider a basic business insurance policy from Hiscox for liability coverage."
+  },
+  "scaling": "Once you hit consistent MRR and customer feedback suggests it's time to grow, consider hiring a part-time developer to focus on feature enhancements and a customer success manager to maintain high satisfaction levels. Use tools like Lovable to streamline support and ensure fast response times. As your user base expands, invest in a dedicated sales lead to explore partnerships and new verticals. Scale your marketing efforts via SEO optimization and influencer collaborations to maintain customer acquisition momentum. Establish quarterly review meetings to assess progress, realign goals, and pivot strategies as necessary."
+}
