@@ -4,6 +4,31 @@ Each item below requires a human (account creation, payment, OAuth approval, etc
 
 ---
 
+## P0 — Install SDKs (single command, when ready for EAS dev client)
+
+Most of the lib files in `src/lib/` (purchases, superwall, analytics, sentry, notifications) are scaffolded with `LOCAL_MOCK` branches. They compile and run fine without their SDKs installed, but the real behavior (real IAP, real PostHog, real Sentry, real push) needs the native modules. These modules **cannot run in Expo Go** — they require an EAS dev client.
+
+When you're ready, run:
+
+```bash
+cd hustleai-app
+npx expo install \
+  react-native-purchases \
+  @superwall/react-native-superwall \
+  posthog-react-native \
+  @sentry/react-native \
+  expo-notifications \
+  expo-device
+```
+
+Then:
+
+1. Replace each `LOCAL_MOCK` block in `src/lib/purchases.ts` / `superwall.ts` / `analytics.ts` / `sentry.ts` / `notifications.ts` with the commented-out real implementation right below it.
+2. Add the Sentry config plugin to `app.json` plugins array: `["@sentry/react-native/expo", { /* options */ }]`
+3. Build the dev client: `eas build --profile development --platform ios` (and Android).
+
+---
+
 ## P0 — Required for app to function at all
 
 ### [ ] 1. Supabase project
