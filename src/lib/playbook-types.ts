@@ -3,19 +3,21 @@
 //   - hustleai/app/api/personalize/route.ts (runtime personalization)
 //   - hustleai-app/app/playbook/[slug].tsx (rendering)
 //   - hustleai-app/src/lib/pdf.ts (PDF export)
+//
+// Schema v2 (phase-13): adds day-by-day breakdowns, mental models, operator
+// interviews, case studies, FAQs, weekly metrics, gated scripts.
+// All new fields are OPTIONAL so the existing 30 JSONs continue to parse —
+// the playbook UI gracefully degrades to legacy rendering when a field is absent.
+
+// ──────────────────────────────────────────────────────────────────────
+// LEGACY (v1) — preserved for backwards compatibility
+// ──────────────────────────────────────────────────────────────────────
 
 export type PlaybookDayAction = {
-  day?: string;            // optional day-of-week
+  day?: string;            // optional day-of-week (legacy)
   action: string;
   minutes: number;
   success: string;         // what counts as done
-};
-
-export type PlaybookWeek = {
-  week: number;            // 1..12
-  title: string;
-  actions: PlaybookDayAction[];
-  metric: string;          // success metric for the week
 };
 
 export type PlaybookTool = {
@@ -25,26 +27,102 @@ export type PlaybookTool = {
 };
 
 export type PlaybookLaunch = {
-  name: string;            // brand name
+  name: string;            // brand name OR operator name
   operator: string;        // e.g. "Marcus R."
   months: number;          // months to reach mrr
   mrr: string;             // e.g. "$4,100"
   channels: string[];      // 2-4 acquisition channels
+  sourceUrl?: string;      // NEW — link to public source (Indie Hackers, Twitter) for proof
+};
+
+// ──────────────────────────────────────────────────────────────────────
+// V2 — daily breakdown + retention assets
+// ──────────────────────────────────────────────────────────────────────
+
+export type PlaybookDay = {
+  dayNumber: number;       // 1..90 — absolute day within the 90-day plan
+  title: string;           // e.g. "Write your About paragraph"
+  minutes: number;         // time-cost estimate
+  description: string;     // 2–3 sentences: what + why
+  successCriteria: string; // what counts as "marked done"
+  resources?: string[];    // links/templates referenced (optional)
+};
+
+export type MetricGoal = {
+  id: string;              // stable id for tracking, e.g. "w1-replies"
+  label: string;           // human label, "Replies received"
+  target: number;          // numeric goal
+  unit: string;            // "replies" / "$" / "subscribers"
+  week: number;            // 1..12 — which week this metric applies to
+};
+
+export type PlaybookWeek = {
+  week: number;            // 1..12
+  title: string;
+  outcome?: string;        // NEW v2: one-line milestone description
+  metric: string | MetricGoal; // legacy string OR v2 numeric metric
+  actions?: PlaybookDayAction[]; // legacy v1 actions
+  days?: PlaybookDay[];    // v2: 5–7 day items per week
+  reward?: {
+    kind: 'badge' | 'unlock' | 'template';
+    label: string;
+    assetId?: string;      // refs a ScriptTemplate.id or asset slug
+  };
+};
+
+export type MentalModel = {
+  id: string;
+  title: string;           // "The compounding email lever"
+  summary: string;         // 3–4 sentences explaining the framework
+  when: string;            // when to apply it: "Week 2 when reply rate stalls"
+};
+
+export type OperatorQA = {
+  id: string;
+  name: string;            // REAL operator name — must be sourced from a public post
+  role: string;            // e.g. "Founder, AcmeNewsletter"
+  weeksToMRR: number;
+  mrr: string;             // "$4,100/mo"
+  transcript: string;      // 200–400 word text Q&A — first-person, conversational
+  sourceUrl?: string;      // optional citation
+};
+
+export type CaseStudy = {
+  id: string;
+  title: string;
+  before: string;          // 1–2 sentences: where they started
+  after: string;           // 1–2 sentences + metric: where they ended up
+  story: string;           // 200–400 words: the journey
+  takeaway: string;        // 1–2 sentences: the principle to extract
+  sourceUrl?: string;
+};
+
+export type FaqEntry = {
+  id: string;
+  question: string;
+  answer: string;          // 60–150 words; troubleshooting-grade specific
+};
+
+export type ScriptTemplate = {
+  id: string;
+  label: string;           // "First-10-customers DM"
+  body: string;            // copy-paste-ready, [placeholders]
+  unlocksAtWeek: number;   // 1..12 — gated reveal
 };
 
 export type Playbook = {
   slug: string;
   hero: {
-    thesis: string;            // 2-3 paragraphs: why this niche, why now
-    marketSize: string;        // e.g. "1.3M solo lawyers in the US"
-    payingEvidence: string;    // 1-2 sentences with named comps
+    thesis: string;
+    marketSize: string;
+    payingEvidence: string;
   };
-  ninetyDay: PlaybookWeek[];   // 12 weeks
-  toolStack: PlaybookTool[];   // 5-8 tools
+  ninetyDay: PlaybookWeek[];
+  toolStack: PlaybookTool[];
   firstTenCustomers: {
-    channels: string[];        // 3-5 channels
-    script: string;            // outreach copy template (with [placeholders])
-    cadence: string;           // how many per day, expected response rate
+    channels: string[];
+    script: string;
+    cadence: string;
   };
   pricing: {
     starter: string;
@@ -52,15 +130,33 @@ export type Playbook = {
     premium: string;
     raisingRules: string;
   };
-  failureModes: string[];      // 6-8 specific ways this fails
-  realLaunches: PlaybookLaunch[]; // 3 real comps
+  failureModes: string[];
+  realLaunches: PlaybookLaunch[];
   setup: {
     llc: string;
     payments: string;
     contracts: string;
     insurance?: string;
   };
-  scaling: string;             // 3-4 paragraphs on going beyond solo
+  scaling: string;
+
+  // ──── V2 retention + depth ─────────────────────────────────────────
+  mentalModels?: MentalModel[];        // 3–5 frameworks
+  operatorInterviews?: OperatorQA[];   // 2–3 Q&As
+  caseStudies?: CaseStudy[];           // 2–3 deep dives
+  faq?: FaqEntry[];                    // 8–12 troubleshooting entries
+  weeklyMetrics?: MetricGoal[];        // numeric goals indexed by week
+  scripts?: ScriptTemplate[];          // unlockable scripts gated by week
+  community?: {
+    discordUrl?: string;
+    slackUrl?: string;
+    cohortTag?: string;                // for grouping users in same playbook
+  };
+  meta?: {
+    generatedAt?: string;              // ISO timestamp
+    generator?: string;                // e.g. "hand-v1" | "gpt-4o-mini-v1"
+    schemaVersion?: 2;
+  };
 };
 
 // Runtime personalization layer (returned by /api/personalize)

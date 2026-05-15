@@ -126,7 +126,7 @@ function renderHTML(hustle: Hustle, p: Playbook, personalized: PersonalizedLayer
           <div class="week-title">${esc(w.title)}</div>
           <div class="week-num">WEEK ${w.week}</div>
         </div>
-        ${w.actions.map((a) => `
+        ${(w.actions ?? []).map((a) => `
           <div class="action">
             <div class="day-chip">${esc(a.day || '·')}</div>
             <div class="action-body">
@@ -135,7 +135,7 @@ function renderHTML(hustle: Hustle, p: Playbook, personalized: PersonalizedLayer
             </div>
           </div>
         `).join('')}
-        <p class="muted" style="margin-top: 10px; font-size: 12px;"><strong>Metric:</strong> ${esc(w.metric)}</p>
+        <p class="muted" style="margin-top: 10px; font-size: 12px;"><strong>Metric:</strong> ${esc(typeof w.metric === 'string' ? w.metric : w.metric.label)}</p>
       </div>
     `).join('')}
   </div>

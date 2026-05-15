@@ -525,7 +525,7 @@ function WeekCard({ week }: { week: Playbook['ninetyDay'][number] }) {
         <Text style={{ color: HA.ink, fontFamily: FONT.bodyBold, fontSize: 14 }}>{week.title}</Text>
       </Row>
       <View style={{ gap: 8 }}>
-        {week.actions.map((a, i) => (
+        {(week.actions ?? []).map((a, i) => (
           <View key={i} style={{ flexDirection: 'row', gap: 10, paddingVertical: 6, borderTopWidth: i === 0 ? 0 : 1, borderTopColor: HA.stroke, paddingTop: i === 0 ? 0 : 10 }}>
             <View style={{ width: 38 }}>
               <Text style={{ color: HA.inkSoft, fontFamily: FONT.mono, fontSize: 10, letterSpacing: 0.6 }}>{(a.day || '·').toUpperCase()}</Text>
@@ -542,7 +542,7 @@ function WeekCard({ week }: { week: Playbook['ninetyDay'][number] }) {
       </View>
       <View style={{ marginTop: 10, paddingTop: 10, borderTopWidth: 1, borderTopColor: HA.stroke }}>
         <Text style={{ color: HA.inkMuted, fontFamily: FONT.body, fontSize: 12, lineHeight: 17 }}>
-          <Text style={{ color: HA.ink, fontFamily: FONT.bodyBold }}>Metric: </Text>{week.metric}
+          <Text style={{ color: HA.ink, fontFamily: FONT.bodyBold }}>Metric: </Text>{typeof week.metric === 'string' ? week.metric : week.metric.label}
         </Text>
       </View>
     </View>
