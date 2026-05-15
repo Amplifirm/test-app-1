@@ -127,7 +127,11 @@ export function CTA({
       disabled={disabled}
       style={({ pressed }) => [
         styles.ctaBase,
-        { backgroundColor: disabled ? '#2A2A2A' : bg, opacity: pressed ? 0.92 : 1, transform: [{ scale: pressed ? 0.98 : 1 }] },
+        {
+          backgroundColor: disabled ? HA.surfaceHi : bg,
+          opacity: disabled ? 0.5 : (pressed ? 0.92 : 1),
+          transform: [{ scale: pressed && !disabled ? 0.98 : 1 }],
+        },
         style,
       ]}
     >

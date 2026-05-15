@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { View, Text, ScrollView, Pressable, ActivityIndicator } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
-import Animated, { FadeIn, FadeInUp } from 'react-native-reanimated';
+import Animated, { FadeIn, FadeInUp, useSharedValue, useAnimatedStyle, withRepeat, withSequence, withTiming } from 'react-native-reanimated';
 import { HA, FONT } from '~/design/tokens';
 import { Screen, TopBar, CTADock } from '~/components/screen';
 import { Row, Stack, Tag, Dot, Sticker, Icon, CTA, MonoLabel, CTAOutline } from '~/components/atoms';
@@ -51,6 +51,17 @@ export default function PlaybookScreen() {
 // ── PREVIEW (paywall) ────────────────────────────────────────────────
 function Preview({ hustle, onBack, onUnlock }: { hustle: Hustle; onBack: () => void; onUnlock: (plan: 'one' | 'sub') => void }) {
   const [plan, setPlan] = useState<'one' | 'sub'>('sub');
+  // Subtle pulse on the MRR projection card — draws the eye to the income anchor.
+  const mrrPulse = useSharedValue(1);
+  useEffect(() => {
+    mrrPulse.value = withRepeat(
+      withSequence(withTiming(0.94, { duration: 900 }), withTiming(1, { duration: 900 })),
+      -1,
+      true,
+    );
+  }, []);
+  const mrrPulseStyle = useAnimatedStyle(() => ({ opacity: mrrPulse.value }));
+
   return (
     <Screen>
       <TopBar onBack={onBack} label="Match #1" />
@@ -79,9 +90,9 @@ function Preview({ hustle, onBack, onUnlock }: { hustle: Hustle; onBack: () => v
         {/* MRR projection card with count-up */}
         <Animated.View
           entering={FadeInUp.delay(120).duration(380)}
-          style={{
+          style={[{
             marginTop: 18, padding: 18, borderRadius: 18, backgroundColor: HA.lime, position: 'relative',
-          }}
+          }, mrrPulseStyle]}
         >
           <Text style={{ fontFamily: FONT.mono, fontSize: 10, color: 'rgba(10,10,10,0.65)', letterSpacing: 1.4, fontWeight: '600' }}>
             REALISTIC MRR · MONTH 6

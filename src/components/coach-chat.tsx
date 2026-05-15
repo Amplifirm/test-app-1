@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, Pressable, ActivityIndicator, ScrollView } from 'react-native';
+import { View, Text, TextInput, Pressable, ScrollView } from 'react-native';
 import { HA, FONT, RADIUS } from '~/design/tokens';
 import { Icon } from './atoms';
+import { SkeletonChatBubble } from './skeleton';
 import { sendCoachMessage, type CoachMessage } from '~/lib/coach';
 import { track } from '~/lib/analytics';
 
@@ -78,11 +79,7 @@ export function CoachChat({
               </Text>
             </View>
           ))}
-          {busy ? (
-            <View style={{ marginTop: 8 }}>
-              <ActivityIndicator size="small" color={HA.lime} />
-            </View>
-          ) : null}
+          {busy ? <SkeletonChatBubble /> : null}
         </ScrollView>
       ) : null}
 

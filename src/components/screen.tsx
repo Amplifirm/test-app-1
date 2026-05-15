@@ -1,4 +1,4 @@
-import React, { ReactNode, useEffect, useRef } from 'react';
+import React, { ReactNode, useEffect, useRef, useState } from 'react';
 import { View, Text, Pressable, StyleSheet, StyleProp, ViewStyle } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Animated, {
@@ -112,10 +112,19 @@ export function SignalCounter({ captured, total }: { captured: number; total: nu
 }
 
 // ── Observation toast ─────────────────────────────────────────────────
-export function ObservationToast({ visible, message }: { visible: boolean; message: string }) {
-  if (!visible) return null;
+// Self-dismisses after 4s. Caller passes a stable `key` to remount when
+// the message changes (e.g. next question's observation).
+export function ObservationToast({ visible, message, durationMs = 4000 }: { visible: boolean; message: string; durationMs?: number }) {
+  const [show, setShow] = useState(visible);
+  useEffect(() => {
+    if (!visible) { setShow(false); return; }
+    setShow(true);
+    const t = setTimeout(() => setShow(false), durationMs);
+    return () => clearTimeout(t);
+  }, [visible, message, durationMs]);
+  if (!show) return null;
   return (
-    <Animated.View entering={FadeIn.duration(220)} exiting={FadeOut.duration(180)} style={styles.toast}>
+    <Animated.View entering={FadeIn.duration(220)} exiting={FadeOut.duration(220)} style={styles.toast}>
       <Dot size={5} color={HA.lime} />
       <Text style={{ flex: 1, color: HA.ink, fontFamily: FONT.body, fontSize: 13, lineHeight: 18 }}>
         {message}

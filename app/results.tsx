@@ -1,11 +1,12 @@
-import React, { useEffect, useMemo } from 'react';
-import { View, Text, Pressable, ScrollView } from 'react-native';
+import React, { useEffect, useMemo, useState, useCallback } from 'react';
+import { View, Text, Pressable, ScrollView, RefreshControl } from 'react-native';
 import { useRouter } from 'expo-router';
 import Animated, { FadeIn, FadeInDown, FadeInUp } from 'react-native-reanimated';
 import { HA, FONT } from '~/design/tokens';
 import { Screen, TopBar, ConfidenceBand, WhyBulletView } from '~/components/screen';
 import { Row, Stack, Tag, Dot, Sticker, MonoLabel, Icon } from '~/components/atoms';
 import { CountUp } from '~/components/count-up';
+import { ConfettiBurst } from '~/components/confetti-burst';
 import { useApp } from '~/lib/store';
 import { topMatches, profileSummary, ScoredMatch } from '~/lib/score';
 import { Hustle } from '~/lib/hustles';
@@ -16,8 +17,19 @@ import { requestNotificationPermission, schedulePostQuizSchedule } from '~/lib/n
 export default function ResultsScreen() {
   const router = useRouter();
   const answers = useApp((s) => s.answers);
-  const { matches } = useMemo(() => topMatches(answers, 3), [answers]);
-  const profile = useMemo(() => profileSummary(answers), [answers]);
+  const [recomputeKey, setRecomputeKey] = useState(0);
+  const [refreshing, setRefreshing] = useState(false);
+  const { matches } = useMemo(() => topMatches(answers, 3), [answers, recomputeKey]);
+  const profile = useMemo(() => profileSummary(answers), [answers, recomputeKey]);
+
+  const onRefresh = useCallback(async () => {
+    setRefreshing(true);
+    haptic.tapLight();
+    // Re-run scoring (deterministic — same input, same output, but the
+    // gesture itself is the value: confirms freshness, fires confetti again).
+    setRecomputeKey((k) => k + 1);
+    setTimeout(() => setRefreshing(false), 700);
+  }, []);
 
   useEffect(() => {
     // Celebratory haptic on mount
@@ -56,6 +68,7 @@ export default function ResultsScreen() {
 
   return (
     <Screen>
+      <ConfettiBurst key={recomputeKey} />
       <TopBar
         onBack={() => router.replace('/')}
         label="Your matches"
@@ -67,7 +80,19 @@ export default function ResultsScreen() {
         </Tag>}
       />
 
-      <ScrollView showsVerticalScrollIndicator={false} style={{ flex: 1 }} contentContainerStyle={{ paddingBottom: 32 }}>
+      <ScrollView
+        showsVerticalScrollIndicator={false}
+        style={{ flex: 1 }}
+        contentContainerStyle={{ paddingBottom: 32 }}
+        refreshControl={
+          <RefreshControl
+            refreshing={refreshing}
+            onRefresh={onRefresh}
+            tintColor={HA.lime}
+            colors={[HA.lime]}
+          />
+        }
+      >
         {/* Profile summary callout */}
         <Animated.View
           entering={FadeIn.delay(80).duration(380)}
@@ -81,6 +106,10 @@ export default function ResultsScreen() {
             You're <Text style={{ color: HA.lime, fontFamily: FONT.bodyBold }}>{profile.topRiasec[0]?.label}-leaning</Text>
             {profile.topRiasec[1] ? <> · <Text style={{ color: HA.ink, fontFamily: FONT.bodyBold }}>{profile.topRiasec[1].label}</Text> secondary</> : null}
             {profile.goalReadout ? <>{'\n'}<Text style={{ color: HA.inkMuted }}>{profile.goalReadout}.</Text></> : null}
+          </Text>
+          <Text style={{ marginTop: 8, color: HA.ink, fontFamily: FONT.body, fontSize: 13, lineHeight: 19 }}>
+            That means you're built for{' '}
+            <Text style={{ color: HA.lime, fontFamily: FONT.bodyBold }}>{humanizeProfile(profile.topRiasec[0]?.label, profile.goalReadout)}</Text>.
           </Text>
         </Animated.View>
 
@@ -149,7 +178,11 @@ function MatchCard({ m, rank, onPress }: { m: ScoredMatch; rank: number; onPress
         padding: 16, borderRadius: 18,
         backgroundColor: HA.surface, borderWidth: top ? 1.5 : 1,
         borderColor: top ? HA.strokeLime : HA.stroke,
-        shadowColor: top ? HA.lime : 'transparent', shadowOpacity: top ? 0.18 : 0, shadowRadius: 18,
+        shadowColor: top ? HA.lime : 'transparent',
+        shadowOpacity: top ? 0.32 : 0,
+        shadowRadius: top ? 28 : 0,
+        shadowOffset: top ? { width: 0, height: 14 } : { width: 0, height: 0 },
+        elevation: top ? 8 : 0,
         position: 'relative',
       }}>
         {top ? <View style={{ position: 'absolute', top: -8, right: 14 }}>
@@ -219,4 +252,31 @@ function Stat({ label, value, accent }: { label: string; value: string; accent?:
       <Text style={{ fontFamily: FONT.displayHeavy, fontSize: 17, color: accent || HA.ink, marginTop: 3, letterSpacing: -0.5 }}>{value}</Text>
     </View>
   );
+}
+
+// Translate the technical RIASEC + goal-readout into a one-line plain-English
+// blurb the user can self-identify with.
+function humanizeProfile(topRiasec: string | undefined, goal: string): string {
+  const r = (topRiasec || '').toLowerCase();
+  const wantsRecurring = /recurring/.test(goal);
+  const wantsFast = /cash fast/.test(goal);
+  const soloFirst = /solo/.test(goal);
+  const variance = /high-variance/.test(goal);
+
+  const base: Record<string, string> = {
+    investigative: 'patterns, research, and turning data into income',
+    artistic: 'craft, design, and creative output that compounds',
+    enterprising: 'sales, deals, and direct-to-customer hustles',
+    social: 'one-to-one work with humans on the other side',
+    realistic: 'hands-on, tangible work with real-world tools',
+    conventional: 'systems, organization, and ops-heavy income',
+  };
+  const phrase = base[r] || 'building income from your actual strengths';
+  const modifiers = [
+    wantsRecurring && 'on a recurring-revenue model',
+    wantsFast && 'with money in your account in weeks, not quarters',
+    soloFirst && 'without hiring a team',
+    variance && 'where the ceiling matters more than the floor',
+  ].filter(Boolean) as string[];
+  return modifiers.length ? `${phrase} — ${modifiers[0]}` : phrase;
 }

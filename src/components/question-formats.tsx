@@ -163,7 +163,7 @@ export function FourCardGrid({
       {options.map((o, i) => {
         const on = value === o.id;
         return (
-          <Animated.View key={o.id} entering={FadeInDown.delay(i * 50).duration(320).springify()} style={{ width: '47.5%' }}>
+          <Animated.View key={o.id} entering={FadeInDown.delay(i * 90).duration(360).springify()} style={{ width: '47.5%' }}>
             <AnimatedCard
               on={on}
               onPress={() => { haptic.select(); onChange(o.id); }}

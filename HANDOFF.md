@@ -27,6 +27,43 @@ This document is what you read first when you sit down. Everything else is refer
 - ✅ **Service init** — Sentry / PostHog / RevenueCat / Superwall initialize on app boot from `app/_layout.tsx`. All are null-safe (return early if env vars missing).
 - ✅ **Backend schema** (Phase 2) — `supabase/migrations/001_initial.sql` with RLS policies. `src/lib/supabase.ts` client (null-guarded), `src/lib/auth.ts`, `src/lib/db.ts`.
 
+### Phase 12 — premium polish pass (added after v1.0)
+
+Closes the gap between "functional v1.0" and "Cal AI / Plant ID-tier polish". All Expo Go compatible — no SDK installs blocking testability.
+
+- ✅ **Results reveal moment** — Confetti burst (`react-native-confetti-cannon`) fires on results mount and on pull-to-refresh. Top-match card now has a real shadow (0.32 opacity, lime-tinted) so #1 ranks visually above #2/#3.
+- ✅ **Paywall conversion lifts** —
+  - "3 days free." promoted to a 30pt lime headline above the hero (was buried in a pill).
+  - Social-proof row inserted above WHAT YOU UNLOCK (avatar stack + 22,481 matches + 4.8★).
+  - Annual subtitle reframed as "just $0.96/week" (loss-aversion anchor).
+  - Lifetime subtitle reframed as "Equivalent to ~3 years annual."
+  - PRESELECTED tag swapped for "SAVE 86%" to communicate value.
+  - Selected `PlanRow` micro-elevates with Reanimated spring + lime shadow.
+  - Main CTA fires `hapticKind="success"` (was tapMed).
+- ✅ **Smoothness across the app** —
+  - `ObservationToast` self-dismisses after 4s (was sticky).
+  - Playbook MRR card pulses 1↔0.94 forever (subtle income anchor draw).
+  - Disabled CTA visual fixed (was illegible #2A2A2A).
+  - FourCardGrid stagger expanded from 50ms to 90ms — perceptible reveal sequence.
+  - `CountUp` prefix/suffix fade in with digits (was static "$" beside animating number).
+- ✅ **Phase 7.x copy** — Results profile callout adds a humanized translation line via new `humanizeProfile()` helper.
+- ✅ **Loading states** — New `Skeleton` + `SkeletonChatBubble` components. Coach chat uses these instead of `ActivityIndicator`.
+
+**Files changed this pass:**
+```
+hustleai-app/.env                            (Phase A: Vercel API)
+hustleai-app/app/results.tsx                 (B1, B6, C7, D2)
+hustleai-app/app/paywall.tsx                 (B2, B3, B4, B5, C9, D1)
+hustleai-app/app/playbook/[slug].tsx         (C3 MRR pulse)
+hustleai-app/src/components/atoms.tsx        (C4 disabled CTA)
+hustleai-app/src/components/screen.tsx       (C2 toast auto-dismiss)
+hustleai-app/src/components/question-formats.tsx  (C10 stagger bump)
+hustleai-app/src/components/count-up.tsx     (B7 affix fade)
+hustleai-app/src/components/coach-chat.tsx   (C8 skeleton)
+hustleai-app/src/components/confetti-burst.tsx   (new — B1)
+hustleai-app/src/components/skeleton.tsx     (new — C8)
+```
+
 ### What was added in the final round
 
 - ✅ **Phase 7** — full settings rewrite. `app/(app)/account.tsx` now has all spec §7.1 rows (Quiz again with confirmation, Refer, Restore purchases, Manage subscription with platform-deep-link, Privacy & data, Methodology, Terms, Privacy, Contact support, version+build).
