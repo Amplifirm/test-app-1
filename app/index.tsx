@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { View, Text } from 'react-native';
 import { useRouter } from 'expo-router';
 import Animated, {
@@ -8,10 +8,24 @@ import { HA, FONT } from '~/design/tokens';
 import { Screen, CTADock, TopBar } from '~/components/screen';
 import { CTA, Row, Tag, Dot, Icon, Sticker } from '~/components/atoms';
 import { useApp } from '~/lib/store';
+import { shouldShowIntro } from '~/lib/intro-state';
 
 export default function HeroScreen() {
   const router = useRouter();
   const resetQuiz = useApp((s) => s.resetQuiz);
+  const [introChecked, setIntroChecked] = useState(false);
+
+  useEffect(() => {
+    if (shouldShowIntro()) {
+      router.replace('/intro' as any);
+    } else {
+      setIntroChecked(true);
+    }
+  }, []);
+
+  // While the intro is taking over the screen, render nothing to avoid a
+  // single-frame flash of the hero.
+  if (!introChecked && shouldShowIntro()) return null;
 
   const start = () => {
     resetQuiz();

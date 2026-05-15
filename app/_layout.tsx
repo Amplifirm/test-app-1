@@ -66,6 +66,7 @@ export default function RootLayout() {
             contentStyle: { backgroundColor: HA.bg },
           }}
         >
+          <Stack.Screen name="intro" options={{ animation: 'fade', gestureEnabled: false }} />
           <Stack.Screen name="index" />
           <Stack.Screen name="onboarding/intro" />
           <Stack.Screen name="onboarding/calibrate" options={{ gestureEnabled: false }} />
