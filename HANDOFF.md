@@ -27,6 +27,13 @@ This document is what you read first when you sit down. Everything else is refer
 - ✅ **Service init** — Sentry / PostHog / RevenueCat / Superwall initialize on app boot from `app/_layout.tsx`. All are null-safe (return early if env vars missing).
 - ✅ **Backend schema** (Phase 2) — `supabase/migrations/001_initial.sql` with RLS policies. `src/lib/supabase.ts` client (null-guarded), `src/lib/auth.ts`, `src/lib/db.ts`.
 
+### What was added in the final round
+
+- ✅ **Phase 7** — full settings rewrite. `app/(app)/account.tsx` now has all spec §7.1 rows (Quiz again with confirmation, Refer, Restore purchases, Manage subscription with platform-deep-link, Privacy & data, Methodology, Terms, Privacy, Contact support, version+build).
+- ✅ **Phase 7.2** — `app/settings/data.tsx` builds and clipboard-exports a JSON blob of: device, profile, local store (answers/email/unlocks), entitlements. Delete-account button with two-stage confirmation, calls `db.deleteOwnProfile` + `store.resetAll` + `analytics.reset`.
+- ✅ **Phase 10** — jest@29 + ts-jest + @types/jest installed. `npm test` runs 24 tests, all passing. RN module mocks in `__tests__/__mocks__/`.
+- ✅ **Phase 5.5 (AI Coach)** — `src/lib/coach.ts` (rate-limited 5/day, server-side proxy via `supabase.functions.invoke('coach')`) + `src/components/coach-chat.tsx` (bubble UI). Awaiting deployment of `supabase/functions/coach/index.ts` edge function (Supabase + OpenAI key required).
+
 ### What's scaffolded but needs final wiring
 - ⚠ **Real IAP** — `src/lib/purchases.ts` has `LOCAL_MOCK` branches. Install `react-native-purchases`, swap each mock for the real call. Subscription products must be created in App Store Connect / Google Play with the exact IDs in `PRODUCTS`.
 - ⚠ **Real Sentry** — `src/lib/sentry.ts` has stubs. Install `@sentry/react-native`, swap, add the Expo config plugin to `app.json`.

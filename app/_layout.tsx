@@ -76,6 +76,7 @@ export default function RootLayout() {
           <Stack.Screen name="(app)" />
           <Stack.Screen name="legal/terms" />
           <Stack.Screen name="legal/privacy" />
+          <Stack.Screen name="settings/data" />
         </Stack>
       </SafeAreaProvider>
     </GestureHandlerRootView>

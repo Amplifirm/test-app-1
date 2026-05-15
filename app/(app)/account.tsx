@@ -1,11 +1,21 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, ScrollView } from 'react-native';
+import { View, Text, TextInput, ScrollView, Pressable, Linking, Alert, Platform } from 'react-native';
 import { useRouter } from 'expo-router';
+import Constants from 'expo-constants';
 import { HA, FONT } from '~/design/tokens';
 import { Screen, TopBar } from '~/components/screen';
 import { Row, Stack, Tag, Dot, Icon, CTA, CTAOutline, MonoLabel } from '~/components/atoms';
 import { useApp } from '~/lib/store';
 import { HUSTLES } from '~/lib/hustles';
+import { restorePurchases } from '~/lib/purchases';
+import { track } from '~/lib/analytics';
+
+const VERSION = `${Constants.expoConfig?.version ?? '1.0.0'} (${Constants.expoConfig?.runtimeVersion ?? 'dev'})`;
+const MANAGE_SUBSCRIPTION_URL = Platform.select({
+  ios: 'https://apps.apple.com/account/subscriptions',
+  android: 'https://play.google.com/store/account/subscriptions',
+  default: 'https://apps.apple.com/account/subscriptions',
+});
 
 export default function AccountScreen() {
   const router = useRouter();
@@ -65,12 +75,55 @@ export default function AccountScreen() {
         </Stack>
 
         <View style={{ gap: 10, marginTop: 22 }}>
-          <CTAOutline onPress={() => router.push('/')}>+ Take the quiz again</CTAOutline>
-          <CTAOutline onPress={() => router.push('/(app)/referrals' as any)}>Refer friends — earn free months</CTAOutline>
-          <CTAOutline onPress={() => router.push('/(app)/methodology' as any)}>How we calculate this</CTAOutline>
+          <SettingsRow label="Quiz again" sub="Replaces your current matches" onPress={() => {
+            Alert.alert('Retake the quiz?', 'This will replace your current matches.', [
+              { text: 'Cancel', style: 'cancel' },
+              { text: 'Replace', style: 'destructive', onPress: () => { useApp.getState().resetQuiz(); router.replace('/'); } },
+            ]);
+          }} />
+          <SettingsRow label="Refer friends" sub="Earn free months" onPress={() => router.push('/(app)/referrals' as any)} />
+          <SettingsRow label="Restore purchases" onPress={async () => {
+            void track('restore_purchases_attempted');
+            const { count } = await restorePurchases();
+            Alert.alert(count > 0 ? 'Restored' : 'Nothing to restore', count > 0 ? `Restored ${count} entitlement(s).` : 'No prior purchases found on this Apple/Google ID.');
+          }} />
+          <SettingsRow label="Manage subscription" sub="Opens App Store / Play Store" onPress={() => Linking.openURL(MANAGE_SUBSCRIPTION_URL)} />
+          <SettingsRow label="Privacy & data" sub="Export · Delete" onPress={() => router.push('/settings/data' as any)} />
+          <SettingsRow label="Methodology" onPress={() => router.push('/(app)/methodology' as any)} />
+          <SettingsRow label="Terms" onPress={() => router.push('/legal/terms' as any)} />
+          <SettingsRow label="Privacy policy" onPress={() => router.push('/legal/privacy' as any)} />
+          <SettingsRow label="Contact support" sub="support@hustleai.com" onPress={() => Linking.openURL('mailto:support@hustleai.com?subject=HustleAI%20support')} />
         </View>
+
+        <Text style={{ marginTop: 22, color: HA.inkSoft, fontFamily: FONT.mono, fontSize: 11, textAlign: 'center', letterSpacing: 1 }}>
+          v{VERSION}
+        </Text>
       </ScrollView>
     </Screen>
+  );
+}
+
+function SettingsRow({ label, sub, onPress }: { label: string; sub?: string; onPress: () => void }) {
+  return (
+    <Pressable
+      onPress={onPress}
+      style={({ pressed }) => ({
+        padding: 14,
+        borderRadius: 12,
+        backgroundColor: HA.surface,
+        borderWidth: 1,
+        borderColor: HA.stroke,
+        opacity: pressed ? 0.85 : 1,
+      })}
+    >
+      <Row justify="space-between">
+        <View style={{ flex: 1 }}>
+          <Text style={{ color: HA.ink, fontFamily: FONT.bodyBold, fontSize: 14 }}>{label}</Text>
+          {sub ? <Text style={{ marginTop: 2, color: HA.inkMuted, fontFamily: FONT.body, fontSize: 12 }}>{sub}</Text> : null}
+        </View>
+        <Text style={{ color: HA.inkSoft, fontFamily: FONT.body, fontSize: 16 }}>›</Text>
+      </Row>
+    </Pressable>
   );
 }
 
