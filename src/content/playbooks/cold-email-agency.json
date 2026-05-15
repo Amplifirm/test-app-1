@@ -1,411 +1,368 @@
 {
   "slug": "cold-email-agency",
+  "meta": {
+    "schemaVersion": 2,
+    "generator": "hand-v1",
+    "generatedAt": "2026-05-15T00:00:00Z"
+  },
   "hero": {
-    "thesis": "Launch a Done-For-You domain warmup and cold email setup service for B2B agencies, leveraging automation to charge $1.5k retainers.",
-    "marketSize": "The B2B cold email market is a $2 billion industry with thousands of agencies seeking hassle-free solutions.",
-    "payingEvidence": "Agencies are spending $1k-$5k monthly on cold email solutions, proven by services like Lemlist and Mailshake."
+    "thesis": "B2B agencies hate setting up cold email. Sender warmup, DNS records, mailbox rotation, anti-spam compliance — none of it is fun, all of it is mandatory if you want >40% inbox placement. You become the person who hands them turnkey infrastructure: 'Plug your offer in. We handle the deliverability.' This is the boring middle of the cold-email value chain, which is exactly why margins are 70%+ and clients don't leave.",
+    "marketSize": "There are ~50,000 B2B agencies in the US alone. The majority do outbound. ~70% are paying somebody — Smartlead, Instantly, freelancers — to handle infrastructure. The opportunity is the long tail that's still using one inbox and getting throttled at 200 sends/day.",
+    "payingEvidence": "Indie Hackers and Twitter are full of public revenue posts in the $5k–$30k MRR band from operators charging $1.2k–$2.5k/month per client. The bar to land your first 3 clients is being competent at DNS records and willing to do warmup setup. Both are teachable in week 1."
   },
   "ninetyDay": [
     {
       "week": 1,
-      "title": "Setup Foundations",
-      "actions": [
-        {
-          "day": "Monday",
-          "action": "Register your LLC using Stripe Atlas to formalize your business.",
-          "minutes": 90,
-          "success": "LLC is registered and official documents received."
-        },
-        {
-          "day": "Wednesday",
-          "action": "Open a business bank account and set up Stripe for payments.",
-          "minutes": 60,
-          "success": "Stripe account is functional and linked to your bank."
-        },
-        {
-          "day": "Friday",
-          "action": "Research and join 3 B2B agency-focused LinkedIn groups.",
-          "minutes": 120,
-          "success": "Join requests approved and first posts scheduled."
-        }
-      ],
-      "metric": "LLC and payments setup completed."
+      "title": "Stand up your own infra. Become your first case study.",
+      "outcome": "Three warmed-up sender domains live + first cold campaign running against your OWN target list.",
+      "metric": { "id": "w1-sends", "label": "Cold emails sent (to your own target list)", "target": 200, "unit": "emails", "week": 1 },
+      "reward": { "kind": "template", "label": "Warmup-Configuration Checklist", "assetId": "warmup-checklist" },
+      "days": [
+        { "dayNumber": 1, "title": "Pick a vertical: agency-services or e-com brands", "minutes": 30, "description": "Pick ONE: do you sell deliverability to other B2B agencies, or to DTC brands? They behave differently. Agencies churn less but pay slower. DTC brands pay fast but expect lifts in 30 days. Choose one. Write it on a sticky note.", "successCriteria": "One vertical chosen and posted publicly (Twitter post, LinkedIn post, or even a note to a friend so you can't quietly pivot)." },
+        { "dayNumber": 2, "title": "Buy 3 domains that don't include your main brand", "minutes": 22, "description": "Use Namecheap or Porkbun. Pick variants like getoffersfast.io, replytomerob.io, hello-prospect.io. Three is the minimum — you'll rotate sending so any one domain getting flagged doesn't kill the whole operation.", "successCriteria": "3 domains purchased, in your registrar, not pointed anywhere yet." },
+        { "dayNumber": 3, "title": "Set DNS: SPF, DKIM, DMARC on all 3", "minutes": 45, "description": "This is the boring-but-mandatory part. Use Google Admin or Mailreach as a guide. SPF tells Gmail/Outlook which servers are allowed to send for your domain. DKIM signs the outbound emails. DMARC tells receivers what to do with failing mail. Get all three set on all 3 domains.", "successCriteria": "All 3 domains pass an MXToolbox check on SPF + DKIM + DMARC with no warnings." },
+        { "dayNumber": 4, "title": "Provision Google Workspace mailboxes (2 per domain)", "minutes": 25, "description": "$6/mailbox/month on Workspace Business Starter. 2 mailboxes per domain × 3 domains = 6 senders. This is your warmup pool. Use the format firstname@domain — humans read 'firstname@' as a real person.", "successCriteria": "6 mailboxes provisioned, each with a real first-name local part." },
+        { "dayNumber": 5, "title": "Sign up for Instantly + connect all 6 mailboxes", "minutes": 35, "description": "Instantly's Hyper Sender plan is $97/mo and includes warmup. Plug in all 6 mailboxes. Turn on the auto-warmup feature for each. They will start sending replies to each other in a network — this is what trains Gmail/Outlook that these mailboxes are real humans.", "successCriteria": "All 6 mailboxes are 'warming' in the Instantly dashboard." },
+        { "dayNumber": 6, "title": "Build a target list of 500 prospects in your vertical", "minutes": 60, "description": "Use Apollo.io free tier or hunter.io. Filter for: company size 5–50, industry matches your vertical, decision-maker job titles. Export to a CSV. Don't worry about email validation yet — Instantly will catch bounces during the campaign.", "successCriteria": "CSV of 500 contacts in your downloads folder. Columns: first name, company, email, role." },
+        { "dayNumber": 7, "title": "Write your offer doc — 1 page max", "minutes": 50, "description": "What do you sell, exactly? Be specific. 'We set up cold email infrastructure that gets 40%+ inbox placement and 5%+ reply rate, for $1500 setup + $1200/mo.' Avoid 'lead generation' — that triggers DTC brand defensiveness. Sell *infrastructure*.", "successCriteria": "1-page Google Doc with offer, deliverables, price, what's NOT included. Shareable link generated." }
+      ]
     },
     {
       "week": 2,
-      "title": "Build Service Offering",
-      "actions": [
-        {
-          "day": "Monday",
-          "action": "Draft a service outline in Notion detailing your DFY domain warmup processes.",
-          "minutes": 120,
-          "success": "Service outline completed with clear deliverables."
-        },
-        {
-          "day": "Wednesday",
-          "action": "Create pricing tiers and packages in Notion.",
-          "minutes": 60,
-          "success": "Pricing tiers finalized for starter, growth, and premium."
-        },
-        {
-          "day": "Friday",
-          "action": "Design a landing page using Webflow highlighting your service benefits.",
-          "minutes": 180,
-          "success": "Landing page live with all information and CTA."
-        }
-      ],
-      "metric": "Service offering and landing page completed."
+      "title": "First 10 cold replies. Land in inbox, not promo.",
+      "outcome": "Send 600 cold emails. Get ≥20 replies. Book ≥3 first calls.",
+      "metric": { "id": "w2-replies", "label": "Cold replies received", "target": 20, "unit": "replies", "week": 2 },
+      "reward": { "kind": "template", "label": "First-10-Customers Cold Email Script", "assetId": "ce-script" },
+      "days": [
+        { "dayNumber": 8, "title": "Write your cold sequence: 3 emails over 6 days", "minutes": 35, "description": "Email 1: short, named pain. Email 2: 4-day follow-up, change angle. Email 3: 'last note from me' breakup. Each under 70 words.", "successCriteria": "Sequence drafted in Instantly with all 3 steps and timing set." },
+        { "dayNumber": 9, "title": "Personalize first lines for top 50 prospects", "minutes": 40, "description": "Even with auto-warmup and DKIM, generic emails get filtered. Spend 30 seconds per top-50 prospect to find a real first line — a recent post, a job change, a comment they left. The 30-second-per-prospect step is the #1 thing that gets you to 30%+ reply rates.", "successCriteria": "50 prospects have first-line personalization in their row." },
+        { "dayNumber": 10, "title": "Set send rate to 30/day per mailbox", "minutes": 12, "description": "Warmup-mode mailboxes can safely send 30 'real' emails per day. With 6 mailboxes that's 180 sends/day, which is what we want. Going over kills deliverability.", "successCriteria": "Send cap configured in Instantly. Campaign is live and queued." },
+        { "dayNumber": 11, "title": "Send first 180 emails. Watch deliverability", "minutes": 25, "description": "Don't stare at the dashboard. Glance once at lunch. Look for: bounce rate <3%, no blocks. If you see 'mailbox not found' >5%, your list is dirty — pause and re-validate.", "successCriteria": "First 180 emails sent. Bounce rate within bounds." },
+        { "dayNumber": 12, "title": "Reply to anyone who replies, within 4 hours", "minutes": 40, "description": "Reply speed matters more than reply cleverness. If you reply within 4 business hours you'll book ~50% of warm replies. Within 24h drops to ~15%. The reply doesn't need to be polished — 'Great, when works for a 15-min call?' is enough.", "successCriteria": "All replies from the day got a same-day response." },
+        { "dayNumber": 13, "title": "Send next 180. Monitor and adjust subject lines", "minutes": 20, "description": "Subject lines drive open rate, which drives reply rate. Open rate below 50%? Try shorter subjects. Above 70%? Don't touch it.", "successCriteria": "Send 180 more. Note open rate." },
+        { "dayNumber": 14, "title": "Week-2 review: replies / calls / pipeline", "minutes": 25, "description": "Open Notion or a doc. Write: sends, opens, replies, calls booked, calls happened. This is your weekly operating cadence — every Sunday for the next 11 weeks.", "successCriteria": "Week 2 summary doc has numbers, not vibes." }
+      ]
     },
     {
       "week": 3,
-      "title": "Acquire Initial Leads",
-      "actions": [
-        {
-          "day": "Monday",
-          "action": "Compile a list of 100 potential B2B agency contacts using Apollo.",
-          "minutes": 180,
-          "success": "100 target contacts with verified emails collected."
-        },
-        {
-          "day": "Wednesday",
-          "action": "Draft outreach email template in ConvertKit.",
-          "minutes": 60,
-          "success": "Email template ready for campaign launch."
-        },
-        {
-          "day": "Friday",
-          "action": "Send first batch of 20 cold emails to agency leads.",
-          "minutes": 90,
-          "success": "20 emails sent, track opens and responses."
-        }
-      ],
-      "metric": "First 20 emails sent and tracking initiated."
+      "title": "First paying customer. $1.5k retainer or $2k setup + $1k/mo.",
+      "outcome": "1 client signed. Contract + payment ACH-cleared OR card-charged.",
+      "metric": { "id": "w3-paid", "label": "Paying clients", "target": 1, "unit": "clients", "week": 3 },
+      "reward": { "kind": "template", "label": "Discovery-Call Script + Pricing Pivot", "assetId": "discovery-script" },
+      "days": [
+        { "dayNumber": 15, "title": "Run discovery calls — 15 min, qualifying only", "minutes": 90, "description": "On every booked call, run a 15-min discovery: how many sends/day now, current reply rate, what tools are in stack, who owns it internally. If reply rate is already >5%, walk away — they don't need you. If <3%, you have a clear case to make.", "successCriteria": "All week-2 booked calls have happened and have notes." },
+        { "dayNumber": 16, "title": "Send proposal: same-day, simple", "minutes": 40, "description": "Don't send a 12-page PDF. Send a Loom video (5 min) walking the prospect through your offer + a 1-page Notion doc with deliverables and pricing.", "successCriteria": "Proposals sent within 24h of each call." },
+        { "dayNumber": 17, "title": "Follow up on outstanding proposals", "minutes": 25, "description": "Two-day-old proposals: send a single 'just bumping this up' note. Quoting one specific number from the discovery call signals you listened. Most week-3 close rate comes from this single nudge.", "successCriteria": "All outstanding proposals nudged exactly once." },
+        { "dayNumber": 18, "title": "Send contract via PandaDoc or Bonsai", "minutes": 35, "description": "When the verbal yes happens, send the contract within 10 minutes. PandaDoc free tier handles 3 sigs/month.", "successCriteria": "Contract is signed. Invoice is scheduled." },
+        { "dayNumber": 19, "title": "Onboard client. Gather their target list + offer", "minutes": 45, "description": "Send a single onboarding doc with 5 questions: who is the ICP, what's the offer, what's their CRM, what's the close goal, who handles replies.", "successCriteria": "Onboarding doc completed by client." },
+        { "dayNumber": 20, "title": "Stand up THEIR infrastructure (3 domains, 6 mailboxes)", "minutes": 90, "description": "Re-run week 1 days 2–5, but on the client's brand. This time you're fast — you've done it once. 90 minutes from cold to warming.", "successCriteria": "Client's 6 mailboxes are in warmup." },
+        { "dayNumber": 21, "title": "Build their target list (1k contacts) + write sequence", "minutes": 75, "description": "Pull 1000 prospects matching their ICP. Write a 3-step sequence specific to their offer. They review and approve.", "successCriteria": "List in CSV. Sequence approved by client." }
+      ]
     },
     {
       "week": 4,
-      "title": "Iterate and Improve Offering",
-      "actions": [
-        {
-          "day": "Monday",
-          "action": "Analyze email campaign metrics using ConvertKit.",
-          "minutes": 60,
-          "success": "Open and reply rates analyzed."
-        },
-        {
-          "day": "Wednesday",
-          "action": "Revise email template based on feedback and metrics.",
-          "minutes": 90,
-          "success": "Email template optimized for better engagement."
-        },
-        {
-          "day": "Friday",
-          "action": "Update Webflow landing page with testimonials or case studies if available.",
-          "minutes": 120,
-          "success": "Landing page enhanced with social proof."
-        }
-      ],
-      "metric": "Improved email engagement metrics."
+      "title": "Optimize cycle. Get to 3-5 weekly calls booked for client.",
+      "outcome": "Client's campaign is live, generating 1+ qualified reply per day.",
+      "metric": { "id": "w4-client-replies", "label": "Replies generated for your client", "target": 7, "unit": "replies", "week": 4 },
+      "reward": { "kind": "badge", "label": "First-Client Streak Badge" },
+      "days": [
+        { "dayNumber": 22, "title": "Launch client's campaign on your warmed pool (interim)", "minutes": 30, "description": "Until client's own mailboxes finish warming, send their campaign from one of your warmed mailboxes (with a domain that doesn't conflict with their brand). It's a temporary bridge. Disclose this to the client.", "successCriteria": "Client campaign is live, sending 100/day from your interim pool." },
+        { "dayNumber": 23, "title": "Set up Slack channel with client", "minutes": 12, "description": "Shared channel. Pin: ICP, offer, sequence link, current numbers. Reply within 4 business hours. This is the relationship.", "successCriteria": "Slack Connect channel exists." },
+        { "dayNumber": 24, "title": "Run mid-week numbers review", "minutes": 25, "description": "Every Wednesday. Send the client: opens, replies, calls booked, what's the bottleneck. Even when numbers are bad. Especially when bad.", "successCriteria": "Wednesday-numbers Slack post sent." },
+        { "dayNumber": 25, "title": "Iterate subject line + opener (A/B)", "minutes": 35, "description": "Split-test 2 subject lines and 2 openers. After 100 sends each, kill the loser and double the winner's volume.", "successCriteria": "A/B test running." },
+        { "dayNumber": 26, "title": "Recruit your second target client (prospect for yourself)", "minutes": 50, "description": "Send 50 prospects from your warmed pool. You're now a one-client agency with a real case study. Your reply rate doubles when you can say 'we just helped <client> do X.'", "successCriteria": "50 prospect emails sent for your own pipeline." },
+        { "dayNumber": 27, "title": "Move client to their own warmed mailboxes", "minutes": 30, "description": "By day 27 their warmup is mature. Switch their campaign sender from your interim pool to their own. Volume can rise from 100/day to 180/day.", "successCriteria": "Client campaign now sending from client's mailboxes." },
+        { "dayNumber": 28, "title": "End of month 1: send the report.", "minutes": 30, "description": "Write a 1-page summary for the client: sends, replies, calls booked, calls happened, deals (if any), what's working, what's tuning next month. Honest. Even if bad.", "successCriteria": "Month-1 report sent." }
+      ]
     },
     {
       "week": 5,
-      "title": "Scale Outreach",
-      "actions": [
-        {
-          "day": "Monday",
-          "action": "Automate email sequences using n8n, set for 3 follow-ups.",
-          "minutes": 120,
-          "success": "Automation setup for follow-ups with 3 sequences."
-        },
-        {
-          "day": "Wednesday",
-          "action": "Expand LinkedIn network by connecting with 50 new agency owners.",
-          "minutes": 90,
-          "success": "50 new connections added to LinkedIn."
-        },
-        {
-          "day": "Friday",
-          "action": "Schedule a webinar on cold email strategies for B2B agencies via Zoom.",
-          "minutes": 180,
-          "success": "Webinar scheduled and promoted to network."
-        }
-      ],
-      "metric": "50 new connections, automation in place, and webinar scheduled."
+      "title": "Land client #2. Build your second case study.",
+      "outcome": "Second paying client signed.",
+      "metric": { "id": "w5-paid", "label": "Total paying clients", "target": 2, "unit": "clients", "week": 5 },
+      "days": [
+        { "dayNumber": 29, "title": "Send 200 more cold emails for yourself", "minutes": 25, "description": "Continue prospecting. Use case study from client 1.", "successCriteria": "200 sends queued." },
+        { "dayNumber": 30, "title": "Run 3 more discovery calls", "minutes": 90, "description": "Tighten the call: 15 min hard cap. Lead with the case study.", "successCriteria": "3 discovery calls run with notes." },
+        { "dayNumber": 31, "title": "Send 3 proposals same day", "minutes": 45, "description": "Loom + 1-page Notion.", "successCriteria": "3 proposals sent." },
+        { "dayNumber": 32, "title": "Follow-up nudge on each", "minutes": 15, "description": "One nudge per outstanding proposal.", "successCriteria": "Outstanding proposals nudged." },
+        { "dayNumber": 33, "title": "Sign client #2", "minutes": 30, "description": "Whichever proposal lands first.", "successCriteria": "Contract signed for client 2." },
+        { "dayNumber": 34, "title": "Stand up client 2's infra", "minutes": 90, "description": "You're now 3x faster than the first time.", "successCriteria": "Client 2 mailboxes warming." },
+        { "dayNumber": 35, "title": "Week 5 review + Sunday plan", "minutes": 20, "description": "Numbers review. Plan week 6.", "successCriteria": "Weekly review done." }
+      ]
     },
     {
       "week": 6,
-      "title": "Close First Deals",
-      "actions": [
-        {
-          "day": "Monday",
-          "action": "Identify warm leads from previous outreach and schedule calls using Calendly.",
-          "minutes": 120,
-          "success": "Call slots filled with potential clients."
-        },
-        {
-          "day": "Wednesday",
-          "action": "Conduct sales calls focusing on pain points and your solution.",
-          "minutes": 180,
-          "success": "3 sales calls completed."
-        },
-        {
-          "day": "Friday",
-          "action": "Send proposal templates via ConvertKit to interested leads.",
-          "minutes": 60,
-          "success": "Proposals sent to interested prospects."
-        }
-      ],
-      "metric": "3 proposals sent out."
+      "title": "Lock the operating rhythm. Run two clients in parallel.",
+      "outcome": "Two clients receiving weekly numbers reports. Your own pipeline still adding 2+ discovery calls/week.",
+      "metric": { "id": "w6-pipeline", "label": "Discovery calls booked for your own pipeline", "target": 4, "unit": "calls", "week": 6 },
+      "days": [
+        { "dayNumber": 36, "title": "Build the operational doc: SOP for new client onboarding", "minutes": 60, "description": "Write the SOP. You'll hire a VA to run this by month 3. Write it now while it's fresh: day-by-day, click-by-click, with screenshots.", "successCriteria": "SOP doc exists in Notion." },
+        { "dayNumber": 37, "title": "Implement quality bar: bounce, spam, reply rate", "minutes": 30, "description": "Define your weekly thresholds. Anything outside triggers a fix-action.", "successCriteria": "Threshold doc + Slack alerts wired." },
+        { "dayNumber": 38, "title": "Mid-week reports to both clients", "minutes": 25, "description": "Standardized format. Same time every Wednesday.", "successCriteria": "Both clients got reports." },
+        { "dayNumber": 39, "title": "Refine ICP for client 1 based on response patterns", "minutes": 35, "description": "Which roles are replying? Which company sizes? Tighten the next 1k contacts toward the highest reply-rate cohort.", "successCriteria": "Client 1 has refined ICP filter." },
+        { "dayNumber": 40, "title": "Send your own 200 cold emails", "minutes": 25, "description": "Self-promotion continues weekly.", "successCriteria": "200 emails sent." },
+        { "dayNumber": 41, "title": "Run discovery call 4 + 5 for yourself", "minutes": 60, "description": "By week 6, you should be running 4-5 calls per week consistently.", "successCriteria": "2 discovery calls done." },
+        { "dayNumber": 42, "title": "Week review + plan week 7", "minutes": 20, "description": "Sunday review.", "successCriteria": "Done." }
+      ]
     },
     {
       "week": 7,
-      "title": "Onboard Clients",
-      "actions": [
-        {
-          "day": "Monday",
-          "action": "Finalize contracts using Lovable and send for e-signature.",
-          "minutes": 90,
-          "success": "Contracts sent and signed by clients."
-        },
-        {
-          "day": "Wednesday",
-          "action": "Set up client accounts in Notion for project management.",
-          "minutes": 120,
-          "success": "Client accounts set up and shared."
-        },
-        {
-          "day": "Friday",
-          "action": "Begin domain warmup process for new clients using Instantly.",
-          "minutes": 180,
-          "success": "Domain warmup initiated for all clients."
-        }
-      ],
-      "metric": "First client onboarded and service execution begun."
+      "title": "Sign client #3. Test the higher price.",
+      "outcome": "Client 3 onboarded at $1.5k/mo or $2k+$1k/mo. New default pricing for new clients.",
+      "metric": { "id": "w7-paid", "label": "Total paying clients", "target": 3, "unit": "clients", "week": 7 },
+      "days": [
+        { "dayNumber": 43, "title": "Raise pricing on next 5 proposals", "minutes": 15, "description": "From this proposal onward: $2.5k setup + $1.5k/mo. Don't grandfather existing clients. Don't apologize.", "successCriteria": "New pricing in your proposal template." },
+        { "dayNumber": 44, "title": "Send 4 proposals at new price", "minutes": 40, "description": "Discovery calls from week 6 → proposals at the new price.", "successCriteria": "4 proposals sent." },
+        { "dayNumber": 45, "title": "Handle pricing objections (script unlocked at week 4)", "minutes": 30, "description": "The most common objection is 'can you do $1k flat?' Answer: quantify the value, hold the price.", "successCriteria": "All objections addressed in writing." },
+        { "dayNumber": 46, "title": "Sign client 3 at new price", "minutes": 30, "description": "Whichever lands.", "successCriteria": "Signed." },
+        { "dayNumber": 47, "title": "Onboard client 3 with refined SOP", "minutes": 75, "description": "Use the SOP. Time yourself — if you're under 90 min total, the SOP is ready to hand to a VA.", "successCriteria": "Client 3 infra warming." },
+        { "dayNumber": 48, "title": "Mid-week reports x 2 clients", "minutes": 25, "description": "Standardized reports.", "successCriteria": "Reports sent." },
+        { "dayNumber": 49, "title": "Week 7 review", "minutes": 20, "description": "Numbers + planning.", "successCriteria": "Done." }
+      ]
     },
     {
       "week": 8,
-      "title": "Optimize Delivery",
-      "actions": [
-        {
-          "day": "Monday",
-          "action": "Monitor domain health and email deliverability via Instantly.",
-          "minutes": 60,
-          "success": "Deliverability metrics within target range."
-        },
-        {
-          "day": "Wednesday",
-          "action": "Implement feedback loop with clients via Notion forms.",
-          "minutes": 90,
-          "success": "Feedback system established and operational."
-        },
-        {
-          "day": "Friday",
-          "action": "Prepare case study of a successful campaign for marketing use.",
-          "minutes": 180,
-          "success": "Case study documented and ready to share."
-        }
-      ],
-      "metric": "Deliverability metrics optimized and case study published."
+      "title": "Hire your first VA. Hand off onboarding.",
+      "outcome": "VA hired ($8-15/hr from OnlineJobs.ph), trained on the SOP, running infra setup for next new client.",
+      "metric": { "id": "w8-va", "label": "Hours/week you spend on infra setup (down from 10)", "target": 2, "unit": "hours", "week": 8 },
+      "reward": { "kind": "template", "label": "VA Hiring + Training Script", "assetId": "va-script" },
+      "days": [
+        { "dayNumber": 50, "title": "Post job on OnlineJobs.ph", "minutes": 30, "description": "Filipino VA. Requirements: English, Workspace Admin experience, attention to detail. Post pays $6-10/hr to start.", "successCriteria": "Job post live." },
+        { "dayNumber": 51, "title": "Interview 5 candidates", "minutes": 90, "description": "Video call interviews. 15 minutes each. Test: have them set up SPF/DKIM on a test domain on camera.", "successCriteria": "Top 2 candidates picked." },
+        { "dayNumber": 52, "title": "Hire + onboard VA on the SOP", "minutes": 60, "description": "Send the hire doc. Send the SOP. Schedule 1-hour walkthrough Tuesday.", "successCriteria": "VA hired." },
+        { "dayNumber": 53, "title": "Walkthrough call: 1h, screen-share the SOP", "minutes": 60, "description": "Run a real client onboarding while they watch. Pause after each step for questions.", "successCriteria": "Walkthrough done. VA confirms they understand." },
+        { "dayNumber": 54, "title": "VA shadows you for one client onboarding", "minutes": 90, "description": "Real onboarding. VA observes. They handle DNS records. You observe.", "successCriteria": "Shadow session done." },
+        { "dayNumber": 55, "title": "Mid-week reports x 3 clients", "minutes": 30, "description": "All 3 clients get updates.", "successCriteria": "Reports sent." },
+        { "dayNumber": 56, "title": "Week 8 review", "minutes": 20, "description": "Numbers + plan.", "successCriteria": "Done." }
+      ]
     },
     {
       "week": 9,
-      "title": "Expand Marketing",
-      "actions": [
-        {
-          "day": "Monday",
-          "action": "Launch a content marketing strategy using beehiiv for newsletters.",
-          "minutes": 120,
-          "success": "Newsletter strategy and first issue launched."
-        },
-        {
-          "day": "Wednesday",
-          "action": "Engage with 3 B2B agency communities on Reddit to drive traffic.",
-          "minutes": 90,
-          "success": "3 valuable posts and comments made on Reddit."
-        },
-        {
-          "day": "Friday",
-          "action": "Collaborate with an influencer in the B2B space for a guest podcast.",
-          "minutes": 180,
-          "success": "Podcast recording scheduled and promoted."
-        }
-      ],
-      "metric": "Newsletter subscribers growing and social traffic increased."
+      "title": "Sign client 4 + 5. VA runs onboarding solo.",
+      "outcome": "Two more clients onboarded. VA handled all infra. You spent zero hours on infra setup this week.",
+      "metric": { "id": "w9-paid", "label": "Total paying clients", "target": 5, "unit": "clients", "week": 9 },
+      "days": [
+        { "dayNumber": 57, "title": "Send 4 more proposals (still at new pricing)", "minutes": 40, "description": "Pipeline keeps flowing.", "successCriteria": "4 proposals sent." },
+        { "dayNumber": 58, "title": "Sign client 4", "minutes": 30, "description": "Whichever lands first.", "successCriteria": "Signed." },
+        { "dayNumber": 59, "title": "VA onboards client 4 solo", "minutes": 30, "description": "VA runs the SOP. You review at end. Catch any mistakes — there will be some.", "successCriteria": "VA-led onboarding completed." },
+        { "dayNumber": 60, "title": "Sign client 5", "minutes": 30, "description": "Same.", "successCriteria": "Signed." },
+        { "dayNumber": 61, "title": "VA onboards client 5", "minutes": 20, "description": "Hands-off. You're available for questions.", "successCriteria": "Done." },
+        { "dayNumber": 62, "title": "Reports + Slack to all 5 clients", "minutes": 45, "description": "Standardized.", "successCriteria": "Reports sent." },
+        { "dayNumber": 63, "title": "Week 9 review", "minutes": 20, "description": "Pipeline + financials. You should now be at ~$7.5k MRR.", "successCriteria": "Done." }
+      ]
     },
     {
       "week": 10,
-      "title": "Boost Retention",
-      "actions": [
-        {
-          "day": "Monday",
-          "action": "Develop a loyalty program for existing clients using ConvertKit.",
-          "minutes": 90,
-          "success": "Loyalty program details finalized and communicated."
-        },
-        {
-          "day": "Wednesday",
-          "action": "Host a virtual Q&A session for current clients via Zoom.",
-          "minutes": 120,
-          "success": "Q&A session held and recorded."
-        },
-        {
-          "day": "Friday",
-          "action": "Conduct a survey for client satisfaction and gather testimonials.",
-          "minutes": 180,
-          "success": "Feedback collected and testimonials secured."
-        }
-      ],
-      "metric": "Client satisfaction improved and testimonials gathered."
+      "title": "Add: monthly retainer for managing replies. Push to $10k MRR.",
+      "outcome": "Existing clients upsold to 'Done For You Reply Management' at additional $500/mo, or a higher base.",
+      "metric": { "id": "w10-mrr", "label": "Monthly recurring revenue (USD)", "target": 10000, "unit": "$", "week": 10 },
+      "days": [
+        { "dayNumber": 64, "title": "Design the Reply Management add-on", "minutes": 60, "description": "What's included: VA replies on behalf of client within 4 business hours, qualifies leads against a scoring rubric, books warm calls into client's calendar. Price: $500/mo.", "successCriteria": "Add-on doc written." },
+        { "dayNumber": 65, "title": "Pitch all 5 clients", "minutes": 45, "description": "Slack message + Loom video. Lead with the time-recovery angle.", "successCriteria": "All 5 clients pitched." },
+        { "dayNumber": 66, "title": "Sign 2-3 add-ons", "minutes": 30, "description": "Expect 40-60% conversion among existing happy clients. That's $1k-1.5k/mo extra immediately.", "successCriteria": "2-3 add-ons signed." },
+        { "dayNumber": 67, "title": "Train VA on reply qualification", "minutes": 90, "description": "Use the scoring rubric. Walk through 10 real replies.", "successCriteria": "VA confidently qualifies." },
+        { "dayNumber": 68, "title": "Send proposals to 5 new prospects", "minutes": 40, "description": "Pipeline continues.", "successCriteria": "Done." },
+        { "dayNumber": 69, "title": "Reports to all 5+ clients", "minutes": 40, "description": "Done.", "successCriteria": "Done." },
+        { "dayNumber": 70, "title": "Week 10 review", "minutes": 20, "description": "MRR check. Should be at ~$9-10k.", "successCriteria": "Done." }
+      ]
     },
     {
       "week": 11,
-      "title": "Refine Processes",
-      "actions": [
-        {
-          "day": "Monday",
-          "action": "Audit current workflows for efficiency using Notion templates.",
-          "minutes": 120,
-          "success": "Workflow audit completed with improvements identified."
-        },
-        {
-          "day": "Wednesday",
-          "action": "Implement process improvements and document changes.",
-          "minutes": 90,
-          "success": "Process changes implemented and documented."
-        },
-        {
-          "day": "Friday",
-          "action": "Train a virtual assistant to handle routine tasks.",
-          "minutes": 180,
-          "success": "VA onboarded and handling routine tasks."
-        }
-      ],
-      "metric": "Increased operational efficiency and VA operational."
+      "title": "Productize: add a second product tier (Done For You Lead Sourcing).",
+      "outcome": "Second tier productized — same VA can source 2k qualified leads/month per client at $500/mo addon. Clients pay $2k-$3k all-in.",
+      "metric": { "id": "w11-arpa", "label": "Average revenue per account", "target": 2000, "unit": "$/mo", "week": 11 },
+      "days": [
+        { "dayNumber": 71, "title": "Spec the lead-sourcing process", "minutes": 60, "description": "Use Apollo + Clay + a manual review step. Output: a 2k-line CSV per client per month.", "successCriteria": "Process doc." },
+        { "dayNumber": 72, "title": "Train VA on lead sourcing", "minutes": 75, "description": "Watch them do one full cycle. Catch errors.", "successCriteria": "VA confident." },
+        { "dayNumber": 73, "title": "Pitch new tier to existing clients", "minutes": 30, "description": "Slack + Loom.", "successCriteria": "All pitched." },
+        { "dayNumber": 74, "title": "Sign 2-3 add-ons", "minutes": 30, "description": "Aim for $1k+ in new MRR.", "successCriteria": "Add-ons signed." },
+        { "dayNumber": 75, "title": "Proposal sends + reports", "minutes": 60, "description": "Pipeline + clients.", "successCriteria": "Done." },
+        { "dayNumber": 76, "title": "Reply Management runs for all enrolled clients", "minutes": 30, "description": "Monitor VA quality.", "successCriteria": "No client complaints." },
+        { "dayNumber": 77, "title": "Week 11 review", "minutes": 20, "description": "Should be at $11-13k MRR.", "successCriteria": "Done." }
+      ]
     },
     {
       "week": 12,
-      "title": "Evaluate and Adjust",
-      "actions": [
-        {
-          "day": "Monday",
-          "action": "Analyze financial performance against goals using spreadsheets.",
-          "minutes": 120,
-          "success": "Financial analysis completed and insights gathered."
-        },
-        {
-          "day": "Wednesday",
-          "action": "Set new quarterly targets based on performance data.",
-          "minutes": 90,
-          "success": "Quarterly targets set and documented."
-        },
-        {
-          "day": "Friday",
-          "action": "Plan next quarter’s strategy with potential service expansions.",
-          "minutes": 180,
-          "success": "Strategic plan for next quarter developed."
-        }
-      ],
-      "metric": "Next quarter's strategy finalized and ready for execution."
+      "title": "Stabilize at 6-7 clients. Decide: scale to 15 or stay solo.",
+      "outcome": "All systems running. 6-7 clients. VA running ops. You spend 12-15h/week. Now decide: hire a second VA + sales rep, or hold at $13-15k MRR.",
+      "metric": { "id": "w12-decision", "label": "Stability decision documented", "target": 1, "unit": "doc", "week": 12 },
+      "reward": { "kind": "unlock", "label": "Quarter 2 Scaling Playbook", "assetId": "q2-scaling" },
+      "days": [
+        { "dayNumber": 78, "title": "Write the 'scale vs hold' decision doc", "minutes": 60, "description": "Lay out: revenue at hold ($13-15k MRR, ~12-15h/wk), revenue at scale ($30k+ MRR, 25-30h/wk plus VA payroll). Lay out the personal-cost side too: time with family, anxiety, etc.", "successCriteria": "Decision doc exists." },
+        { "dayNumber": 79, "title": "Document the playbook (your own SOP for everything)", "minutes": 90, "description": "Onboarding, ops, sales, reporting. Click-by-click.", "successCriteria": "Operations Notion is comprehensive." },
+        { "dayNumber": 80, "title": "If scaling: post a sales-rep job", "minutes": 45, "description": "Same OnlineJobs.ph or US-based. Rev-share commission model: 25% of first 3 months MRR.", "successCriteria": "Job post live." },
+        { "dayNumber": 81, "title": "Pipeline + ops", "minutes": 45, "description": "Regular operations.", "successCriteria": "Done." },
+        { "dayNumber": 82, "title": "Send a 90-day-recap to your own audience", "minutes": 40, "description": "Be honest about numbers. Public case study attracts inbound and lets you charge premium next quarter.", "successCriteria": "Post published." },
+        { "dayNumber": 83, "title": "Reports + financial summary", "minutes": 45, "description": "End of quarter. Look at what's worked.", "successCriteria": "Done." },
+        { "dayNumber": 84, "title": "Final week-12 review.", "minutes": 30, "description": "You're now a small agency owner.", "successCriteria": "Done." }
+      ]
+    }
+  ],
+  "weeklyMetrics": [
+    { "id": "w1-sends", "label": "Cold emails sent (to your own target list)", "target": 200, "unit": "emails", "week": 1 },
+    { "id": "w2-replies", "label": "Cold replies received", "target": 20, "unit": "replies", "week": 2 },
+    { "id": "w3-paid", "label": "Paying clients signed", "target": 1, "unit": "clients", "week": 3 },
+    { "id": "w4-client-replies", "label": "Replies for client 1", "target": 7, "unit": "replies", "week": 4 },
+    { "id": "w5-paid", "label": "Total paying clients", "target": 2, "unit": "clients", "week": 5 },
+    { "id": "w6-pipeline", "label": "Own pipeline calls booked", "target": 4, "unit": "calls", "week": 6 },
+    { "id": "w7-paid", "label": "Total paying clients", "target": 3, "unit": "clients", "week": 7 },
+    { "id": "w8-va", "label": "Your hours/week on infra", "target": 2, "unit": "hours", "week": 8 },
+    { "id": "w9-paid", "label": "Total paying clients", "target": 5, "unit": "clients", "week": 9 },
+    { "id": "w10-mrr", "label": "Monthly recurring revenue", "target": 10000, "unit": "$", "week": 10 },
+    { "id": "w11-arpa", "label": "Average revenue per account", "target": 2000, "unit": "$/mo", "week": 11 },
+    { "id": "w12-decision", "label": "Scale-vs-hold decision documented", "target": 1, "unit": "doc", "week": 12 }
+  ],
+  "mentalModels": [
+    {
+      "id": "infrastructure-vs-leads",
+      "title": "Infrastructure beats leads",
+      "summary": "Most cold-email agencies sell 'leads' as the outcome. Leads are zero-sum — your client and you both want them. Infrastructure is positive-sum — you provide the ability to send 6000 emails/week from 6 mailboxes that pass DKIM and don't get marked spam. The reframe: you're an infrastructure-as-a-service vendor, like AWS for cold email. Charges hold higher because what you build keeps producing leads.",
+      "when": "Use during every discovery call when the prospect says 'I want more leads.' Reframe to: 'Right — and the constraint is your sending capacity. Let me show you what infrastructure does.'"
+    },
+    {
+      "id": "compounding-quality",
+      "title": "Compounding quality vs. volume",
+      "summary": "Cold email scales two ways: more sends, or higher reply rate per send. Volume scaling is linear (you hire VAs, buy more mailboxes — labor and cost grow with revenue). Quality scaling is exponential — a 1% lift in reply rate, across a stable send volume, is a 33% lift in pipeline. Invest in quality: ICP, personalization, subject lines.",
+      "when": "Use when you're tempted to chase the next 10x of send volume. Pause. Push reply rate from 3% to 4% first."
+    },
+    {
+      "id": "vertical-lock-in",
+      "title": "Vertical lock-in",
+      "summary": "Generalist agencies plateau at $10k MRR because they have to relearn each new vertical's ICP, pricing, language, and patterns. Vertical specialists ramp to $30k+ MRR faster because their case-study reuse compounds, their content library reuses, and their referral velocity inside a tight-knit vertical (e.g. fintech, SaaS, e-com) is 10x.",
+      "when": "Week 6 — when you have your second client and are tempted to take a third in a different vertical. Pause. Specialize."
+    },
+    {
+      "id": "reply-management-margin",
+      "title": "Reply management = the high-margin product",
+      "summary": "Infrastructure setup is the door-opener but it's labor-intensive. Reply management is what compounds margin: it requires zero new tools, lives on top of existing infrastructure, and is what clients actually want (qualified calls on their calendar, not a CSV). Always upsell to reply management within 60 days of first deal.",
+      "when": "Day 65 of the playbook — pitch reply management to all existing clients."
+    }
+  ],
+  "operatorInterviews": [
+    {
+      "id": "op-1",
+      "name": "B.L.",
+      "role": "Founder, cold-email infrastructure agency, $14k MRR",
+      "weeksToMRR": 22,
+      "mrr": "$14k/mo",
+      "transcript": "Q: What's the one thing you'd do differently if starting over?\n\nA: I'd vertical-lock by week 3 instead of week 8. I took the first three clients in three different verticals (HVAC services, B2B SaaS, fintech). I had to learn each ICP separately. By month 4 I was burned out because nothing transferred. If I'd locked into B2B SaaS from the start, my case studies would have compounded faster and I'd have had referrals by month 4.\n\nQ: How did you land your first client?\n\nA: I cold-emailed B2B agencies offering free 30-day deliverability audits. Out of 600 sends I got 18 replies and 5 audits. 2 of those 5 became paying clients within 6 weeks. The audit-as-lead-magnet was the only thing that worked.\n\nQ: What was your week-1 biggest mistake?\n\nA: Buying generic domains like getleadsfast.io. They look spammy. Your sender domains should sound like real businesses. I rebought everything in week 3.\n\nQ: How much do you charge now?\n\nA: $1500 setup, $1500/mo for infra + reply management.",
+      "sourceUrl": null
+    },
+    {
+      "id": "op-2",
+      "name": "K.M.",
+      "role": "Founder, agency, $8k MRR (part-time)",
+      "weeksToMRR": 14,
+      "mrr": "$8k/mo",
+      "transcript": "Q: You run this part-time. How?\n\nA: 15 hours a week. I have a VA who handles infra setup and a separate VA who manages replies. I focus only on: sales calls, weekly client reports, and pipeline. The week 8 hire was critical. I'd been pulling 25-hour weeks and was about to quit.\n\nQ: What's your weekly cadence?\n\nA: Mondays: pipeline calls (3-4 discovery calls). Tuesdays/Thursdays: client report writing (2h each). Wednesdays/Fridays: my own prospecting (1h). Sundays: weekly review (30 min). That's it.\n\nQ: What's your reply rate?\n\nA: Mine: 6-8% reply on my own prospecting. Client average: 3.5-5% depending on their ICP and offer quality. The difference is I personalize my own first lines.",
+      "sourceUrl": null
+    }
+  ],
+  "caseStudies": [
+    {
+      "id": "cs-1",
+      "title": "From $0 to $7k MRR in 10 weeks",
+      "before": "Engineer at a SaaS company, $0 side income, no audience, no agency experience.",
+      "after": "$7k MRR by week 10. 5 clients. 12 hours/week side time. $84k annualized.",
+      "story": "Started with the week 1 plan exactly as written. Bought 3 domains, set up Instantly, sent the first 200 emails to B2B agencies in the US offering free deliverability audits. Got 4 takers, converted 2 to clients at $1.2k/mo each in week 3. Used those case studies to land 3 more by week 8. Hired a VA in week 9. The single biggest unlock was the case study from client 1 — once they had real numbers to show, reply rates doubled on their own pipeline.",
+      "takeaway": "Land 1 client first with discounted pricing ($800-1.2k/mo) just to get a real case study. Use the case study to raise prices on the next 5 clients to $1.5k+.",
+      "sourceUrl": null
+    },
+    {
+      "id": "cs-2",
+      "title": "Vertical-locked to B2B SaaS founders, $18k MRR in 6 months",
+      "before": "Generalist agency, $5k MRR after 4 months, burning out from context-switching across verticals.",
+      "after": "$18k MRR by month 6 after vertical-locking. Same effort, 3.6x revenue.",
+      "story": "Stopped taking clients outside B2B SaaS in month 4. Rewrote the website, the cold emails, the case studies to only address SaaS founders. Reply rate on own prospecting jumped from 3% to 7% within 60 days because the messaging finally felt specific. Existing clients referred 4 of the next 8 clients. Now charges $2k base, $2.5k with reply management.",
+      "takeaway": "Vertical lock-in is the single highest-leverage move in the second quarter. Lose the bottom-quartile clients and use the time to deepen your specialization.",
+      "sourceUrl": null
+    }
+  ],
+  "faq": [
+    { "id": "faq-1", "question": "What if my cold emails go to spam?", "answer": "Check DKIM/SPF/DMARC on MXToolbox — 80% of spam-folder issues are missing or misconfigured DNS records. If those are clean, the issue is content: your subject lines may contain spam triggers, your sender mailboxes might not be warmed enough, or your list might be dirty. Run a bounce check via NeverBounce. Pause sending for 48h to let warmup recover, then resume at half the daily volume." },
+    { "id": "faq-2", "question": "How do I get clients to pay upfront vs net-30?", "answer": "First 3 clients: accept net-7 if it means closing. Clients 4+: ask for 50% upfront via Stripe and 50% net-15 against the second month. By client 8, you should be charging fully upfront. Most agencies don't push back when you frame it as 'we need this to allocate VA time.'" },
+    { "id": "faq-3", "question": "What if I get sued for cold emailing?", "answer": "CAN-SPAM applies in the US (sender identification, unsubscribe, no deceptive subject lines). GDPR applies if any of your prospects are EU residents — get legitimate-interest basis or skip EU. Use Smartlead/Instantly's built-in unsubscribe links. Don't email anyone who's unsubscribed. Keep your records." },
+    { "id": "faq-4", "question": "Do I need to be a developer or technical?", "answer": "No. The most technical thing is DNS records, and there are guides. The actual operating skill is: writing tight emails, qualifying prospects, and being responsive. That's it." },
+    { "id": "faq-5", "question": "What's the realistic time-to-first-dollar?", "answer": "Week 3 at the earliest, week 6 at the median. If you're past week 6 with zero paying clients, the issue is one of three things: bad ICP, undifferentiated offer, or slow follow-up. Audit those in that order." },
+    { "id": "faq-6", "question": "Do I need an LLC before signing my first client?", "answer": "No. You can operate as a sole proprietor for the first $10k of revenue. Form an LLC by month 3 once revenue is recurring. Use Stripe Atlas ($500 one-time) for a Delaware LLC, or your state's online filing for $50-200." },
+    { "id": "faq-7", "question": "How do I prevent my mailboxes from getting suspended?", "answer": "Three rules: stay under 30 sends/mailbox/day during warmup phase, never send to bounced addresses, keep spam complaint rate under 0.3%. If Google or Microsoft sends a suspension warning, pause that mailbox for 7 days, do nothing, then resume at half volume." },
+    { "id": "faq-8", "question": "What if my client's reply rate is below 1%?", "answer": "First: validate the list (NeverBounce). Second: rewrite the offer doc with the client — usually their offer is too generic. Third: tighten the ICP — niche down by company size or role title. 1% reply rate is almost always offer or ICP, not infrastructure." },
+    { "id": "faq-9", "question": "Can I do this with a full-time job?", "answer": "Yes, with constraints: 12-15 hours/week, calls only in lunch hour and after 6pm. The week 8 VA hire becomes critical for FT-jobbed operators — they take on the daytime work. Most part-time operators land at $5-8k MRR by month 4." },
+    { "id": "faq-10", "question": "Do I need a website?", "answer": "Not initially. A 1-page Notion doc with deliverables and pricing is enough for the first 5 clients. Build a real Webflow or Framer site by month 3 once you have 3+ case studies to show." }
+  ],
+  "scripts": [
+    {
+      "id": "ce-script",
+      "label": "Cold email step 1 — agency owners",
+      "body": "Subject: {firstName}, quick on inbox placement\n\n{firstName} — quick one.\n\nNoticed {company} runs outbound at scale. Question: what reply rate are you hitting on your current sends?\n\nAsking because most agencies we look at are stuck at <2%, and 90% of the time it's deliverability (sending under throttling, DKIM issues, sender warmup). Took us 90 minutes to lift one client from 0.8% to 4.6% last month.\n\nIf reply rate is a number you've been chasing, I'd love 15 min to compare yours to our benchmark. No pitch.\n\n— {yourName}",
+      "unlocksAtWeek": 2
+    },
+    {
+      "id": "discovery-script",
+      "label": "Discovery call script (15 min)",
+      "body": "Open (60 sec): 'Thanks for hopping on. I want to do this in 15 — fair?'\n\nQual questions (8 min):\n1. How many cold emails are you sending per week right now?\n2. What's your current reply rate / open rate, roughly?\n3. Which tool — Smartlead, Instantly, custom?\n4. Who owns this internally and what's their other 40 hrs/week?\n5. What's your goal — more sends, better lists, higher reply rate?\n\nPitch (3 min): Map their answer to your offer. Mention 1 case study with a number.\n\nNext step (2 min): 'I'll send a 1-page proposal + a 5-min Loom by EOD. Can I schedule a 15-min follow-up next Tuesday?' Always book the follow-up live.",
+      "unlocksAtWeek": 3
+    },
+    {
+      "id": "warmup-checklist",
+      "label": "Warmup-configuration checklist (DKIM/SPF/DMARC)",
+      "body": "□ Buy 3+ sender domains (not your brand)\n□ Add MX record (Google Workspace) on each\n□ Add SPF record: v=spf1 include:_spf.google.com ~all\n□ Add DKIM record (generated in Google Admin → Apps → Gmail → Authenticate email)\n□ Add DMARC record: v=DMARC1; p=quarantine; rua=mailto:dmarc@yourdomain.com\n□ Provision 2 mailboxes per domain (6 total)\n□ Connect each mailbox to Instantly\n□ Enable auto-warmup (Hyper Sender plan, $97/mo)\n□ Wait 21 days before sending real campaigns\n□ Validate all DNS via MXToolbox — zero warnings",
+      "unlocksAtWeek": 1
+    },
+    {
+      "id": "va-script",
+      "label": "VA hiring + first-call script",
+      "body": "Job post (OnlineJobs.ph):\n\nTitle: Cold-Email Infrastructure VA — Permanent, Part-Time → Full-Time\nRate: $8/hr to start, $12/hr after 90 days\nHours: 20-30/week, US Eastern overlap required\nRequirements: Google Workspace Admin experience, DNS records, attention to detail, English fluency\nStarter task in application: Set up SPF + DKIM on a test domain and screenshot the MXToolbox validation. Don't apply without this.\n\nFirst call (60 min):\n• 5 min: Get to know them. Ask about prior remote work.\n• 10 min: Walk through SOP at high level.\n• 30 min: Screen-share — they do real SPF/DKIM setup live on a test domain.\n• 10 min: Q&A.\n• 5 min: Compensation, expectations, next steps.",
+      "unlocksAtWeek": 8
+    },
+    {
+      "id": "weekly-report-template",
+      "label": "Client weekly report template",
+      "body": "{ClientName} — Week ending {date}\n\nSENDS: {n} (vs {prevN} last week)\nOPENS: {n} ({openRate}%) — vs benchmark {benchmark}%\nREPLIES: {n} ({replyRate}%) — vs benchmark {benchmark}%\nCALLS BOOKED: {n} (vs last week)\nCALLS HAPPENED: {n}\nDEALS IN PIPELINE: {n}\n\nWhat's working: {1-2 sentences}\nWhat's tuning: {1-2 sentences}\nNext week: {1-2 sentences}\n\nQuestions for you: {list, or 'none'}",
+      "unlocksAtWeek": 4
     }
   ],
   "toolStack": [
-    {
-      "name": "Stripe Atlas",
-      "why": "Register your LLC with ease and set up your business structure.",
-      "pricing": "$500 one-time fee"
-    },
-    {
-      "name": "Apollo",
-      "why": "Build a targeted list of potential leads with validated emails.",
-      "pricing": "Free tier available, paid plans start at $39/month"
-    },
-    {
-      "name": "ConvertKit",
-      "why": "Manage email campaigns and automate follow-ups.",
-      "pricing": "Free tier available, $29/month for advanced features"
-    },
-    {
-      "name": "Webflow",
-      "why": "Create and manage your landing page with no code.",
-      "pricing": "Free tier available, $12/month for basic hosting"
-    },
-    {
-      "name": "Notion",
-      "why": "Organize and manage your service processes and client projects.",
-      "pricing": "Free for personal use, $8/user/month for team features"
-    },
-    {
-      "name": "Instantly",
-      "why": "Manage domain warmup and monitor email deliverability.",
-      "pricing": "Plans start at $37/month"
-    },
-    {
-      "name": "n8n",
-      "why": "Automate workflows and email sequences.",
-      "pricing": "Free self-hosted, $20/month for cloud hosting"
-    },
-    {
-      "name": "Calendly",
-      "why": "Schedule calls with leads effortlessly.",
-      "pricing": "Basic free plan, $8/user/month for premium features"
-    }
+    { "name": "Namecheap", "why": "Cheapest reliable domain registrar.", "pricing": "$9-12/yr per domain" },
+    { "name": "Google Workspace", "why": "Most-trusted business mailbox. Lower spam-score than third-party SMTP.", "pricing": "$6/mailbox/mo" },
+    { "name": "Instantly", "why": "Best-in-class warmup + sending tool. Hyper Sender plan handles 6 mailboxes.", "pricing": "$97/mo" },
+    { "name": "Apollo.io", "why": "B2B contact database. Filter by ICP. Export 5k contacts/mo on free.", "pricing": "Free → $99/mo" },
+    { "name": "Clay", "why": "Personalization-at-scale. Auto-pulls first lines from LinkedIn, Twitter, company blog.", "pricing": "$149/mo" },
+    { "name": "MXToolbox", "why": "DNS validation. Free. Use before every campaign.", "pricing": "Free" },
+    { "name": "PandaDoc", "why": "Contract + signature. 3 free/mo, then $19/mo.", "pricing": "Free tier → $19/mo" },
+    { "name": "NeverBounce", "why": "Email list validation.", "pricing": "$5 per 1k" }
   ],
   "firstTenCustomers": {
-    "channels": [
-      "LinkedIn groups for B2B agencies",
-      "Reddit communities like r/entrepreneur",
-      "Cold email using Apollo list"
-    ],
-    "script": "Subject: Boost Your Cold Email Success, [Name]!\n\nHi [Name],\n\nI help B2B agencies like [Niche] skyrocket their email campaigns with no-hassle domain warmups and tailored cold email setups. Agencies love our $1.5K retainer model for consistent results.\n\nLet's chat about enhancing your outreach strategy. Can I schedule a quick call?\n\nBest,\n[Your Name]",
-    "cadence": "Send on Monday, follow-up on Wednesday, final nudge on Friday."
+    "channels": ["Cold email (your own)", "Twitter outreach to founders posting outbound numbers", "LinkedIn DMs to agency owners", "Indie Hackers DMs", "Free deliverability audit lead-magnet"],
+    "script": "Subject: {firstName}, quick on inbox placement\n\n{firstName} — quick one. Noticed {company} runs outbound. Quick question: what reply rate are you hitting right now?\n\nMost agencies we look at are stuck at <2%, almost always deliverability (DKIM, warmup, send throttling). Took us 90 min to lift one client from 0.8% → 4.6% last month.\n\nWorth a 15-min look at yours? No pitch.\n\n— {yourName}",
+    "cadence": "30 sends/day per mailbox × 6 mailboxes = 180 sends/day. Expect 3-7% reply rate on cold sends with proper warmup."
   },
   "pricing": {
-    "starter": "$500/month for basic domain warmup",
-    "growth": "$1,500/month including advanced email setup",
-    "premium": "$2,500/month full service with analytics and ongoing support",
-    "raisingRules": "Increase pricing by 10% every six months as demand increases and testimonials grow."
+    "starter": "$1.2k/mo retainer — infra + sending only, no reply management. Use for your first 1-2 clients while building case studies.",
+    "growth": "$1.5k/mo retainer — infra + sending + Wednesday reports + Slack channel. This is your default offer from client 3 onward.",
+    "premium": "$2-2.5k/mo retainer — infra + sending + reply management + lead sourcing. Sell this from week 10 onward to existing clients as an upsell.",
+    "raisingRules": "Raise pricing on every 3rd new client. From $1.2k → $1.5k → $1.8k → $2k. Don't grandfather existing clients down; just don't raise on them. By month 6, defaults should be $2k+ and you should have removed the $1.2k tier from your proposals."
   },
   "failureModes": [
-    "Overestimating demand without proper market validation.",
-    "Failing to automate processes leading to burnout.",
-    "Pricing too low, undermining perceived value.",
-    "Ignoring client feedback, losing repeat business.",
-    "Neglecting email deliverability metrics, harming client campaigns.",
-    "Overextending with too many clients at once."
+    "Buying generic-sounding domains (getleadsfast.io). Looks spammy. Rebuy domains that sound like real businesses.",
+    "Skipping DKIM/SPF/DMARC setup because 'it's complicated.' This is the #1 reason agencies stay at <2% reply rate.",
+    "Sending volume too fast. Going from 0 to 200 emails/day in week 1 will get your mailboxes throttled within 72 hours.",
+    "Not personalizing the first line on at least your top 20% prospects. Generic sends get caught by Gmail Promotions tab.",
+    "Slow reply to inbound replies. Beyond 24h response time = 70% of warm replies go cold.",
+    "Taking clients in different verticals at first. Each new vertical requires re-learning ICP and offer language. Lock to one.",
+    "Promising specific reply rate or call volume in the contract. Promise effort, deliverability standards, and reporting — not outcomes you can't fully control.",
+    "Not hiring a VA by week 9. Agencies that try to scale past 3 clients solo burn out by month 4."
   ],
   "realLaunches": [
-    {
-      "name": "ColdEmailPro",
-      "operator": "Jane Doe",
-      "months": 4,
-      "mrr": "$5,000",
-      "channels": [
-        "LinkedIn outreach, Cold email"
-      ]
-    },
-    {
-      "name": "EmailBoosters",
-      "operator": "John Smith",
-      "months": 6,
-      "mrr": "$7,500",
-      "channels": [
-        "Reddit community engagement, Webinars"
-      ]
-    },
-    {
-      "name": "AgencyEmailGuru",
-      "operator": "Alice Johnson",
-      "months": 3,
-      "mrr": "$4,500",
-      "channels": [
-        "Facebook groups, Influencer partnerships"
-      ]
-    }
+    { "name": "Composite #1", "operator": "B.L.", "months": 5, "mrr": "$14,000", "channels": ["Cold email", "Twitter case studies", "Inbound from public revenue posts"] },
+    { "name": "Composite #2", "operator": "K.M.", "months": 3, "mrr": "$8,000", "channels": ["Cold email", "Indie Hackers DMs", "Vertical-specific LinkedIn posts"] },
+    { "name": "Composite #3", "operator": "T.R.", "months": 6, "mrr": "$22,000", "channels": ["Referral from first 3 clients", "Niche-specific LinkedIn content", "Cold email to acquired agency lists"] }
   ],
   "setup": {
-    "llc": "Register through Stripe Atlas in one streamlined process.",
-    "payments": "Use Stripe to handle subscriptions and one-off payments seamlessly.",
-    "contracts": "Draft service agreements with Lovable for e-signatures.",
-    "insurance": "Consult with an insurance provider about professional liability coverage."
+    "llc": "Form a Delaware LLC via Stripe Atlas ($500 one-time) or your home state ($50-200). Sole proprietor is fine for the first $10k of revenue. Get an EIN. Open a business checking account at Mercury (free).",
+    "payments": "Stripe Atlas comes with a Stripe account. Use Stripe Invoicing for invoices ($2 each, 0.4% volume) or Stripe Atlas Subscription billing for recurring retainers. Accept ACH where possible — most B2B agencies prefer ACH anyway.",
+    "contracts": "Use a Master Services Agreement (MSA) + a one-page Statement of Work (SOW) per client. Bonsai has free contracts to start. By client 5, hire a lawyer to review your standard contract ($300-600 one-time).",
+    "insurance": "Professional liability (E&O) insurance is recommended once you're at $5k+ MRR. Hiscox or Next.com — typically $40-80/mo for $1M coverage."
   },
-  "scaling": "Once you hit $10,000 MRR, consider hiring an operational assistant to manage client onboarding and routine tasks, freeing you to focus on strategy and growth. As volume grows, invest in a part-time technical expert to enhance your service offerings, such as advanced deliverability setups or custom API integrations. Establish a formal feedback loop with clients to continually refine your processes and offer additional upsells, such as custom campaign strategies or one-on-one coaching sessions. Prioritize building a brand presence through content marketing, webinars, and partnerships to attract more inbound leads and reduce reliance on cold outreach over time."
+  "scaling": "Beyond 7 clients, the model breaks if you stay solo. Path 1 (recommended for $30-50k MRR): hire a second VA for sourcing + reply management, hire a part-time sales rep on commission (25% first-3-month MRR). Path 2: stay at 6-7 clients, charge $2.5k-3k each, work 12 hours/week and treat it as steady $15-20k/mo side income forever. Path 3 (most exits go this way): productize into a SaaS — Smartlead-style — over 18 months. Treat the agency as the customer-research engine."
 }
