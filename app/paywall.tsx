@@ -261,7 +261,7 @@ export default function PaywallScreen() {
       <CTADock padH={0}>
         <CTA onPress={handlePurchase} disabled={busy !== null} hapticKind="success">
           <Text style={{ color: HA.bgDeep, fontFamily: FONT.bodyBold, fontSize: 17 }}>
-            {selected === 'annual' && annualOffering?.trialDays ? 'Start 3-day free trial' : 'Continue'}
+            {selected === 'annual' && annualOffering?.trialDays ? 'Start my playbook free' : 'Continue'}
           </Text>
           {Icon.arrow(HA.bgDeep)}
         </CTA>

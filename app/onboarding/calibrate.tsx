@@ -61,8 +61,8 @@ export default function OnboardingCalibrate() {
           entering={FadeIn.delay(80).duration(360)}
           style={{ fontFamily: FONT.displayHeavy, fontSize: 28, color: HA.ink, letterSpacing: -1.2, textAlign: 'center', marginBottom: 26 }}
         >
-          Setting your{'\n'}
-          <Text style={{ color: HA.lime }}>17-axis baseline.</Text>
+          We're listening for{'\n'}
+          <Text style={{ color: HA.lime }}>17 different signals.</Text>
         </Animated.Text>
 
         {/* Radar chart */}
