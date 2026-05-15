@@ -1,18 +1,25 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import { View, Text, ScrollView, Pressable, ActivityIndicator } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import Animated, { FadeIn, FadeInUp, useSharedValue, useAnimatedStyle, withRepeat, withSequence, withTiming } from 'react-native-reanimated';
-import { HA, FONT } from '~/design/tokens';
+import { HA, FONT, RADIUS } from '~/design/tokens';
 import { Screen, TopBar, CTADock } from '~/components/screen';
 import { Row, Stack, Tag, Dot, Sticker, Icon, CTA, MonoLabel, CTAOutline } from '~/components/atoms';
 import { CountUp } from '~/components/count-up';
+import { StreakFlame } from '~/components/streak-flame';
+import { PlaybookProgressBar } from '~/components/playbook-progress-bar';
+import { PlaybookTabs, type TabKey } from '~/components/playbook-tabs';
+import { TodayTaskCard } from '~/components/today-task-card';
+import { WeekMilestoneCard } from '~/components/week-milestone-card';
+import { PauseSheet } from '~/components/pause-sheet';
+import { CoachChat } from '~/components/coach-chat';
 import { useApp } from '~/lib/store';
 import { getHustleBySlug, Hustle } from '~/lib/hustles';
 import { topMatches } from '~/lib/score';
 import { loadPlaybook, loadPersonalizedFromCache, fetchAndCachePersonalized, fallbackPersonalized } from '~/lib/playbook';
 import { exportPlaybookPDF } from '~/lib/pdf';
 import { haptic } from '~/hooks/useHaptic';
-import type { Playbook, PersonalizedLayer } from '~/lib/playbook-types';
+import type { Playbook, PersonalizedLayer, PlaybookDay } from '~/lib/playbook-types';
 
 export default function PlaybookScreen() {
   const router = useRouter();
@@ -222,6 +229,58 @@ function Unlocked({ hustle, onBack }: { hustle: Hustle; onBack: () => void }) {
   const [personalized, setPersonalized] = useState<PersonalizedLayer | null>(null);
   const [personalizing, setPersonalizing] = useState(true);
   const [exporting, setExporting] = useState(false);
+  const [activeTab, setActiveTab] = useState<TabKey>('today');
+  const [milestoneShown, setMilestoneShown] = useState<number | null>(null);
+  const [pauseOpen, setPauseOpen] = useState(false);
+
+  // Progress / gamification state
+  const ensureProgress = useApp((s) => s.ensureProgress);
+  const markDayDone = useApp((s) => s.markDayDone);
+  const unlockMilestone = useApp((s) => s.unlockMilestone);
+  const pausePlaybook = useApp((s) => s.pausePlaybook);
+  const currentDayFn = useApp((s) => s.currentDay);
+  const progress = useApp((s) => s.playbookProgress[hustle.slug]);
+
+  // Ensure progress exists when first viewing
+  useEffect(() => { ensureProgress(hustle.slug); }, [hustle.slug]);
+
+  const currentDay = currentDayFn(hustle.slug);
+  const currentWeek = Math.max(1, Math.min(12, Math.ceil(currentDay / 7)));
+  const streakDays = progress?.streakDays ?? 0;
+  const completedDayIds = progress?.completedDayIds ?? [];
+  const milestonesHit = (progress?.milestonesHit ?? []).map((m) => m.week);
+  const completedToday = completedDayIds.includes(currentDay);
+
+  // Derive today's task — prefer v2 days, fall back to v1 weekly action
+  const todayTask = useMemo<{ title: string; description: string; successCriteria: string; minutes: number } | null>(() => {
+    if (!playbook) return null;
+    const wk = playbook.ninetyDay.find((w) => w.week === currentWeek);
+    if (!wk) return null;
+    // V2: dayNumber exact match
+    if (wk.days && wk.days.length) {
+      const exact = wk.days.find((d) => d.dayNumber === currentDay);
+      const fallback = wk.days[(currentDay - 1) % wk.days.length];
+      const day: PlaybookDay = exact ?? fallback;
+      return {
+        title: day.title,
+        description: day.description,
+        successCriteria: day.successCriteria,
+        minutes: day.minutes,
+      };
+    }
+    // V1: pick the action at index (currentDay - weekStart) modulo actions length
+    if (wk.actions && wk.actions.length) {
+      const weekStart = (currentWeek - 1) * 7 + 1;
+      const a = wk.actions[(currentDay - weekStart) % wk.actions.length];
+      return {
+        title: a.action,
+        description: a.day ? `Suggested on ${a.day}. Part of week ${currentWeek}'s push.` : `Part of week ${currentWeek}'s push.`,
+        successCriteria: a.success,
+        minutes: a.minutes,
+      };
+    }
+    return null;
+  }, [playbook, currentWeek, currentDay]);
 
   useEffect(() => {
     (async () => {
@@ -255,6 +314,15 @@ function Unlocked({ hustle, onBack }: { hustle: Hustle; onBack: () => void }) {
     );
   }
 
+  const onMarkDone = useCallback(() => {
+    const { weekJustCompleted } = markDayDone(hustle.slug, currentDay);
+    if (weekJustCompleted) {
+      unlockMilestone(hustle.slug, weekJustCompleted, 'badge');
+      haptic.success();
+      setMilestoneShown(weekJustCompleted);
+    }
+  }, [hustle.slug, currentDay]);
+
   const onExport = async () => {
     if (!personalized) return;
     haptic.tapMed();
@@ -276,17 +344,67 @@ function Unlocked({ hustle, onBack }: { hustle: Hustle; onBack: () => void }) {
           {Icon.check(HA.lime, 11)}
           <Text style={{ color: HA.lime, fontFamily: FONT.mono, fontSize: 10, marginLeft: 4, letterSpacing: 1 }}>UNLOCKED</Text>
         </Tag>}
+        right={
+          <Pressable onPress={() => setPauseOpen(true)} hitSlop={8}>
+            <Text style={{ color: HA.inkMuted, fontFamily: FONT.mono, fontSize: 10, letterSpacing: 1 }}>PAUSE</Text>
+          </Pressable>
+        }
       />
+
+      {/* Sticky header: hustle title, day/streak/progress */}
+      <View style={{ paddingBottom: 12, borderBottomWidth: 1, borderBottomColor: HA.stroke, marginBottom: 12 }}>
+        <Text style={{ fontFamily: FONT.displayHeavy, fontSize: 22, lineHeight: 26, letterSpacing: -1, color: HA.ink }}>
+          {hustle.title}
+        </Text>
+        <Row justify="space-between" style={{ marginTop: 8, alignItems: 'center' }}>
+          <Row gap={10} style={{ alignItems: 'center' }}>
+            <Text style={{ color: HA.ink, fontFamily: FONT.bodyBold, fontSize: 14 }}>
+              Day {currentDay}<Text style={{ color: HA.inkMuted, fontFamily: FONT.body }}> of 90</Text>
+            </Text>
+            <View style={{ width: 1, height: 14, backgroundColor: HA.stroke }} />
+            <StreakFlame days={streakDays} compact />
+          </Row>
+          <Text style={{ color: HA.inkSoft, fontFamily: FONT.mono, fontSize: 11, letterSpacing: 0.8 }}>
+            Week {currentWeek}
+          </Text>
+        </Row>
+        <View style={{ marginTop: 10 }}>
+          <PlaybookProgressBar currentDay={currentDay} completedDayIds={completedDayIds} milestonesHit={milestonesHit} />
+        </View>
+      </View>
+
+      {/* Tab bar */}
+      <PlaybookTabs active={activeTab} onChange={setActiveTab} />
+
+      {activeTab === 'today' && (
+        <TodayView
+          todayTask={todayTask}
+          currentDay={currentDay}
+          currentWeek={currentWeek}
+          completedToday={completedToday}
+          onMarkDone={onMarkDone}
+          hustleTitle={hustle.title}
+          playbook={playbook}
+          personalized={personalized}
+          personalizing={personalizing}
+        />
+      )}
+
+      {activeTab === 'plan' && (
+        <PlanView playbook={playbook} completedDayIds={completedDayIds} currentWeek={currentWeek} />
+      )}
+
+      {activeTab === 'coach' && (
+        <ScrollView contentContainerStyle={{ paddingBottom: 24 }}>
+          <CoachChat hustleId={hustle.id} hustleName={hustle.title} week={currentWeek} day={currentDay} />
+        </ScrollView>
+      )}
+
+      {activeTab === 'more' && (
       <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 32 }}>
         <Animated.Text
           entering={FadeIn.duration(380)}
-          style={{ fontFamily: FONT.displayHeavy, fontSize: 30, lineHeight: 32, letterSpacing: -1.4, color: HA.ink }}
-        >
-          {hustle.title}
-        </Animated.Text>
-        <Animated.Text
-          entering={FadeIn.delay(100).duration(380)}
-          style={{ marginTop: 6, color: HA.inkMuted, fontFamily: FONT.body, fontSize: 13, lineHeight: 19 }}
+          style={{ marginTop: 8, color: HA.inkMuted, fontFamily: FONT.body, fontSize: 13, lineHeight: 19 }}
         >
           {hustle.tagline}
         </Animated.Text>
@@ -513,7 +631,175 @@ function Unlocked({ hustle, onBack }: { hustle: Hustle; onBack: () => void }) {
           <CTAOutline onPress={onBack}>Back to matches</CTAOutline>
         </View>
       </ScrollView>
+      )}
+
+      {/* Modals */}
+      <WeekMilestoneCard
+        visible={milestoneShown !== null}
+        week={milestoneShown ?? 0}
+        hustleTitle={hustle.title}
+        rewardLabel="Next-week script unlocked"
+        onClose={() => setMilestoneShown(null)}
+      />
+      <PauseSheet
+        visible={pauseOpen}
+        pausesUsed={progress?.pausesUsed ?? 0}
+        onPause={(hours) => pausePlaybook(hustle.slug, hours)}
+        onClose={() => setPauseOpen(false)}
+      />
     </Screen>
+  );
+}
+
+// ── TodayView — focused single-task surface ──────────────────────────
+function TodayView({
+  todayTask,
+  currentDay,
+  currentWeek,
+  completedToday,
+  onMarkDone,
+  hustleTitle,
+  playbook,
+  personalized,
+  personalizing,
+}: {
+  todayTask: { title: string; description: string; successCriteria: string; minutes: number } | null;
+  currentDay: number;
+  currentWeek: number;
+  completedToday: boolean;
+  onMarkDone: () => void;
+  hustleTitle: string;
+  playbook: Playbook;
+  personalized: PersonalizedLayer | null;
+  personalizing: boolean;
+}) {
+  const week = playbook.ninetyDay.find((w) => w.week === currentWeek);
+  const metricLabel = week
+    ? (typeof week.metric === 'string' ? week.metric : (week.metric as { label: string }).label)
+    : null;
+  const nextMilestoneWeek = [4, 8, 12].find((w) => w >= currentWeek);
+
+  return (
+    <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 24, gap: 14 }}>
+      {/* AI personalized intro (compact in Today view) */}
+      {personalized?.intro && !personalizing ? (
+        <View style={{ marginTop: 4, padding: 12, borderRadius: RADIUS.card, backgroundColor: HA.limeSoft, borderWidth: 1, borderColor: HA.strokeLime }}>
+          <MonoLabel color={HA.lime}>FROM YOUR COACH</MonoLabel>
+          <Text style={{ marginTop: 6, color: HA.ink, fontFamily: FONT.body, fontSize: 13, lineHeight: 19 }}>
+            {personalized.intro}
+          </Text>
+        </View>
+      ) : null}
+
+      {/* The Hero: today's task */}
+      {todayTask ? (
+        <TodayTaskCard
+          dayNumber={currentDay}
+          title={todayTask.title}
+          minutes={todayTask.minutes}
+          description={todayTask.description}
+          successCriteria={todayTask.successCriteria}
+          done={completedToday}
+          onMarkDone={onMarkDone}
+        />
+      ) : (
+        <View style={{ padding: 16, borderRadius: RADIUS.card, backgroundColor: HA.surface, borderWidth: 1, borderColor: HA.stroke }}>
+          <Text style={{ color: HA.inkMuted, fontFamily: FONT.body, fontSize: 13 }}>
+            No task scheduled for today. Rest day. Streak still alive.
+          </Text>
+        </View>
+      )}
+
+      {/* This week's metric */}
+      {metricLabel ? (
+        <View style={{ padding: 14, borderRadius: RADIUS.card, backgroundColor: HA.surface, borderWidth: 1, borderColor: HA.stroke }}>
+          <MonoLabel color={HA.inkSoft}>THIS WEEK'S METRIC</MonoLabel>
+          <Text style={{ marginTop: 6, color: HA.ink, fontFamily: FONT.bodyBold, fontSize: 15 }}>
+            {metricLabel}
+          </Text>
+        </View>
+      ) : null}
+
+      {/* Next milestone preview */}
+      {nextMilestoneWeek ? (
+        <View style={{ padding: 14, borderRadius: RADIUS.card, backgroundColor: HA.bgDeep, borderWidth: 1, borderColor: HA.strokeLime }}>
+          <MonoLabel color={HA.lime}>NEXT MILESTONE</MonoLabel>
+          <Text style={{ marginTop: 6, color: HA.ink, fontFamily: FONT.bodyBold, fontSize: 14 }}>
+            Week {nextMilestoneWeek} complete
+          </Text>
+          <Text style={{ marginTop: 4, color: HA.inkMuted, fontFamily: FONT.body, fontSize: 12 }}>
+            Finish all of week {nextMilestoneWeek} to unlock a new script + badge.
+          </Text>
+        </View>
+      ) : null}
+    </ScrollView>
+  );
+}
+
+// ── PlanView — full 12-week vertical list with checkable days ────────
+function PlanView({ playbook, completedDayIds, currentWeek }: { playbook: Playbook; completedDayIds: number[]; currentWeek: number }) {
+  const completedSet = useMemo(() => new Set(completedDayIds), [completedDayIds]);
+
+  return (
+    <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={{ paddingBottom: 24, gap: 10 }}>
+      {playbook.ninetyDay.map((w) => {
+        const weekStart = (w.week - 1) * 7 + 1;
+        const days = w.days ?? [];
+        const actions = w.actions ?? [];
+        const isCurrent = w.week === currentWeek;
+        const metricLabel = typeof w.metric === 'string' ? w.metric : (w.metric as { label: string }).label;
+        return (
+          <View
+            key={w.week}
+            style={{
+              padding: 14,
+              borderRadius: RADIUS.card,
+              backgroundColor: HA.surface,
+              borderWidth: 1,
+              borderColor: isCurrent ? HA.strokeLime : HA.stroke,
+            }}
+          >
+            <Row justify="space-between" style={{ marginBottom: 8 }}>
+              <MonoLabel color={isCurrent ? HA.lime : HA.inkSoft}>WEEK {w.week.toString().padStart(2, '0')}</MonoLabel>
+              <Text style={{ color: HA.ink, fontFamily: FONT.bodyBold, fontSize: 13 }}>{w.title}</Text>
+            </Row>
+            <View style={{ gap: 6 }}>
+              {(days.length ? days : actions).map((item, i) => {
+                const dayNumber = (days.length ? (item as PlaybookDay).dayNumber : weekStart + i);
+                const label = days.length ? (item as PlaybookDay).title : (item as { action: string }).action;
+                const minutes = (item as { minutes: number }).minutes;
+                const done = completedSet.has(dayNumber);
+                return (
+                  <View key={dayNumber} style={{ flexDirection: 'row', gap: 10, paddingVertical: 6, alignItems: 'flex-start' }}>
+                    <View style={{
+                      marginTop: 2, width: 16, height: 16, borderRadius: 99,
+                      backgroundColor: done ? HA.lime : 'transparent',
+                      borderWidth: done ? 0 : 1.5, borderColor: HA.strokeBold,
+                      alignItems: 'center', justifyContent: 'center',
+                    }}>
+                      {done ? <Text style={{ color: HA.bgDeep, fontSize: 10, fontFamily: FONT.bodyBold }}>✓</Text> : null}
+                    </View>
+                    <View style={{ flex: 1 }}>
+                      <Text style={{ color: HA.ink, fontFamily: FONT.body, fontSize: 13, lineHeight: 18, textDecorationLine: done ? 'line-through' : 'none' }}>
+                        Day {dayNumber}. {label}
+                      </Text>
+                      <Text style={{ marginTop: 2, color: HA.inkSoft, fontFamily: FONT.mono, fontSize: 10 }}>
+                        {minutes} min
+                      </Text>
+                    </View>
+                  </View>
+                );
+              })}
+            </View>
+            <View style={{ marginTop: 10, paddingTop: 10, borderTopWidth: 1, borderTopColor: HA.stroke }}>
+              <Text style={{ color: HA.inkMuted, fontFamily: FONT.body, fontSize: 12, lineHeight: 17 }}>
+                <Text style={{ color: HA.ink, fontFamily: FONT.bodyBold }}>Metric: </Text>{metricLabel}
+              </Text>
+            </View>
+          </View>
+        );
+      })}
+    </ScrollView>
   );
 }
 
