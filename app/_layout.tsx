@@ -19,8 +19,18 @@ import {
 } from '@expo-google-fonts/geist-mono';
 import { useApp } from '~/lib/store';
 import { HA } from '~/design/tokens';
+import { initializeAnalytics, track } from '~/lib/analytics';
+import { initializeSentry } from '~/lib/sentry';
+import { initializePurchases } from '~/lib/purchases';
+import { initializeSuperwall } from '~/lib/superwall';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
+
+// Initialize observability + services before render (no top-level await in RN).
+initializeSentry();
+void initializeAnalytics();
+void initializePurchases();
+void initializeSuperwall();
 
 export default function RootLayout() {
   const [fontsLoaded] = useFonts({
@@ -38,6 +48,7 @@ export default function RootLayout() {
   useEffect(() => {
     if (fontsLoaded && hydrated) {
       SplashScreen.hideAsync().catch(() => {});
+      void track('app_opened');
     }
   }, [fontsLoaded, hydrated]);
 
@@ -60,8 +71,11 @@ export default function RootLayout() {
           <Stack.Screen name="onboarding/calibrate" options={{ gestureEnabled: false }} />
           <Stack.Screen name="(quiz)" />
           <Stack.Screen name="results" />
+          <Stack.Screen name="paywall" options={{ presentation: 'modal' }} />
           <Stack.Screen name="playbook/[slug]" />
           <Stack.Screen name="(app)" />
+          <Stack.Screen name="legal/terms" />
+          <Stack.Screen name="legal/privacy" />
         </Stack>
       </SafeAreaProvider>
     </GestureHandlerRootView>

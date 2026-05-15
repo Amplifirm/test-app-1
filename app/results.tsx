@@ -10,6 +10,7 @@ import { useApp } from '~/lib/store';
 import { topMatches, profileSummary, ScoredMatch } from '~/lib/score';
 import { Hustle } from '~/lib/hustles';
 import { haptic } from '~/hooks/useHaptic';
+import { track } from '~/lib/analytics';
 
 export default function ResultsScreen() {
   const router = useRouter();
@@ -20,6 +21,11 @@ export default function ResultsScreen() {
   useEffect(() => {
     // Celebratory haptic on mount
     haptic.success();
+    void track('results_viewed', {
+      topMatchId: matches[0]?.hustle.id ?? null,
+      topMatchScore: matches[0]?.score ?? null,
+      matchCount: matches.length,
+    });
   }, []);
 
   if (matches.length === 0) {
@@ -101,7 +107,10 @@ export default function ResultsScreen() {
               key={m.hustle.id}
               entering={FadeInUp.delay(560 + i * 160).duration(420).springify()}
             >
-              <MatchCard m={m} rank={i + 1} onPress={() => router.push(`/playbook/${m.hustle.slug}` as any)} />
+              <MatchCard m={m} rank={i + 1} onPress={() => {
+                void track('match_tapped', { rank: i + 1, hustleId: m.hustle.id });
+                router.push(`/paywall?slug=${m.hustle.slug}` as any);
+              }} />
             </Animated.View>
           ))}
         </Stack>
