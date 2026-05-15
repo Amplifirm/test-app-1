@@ -1,10 +1,12 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text } from 'react-native';
 import { useRouter } from 'expo-router';
 import Animated, {
-  useSharedValue, useAnimatedStyle, withRepeat, withSequence, withTiming, Easing,
-  FadeIn,
+  useSharedValue, useAnimatedProps, useAnimatedStyle, useDerivedValue,
+  withTiming, Easing, FadeIn,
+  type SharedValue,
 } from 'react-native-reanimated';
+import Svg, { Polygon, Circle, G } from 'react-native-svg';
 import { HA, FONT } from '~/design/tokens';
 import { Screen, TopBar } from '~/components/screen';
 import { Tag, Dot, MonoLabel } from '~/components/atoms';
@@ -12,21 +14,55 @@ import { useApp } from '~/lib/store';
 import { buildUserVector } from '~/lib/score';
 import { RIASEC_DIMS, DIM_NAMES } from '~/lib/dimensions';
 
+const AnimatedPolygon = Animated.createAnimatedComponent(Polygon);
+const AnimatedCircle = Animated.createAnimatedComponent(Circle);
+
+// 5 stages × 700ms = 3.5s total (research said 2-4s sweet spot)
 const STAGES = [
-  { label: 'Building 17-axis user vector…', duration: 600 },
-  { label: 'Filtering by hours + budget…',   duration: 520 },
-  { label: 'Cosine match vs RIASEC…',        duration: 560 },
-  { label: 'Personality alignment + goal…',  duration: 540 },
-  { label: 'Generating explanations…',       duration: 540 },
+  { label: 'Scanning your 17 signals…',     duration: 700 },
+  { label: 'Building your axis vector…',     duration: 700 },
+  { label: 'Filtering by hours + budget…',   duration: 700 },
+  { label: 'Scoring 30 hustles…',            duration: 700 },
+  { label: 'Personalizing your why…',        duration: 700 },
 ];
 
 const FILTER_TICKS = [30, 24, 17, 11, 6, 3];
+
+// 17-pointed polygon constants
+const POLY_POINTS = 17;
+const POLY_RADIUS = 78;
+const POLY_CENTER = 90; // SVG viewBox center (180×180)
+
+// Pre-compute chaotic vs balanced point sets
+const CHAOTIC_RADII = Array.from({ length: POLY_POINTS }, (_, i) => {
+  // Pseudo-random but deterministic — varies 0.45×R to 1.0×R
+  const seed = Math.sin(i * 1.7 + 3.14) * 10000;
+  const r = 0.45 + Math.abs(seed - Math.floor(seed)) * 0.55;
+  return POLY_RADIUS * r;
+});
+
+function pointsString(radii: number[]): string {
+  return radii
+    .map((r, i) => {
+      const angle = (i / POLY_POINTS) * Math.PI * 2 - Math.PI / 2;
+      const x = POLY_CENTER + Math.cos(angle) * r;
+      const y = POLY_CENTER + Math.sin(angle) * r;
+      return `${x.toFixed(2)},${y.toFixed(2)}`;
+    })
+    .join(' ');
+}
+
+const CHAOTIC_POINTS = pointsString(CHAOTIC_RADII);
+const BALANCED_POINTS = pointsString(new Array(POLY_POINTS).fill(POLY_RADIUS));
 
 export default function ThinkingScreen() {
   const router = useRouter();
   const [step, setStep] = useState(0);
   const [filterIdx, setFilterIdx] = useState(0);
   const answers = useApp((s) => s.answers);
+  const morphProgress = useSharedValue(0);    // 0 = chaotic, 1 = balanced
+  const polyRotation = useSharedValue(0);     // continuous gentle rotation
+  const polyGlow = useSharedValue(0.55);      // pulses subtly
 
   const riasecCode = useMemo(() => {
     const u = buildUserVector(answers);
@@ -39,21 +75,34 @@ export default function ThinkingScreen() {
     return codes;
   }, [answers]);
 
+  const totalDuration = STAGES.reduce((a, s) => a + s.duration, 0);
+
+  // Start morph + rotation animations
+  useEffect(() => {
+    morphProgress.value = withTiming(1, {
+      duration: totalDuration - 200,
+      easing: Easing.inOut(Easing.cubic),
+    });
+    polyRotation.value = withTiming(360, {
+      duration: totalDuration + 400,
+      easing: Easing.linear,
+    });
+  }, []);
+
   // Step progression
   useEffect(() => {
     if (step >= STAGES.length) {
-      const t = setTimeout(() => router.replace('/results'), 500);
+      const t = setTimeout(() => router.replace('/results'), 350);
       return () => clearTimeout(t);
     }
     const t = setTimeout(() => setStep((s) => s + 1), STAGES[step]?.duration ?? 500);
     return () => clearTimeout(t);
   }, [step, router]);
 
-  // Filter ticker — tick down 30 → 3 over the same time as the stages
+  // Filter ticker
   useEffect(() => {
     if (filterIdx >= FILTER_TICKS.length - 1) return;
-    const total = STAGES.reduce((a, s) => a + s.duration, 0);
-    const each = total / (FILTER_TICKS.length - 1);
+    const each = totalDuration / (FILTER_TICKS.length - 1);
     const t = setTimeout(() => setFilterIdx((s) => s + 1), each);
     return () => clearTimeout(t);
   }, [filterIdx]);
@@ -69,7 +118,7 @@ export default function ThinkingScreen() {
       />
 
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', gap: 22 }}>
-        <Orb />
+        <Polygon17 morphProgress={morphProgress} rotation={polyRotation} />
 
         <Animated.Text
           entering={FadeIn.duration(380)}
@@ -82,7 +131,6 @@ export default function ThinkingScreen() {
           <Text style={{ color: HA.lime, fontSize: 40, letterSpacing: -2 }}>{riasecCode || '. . .'}</Text>
         </Animated.Text>
 
-        {/* Live filter ticker */}
         <Animated.View
           entering={FadeIn.delay(200).duration(360)}
           style={{
@@ -101,12 +149,12 @@ export default function ThinkingScreen() {
           </Text>
         </Animated.View>
 
-        {/* Stages list */}
         <View style={{ width: '100%', padding: 16, borderRadius: 14, backgroundColor: HA.surface, borderWidth: 1, borderColor: HA.stroke }}>
           {STAGES.map((line, i) => {
             const done = i < step;
+            const active = i === step;
             return (
-              <View key={i} style={{ flexDirection: 'row', gap: 10, paddingVertical: 6, alignItems: 'center', opacity: done || i === step ? 1 : 0.3 }}>
+              <View key={i} style={{ flexDirection: 'row', gap: 10, paddingVertical: 6, alignItems: 'center', opacity: done || active ? 1 : 0.3 }}>
                 <View style={{
                   width: 16, height: 16, borderRadius: 99,
                   backgroundColor: done ? HA.lime : 'transparent',
@@ -121,45 +169,94 @@ export default function ThinkingScreen() {
               </View>
             );
           })}
+          <Text style={{ marginTop: 10, color: HA.inkSoft, fontFamily: FONT.body, fontSize: 11, fontStyle: 'italic' }}>
+            Same answers = same matches. Always.
+          </Text>
         </View>
       </View>
     </Screen>
   );
 }
 
-function Orb() {
-  const rot = useSharedValue(0);
-  const bob = useSharedValue(0);
+// 17-pointed polygon that morphs from chaotic radii → balanced regular shape.
+// Mirrors the matching algorithm: "your scattered answers becoming an ordered profile."
+function Polygon17({
+  morphProgress,
+  rotation,
+}: {
+  morphProgress: SharedValue<number>;
+  rotation: SharedValue<number>;
+}) {
+  // Compute interpolated points (CHAOTIC → BALANCED) on the UI thread.
+  const animatedPolyProps = useAnimatedProps(() => {
+    const t = morphProgress.value;
+    const radii = CHAOTIC_RADII.map((r) => r + (POLY_RADIUS - r) * t);
+    const pts = radii
+      .map((r, i) => {
+        const angle = (i / POLY_POINTS) * Math.PI * 2 - Math.PI / 2;
+        const x = POLY_CENTER + Math.cos(angle) * r;
+        const y = POLY_CENTER + Math.sin(angle) * r;
+        return `${x.toFixed(2)},${y.toFixed(2)}`;
+      })
+      .join(' ');
+    return { points: pts };
+  });
 
-  useEffect(() => {
-    rot.value = withRepeat(withTiming(360, { duration: 6000, easing: Easing.linear }), -1, false);
-    bob.value = withRepeat(
-      withSequence(withTiming(-3, { duration: 1200 }), withTiming(0, { duration: 1200 })),
-      -1, true,
-    );
-  }, []);
+  const wrapStyle = useAnimatedStyle(() => ({
+    transform: [{ rotate: `${rotation.value}deg` }],
+  }));
 
-  const innerStyle = useAnimatedStyle(() => ({ transform: [{ rotate: `${rot.value}deg` }] }));
-  const wrapStyle = useAnimatedStyle(() => ({ transform: [{ translateY: bob.value }] }));
+  // Pulse intensity for the inner glow circle
+  const glowOpacity = useDerivedValue(() =>
+    0.35 + Math.sin(rotation.value * 0.05) * 0.15
+  );
+  const glowProps = useAnimatedProps(() => ({
+    opacity: glowOpacity.value,
+  }));
 
   return (
-    <Animated.View style={[styles.orbWrap, wrapStyle]}>
-      <View style={styles.orbBase} />
-      <Animated.View style={[styles.orbShine, innerStyle]} />
+    <Animated.View style={[{ width: 180, height: 180 }, wrapStyle]}>
+      <Svg width={180} height={180} viewBox="0 0 180 180">
+        <G>
+          {/* Inner glow */}
+          <AnimatedCircle cx={90} cy={90} r={48} fill={HA.lime} animatedProps={glowProps} />
+          {/* Outer balanced ring (subtle) */}
+          <Polygon
+            points={BALANCED_POINTS}
+            fill="none"
+            stroke={HA.strokeLime}
+            strokeWidth={1}
+          />
+          {/* The morphing polygon — the hero */}
+          <AnimatedPolygon
+            animatedProps={animatedPolyProps}
+            fill={HA.lime}
+            fillOpacity={0.18}
+            stroke={HA.lime}
+            strokeWidth={2}
+            strokeLinejoin="round"
+          />
+          {/* 17 vertex dots */}
+          {Array.from({ length: POLY_POINTS }).map((_, i) => (
+            <PolyVertex key={i} index={i} morphProgress={morphProgress} />
+          ))}
+        </G>
+      </Svg>
     </Animated.View>
   );
 }
 
-const styles = StyleSheet.create({
-  orbWrap: { width: 120, height: 120, alignItems: 'center', justifyContent: 'center' },
-  orbBase: {
-    position: 'absolute', width: 120, height: 120, borderRadius: 60,
-    backgroundColor: HA.lime,
-    shadowColor: HA.lime, shadowOpacity: 0.6, shadowRadius: 40, shadowOffset: { width: 0, height: 0 },
-    elevation: 12,
-  },
-  orbShine: {
-    position: 'absolute', width: 70, height: 70, borderRadius: 35,
-    backgroundColor: 'rgba(255,255,255,0.55)', opacity: 0.5, top: 20, left: 30,
-  },
-});
+function PolyVertex({ index, morphProgress }: { index: number; morphProgress: SharedValue<number> }) {
+  const angle = (index / POLY_POINTS) * Math.PI * 2 - Math.PI / 2;
+  const cosA = Math.cos(angle);
+  const sinA = Math.sin(angle);
+  const props = useAnimatedProps(() => {
+    const t = morphProgress.value;
+    const r = CHAOTIC_RADII[index] + (POLY_RADIUS - CHAOTIC_RADII[index]) * t;
+    return {
+      cx: POLY_CENTER + cosA * r,
+      cy: POLY_CENTER + sinA * r,
+    };
+  });
+  return <AnimatedCircle r={2.5} fill={HA.lime} animatedProps={props} />;
+}
