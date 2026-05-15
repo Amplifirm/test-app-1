@@ -11,6 +11,7 @@ import { topMatches, profileSummary, ScoredMatch } from '~/lib/score';
 import { Hustle } from '~/lib/hustles';
 import { haptic } from '~/hooks/useHaptic';
 import { track } from '~/lib/analytics';
+import { requestNotificationPermission, schedulePostQuizSchedule } from '~/lib/notifications';
 
 export default function ResultsScreen() {
   const router = useRouter();
@@ -26,6 +27,14 @@ export default function ResultsScreen() {
       topMatchScore: matches[0]?.score ?? null,
       matchCount: matches.length,
     });
+    // Request push permission AFTER quiz completion (higher acceptance rate
+    // than at app launch) and schedule the retention sequence.
+    (async () => {
+      const status = await requestNotificationPermission();
+      if (status === 'granted' && matches[0]?.hustle) {
+        await schedulePostQuizSchedule({ topMatchTitle: matches[0].hustle.title, onTrial: false });
+      }
+    })();
   }, []);
 
   if (matches.length === 0) {
